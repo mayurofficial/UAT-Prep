@@ -1,0 +1,1810 @@
+{
+  "exam": "UTET",
+  "paper": "II",
+  "year": 2023,
+  "set": "C",
+  "totalQuestions": 150,
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Child Development and Pedagogy",
+      "question": "Who talked about identity crisis in his theory of personality?",
+      "options": {
+        "A": "Alfred Adler",
+        "B": "Sigmund Freud",
+        "C": "Erik Erikson",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 2,
+      "subject": "Child Development and Pedagogy",
+      "question": "'Self' refers to -",
+      "options": {
+        "A": "those attributes of a person that make her/him different from others.",
+        "B": "those aspects of a person that link her/him to a social or cultural group or are derived from it.",
+        "C": "the totality of an individual's conscious experiences, ideas, thoughts and feelings with regard to herself or himself.",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 3,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is a characteristic of personality?",
+      "options": {
+        "A": "It has both physical and psychological components.",
+        "B": "Its expression in terms of behaviour is fairly unique in a given individual.",
+        "C": "Its main features do not easily change with time.",
+        "D": "All of the above."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 4,
+      "subject": "Child Development and Pedagogy",
+      "question": "The pioneer of 'trait approach of personality' is -",
+      "options": {
+        "A": "Raymond Cattell",
+        "B": "Gordon Allport",
+        "C": "H.J. Eysenck",
+        "D": "Sigmund Freud"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 5,
+      "subject": "Child Development and Pedagogy",
+      "question": "The theory of observational learning was given by -",
+      "options": {
+        "A": "Pavlov",
+        "B": "Skinner",
+        "C": "Bandura",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 6,
+      "subject": "Child Development and Pedagogy",
+      "question": "A girl child is working very hard for her examination. Her behaviour is an indicator of her -",
+      "options": {
+        "A": "Sharp cognitive abilities",
+        "B": "High achievement motivation",
+        "C": "Very Busy schedule",
+        "D": "Desire to impress her parents"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 7,
+      "subject": "Child Development and Pedagogy",
+      "question": "'Rewards play a significant role in learning', is the main characteristic of which of the following approaches of learning?",
+      "options": {
+        "A": "Behaviouristic",
+        "B": "Cognitive",
+        "C": "Humanistic",
+        "D": "Scientific"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 8,
+      "subject": "Child Development and Pedagogy",
+      "question": "'Negative Reinforcement' means -",
+      "options": {
+        "A": "Not presenting any stimulus.",
+        "B": "Presenting an unpleasant stimulus.",
+        "C": "Punishment.",
+        "D": "Terminating an unpleasant stimulus."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 9,
+      "subject": "Child Development and Pedagogy",
+      "question": "Programmed Learning is based on -",
+      "options": {
+        "A": "Field theory",
+        "B": "Operant conditioning",
+        "C": "Gestalt learning theory",
+        "D": "Classical conditioning"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 10,
+      "subject": "Child Development and Pedagogy",
+      "question": "A mathematics teacher discusses some problems in the classroom and then asks the students to work out some problems given in the book. Students are practising the law of -",
+      "options": {
+        "A": "Contiguity",
+        "B": "Reinforcement",
+        "C": "Readiness",
+        "D": "Exercise"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 11,
+      "subject": "Child Development and Pedagogy",
+      "question": "Interest refers to -",
+      "options": {
+        "A": "An individual's preference for engaging in one or more specific activities related to others.",
+        "B": "Relatively enduring characteristics of a person that make her or him distinct from others.",
+        "C": "An individual's underlying potential for acquiring skills.",
+        "D": "The global capacity to understand the world, think rationally and use the available resources effectively when faced with challenges."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 12,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following methods involves seeking information from a person on a one-to-one basis?",
+      "options": {
+        "A": "Case study",
+        "B": "Self-report",
+        "C": "Interview",
+        "D": "Observation"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 13,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following statements is not correct about development?",
+      "options": {
+        "A": "Development is lifelong, i.e., it takes place across all age groups starting from conception to old age.",
+        "B": "Development is influenced by historical conditions.",
+        "C": "Development is uni-dimensional.",
+        "D": "Development is highly plastic."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 14,
+      "subject": "Child Development and Pedagogy",
+      "question": "Development of symbolic thought and establishment of object permanence is visible in which of the following stages of cognitive development according to Piaget?",
+      "options": {
+        "A": "Sensorimotor",
+        "B": "Preoperational",
+        "C": "Concrete operational",
+        "D": "Formal operational"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 15,
+      "subject": "Child Development and Pedagogy",
+      "question": "The stage of life that begins at the onset of puberty, when sexual maturity or the ability to reproduce is attained is commonly known as -",
+      "options": {
+        "A": "Childhood",
+        "B": "Infancy",
+        "C": "Adulthood",
+        "D": "Adolescence"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 16,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following statements is correct about adolescence?",
+      "options": {
+        "A": "Imaginary audience is adolescents' belief that others are as preoccupied with them as they are about themselves.",
+        "B": "Adolescents' sense of uniqueness makes them think that no one understands them or their feelings.",
+        "C": "Personal fables are often part of adolescent diaries.",
+        "D": "All of the above."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 17,
+      "subject": "Child Development and Pedagogy",
+      "question": "Anorexia nervosa is a -",
+      "options": {
+        "A": "sleeping disorder",
+        "B": "mental disorder",
+        "C": "eating disorder",
+        "D": "physical disorder"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 18,
+      "subject": "Child Development and Pedagogy",
+      "question": "The process of adjusting to bright light after exposure to dim light is called -",
+      "options": {
+        "A": "Regeneration",
+        "B": "Light adaptation",
+        "C": "Dark adaptation",
+        "D": "Saturation"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 19,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following statements is correct about learning?",
+      "options": {
+        "A": "Learning is any relatively permanent change in behaviour.",
+        "B": "Learning always involves some kind of experience.",
+        "C": "Learning is an inferred process and is different from performance.",
+        "D": "All of the above."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 20,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is not a characteristic feature of formal assessment?",
+      "options": {
+        "A": "Varies from case to case",
+        "B": "Objective",
+        "C": "Standardized",
+        "D": "Organised"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 21,
+      "subject": "Child Development and Pedagogy",
+      "question": "The two-factor theory of intelligence was proposed by -",
+      "options": {
+        "A": "Howard Gardner",
+        "B": "Robert Sternberg",
+        "C": "Charles Spearman",
+        "D": "Lev Vygotsky"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 22,
+      "subject": "Child Development and Pedagogy",
+      "question": "Response, organization and characterization are included in which domain of educational objectives?",
+      "options": {
+        "A": "Cognitive domain",
+        "B": "Affective domain",
+        "C": "Psychomotor domain",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 23,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is not a technique of motivation?",
+      "options": {
+        "A": "Reward and Punishment",
+        "B": "Praise and reproof",
+        "C": "Novelty",
+        "D": "Recall"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 24,
+      "subject": "Child Development and Pedagogy",
+      "question": "Factor influencing emotional development in children is -",
+      "options": {
+        "A": "Health and Physical development",
+        "B": "Family atmosphere and relationship",
+        "C": "Neighbourhood, community and society",
+        "D": "All of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 25,
+      "subject": "Child Development and Pedagogy",
+      "question": "Type R-conditioning is known as -",
+      "options": {
+        "A": "Classical conditioning",
+        "B": "Operant conditioning",
+        "C": "Connectionism",
+        "D": "Experiential Learning"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 26,
+      "subject": "Child Development and Pedagogy",
+      "question": "Self - actualization needs are related to -",
+      "options": {
+        "A": "Theory of insightful learning",
+        "B": "Field Theory",
+        "C": "Information Processing Theory",
+        "D": "Maslow's Humanistic Theory of learning"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 27,
+      "subject": "Child Development and Pedagogy",
+      "question": "Sensory memory is also known as -",
+      "options": {
+        "A": "Immediate Memory",
+        "B": "Short - Term Memory",
+        "C": "Long - Term Memory",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 28,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the statements are true about creativity and intelligence? (i) The relationship between creativity and intelligence is positive. (ii) Intelligence does not ensure creativity. (iii) Creativity tests involve divergent thinking whereas intelligence tests involve convergent thinking.",
+      "options": {
+        "A": "(i) and (ii)",
+        "B": "(i) and (iii)",
+        "C": "(ii) and (iii)",
+        "D": "(i), (ii) and (iii)"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 29,
+      "subject": "Child Development and Pedagogy",
+      "question": "The level of consciousness which is considered as the reservoir of instinctive or animal drives is -",
+      "options": {
+        "A": "Unconscious",
+        "B": "Preconscious",
+        "C": "Conscious",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 30,
+      "subject": "Child Development and Pedagogy",
+      "question": "The kind of defence mechanism in which anxiety provoking behaviours or thoughts are totally dismissed by the unconscious is -",
+      "options": {
+        "A": "Denial",
+        "B": "Repression",
+        "C": "Projection",
+        "D": "Rationalisation"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 31,
+      "subject": "First Language - English",
+      "question": "I said to my friend, \"Can you pick me up after work?\"",
+      "options": {
+        "A": "I asked my friend if he can pick me up after work.",
+        "B": "I asked my friend if he could pick me up after work.",
+        "C": "I told my friend to pick me up after work.",
+        "D": "I told my friend if he could pick him up after work."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 32,
+      "subject": "First Language - English",
+      "question": "Had our flights been on time, we ______ reached by now.",
+      "options": {
+        "A": "will have",
+        "B": "would have",
+        "C": "have",
+        "D": "shall have"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 33,
+      "subject": "First Language - English",
+      "question": "'Let not Ambition mock their useful toil'",
+      "options": {
+        "A": "Simile",
+        "B": "Oxymoron",
+        "C": "Personification",
+        "D": "Metaphor"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 34,
+      "subject": "First Language - English",
+      "question": "'The murmurous haunt of flies on summer eves'",
+      "options": {
+        "A": "Simile",
+        "B": "Metaphor",
+        "C": "Onomatopoeia",
+        "D": "Oxymoron"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 35,
+      "subject": "First Language - English",
+      "question": "What are the productive skills of language?",
+      "options": {
+        "A": "listening, speaking",
+        "B": "listening, reading",
+        "C": "reading, writing",
+        "D": "speaking, writing"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 36,
+      "subject": "First Language - English",
+      "question": "Role play should be an integral part of every language classroom because -",
+      "options": {
+        "A": "it is very useful to maintain silence in the classroom.",
+        "B": "it enables students to engage in meaningful talk.",
+        "C": "it enables students to memorize the story.",
+        "D": "it enables girls and boys to interact freely."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 37,
+      "subject": "First Language - English",
+      "question": "Which one is the theory based on habit formation that says that human or any creature gives response due to stimulus or humans learn due to stimulus?",
+      "options": {
+        "A": "Classical conditioning",
+        "B": "Operant conditioning",
+        "C": "Stimulus conditioning",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 38,
+      "subject": "First Language - English",
+      "question": "The scientific study of articulation, transmission and reception of speech sounds is called -",
+      "options": {
+        "A": "Linguistics",
+        "B": "Morphology",
+        "C": "Phonetics",
+        "D": "Syntax"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 39,
+      "subject": "First Language - English",
+      "question": "According to the National Curriculum Framework 2005, English in India is ______ in a multilingual country.",
+      "options": {
+        "A": "a foreign language",
+        "B": "a global language",
+        "C": "an associate language",
+        "D": "a first language"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 40,
+      "subject": "First Language - English",
+      "question": "The linguist, Noam Chomsky maintains that every child has an innate Language Acquisition Device (LAD) that he/she uses for -",
+      "options": {
+        "A": "Semantics",
+        "B": "Phonetics",
+        "C": "Universal Grammar",
+        "D": "Complex words"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 41,
+      "subject": "First Language - English",
+      "question": "Broad general knowledge is necessary because -",
+      "options": {
+        "A": "without it no one would get a job.",
+        "B": "it broadens one's outlook.",
+        "C": "it teaches us about different things.",
+        "D": "specialisation is complete without it."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 42,
+      "subject": "First Language - English",
+      "question": "'Schools of thought' can be explained as -",
+      "options": {
+        "A": "groups of people who are schooled to think.",
+        "B": "groups of people whose job is to think.",
+        "C": "groups of people who study in a particular school thoughtfully.",
+        "D": "groups of people having the same ideas but with different perception on a particular subject."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 43,
+      "subject": "First Language - English",
+      "question": "Supporters of the first theory say that -",
+      "options": {
+        "A": "experts have done nothing to save mankind.",
+        "B": "experts have contributed most to progress in the modern world.",
+        "C": "people with general knowledge are more useful than experts.",
+        "D": "people with general knowledge have contributed to civilisation."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 44,
+      "subject": "First Language - English",
+      "question": "The idea of the first school of thought in the passage is that -",
+      "options": {
+        "A": "students should concentrate on studies.",
+        "B": "students should not undertake any specialised work.",
+        "C": "students should study all the subjects they want to.",
+        "D": "students should study a few subjects that will help them in their profession."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 45,
+      "subject": "First Language - English",
+      "question": "According to the second school of thought, education will not be very effective if pupils -",
+      "options": {
+        "A": "do not have a wide general education.",
+        "B": "have nothing but general knowledge.",
+        "C": "have inadequate knowledge of their own work.",
+        "D": "ignore the study of fine arts."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 46,
+      "subject": "First Language - English",
+      "question": "The expression 'the valley of death' refers to -",
+      "options": {
+        "A": "the place where the dead soldiers are lying buried.",
+        "B": "the impending death of soldiers.",
+        "C": "the house of death.",
+        "D": "a nightmarish place."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 47,
+      "subject": "First Language - English",
+      "question": "Which of the following adjectives does not apply to the soldiers?",
+      "options": {
+        "A": "courageous",
+        "B": "disciplined",
+        "C": "patriotic",
+        "D": "impractical"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 48,
+      "subject": "First Language - English",
+      "question": "Name the figure of speech used in 'the Valley of Death' -",
+      "options": {
+        "A": "Metaphor",
+        "B": "Simile",
+        "C": "Synecdoche",
+        "D": "Metonymy"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 49,
+      "subject": "First Language - English",
+      "question": "Which of the following statements is not true? The military discipline teaches the soldiers -",
+      "options": {
+        "A": "to do and die.",
+        "B": "to obey their commander's order.",
+        "C": "to act tactfully in the battlefield.",
+        "D": "not to ask any question."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 50,
+      "subject": "First Language - English",
+      "question": "In the first stanza of the poem, the soldiers are -",
+      "options": {
+        "A": "talking to each other about their personal problems.",
+        "B": "waiting for their commander's order.",
+        "C": "thinking about the result of the war.",
+        "D": "seen riding fast to the enemy territory."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 51,
+      "subject": "First Language - English",
+      "question": "Camouflage",
+      "options": {
+        "A": "Disguise",
+        "B": "Uncover",
+        "C": "Demonstrate",
+        "D": "Fabric"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 52,
+      "subject": "First Language - English",
+      "question": "Conspicuous",
+      "options": {
+        "A": "Indifferent",
+        "B": "Harmless",
+        "C": "Insignificant",
+        "D": "Unknown"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 53,
+      "subject": "First Language - English",
+      "question": "Man can not live ______ bread alone.",
+      "options": {
+        "A": "except",
+        "B": "with",
+        "C": "by",
+        "D": "at"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 54,
+      "subject": "First Language - English",
+      "question": "One who accepts pleasure and pain equally.",
+      "options": {
+        "A": "Tespian",
+        "B": "Sadist",
+        "C": "Humanitarian",
+        "D": "Stoic"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 55,
+      "subject": "First Language - English",
+      "question": "Choose the correctly spelt word.",
+      "options": {
+        "A": "measureable",
+        "B": "manageable",
+        "C": "martiagable",
+        "D": "manoeverable"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 56,
+      "subject": "First Language - English",
+      "question": "Choose the correctly spelt word.",
+      "options": {
+        "A": "impromptue",
+        "B": "illustrious",
+        "C": "illusery",
+        "D": "impetious"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 57,
+      "subject": "First Language - English",
+      "question": "Ram is very calculative and always has an axe to grind.",
+      "options": {
+        "A": "has no result",
+        "B": "works for both sides",
+        "C": "has a private agenda",
+        "D": "fails to arouse interest"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 58,
+      "subject": "First Language - English",
+      "question": "The project is carried over to this year, and we need to keep the ball rolling.",
+      "options": {
+        "A": "to continue the work",
+        "B": "more information",
+        "C": "to do better",
+        "D": "new strategies"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 59,
+      "subject": "First Language - English",
+      "question": "Who is singing such a sweet song?",
+      "options": {
+        "A": "By whom is such a sweet song sung?",
+        "B": "By whom is such a sweet song being sung?",
+        "C": "By whom is such a sweet song sang?",
+        "D": "By whom has such a sweet song sung?"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 60,
+      "subject": "First Language - English",
+      "question": "Hardly had he left ______ his brother came.",
+      "options": {
+        "A": "then",
+        "B": "than",
+        "C": "when",
+        "D": "that"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 61,
+      "subject": "Second Language - English",
+      "question": "Rohan ______ the movie before he read the review.",
+      "options": {
+        "A": "watches",
+        "B": "have watched",
+        "C": "had watched",
+        "D": "was watching"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 62,
+      "subject": "Second Language - English",
+      "question": "By the next month, we shall ______ the project.",
+      "options": {
+        "A": "has completed",
+        "B": "completing",
+        "C": "completed",
+        "D": "have completed"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 63,
+      "subject": "Second Language - English",
+      "question": "In the Middle Ages, people ______ travel by plane.",
+      "options": {
+        "A": "could",
+        "B": "had to",
+        "C": "can't",
+        "D": "couldn't"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 64,
+      "subject": "Second Language - English",
+      "question": "Kate is ill, so she ______ stay in bed and drink a lot of water.",
+      "options": {
+        "A": "need",
+        "B": "can't",
+        "C": "has to",
+        "D": "doesn't have to"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 65,
+      "subject": "Second Language - English",
+      "question": "The maid servant left the police station contrite. The word nearest in meaning to 'contrite' is -",
+      "options": {
+        "A": "penitent",
+        "B": "trick",
+        "C": "angry",
+        "D": "remorseless"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 66,
+      "subject": "Second Language - English",
+      "question": "Which punctuation mark is appropriately used?",
+      "options": {
+        "A": "It is mentioned in the notice, all of us should read it.",
+        "B": "It is mentioned in the notice! all of us should read it.",
+        "C": "It is mentioned in the notice? all of us should read it.",
+        "D": "It is mentioned in the notice; all of us should read it."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 67,
+      "subject": "Second Language - English",
+      "question": "How can they be going out? Jane has nothing ______ Peter.",
+      "options": {
+        "A": "in common",
+        "B": "in common to",
+        "C": "in common of",
+        "D": "in common with"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 68,
+      "subject": "Second Language - English",
+      "question": "Which of the following methods is based on the principle 'From example to generalisation'?",
+      "options": {
+        "A": "Incidental Method",
+        "B": "Remedial Teaching Method",
+        "C": "Deductive Method",
+        "D": "Inductive Method"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 69,
+      "subject": "Second Language - English",
+      "question": "Stammering is caused because of -",
+      "options": {
+        "A": "Physical disorder",
+        "B": "Hindered growth",
+        "C": "Lack of self-confidence",
+        "D": "Lack of understanding"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 70,
+      "subject": "Second Language - English",
+      "question": "The second stage of a child's understanding the language is -",
+      "options": {
+        "A": "Speaking",
+        "B": "Writing",
+        "C": "Listening",
+        "D": "Reading"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 71,
+      "subject": "Second Language - English",
+      "question": "______ are basically the reason for developing a fear in the child's mind.",
+      "options": {
+        "A": "Parents",
+        "B": "Over-cautious mothers",
+        "C": "Fathers",
+        "D": "Uncles"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 72,
+      "subject": "Second Language - English",
+      "question": "Fluency in such patients can be incorporated in the speech of such patients through -",
+      "options": {
+        "A": "hypnosis",
+        "B": "slap",
+        "C": "punishment",
+        "D": "symbiosis"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 73,
+      "subject": "Second Language - English",
+      "question": "By the time the child becomes 2 years old he/she can -",
+      "options": {
+        "A": "speak complex sentences.",
+        "B": "only understand spoken language.",
+        "C": "understand and speak simple language.",
+        "D": "write the alphabets."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 74,
+      "subject": "Second Language - English",
+      "question": "What was the impact of the last great war on Indian Literature?",
+      "options": {
+        "A": "It had no impact.",
+        "B": "It aggravated popular revulsion against violence.",
+        "C": "It shook the foundations of literature.",
+        "D": "It offered eloquent support to the western world."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 75,
+      "subject": "Second Language - English",
+      "question": "What did Tagore articulate in his last testament?",
+      "options": {
+        "A": "Offered support to Subhas Bose.",
+        "B": "Exposed the humane pretensions of the Western World.",
+        "C": "Expressed loyalty to England.",
+        "D": "Encouraged the liberation of countries."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 76,
+      "subject": "Second Language - English",
+      "question": "What was the stance of Indian Intelligentsia during the period of great war?",
+      "options": {
+        "A": "Indifference to Russia's plight.",
+        "B": "They favoured Japanese militarism.",
+        "C": "They prompted creativity out of confused loyalties.",
+        "D": "They expressed sympathy for England's dogged courage."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 77,
+      "subject": "Second Language - English",
+      "question": "Find in the passage words that mean (i) Disgust (ii) Disappointment",
+      "options": {
+        "A": "Upsurge, liberate",
+        "B": "Violence, aggravating",
+        "C": "Revulsion, disillusionment",
+        "D": "Peril, dogged"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 78,
+      "subject": "Second Language - English",
+      "question": "Which of the following statements is true -",
+      "options": {
+        "A": "Indian Army under the Nazis were trying to liberate the country.",
+        "B": "Indian Army under Subhas Bose was trying to liberate the country.",
+        "C": "Indian Army under the Russians was trying to liberate the country.",
+        "D": "Indian Army under the Japanese was trying to liberate the country."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 79,
+      "subject": "Second Language - English",
+      "question": "According to language teaching experts the early education of a child should be in -",
+      "options": {
+        "A": "The first language",
+        "B": "Second language",
+        "C": "Foreign language",
+        "D": "Multi language"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 80,
+      "subject": "Second Language - English",
+      "question": "In continuous comprehensive evaluation, the teacher tries to -",
+      "options": {
+        "A": "Find out to what extent the learning objectives are achieved.",
+        "B": "Make the learner assess the teacher.",
+        "C": "Identify the special needs of the learners in a group.",
+        "D": "Make the learner by cramming learning."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 81,
+      "subject": "Second Language - English",
+      "question": "The alphabetic method, the phonic method, the word method and the sentence method are associated with -",
+      "options": {
+        "A": "Listening",
+        "B": "Speaking",
+        "C": "Reading",
+        "D": "Writing"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 82,
+      "subject": "Second Language - English",
+      "question": "Effective learning takes place when the learners are -",
+      "options": {
+        "A": "Passive",
+        "B": "Quiet",
+        "C": "Interactive",
+        "D": "Good at preparing for the examination"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 83,
+      "subject": "Second Language - English",
+      "question": "In order to assess the all-round development of a learner, a teacher has to take the help of -",
+      "options": {
+        "A": "Unit-end evaluation",
+        "B": "Term-end evaluation",
+        "C": "Continuous and comprehensive evaluation",
+        "D": "Month-end evaluation"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 84,
+      "subject": "Second Language - English",
+      "question": "services will/tourism in/air taxi/the state/boost",
+      "options": {
+        "A": "Tourism in the state services will boost air taxi.",
+        "B": "Air taxi boost services will tourism in the state.",
+        "C": "Air taxi services will boost tourism in the state.",
+        "D": "Services will boost tourism in the state air taxi."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 85,
+      "subject": "Second Language - English",
+      "question": "The exam went down in flames.",
+      "options": {
+        "A": "exam paper got burnt",
+        "B": "passed with goodmarks",
+        "C": "failed spectacularly",
+        "D": "exam hall caught fire"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 86,
+      "subject": "Second Language - English",
+      "question": "She was determined not to dissipate her energies. Antonym of 'dissipate' is -",
+      "options": {
+        "A": "Utilize",
+        "B": "Conserve",
+        "C": "Manage",
+        "D": "Organise"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 87,
+      "subject": "Second Language - English",
+      "question": "She requested him not to abandon her. Synonym of 'abandon' is -",
+      "options": {
+        "A": "Try",
+        "B": "Join",
+        "C": "Keep up",
+        "D": "Forsake"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 88,
+      "subject": "Second Language - English",
+      "question": "Select the incorrectly spelt word.",
+      "options": {
+        "A": "Potassium",
+        "B": "Possibility",
+        "C": "Parasology",
+        "D": "Preamble"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 89,
+      "subject": "Second Language - English",
+      "question": "Select the incorrectly spelt word.",
+      "options": {
+        "A": "Pursue",
+        "B": "Persuit",
+        "C": "Persuade",
+        "D": "Peruse"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 90,
+      "subject": "Second Language - English",
+      "question": "A person who talks in sleep is called -",
+      "options": {
+        "A": "Philatelist",
+        "B": "Somnambulist",
+        "C": "Somniloquist",
+        "D": "Oneirocritic"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 91,
+      "subject": "Mathematics",
+      "question": "A work can be completed by P and Q in 12 days, Q and R in 15 days and R and P in 20 days. In how many days P alone can finish the work?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "60"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 92,
+      "subject": "Mathematics",
+      "question": "The average marks obtained by 40 students of a class is 86. If the 5 highest marks are removed, the average reduces by one mark. Find the average marks of top 5 students.",
+      "options": {
+        "A": "92",
+        "B": "96",
+        "C": "93",
+        "D": "97"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 93,
+      "subject": "Mathematics",
+      "question": "What is the major problem found in primary level teacher of mathematics?",
+      "options": {
+        "A": "Lack of pedagogical training",
+        "B": "Lack of preparation",
+        "C": "Busyness in record maintenance",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 94,
+      "subject": "Mathematics",
+      "question": "Which of the following method is based on principles of \"Watch, listen and learn\"?",
+      "options": {
+        "A": "Laboratory Method",
+        "B": "Demonstration Method",
+        "C": "Lecture Method",
+        "D": "Research Method"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 95,
+      "subject": "Mathematics",
+      "question": "If x+y=2a, then the value of a/(x-a) + a/(y-a) is -",
+      "options": {
+        "A": "2",
+        "B": "2a²",
+        "C": "0",
+        "D": "2a"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 96,
+      "subject": "Mathematics",
+      "question": "Zinc and Copper are in the ratio 5:3 in 400 gm. of an alloy. How much of copper (in gms) should be added to make the ratio 5:6?",
+      "options": {
+        "A": "50",
+        "B": "150",
+        "C": "550",
+        "D": "300"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 97,
+      "subject": "Mathematics",
+      "question": "If 1 is subtracted to both the numerator and the denominator of a fraction, it becomes 1/3. If 1 is added to both the numerator and denominator of that fraction, it becomes 1/2. Then the sum of numerator and denominator of that fraction is -",
+      "options": {
+        "A": "10",
+        "B": "18",
+        "C": "7",
+        "D": "16"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 98,
+      "subject": "Mathematics",
+      "question": "A car can finish a certain journey in 10 hours at speed of 48 km/h. In order to cover the same distance in 8 hours, the speed of the car must be increased by -",
+      "options": {
+        "A": "6 Km/h",
+        "B": "12 Km/h",
+        "C": "15 Km/h",
+        "D": "60 Km/h"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 99,
+      "subject": "Mathematics",
+      "question": "If 2160 = 2ᵃ × 3ᵇ × 5ᶜ, then the value of 3ᵃ × 2⁻ᵇ × 5⁻ᶜ will be -",
+      "options": {
+        "A": "81/40",
+        "B": "37/39",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 100,
+      "subject": "Mathematics",
+      "question": "If third Friday is on 16th of month then what will be the date of fourth Tuesday of that month?",
+      "options": {
+        "A": "27",
+        "B": "29",
+        "C": "20",
+        "D": "22"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 101,
+      "subject": "Mathematics",
+      "question": "If the length and breadth of a room is decreased by 10% and 20% respectively, while height is increased by 5%, then what percentage will be the change in the volume of the room?",
+      "options": {
+        "A": "24.4%",
+        "B": "24.6%",
+        "C": "24%",
+        "D": "24.2%"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 102,
+      "subject": "Mathematics",
+      "question": "If number 5132416p is divisible by 3, then which digit will come in place of p?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "7",
+        "D": "9"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 103,
+      "subject": "Mathematics",
+      "question": "The value of √(248 + √(52 + √(108 + √1296))) will be -",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "16",
+        "D": "13"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 104,
+      "subject": "Mathematics",
+      "question": "When the number 3⁹⁸ is divided by 5, then the remainder is -",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 105,
+      "subject": "Mathematics",
+      "question": "In how many hours, the number of seconds is equal to the number of minutes in 10 days?",
+      "options": {
+        "A": "2 hours",
+        "B": "3 hours",
+        "C": "4 hours",
+        "D": "5 hours"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 106,
+      "subject": "Mathematics",
+      "question": "If the digit puzzle shown in the question is solved, the value of x and y are -",
+      "options": {
+        "A": "x = 9; y = 3",
+        "B": "x = 3; y = 9",
+        "C": "x = 5; y = 8",
+        "D": "x = 4; y = 8"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 107,
+      "subject": "Mathematics",
+      "question": "The square root of (7 + 2√6) is -",
+      "options": {
+        "A": "√6 + 1",
+        "B": "√3 + 2",
+        "C": "√2 + √5",
+        "D": "2 + √5"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 108,
+      "subject": "Mathematics",
+      "question": "The volume of a cube is 64 cm³. The total surface area of the cube will be -",
+      "options": {
+        "A": "12 cm²",
+        "B": "24 cm²",
+        "C": "48 cm²",
+        "D": "96 cm²"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 109,
+      "subject": "Mathematics",
+      "question": "A right angled triangle cannot be -",
+      "options": {
+        "A": "An equilateral triangle",
+        "B": "An isosceles triangle",
+        "C": "A scalene triangle",
+        "D": "A polygon"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 110,
+      "subject": "Mathematics",
+      "question": "The greatest five digit perfect square number is -",
+      "options": {
+        "A": "99999",
+        "B": "99976",
+        "C": "99856",
+        "D": "99764"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 111,
+      "subject": "Mathematics",
+      "question": "The value of 5 1/5 - [3 1/2 - {5/6 - (3/5 + 1/10 - 4/15)}] will be -",
+      "options": {
+        "A": "21/10",
+        "B": "17/10",
+        "C": "8/10",
+        "D": "12/10"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 112,
+      "subject": "Mathematics",
+      "question": "How many natural numbers lie between 3 and 200 which are divisible by 7?",
+      "options": {
+        "A": "27",
+        "B": "28",
+        "C": "29",
+        "D": "30"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 113,
+      "subject": "Mathematics",
+      "question": "If HCF (a, 8) = 4 and LCM (a, 8) = 24, then the value of 'a' is -",
+      "options": {
+        "A": "14",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 114,
+      "subject": "Mathematics",
+      "question": "In a circular park of diameter 80m, there is a square shaped playground of maximum area. The area of the playground is -",
+      "options": {
+        "A": "6400 m²",
+        "B": "3200 m²",
+        "C": "1600 m²",
+        "D": "12800 m²"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 115,
+      "subject": "Mathematics",
+      "question": "The method in which new rules are established by examples is -",
+      "options": {
+        "A": "Deductive Method",
+        "B": "Inductive Method",
+        "C": "Analytical Method",
+        "D": "Synthesis Method"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 116,
+      "subject": "Mathematics",
+      "question": "The oldest branch of Mathematics is -",
+      "options": {
+        "A": "Algebra",
+        "B": "Arithmetic",
+        "C": "Geometry",
+        "D": "Astrology Math"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 117,
+      "subject": "Mathematics",
+      "question": "What is the importance of Mathematics at Primary level?",
+      "options": {
+        "A": "Cultural",
+        "B": "Social",
+        "C": "Religious",
+        "D": "Mental"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 118,
+      "subject": "Mathematics",
+      "question": "According to Hogben - \"Mathematics is the mirror of Civilization.\" This statement corresponds to which value of Mathematics?",
+      "options": {
+        "A": "Cultural Value",
+        "B": "Social Value",
+        "C": "Disciplinary Value",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 119,
+      "subject": "Mathematics",
+      "question": "If x:y = 1:2, then the value of (8x+9y) : (8x+2y) will be -",
+      "options": {
+        "A": "22 : 29",
+        "B": "29 : 22",
+        "C": "13 : 6",
+        "D": "6 : 13"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 120,
+      "subject": "Mathematics",
+      "question": "If a metallic cone of radius 30 cm and height 45 cm is melted and recast into metallic spheres of radius 5 cm, the number of spheres is -",
+      "options": {
+        "A": "81",
+        "B": "41",
+        "C": "80",
+        "D": "40"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 121,
+      "subject": "Environmental Studies",
+      "question": "Disposable plastic plates which are thrown away after eating food, should not be used because -",
+      "options": {
+        "A": "they are made of materials with light weight.",
+        "B": "they are made of toxic materials.",
+        "C": "they are made of biodegradable materials.",
+        "D": "they are made of non-biodegradable materials."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 122,
+      "subject": "Environmental Studies",
+      "question": "The most rapidly dwindling natural resource in the world is -",
+      "options": {
+        "A": "water",
+        "B": "forests",
+        "C": "wind",
+        "D": "sunlight"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 123,
+      "subject": "Environmental Studies",
+      "question": "The basic objective of educational excursion in EVS is -",
+      "options": {
+        "A": "to develop the energy of children",
+        "B": "first hand experience to the students",
+        "C": "to promote socialisation",
+        "D": "to promote team spirit"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 124,
+      "subject": "Environmental Studies",
+      "question": "Meaning of environmental education is -",
+      "options": {
+        "A": "to engage students with burdensome schedule",
+        "B": "aware children about environment",
+        "C": "to entertain children",
+        "D": "to save environment from pollution through education"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 125,
+      "subject": "Environmental Studies",
+      "question": "After the lunch break, while teaching EVS, you find that students are not taking interest in the lesson. What would you do?",
+      "options": {
+        "A": "Use audio-visual aids based on multiple intelligence to make the lesson interesting.",
+        "B": "Change the topic immediately.",
+        "C": "Take the children out to play in the ground.",
+        "D": "Ask them to put their heads down on the desk and relax."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 126,
+      "subject": "Environmental Studies",
+      "question": "Higher priority and space has been given in NCERT textbooks on EVS to -",
+      "options": {
+        "A": "Explain basic concepts of the subject.",
+        "B": "Provide opportunities to learners for contemplation and wondering.",
+        "C": "Provide exact definitions of technical terms.",
+        "D": "Include large number of practice questions."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 127,
+      "subject": "Environmental Studies",
+      "question": "Aanchal frequently asks probing and imaginative questions in her Class V EVS. By doing so, she aims at improving -",
+      "options": {
+        "A": "Observation skills",
+        "B": "Emotional Skills",
+        "C": "Thinking Skills",
+        "D": "Speaking Skills"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 128,
+      "subject": "Environmental Studies",
+      "question": "A teacher asks every child to use some waste material from their homes and make something useful out of it. The pedagogical intention of the teacher is not to -",
+      "options": {
+        "A": "Judge the best student of the class.",
+        "B": "Develop creativity among children.",
+        "C": "Make children understand the concept of recycle, reuse and reduce.",
+        "D": "Organize an exhibition of best articles made out of waste."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 129,
+      "subject": "Environmental Studies",
+      "question": "Largest Ecosystem of the world is -",
+      "options": {
+        "A": "Forest",
+        "B": "Grass Land",
+        "C": "Lake",
+        "D": "Ocean"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 130,
+      "subject": "Environmental Studies",
+      "question": "First National Park of India is -",
+      "options": {
+        "A": "Kanha",
+        "B": "Periyar",
+        "C": "Corbett",
+        "D": "Rajaji"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 131,
+      "subject": "Environmental Studies",
+      "question": "In villages, people use wood as fuel because -",
+      "options": {
+        "A": "it is considered to be an ideal fuel.",
+        "B": "of its easy availability and low cost.",
+        "C": "it is environment friendly.",
+        "D": "it catches fire easily."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 132,
+      "subject": "Environmental Studies",
+      "question": "Soil erosion can be prevented by -",
+      "options": {
+        "A": "raising forests",
+        "B": "deforestation",
+        "C": "excessive use of fertilizer",
+        "D": "overgrazing by animals"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 133,
+      "subject": "Environmental Studies",
+      "question": "Ganga Action Plan (G.A.P.) was launched in -",
+      "options": {
+        "A": "in 1986",
+        "B": "in 1988",
+        "C": "in 1990",
+        "D": "in 1983"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 134,
+      "subject": "Environmental Studies",
+      "question": "Intensity of radioactivity is measured in -",
+      "options": {
+        "A": "Decibel",
+        "B": "Curie",
+        "C": "Hertz",
+        "D": "None of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 135,
+      "subject": "Environmental Studies",
+      "question": "Mycorrhiza is present in -",
+      "options": {
+        "A": "Cycas",
+        "B": "Rose",
+        "C": "Pinus (Chir)",
+        "D": "Buransh"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 136,
+      "subject": "Environmental Studies",
+      "question": "Effect of Tinnitus disease is -",
+      "options": {
+        "A": "Persistent ringing sound in ear",
+        "B": "Low eye sight",
+        "C": "Dry Skin",
+        "D": "Slow Heart Beat"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 137,
+      "subject": "Environmental Studies",
+      "question": "Which of the following is/are not an air pollutant?",
+      "options": {
+        "A": "X-Ray",
+        "B": "CO₂, CO gas",
+        "C": "SPM particle",
+        "D": "SO₂ gas"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 138,
+      "subject": "Environmental Studies",
+      "question": "Factor responsible for Little Ice Age is -",
+      "options": {
+        "A": "Plantations",
+        "B": "Volcanic Dust",
+        "C": "Excessive Transport Vehicles",
+        "D": "Sound Pollutants"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 139,
+      "subject": "Environmental Studies",
+      "question": "Raheem prepares a pond, fills water therein and disperses fishes in it, but fishes are not alive in pond. Its reason is -",
+      "options": {
+        "A": "Deep Pond",
+        "B": "Absence of dissolved oxygen in water",
+        "C": "Cemented Pond",
+        "D": "None of above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 140,
+      "subject": "Environmental Studies",
+      "question": "Suresh produced much production of wheat without use of fertilizers in same field, where peas were cultivated earlier. Its reason is -",
+      "options": {
+        "A": "Photosynthesis",
+        "B": "Transpiration",
+        "C": "Rhizobium Bacteria",
+        "D": "Respiratory Quotient"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 141,
+      "subject": "Environmental Studies",
+      "question": "Consider the following statements about the soil and select the correct answer using the code given below: 1. Soil is the basic medium for food and timber. 2. Soil is an important resource. 3. All communities and their cultures depend on soil.",
+      "options": {
+        "A": "1 and 2 are correct.",
+        "B": "1 and 3 are correct.",
+        "C": "2 and 3 are correct.",
+        "D": "1, 2 and 3 are correct."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 142,
+      "subject": "Environmental Studies",
+      "question": "Which one of the following is the dominant element of the Earth's crust?",
+      "options": {
+        "A": "Aluminium",
+        "B": "Iron",
+        "C": "Oxygen",
+        "D": "Silicon"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 143,
+      "subject": "Environmental Studies",
+      "question": "Which of the following types of Forests covers the largest area in India?",
+      "options": {
+        "A": "Tropical Wet Evergreen Forests",
+        "B": "Tropical Semi-Evergreen Forests",
+        "C": "Tropical Moist Deciduous forests",
+        "D": "Dry Tropical Forests"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 144,
+      "subject": "Environmental Studies",
+      "question": "Which is the first stage in the process of a species becoming irreversibly extinct?",
+      "options": {
+        "A": "Ecological extinction",
+        "B": "Mass extinction",
+        "C": "Local extinction",
+        "D": "Biological extinction"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 145,
+      "subject": "Environmental Studies",
+      "question": "Which of the following statements is true with regard to water on the global scale?",
+      "options": {
+        "A": "There is not enough water available per capita.",
+        "B": "We cannot reuse water.",
+        "C": "There is a lot of water and yet there is scarcity.",
+        "D": "The total amount of water in the world is constantly decreasing in quantity."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 146,
+      "subject": "Environmental Studies",
+      "question": "Which one of the following fuels causes minimum environmental pollution?",
+      "options": {
+        "A": "Diesel",
+        "B": "Coal",
+        "C": "Hydrogen",
+        "D": "Kerosene"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 147,
+      "subject": "Environmental Studies",
+      "question": "Which one of the following is an abiotic component of the ecosystem?",
+      "options": {
+        "A": "Plants",
+        "B": "Fungi",
+        "C": "Humus",
+        "D": "Bacteria"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 148,
+      "subject": "Environmental Studies",
+      "question": "Excessive exposure of humans to UV-rays results in - (i) damage to immune system (ii) damage to lungs (iii) skin cancer (iv) peptic ulcers",
+      "options": {
+        "A": "(i) and (ii)",
+        "B": "(ii) and (iv)",
+        "C": "(i) and (iii)",
+        "D": "(iii) and (iv)"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 149,
+      "subject": "Environmental Studies",
+      "question": "Fluoride pollution mainly affects -",
+      "options": {
+        "A": "Teeth",
+        "B": "Heart",
+        "C": "Kidney",
+        "D": "Brain"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 150,
+      "subject": "Environmental Studies",
+      "question": "The type of pollution which is likely to affect Taj Mahal in Agra to a greater extent is -",
+      "options": {
+        "A": "air pollution",
+        "B": "water pollution",
+        "C": "soil pollution",
+        "D": "noise pollution"
+      },
+      "correctAnswer": null
+    }
+  ],
+  "note": "Questions 1-30 Child Development and Pedagogy; 31-60 First Language (English); 61-90 Second Language (English); 91-120 Mathematics; 121-150 Environmental Studies."
+}
