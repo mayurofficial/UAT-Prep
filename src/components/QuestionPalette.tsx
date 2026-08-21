@@ -7,7 +7,6 @@ import {
   LayoutGrid,
   Star,
   Search,
-  ChevronDown,
   X,
   Zap
 } from 'lucide-react';
@@ -41,19 +40,14 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
   currentIndex,
   userStates,
   onSelectQuestion,
-  sections,
-  activeSectionId,
-  language = 'bilingual',
   isMobileDrawer = false,
   onCloseDrawer,
 }) => {
   const [filter, setFilter] = useState<Filter>('all');
-  const [selectedSectionFilter, setSelectedSectionFilter] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Reset section filter when questions array / paper changes
+  // Reset search when questions array / paper changes
   useEffect(() => {
-    setSelectedSectionFilter('all');
     setSearchQuery('');
   }, [questions]);
 
@@ -92,26 +86,6 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
     };
   }, [questions, userStates]);
 
-  // Extract sections if not passed
-  const derivedSections: SectionInfo[] = useMemo(() => {
-    if (sections && sections.length > 0) return sections;
-    const map = new Map<string, { id: string; name: string; total: number; startIdx: number }>();
-    questions.forEach((q, idx) => {
-      if (!map.has(q.section)) {
-        map.set(q.section, { id: q.section, name: q.section, total: 1, startIdx: idx });
-      } else {
-        map.get(q.section)!.total++;
-      }
-    });
-    return Array.from(map.values()).map(s => ({
-      id: s.id,
-      name: s.name,
-      nameHindi: s.name,
-      questionRange: `${s.startIdx + 1}-${s.startIdx + s.total}`,
-      total: s.total,
-    }));
-  }, [questions, sections]);
-
   // Filtered question items
   const filtered = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
@@ -123,25 +97,12 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
           q.question.english.toLowerCase().includes(query) ||
           q.question.hindi.toLowerCase().includes(query) ||
           (q.topic && q.topic.toLowerCase().includes(query)) ||
+          (q.section && q.section.toLowerCase().includes(query)) ||
           String(q.questionNumber).includes(query);
         if (!textMatch) return false;
       }
 
-      // 2. Section filter
-      if (selectedSectionFilter !== 'all') {
-        const sec = derivedSections.find(s => s.id === selectedSectionFilter || s.name === selectedSectionFilter);
-        if (sec) {
-          const [start, end] = sec.questionRange.split('-').map(Number);
-          const qNum = idx + 1;
-          const isInRange = qNum >= start && qNum <= end;
-          const isNameMatch = q.section === sec.name;
-          if (!isInRange && !isNameMatch) return false;
-        } else if (q.section !== selectedSectionFilter) {
-          return false;
-        }
-      }
-
-      // 3. Status filter
+      // 2. Status filter
       const s = userStates[idx];
       if (filter === 'all') return true;
       if (filter === 'answered') return !!s?.selectedOption;
@@ -150,22 +111,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
       if (filter === 'bookmarked') return !!s?.isBookmarked;
       return true;
     });
-  }, [questions, userStates, filter, selectedSectionFilter, searchQuery, derivedSections]);
-
-  const handleSectionChange = (val: string) => {
-    setSelectedSectionFilter(val);
-    soundManager.playClick();
-
-    if (val !== 'all') {
-      const targetSec = derivedSections.find(s => s.id === val || s.name === val);
-      if (targetSec) {
-        const [start] = targetSec.questionRange.split('-').map(Number);
-        if (!isNaN(start) && start > 0 && start <= questions.length) {
-          onSelectQuestion(start - 1);
-        }
-      }
-    }
-  };
+  }, [questions, userStates, filter, searchQuery]);
 
   const handleSelectQuestion = (idx: number) => {
     soundManager.playNavigation();
@@ -255,33 +201,14 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         </div>
       </div>
 
-      {/* 3. Section Select Dropdown & Search */}
+      {/* 3. Live Question Search */}
       <div className={styles.controlsRow}>
-        <div className={styles.sectionDropdownWrap}>
-          <select
-            className={styles.sectionSelect}
-            value={selectedSectionFilter}
-            onChange={(e) => handleSectionChange(e.target.value)}
-            aria-label="Filter by Paper Section"
-          >
-            <option value="all">
-              All Sections ({questions.length} Questions)
-            </option>
-            {derivedSections.map((sec, idx) => (
-              <option key={sec.id || sec.name} value={sec.id || sec.name}>
-                {idx + 1}. {language === 'hindi' ? sec.nameHindi : sec.name} (Q{sec.questionRange} • {sec.total}Q)
-              </option>
-            ))}
-          </select>
-          <ChevronDown size={14} className={styles.selectChevron} />
-        </div>
-
         <div className={styles.searchBox}>
           <Search size={13} className={styles.searchIcon} />
           <input
             type="text"
             className={styles.searchInput}
-            placeholder="Search question # or topic keyword..."
+            placeholder="Search question # or keyword (e.g. 15, Piaget, संधि)..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             aria-label="Search question text"
@@ -289,7 +216,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         </div>
       </div>
 
-      {/* 4. Question Buttons Grid */}
+      {/* 4. Question Buttons Grid (All 150Q readily accessible) */}
       <div className={styles.gridScroll}>
         <div className={styles.questionGrid}>
           {filtered.map(({ q, idx }) => {

@@ -427,15 +427,7 @@ export default function Home() {
           totalQuestions={TOTAL}
         />
 
-        {/* Section Tabs in Practice / Exam */}
-        {(mode === 'practice' || mode === 'exam') && (
-          <SectionTabs
-            sections={activeExamData.sections}
-            activeSectionId={secId}
-            onSelectSection={jumpSection}
-            language={language}
-          />
-        )}
+
 
         {/* Exam Timer Bar */}
         {mode === 'exam' && (
