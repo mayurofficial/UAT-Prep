@@ -17,7 +17,8 @@ import {
   VolumeX,
   Keyboard,
   X,
-  Layers
+  Layers,
+  LogOut
 } from 'lucide-react';
 
 interface AppSidebarProps {
@@ -35,6 +36,7 @@ interface AppSidebarProps {
   isSoundEnabled: boolean;
   setIsSoundEnabled: (enabled: boolean) => void;
   onOpenShortcuts: () => void;
+  onLogout?: () => void;
 }
 
 export const AppSidebar: React.FC<AppSidebarProps> = ({
@@ -51,7 +53,8 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
   setIsDark,
   isSoundEnabled,
   setIsSoundEnabled,
-  onOpenShortcuts
+  onOpenShortcuts,
+  onLogout,
 }) => {
   const officialPyqs = availablePapers.filter(p => p.category === 'OFFICIAL_PYQ');
   const modelTests = availablePapers.filter(p => p.category === 'MODEL_TEST');
@@ -225,6 +228,16 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
                 {selectedExam === 'UTET' ? 'UTET-II Aspirant' : 'LT Grade Science/Maths'}
               </span>
             </div>
+            {onLogout && (
+              <button
+                className={styles.logoutBtn}
+                onClick={onLogout}
+                title="Lock / Sign Out of Portal"
+                aria-label="Sign out"
+              >
+                <LogOut size={14} />
+              </button>
+            )}
           </div>
         </div>
       </aside>

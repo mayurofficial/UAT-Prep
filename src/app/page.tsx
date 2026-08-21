@@ -15,6 +15,7 @@ import { ResultDashboard } from '@/components/ResultDashboard';
 import { PrintWorksheet } from '@/components/PrintWorksheet';
 import { LtSyllabusView } from '@/components/LtSyllabusView';
 import { ShortcutsModal } from '@/components/ShortcutsModal';
+import { LoginScreen } from '@/components/LoginScreen';
 import { soundManager } from '@/utils/audioFeedback';
 
 import styles from './page.module.css';
@@ -27,6 +28,10 @@ import {
 } from 'lucide-react';
 
 export default function Home() {
+  // Authentication State
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+  const [isAuthChecking, setIsAuthChecking] = useState<boolean>(true);
+
   const [selectedExam, setSelectedExam] = useState<TargetExam>('UTET');
   const [selectedPaperId, setSelectedPaperId] = useState<string>('utet_2025');
   const [mode, setMode] = useState<AppMode>('practice');
@@ -49,6 +54,47 @@ export default function Home() {
   const TOTAL = activeExamData.questions.length;
   const availablePapers = getPapersForExam(selectedExam);
   const activePaperMeta = availablePapers.find(p => p.id === selectedPaperId) || availablePapers[0];
+
+  // Check active authentication session
+  useEffect(() => {
+    const checkAuthSession = async () => {
+      try {
+        const clientSession = sessionStorage.getItem('anjali_auth_active');
+        const remembered = localStorage.getItem('anjali_auth_remembered');
+
+        const res = await fetch('/api/auth/session');
+        const data = await res.json().catch(() => ({}));
+
+        if (res.ok && data.authenticated) {
+          setIsAuthenticated(true);
+        } else if (clientSession === 'true' || remembered === 'true') {
+          setIsAuthenticated(true);
+        } else {
+          setIsAuthenticated(false);
+        }
+      } catch {
+        const clientSession = sessionStorage.getItem('anjali_auth_active');
+        const remembered = localStorage.getItem('anjali_auth_remembered');
+        setIsAuthenticated(clientSession === 'true' || remembered === 'true');
+      } finally {
+        setIsAuthChecking(false);
+      }
+    };
+
+    checkAuthSession();
+  }, []);
+
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+    } catch {}
+    try {
+      sessionStorage.removeItem('anjali_auth_active');
+      localStorage.removeItem('anjali_auth_remembered');
+    } catch {}
+    soundManager.playClick();
+    setIsAuthenticated(false);
+  };
 
   // Load initial settings & states from localStorage
   useEffect(() => {
@@ -358,6 +404,23 @@ export default function Home() {
   const marked = Object.values(states).filter(s => s.isMarkedForReview).length;
   const cur = states[idx] || { selectedOption: null, isMarkedForReview: false, isBookmarked: false, visited: true, timeSpentSec: 0 };
 
+  // 1. Session Verification Loading Screen
+  if (isAuthChecking) {
+    return (
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-app)' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
+          <div style={{ width: 32, height: 32, border: '3px solid var(--border-default)', borderTopColor: 'var(--primary)', borderRadius: '50%', animation: 'spin 0.6s linear infinite' }} />
+          <span style={{ fontSize: '12.5px', fontWeight: 700, color: 'var(--text-secondary)' }}>Securing Educator Session...</span>
+        </div>
+      </div>
+    );
+  }
+
+  // 2. Unauthenticated -> Show Secure Login Screen
+  if (!isAuthenticated) {
+    return <LoginScreen onLoginSuccess={() => setIsAuthenticated(true)} />;
+  }
+
   return (
     <div className={styles.appContainer}>
       {/* 1. App Sidebar (Desktop Fixed / Mobile Drawer) */}
@@ -376,6 +439,7 @@ export default function Home() {
         isSoundEnabled={isSoundEnabled}
         setIsSoundEnabled={handleSoundToggle}
         onOpenShortcuts={() => setIsShortcutsOpen(true)}
+        onLogout={handleLogout}
       />
 
       {/* 2. Main Content Workspace */}
