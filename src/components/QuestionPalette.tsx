@@ -194,68 +194,77 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         </div>
       </div>
 
-      {/* 3. Section Quick-Jump Filter Bar */}
-      {derivedSections.length > 1 && (
-        <div className={styles.sectionTabs}>
-          <button
-            className={`${styles.sectionTab} ${selectedSectionFilter === 'all' ? styles.sectionTabActive : ''}`}
-            onClick={() => handleSectionJump('all')}
-          >
-            All Sections
-          </button>
-          {derivedSections.map((sec) => {
-            const isSecActive = selectedSectionFilter === sec.name;
-            const shortName = sec.name.replace('Child Development and Pedagogy', 'CDP')
-              .replace('First Language - English/Hindi', 'Lang I')
-              .replace('First Language - English', 'Lang I')
-              .replace('Second Language - English', 'Lang II')
-              .replace('Science & Mathematics', 'Math/Sci')
-              .replace('Teaching Aptitude & Pedagogy', 'Pedagogy')
-              .replace('Uttarakhand General Knowledge', 'UK GK')
-              .replace('General Science & Specialized Subject', 'Science');
-
-            return (
+      {/* 3. Section & Category Filters Container */}
+      <div className={styles.controlsSection}>
+        {/* Section Filter Pills */}
+        {derivedSections.length > 1 && (
+          <div className={styles.sectionTabsWrapper}>
+            <div className={styles.sectionTabs}>
               <button
-                key={sec.id}
-                className={`${styles.sectionTab} ${isSecActive ? styles.sectionTabActive : ''}`}
-                onClick={() => handleSectionJump(sec.name)}
-                title={`${sec.name} (${sec.questionRange})`}
+                className={`${styles.sectionTab} ${selectedSectionFilter === 'all' ? styles.sectionTabActive : ''}`}
+                onClick={() => handleSectionJump('all')}
               >
-                {shortName}
+                All Sections
               </button>
-            );
-          })}
-        </div>
-      )}
+              {derivedSections.map((sec) => {
+                const isSecActive = selectedSectionFilter === sec.name;
+                const shortName = sec.name
+                  .replace('Child Development and Pedagogy', 'CDP')
+                  .replace('First Language - English/Hindi', 'Lang I')
+                  .replace('First Language - English', 'Lang I')
+                  .replace('First Language - Hindi', 'Hindi')
+                  .replace('Second Language - English', 'Lang II')
+                  .replace('Second Language - Hindi', 'Hindi')
+                  .replace('Science & Mathematics', 'Math/Sci')
+                  .replace('Mathematics and Science', 'Math/Sci')
+                  .replace('Teaching Aptitude & Pedagogy', 'Pedagogy')
+                  .replace('Uttarakhand General Knowledge', 'UK GK')
+                  .replace('General Science & Specialized Subject', 'Science');
 
-      {/* 4. Quick Category Filter Chips */}
-      <div className={styles.filterPills}>
-        <button
-          className={`${styles.pill} ${filter === 'all' && selectedSectionFilter === 'all' ? styles.pillActive : ''}`}
-          onClick={() => { setFilter('all'); setSelectedSectionFilter('all'); }}
-        >
-          All ({questions.length})
-        </button>
-        <button
-          className={`${styles.pill} ${filter === 'unanswered' ? styles.pillActive : ''}`}
-          onClick={() => setFilter(filter === 'unanswered' ? 'all' : 'unanswered')}
-        >
-          Pending ({questions.length - stats.totalAnswered})
-        </button>
-        <button
-          className={`${styles.pill} ${filter === 'marked' ? styles.pillActive : ''}`}
-          onClick={() => setFilter(filter === 'marked' ? 'all' : 'marked')}
-        >
-          Marked ({stats.marked + stats.answeredAndMarked})
-        </button>
-        {stats.bookmarked > 0 && (
-          <button
-            className={`${styles.pill} ${filter === 'bookmarked' ? styles.pillActive : ''}`}
-            onClick={() => setFilter(filter === 'bookmarked' ? 'all' : 'bookmarked')}
-          >
-            ⭐ Saved ({stats.bookmarked})
-          </button>
+                return (
+                  <button
+                    key={sec.id}
+                    className={`${styles.sectionTab} ${isSecActive ? styles.sectionTabActive : ''}`}
+                    onClick={() => handleSectionJump(sec.name)}
+                    title={`${sec.name} (${sec.questionRange})`}
+                  >
+                    {shortName}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         )}
+
+        {/* Status Filter Chips */}
+        <div className={styles.filterPills}>
+          <button
+            className={`${styles.pill} ${filter === 'all' && selectedSectionFilter === 'all' ? styles.pillActive : ''}`}
+            onClick={() => { setFilter('all'); setSelectedSectionFilter('all'); }}
+          >
+            All ({questions.length})
+          </button>
+          <button
+            className={`${styles.pill} ${filter === 'unanswered' ? styles.pillActive : ''}`}
+            onClick={() => setFilter(filter === 'unanswered' ? 'all' : 'unanswered')}
+          >
+            Pending ({questions.length - stats.totalAnswered})
+          </button>
+          <button
+            className={`${styles.pill} ${filter === 'marked' ? styles.pillActive : ''}`}
+            onClick={() => setFilter(filter === 'marked' ? 'all' : 'marked')}
+          >
+            Marked ({stats.marked + stats.answeredAndMarked})
+          </button>
+          {stats.bookmarked > 0 && (
+            <button
+              className={`${styles.pill} ${filter === 'bookmarked' ? styles.pillActive : ''}`}
+              onClick={() => setFilter(filter === 'bookmarked' ? 'all' : 'bookmarked')}
+            >
+              ⭐ Saved ({stats.bookmarked})
+            </button>
+          )}
+        </div>
       </div>
 
       {/* 5. Modern Question Number Button Grid */}

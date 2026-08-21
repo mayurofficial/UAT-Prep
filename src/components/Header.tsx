@@ -135,7 +135,7 @@ export const Header: React.FC<HeaderProps> = ({
             title="Uttarakhand LT Assistant Teacher Master Syllabus & Study Notes"
           >
             <GraduationCap size={15} />
-            <span>LT अध्ययन (LT Study Hub)</span>
+            <span>LT अध्ययन (Study)</span>
           </button>
           <button
             className={`${styles.modeBtn} ${mode === 'practice' ? styles.modeBtnActive : ''}`}
