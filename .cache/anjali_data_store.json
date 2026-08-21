@@ -5,5 +5,14 @@
       "netScore": 112,
       "passed": true
     }
-  ]
+  ],
+  "user:anjali:progress:utet_2022": {
+    "0": {
+      "selectedOption": "C",
+      "isMarkedForReview": false,
+      "isBookmarked": false,
+      "visited": true,
+      "timeSpentSec": 0
+    }
+  }
 }

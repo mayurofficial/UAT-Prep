@@ -1,10 +1,11 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { QuestionItem, AppMode, LanguageMode, UserAnswerState, TargetExam } from '@/types/utet';
 import styles from './QuestionCard.module.css';
 import { ConceptCardView } from './ConceptCardView';
-import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle, AlertCircle } from 'lucide-react';
+import { AiTutorModal } from './AiTutorModal';
+import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle, AlertCircle, Sparkles } from 'lucide-react';
 import { soundManager } from '@/utils/audioFeedback';
 
 interface QuestionCardProps {
@@ -47,6 +48,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   const isPractice = mode === 'practice';
   const hasAnswered = userState.selectedOption !== null;
   const isCorrect = userState.selectedOption === question.correctAnswer;
+  const [isAiTutorOpen, setIsAiTutorOpen] = useState<boolean>(false);
 
   const sizeClass = fontSize === 'small' ? styles.fontSmall : fontSize === 'large' ? styles.fontLarge : '';
 
@@ -171,13 +173,38 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
       {/* Concept card in practice mode */}
       {isPractice && hasAnswered && (
-        <ConceptCardView
-          concept={question.conceptCard}
-          explanation={question.explanation}
-          correctOptionLetter={question.correctAnswer}
-          language={language}
-        />
+        <>
+          <ConceptCardView
+            concept={question.conceptCard}
+            explanation={question.explanation}
+            correctOptionLetter={question.correctAnswer}
+            language={language}
+          />
+
+          <div className={styles.aiTutorTriggerRow}>
+            <button
+              className={styles.askAiBtn}
+              onClick={() => {
+                soundManager.playClick();
+                setIsAiTutorOpen(true);
+              }}
+              title="Open Gemini AI Doubt Solver & Voice Explainer"
+            >
+              <Sparkles size={15} />
+              <span>✨ Ask AI Guruji (Doubt Solver & Voice)</span>
+            </button>
+          </div>
+        </>
       )}
+
+      {/* AI Tutor Modal */}
+      <AiTutorModal
+        isOpen={isAiTutorOpen}
+        onClose={() => setIsAiTutorOpen(false)}
+        question={question}
+        userSelected={userState.selectedOption}
+        section={question.section}
+      />
 
       {/* Desktop & Tablet In-Card Controls */}
       <div className={styles.controls}>
