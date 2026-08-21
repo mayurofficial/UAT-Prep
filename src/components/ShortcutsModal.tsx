@@ -84,8 +84,16 @@ export const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose 
           </div>
 
           <div>
-            <div className={styles.categoryTitle}>App Views</div>
+            <div className={styles.categoryTitle}>App Views & Flashcards</div>
             <div className={styles.shortcutGrid}>
+              <div className={styles.shortcutItem}>
+                <span className={styles.label}>Daily Flashcards (5-Min)</span>
+                <div className={styles.keyWrap}><kbd className={styles.key}>F</kbd></div>
+              </div>
+              <div className={styles.shortcutItem}>
+                <span className={styles.label}>Flip Flashcard / Space</span>
+                <div className={styles.keyWrap}><kbd className={styles.key}>Space</kbd></div>
+              </div>
               <div className={styles.shortcutItem}>
                 <span className={styles.label}>LT Study Hub</span>
                 <div className={styles.keyWrap}><kbd className={styles.key}>S</kbd></div>

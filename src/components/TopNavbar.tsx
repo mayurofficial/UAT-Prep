@@ -24,6 +24,7 @@ interface TopNavbarProps {
   currentIndex: number;
   totalQuestions: number;
   syncStatus?: 'synced' | 'saving' | 'offline';
+  onOpenFlashcards?: () => void;
 }
 
 export const TopNavbar: React.FC<TopNavbarProps> = ({
@@ -38,6 +39,7 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
   currentIndex,
   totalQuestions,
   syncStatus = 'synced',
+  onOpenFlashcards,
 }) => {
   const isOfficial = activePaper?.category === 'OFFICIAL_PYQ';
 
@@ -60,6 +62,29 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
             </span>
             <span>{activePaper.title}</span>
           </div>
+
+          {onOpenFlashcards && (
+            <button
+              onClick={onOpenFlashcards}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px',
+                padding: '4px 10px',
+                background: 'linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(239, 68, 68, 0.08))',
+                border: '1px solid rgba(245, 158, 11, 0.35)',
+                borderRadius: 'var(--radius-full)',
+                color: '#b45309',
+                fontSize: 'var(--text-2xs)',
+                fontWeight: 700,
+                cursor: 'pointer',
+              }}
+              title="Open 5-Minute Daily Concept Flashcards (Key: F)"
+            >
+              <Sparkles size={12} color="#f59e0b" />
+              <span>Flashcards (5-Min)</span>
+            </button>
+          )}
 
           <div
             className={`${styles.cloudSyncBadge} ${

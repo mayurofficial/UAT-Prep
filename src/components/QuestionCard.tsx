@@ -5,6 +5,7 @@ import { QuestionItem, AppMode, LanguageMode, UserAnswerState, TargetExam } from
 import styles from './QuestionCard.module.css';
 import { ConceptCardView } from './ConceptCardView';
 import { AiTutorModal } from './AiTutorModal';
+import { MathRenderer } from './MathRenderer';
 import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle, AlertCircle, Sparkles } from 'lucide-react';
 import { soundManager } from '@/utils/audioFeedback';
 
@@ -107,10 +108,10 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       {/* Question text */}
       <div className={`${styles.question} ${sizeClass}`}>
         {language !== 'hindi' && (
-          <div className={styles.qEn}>{question.question.english}</div>
+          <div className={styles.qEn}><MathRenderer content={question.question.english} /></div>
         )}
         {language !== 'english' && (
-          <div className={styles.qHi}>{question.question.hindi}</div>
+          <div className={styles.qHi}><MathRenderer content={question.question.hindi} /></div>
         )}
       </div>
 
@@ -136,8 +137,8 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             >
               <div className={styles.circle}>{opt.id}</div>
               <div className={styles.optText}>
-                {language !== 'hindi' && <div className={styles.optEn}>{opt.english}</div>}
-                {language !== 'english' && <div className={styles.optHi}>{opt.hindi}</div>}
+                {language !== 'hindi' && <div className={styles.optEn}><MathRenderer content={opt.english} inline /></div>}
+                {language !== 'english' && <div className={styles.optHi}><MathRenderer content={opt.hindi} inline /></div>}
               </div>
               {isPractice && hasAnswered && isCorrectOpt && (
                 <CheckCircle2 size={18} color="#10b981" className={styles.statusIcon} />

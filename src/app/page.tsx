@@ -15,6 +15,7 @@ import { ResultDashboard } from '@/components/ResultDashboard';
 import { PrintWorksheet } from '@/components/PrintWorksheet';
 import { LtSyllabusView } from '@/components/LtSyllabusView';
 import { ShortcutsModal } from '@/components/ShortcutsModal';
+import { FlashcardsModal } from '@/components/FlashcardsModal';
 import { LoginScreen } from '@/components/LoginScreen';
 import { soundManager } from '@/utils/audioFeedback';
 
@@ -51,6 +52,7 @@ export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isPaletteDrawerOpen, setIsPaletteDrawerOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
+  const [isFlashcardsOpen, setIsFlashcardsOpen] = useState(false);
 
   const activeExamData: ExamData = getPaperData(selectedPaperId);
   const TOTAL = activeExamData.questions.length;
@@ -425,6 +427,11 @@ export default function Home() {
         return;
       }
 
+      if (key === 'F') {
+        setIsFlashcardsOpen(prev => !prev);
+        return;
+      }
+
       // Hotkeys for Question Card
       if (mode === 'practice') {
         if (key === 'A' || key === '1') {
@@ -500,6 +507,7 @@ export default function Home() {
         isSoundEnabled={isSoundEnabled}
         setIsSoundEnabled={handleSoundToggle}
         onOpenShortcuts={() => setIsShortcutsOpen(true)}
+        onOpenFlashcards={() => setIsFlashcardsOpen(true)}
         onLogout={handleLogout}
       />
 
@@ -518,6 +526,7 @@ export default function Home() {
           currentIndex={idx}
           totalQuestions={TOTAL}
           syncStatus={syncStatus}
+          onOpenFlashcards={() => setIsFlashcardsOpen(true)}
         />
 
         {/* Section Tabs in Practice */}
@@ -671,6 +680,12 @@ export default function Home() {
       <ShortcutsModal
         isOpen={isShortcutsOpen}
         onClose={() => setIsShortcutsOpen(false)}
+      />
+
+      {/* 6. 5-Minute Daily Concept Flashcards Modal */}
+      <FlashcardsModal
+        isOpen={isFlashcardsOpen}
+        onClose={() => setIsFlashcardsOpen(false)}
       />
     </div>
   );

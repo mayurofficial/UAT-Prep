@@ -92,6 +92,11 @@ class SoundEffects {
     } catch {}
   }
 
+  // Celebratory fanfare on completion
+  public playSuccess() {
+    this.playCorrect();
+  }
+
   // Soft thud on incorrect answer
   public playIncorrect() {
     if (!this.soundEnabled) return;

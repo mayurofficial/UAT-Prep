@@ -36,6 +36,7 @@ interface AppSidebarProps {
   isSoundEnabled: boolean;
   setIsSoundEnabled: (enabled: boolean) => void;
   onOpenShortcuts: () => void;
+  onOpenFlashcards?: () => void;
   onLogout?: () => void;
 }
 
@@ -54,6 +55,7 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
   isSoundEnabled,
   setIsSoundEnabled,
   onOpenShortcuts,
+  onOpenFlashcards,
   onLogout,
 }) => {
   const officialPyqs = availablePapers.filter(p => p.category === 'OFFICIAL_PYQ');
@@ -162,6 +164,24 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
             </div>
             <span className={styles.navBadge}>Instant Key</span>
           </button>
+
+          {onOpenFlashcards && (
+            <button
+              className={styles.navItem}
+              onClick={() => {
+                onClose();
+                onOpenFlashcards();
+              }}
+            >
+              <div className={styles.navItemLeft}>
+                <span className={styles.navItemIcon} style={{ color: '#f59e0b' }}><Sparkles size={16} /></span>
+                <span>Flashcards (फ़्लैशकार्ड्स)</span>
+              </div>
+              <span className={styles.navBadge} style={{ background: 'var(--warning-light)', color: 'var(--warning-dark)' }}>
+                5-Min Drill
+              </span>
+            </button>
+          )}
 
           <button
             className={`${styles.navItem} ${mode === 'syllabus' ? styles.navItemActive : ''}`}

@@ -4,6 +4,7 @@ import React from 'react';
 import { ConceptCard, LanguageMode } from '@/types/utet';
 import styles from './ConceptCardView.module.css';
 import { Lightbulb, CheckCircle2, Sparkles, AlertTriangle } from 'lucide-react';
+import { MathRenderer } from './MathRenderer';
 
 interface ConceptCardViewProps {
   concept: ConceptCard;
@@ -30,9 +31,11 @@ export const ConceptCardView: React.FC<ConceptCardViewProps> = ({
             Answer: ({correctOptionLetter})
           </div>
           <div className={styles.content}>
-            {language !== 'hindi' && <div>{explanation.english}</div>}
+            {language !== 'hindi' && <div><MathRenderer content={explanation.english || ''} /></div>}
             {language !== 'english' && (
-              <div className={language === 'bilingual' ? styles.contentHi : ''}>{explanation.hindi}</div>
+              <div className={language === 'bilingual' ? styles.contentHi : ''}>
+                <MathRenderer content={explanation.hindi || ''} />
+              </div>
             )}
           </div>
         </div>
@@ -45,9 +48,11 @@ export const ConceptCardView: React.FC<ConceptCardViewProps> = ({
               Core Concept
             </div>
             <div className={styles.content}>
-              {language !== 'hindi' && <div>{concept.keyConceptEnglish}</div>}
+              {language !== 'hindi' && <div><MathRenderer content={concept.keyConceptEnglish || ''} /></div>}
               {language !== 'english' && concept.keyConceptHindi && (
-                <div className={language === 'bilingual' ? styles.contentHi : ''}>{concept.keyConceptHindi}</div>
+                <div className={language === 'bilingual' ? styles.contentHi : ''}>
+                  <MathRenderer content={concept.keyConceptHindi || ''} />
+                </div>
               )}
             </div>
           </div>
@@ -60,7 +65,9 @@ export const ConceptCardView: React.FC<ConceptCardViewProps> = ({
               <Sparkles size={14} />
               Memory Trick
             </div>
-            <div className={styles.content}>{concept.mnemonicOrTrick}</div>
+            <div className={styles.content}>
+              <MathRenderer content={concept.mnemonicOrTrick} />
+            </div>
           </div>
         )}
 
@@ -71,7 +78,9 @@ export const ConceptCardView: React.FC<ConceptCardViewProps> = ({
               <AlertTriangle size={14} />
               Trap Alert
             </div>
-            <div className={styles.content}>{concept.trapAlert}</div>
+            <div className={styles.content}>
+              <MathRenderer content={concept.trapAlert} />
+            </div>
           </div>
         )}
       </div>

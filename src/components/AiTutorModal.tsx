@@ -3,23 +3,21 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { QuestionItem } from '@/types/utet';
 import { aiVoice } from '@/utils/aiSpeech';
+import { speechToText, SpeechLang } from '@/utils/speechToText';
+import { MathRenderer } from './MathRenderer';
 import styles from './AiTutorModal.module.css';
 import {
   Sparkles,
   Volume2,
-  VolumeX,
-  Play,
   Pause,
-  RotateCcw,
   Send,
   X,
   Bot,
-  User,
-  ShieldAlert,
+  Mic,
+  MicOff,
+  Globe,
   CheckCircle2,
-  HelpCircle,
-  Lightbulb,
-  GraduationCap
+  AlertTriangle
 } from 'lucide-react';
 import { soundManager } from '@/utils/audioFeedback';
 
@@ -50,6 +48,12 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
   const [chatInput, setChatInput] = useState<string>('');
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
   const [sendingChat, setSendingChat] = useState<boolean>(false);
+
+  // Speech to text state
+  const [isListening, setIsListening] = useState<boolean>(false);
+  const [speechLang, setSpeechLang] = useState<SpeechLang>('hi-IN');
+  const [speechError, setSpeechError] = useState<string | null>(null);
+
   const bodyRef = useRef<HTMLDivElement>(null);
 
   // Fetch AI explanation on modal open / question change
@@ -62,6 +66,9 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     setChatHistory([]);
     aiVoice.stop();
     setIsPlayingVoice(false);
+    speechToText.stop();
+    setIsListening(false);
+    setSpeechError(null);
 
     const fetchExplanation = async () => {
       try {
@@ -69,13 +76,14 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            questionNumber: question.id,
+            questionNumber: question.id || question.questionNumber,
             questionText: question.question,
             options: question.options,
             correctAnswer: question.correctAnswer,
             userSelected,
             section,
             conceptCard: question.conceptCard,
+            explanation: question.explanation,
           }),
         });
 
@@ -101,10 +109,11 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     return () => {
       isMounted = false;
       aiVoice.stop();
+      speechToText.stop();
     };
   }, [isOpen, question, userSelected, section]);
 
-  // Voice narration toggle
+  // Voice narration toggle (TTS)
   const handleToggleVoice = () => {
     if (isPlayingVoice) {
       aiVoice.stop();
@@ -125,10 +134,51 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     aiVoice.setRate(rate);
   };
 
+  // Microphone Speech Recognition Toggle (STT)
+  const handleToggleMic = () => {
+    soundManager.playClick();
+    setSpeechError(null);
+
+    if (isListening) {
+      speechToText.stop();
+      setIsListening(false);
+    } else {
+      const started = speechToText.start(
+        (transcript: string) => {
+          setChatInput(transcript);
+        },
+        (listening: boolean) => {
+          setIsListening(listening);
+        },
+        (errorMsg: string) => {
+          setSpeechError(errorMsg);
+          setIsListening(false);
+        },
+        speechLang
+      );
+
+      if (!started) {
+        setSpeechError('माइक्रोफ़ोन चालू नहीं हो सका। कृपया अनुमति जांचें।');
+      }
+    }
+  };
+
+  const handleToggleSpeechLang = () => {
+    soundManager.playClick();
+    const nextLang: SpeechLang = speechLang === 'hi-IN' ? 'en-IN' : 'hi-IN';
+    setSpeechLang(nextLang);
+    speechToText.setLanguage(nextLang);
+  };
+
   // Follow-up question submission
   const handleSendFollowUp = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!chatInput.trim() || sendingChat) return;
+
+    if (isListening) {
+      speechToText.stop();
+      setIsListening(false);
+    }
 
     const query = chatInput.trim();
     setChatInput('');
@@ -146,12 +196,14 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          questionNumber: question.id,
+          questionNumber: question.id || question.questionNumber,
           questionText: question.question,
           options: question.options,
           correctAnswer: question.correctAnswer,
           userSelected,
           section,
+          conceptCard: question.conceptCard,
+          explanation: question.explanation,
           followUpQuery: query,
           chatHistory: newHistory,
         }),
@@ -187,7 +239,9 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
 
   const handleClose = () => {
     aiVoice.stop();
+    speechToText.stop();
     setIsPlayingVoice(false);
+    setIsListening(false);
     onClose();
   };
 
@@ -211,7 +265,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
                 <span className={styles.geminiBadge}>Gemini 2.0</span>
               </div>
               <div className={styles.headerSubtitle}>
-                Socratic Doubt Solver & Bilingual Voice Explainer
+                Socratic Doubt Solver, Voice Narration & Math Formula Engine
               </div>
             </div>
           </div>
@@ -250,7 +304,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
           </div>
 
           <div className={styles.audioControlsRight}>
-            <span style={{ fontSize: '11px', color: 'var(--text-tertiary)' }}>Voice Speed:</span>
+            <span style={{ fontSize: '11px', color: 'var(--text-tertiary)' }}>Speed:</span>
             {[0.9, 1.0, 1.25, 1.5].map((rate) => (
               <button
                 key={rate}
@@ -271,7 +325,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
           <div className={styles.questionContextBox}>
             <div className={styles.qHeaderRow}>
               <span className={styles.qNumBadge}>
-                Question #{question.id} • {section || 'Exam Question'}
+                Question #{question.id || question.questionNumber} • {section || 'Exam Question'}
               </span>
               {isAnswered && (
                 <span
@@ -285,20 +339,24 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
                 </span>
               )}
             </div>
-            <div className={styles.qSnippetHindi}>{question.question.hindi}</div>
-            <div className={styles.qSnippetEng}>{question.question.english}</div>
+            <div className={styles.qSnippetHindi}>
+              <MathRenderer content={question.question.hindi || ''} />
+            </div>
+            <div className={styles.qSnippetEng}>
+              <MathRenderer content={question.question.english || ''} />
+            </div>
           </div>
 
           {/* AI Explanation Card */}
           {loading ? (
             <div className={styles.loadingPulse}>
               <Sparkles size={20} className={styles.spinIcon} />
-              <span>AI Guruji is analyzing question pedagogy & exam traps...</span>
+              <span>AI Guruji is analyzing question pedagogy & formulas...</span>
             </div>
           ) : (
             <div className={styles.aiOutputCard}>
               <div className={styles.aiOutputContent}>
-                {explanation}
+                <MathRenderer content={explanation} />
               </div>
             </div>
           )}
@@ -316,37 +374,84 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
                       <Bot size={13} /> AI Guruji
                     </div>
                   )}
-                  {msg.content}
+                  <MathRenderer content={msg.content} />
                 </div>
               ))}
             </div>
           )}
 
           {sendingChat && (
-            <div style={{ fontSize: '12px', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: 6 }}>
-              <Sparkles size={14} /> AI Guruji is thinking...
+            <div style={{ fontSize: '12px', color: 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: 6, padding: '8px 0' }}>
+              <Sparkles size={14} className={styles.spinIcon} /> AI Guruji is thinking...
             </div>
           )}
         </div>
 
-        {/* 4. Footer Interactive Chat Input */}
+        {/* 4. Footer Interactive Chat Input with Voice STT */}
         <form onSubmit={handleSendFollowUp} className={styles.footer}>
-          <input
-            type="text"
-            className={styles.chatInput}
-            placeholder="Ask a follow-up doubt... (e.g. 'Explain in simpler words', 'Give another example')"
-            value={chatInput}
-            onChange={(e) => setChatInput(e.target.value)}
-            disabled={loading || sendingChat}
-          />
-          <button
-            type="submit"
-            className={styles.sendBtn}
-            disabled={!chatInput.trim() || loading || sendingChat}
-            title="Send Doubt to Gemini"
-          >
-            <Send size={16} />
-          </button>
+          {isListening && (
+            <div className={styles.listeningBanner}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6, fontWeight: 600 }}>
+                <Mic size={14} color="#ef4444" />
+                <span>बोलिए... हम सुन रहे हैं ({speechLang === 'hi-IN' ? 'हिन्दी' : 'English'})...</span>
+              </div>
+              <span style={{ fontSize: '11px', opacity: 0.8 }}>माइक बटन दबाकर रोकें</span>
+            </div>
+          )}
+
+          {speechError && (
+            <div style={{ fontSize: '11px', color: 'var(--error)', display: 'flex', alignItems: 'center', gap: 4 }}>
+              <AlertTriangle size={12} />
+              <span>{speechError}</span>
+            </div>
+          )}
+
+          <div className={styles.inputControlsRow}>
+            <input
+              type="text"
+              className={styles.chatInput}
+              placeholder={
+                isListening
+                  ? 'बोलिए... आपकी आवाज़ यहाँ टाइप हो रही है...'
+                  : "Ask a doubt or click mic to speak (e.g. 'लेंस सूत्र समझाएं')"
+              }
+              value={chatInput}
+              onChange={(e) => setChatInput(e.target.value)}
+              disabled={loading || sendingChat}
+            />
+
+            {/* Language toggle for Mic */}
+            <button
+              type="button"
+              className={styles.langToggleBtn}
+              onClick={handleToggleSpeechLang}
+              title={`Speech Input Language: ${speechLang === 'hi-IN' ? 'Hindi' : 'English'}`}
+            >
+              <Globe size={12} />
+              <span>{speechLang === 'hi-IN' ? 'HI' : 'EN'}</span>
+            </button>
+
+            {/* Voice Mic Button */}
+            <button
+              type="button"
+              className={`${styles.micBtn} ${isListening ? styles.micListening : ''}`}
+              onClick={handleToggleMic}
+              title={isListening ? 'Stop recording voice' : 'Speak your doubt (Voice to Text)'}
+              disabled={loading || sendingChat}
+            >
+              {isListening ? <MicOff size={16} /> : <Mic size={16} />}
+            </button>
+
+            {/* Send Button */}
+            <button
+              type="submit"
+              className={styles.sendBtn}
+              disabled={!chatInput.trim() || loading || sendingChat}
+              title="Send Doubt to Gemini"
+            >
+              <Send size={16} />
+            </button>
+          </div>
         </form>
       </div>
     </div>
