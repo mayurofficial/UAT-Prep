@@ -1,6 +1,7 @@
 import { ExamData, TargetExam } from '@/types/utet';
 
 import utet2025Data from './papers/utet_2025.json';
+import utet2024Data from './papers/utet_2024.json';
 import utet2023Data from './papers/utet_2023.json';
 import utet2022Data from './papers/utet_2022.json';
 import utet2021Data from './papers/utet_2021.json';
@@ -34,6 +35,11 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
     ...(utet2025Data as unknown as ExamData),
     category: 'OFFICIAL_PYQ',
     sourceNote: 'Official UBSE UTET-II Exam Paper (Set A - 2025 Exam)',
+  },
+  utet_2024: {
+    ...(utet2024Data as unknown as ExamData),
+    category: 'OFFICIAL_PYQ',
+    sourceNote: 'Official UBSE UTET-II 2024 Exam Paper (Set C - 2024)',
   },
   utet_2023: {
     ...(utet2023Data as unknown as ExamData),
@@ -93,6 +99,19 @@ export const PAPERS_LIST: PaperMeta[] = [
     hasNegativeMarking: false,
     negativePenalty: 0,
     sourceNote: 'Authentic UBSE Exam Paper 2025 (Set A)',
+  },
+  {
+    id: 'utet_2024',
+    targetExam: 'UTET',
+    category: 'OFFICIAL_PYQ',
+    year: '2024',
+    title: 'UTET-II 2024 (Official Exam Paper)',
+    badge: 'Official PYQ (Set C)',
+    totalQuestions: 150,
+    durationMinutes: 150,
+    hasNegativeMarking: false,
+    negativePenalty: 0,
+    sourceNote: 'Authentic UBSE Exam Paper from 2024 (Set C)',
   },
   {
     id: 'utet_2023',
