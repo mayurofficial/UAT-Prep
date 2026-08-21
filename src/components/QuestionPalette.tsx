@@ -1,23 +1,35 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
-import { QuestionItem, UserAnswerState } from '@/types/utet';
+import React, { useState, useMemo, useEffect } from 'react';
+import { QuestionItem, UserAnswerState, LanguageMode } from '@/types/utet';
 import styles from './QuestionPalette.module.css';
 import {
   LayoutGrid,
   Star,
   Search,
+  ChevronDown,
   X,
   Zap
 } from 'lucide-react';
 import { soundManager } from '@/utils/audioFeedback';
+
+interface SectionInfo {
+  id: string;
+  name: string;
+  nameHindi: string;
+  questionRange: string;
+  total: number;
+  color?: string;
+}
 
 interface QuestionPaletteProps {
   questions: QuestionItem[];
   currentIndex: number;
   userStates: Record<number, UserAnswerState>;
   onSelectQuestion: (index: number) => void;
-  sections?: { id: string; name: string; nameHindi: string; questionRange: string; total: number; color?: string }[];
+  sections?: SectionInfo[];
+  activeSectionId?: string;
+  language?: LanguageMode;
   isMobileDrawer?: boolean;
   onCloseDrawer?: () => void;
 }
@@ -30,12 +42,20 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
   userStates,
   onSelectQuestion,
   sections,
+  activeSectionId,
+  language = 'bilingual',
   isMobileDrawer = false,
   onCloseDrawer,
 }) => {
   const [filter, setFilter] = useState<Filter>('all');
   const [selectedSectionFilter, setSelectedSectionFilter] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // Reset section filter when questions array / paper changes
+  useEffect(() => {
+    setSelectedSectionFilter('all');
+    setSearchQuery('');
+  }, [questions]);
 
   // Compute live statistics
   const stats = useMemo(() => {
@@ -73,7 +93,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
   }, [questions, userStates]);
 
   // Extract sections if not passed
-  const derivedSections = useMemo(() => {
+  const derivedSections: SectionInfo[] = useMemo(() => {
     if (sections && sections.length > 0) return sections;
     const map = new Map<string, { id: string; name: string; total: number; startIdx: number }>();
     questions.forEach((q, idx) => {
@@ -92,12 +112,12 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
     }));
   }, [questions, sections]);
 
-  // Filtered items
+  // Filtered question items
   const filtered = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
 
     return questions.map((q, idx) => ({ q, idx })).filter(({ q, idx }) => {
-      // Search query
+      // 1. Search filter
       if (query) {
         const textMatch =
           q.question.english.toLowerCase().includes(query) ||
@@ -107,11 +127,21 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         if (!textMatch) return false;
       }
 
-      // Section filter
-      if (selectedSectionFilter !== 'all' && q.section !== selectedSectionFilter) {
-        return false;
+      // 2. Section filter
+      if (selectedSectionFilter !== 'all') {
+        const sec = derivedSections.find(s => s.id === selectedSectionFilter || s.name === selectedSectionFilter);
+        if (sec) {
+          const [start, end] = sec.questionRange.split('-').map(Number);
+          const qNum = idx + 1;
+          const isInRange = qNum >= start && qNum <= end;
+          const isNameMatch = q.section === sec.name;
+          if (!isInRange && !isNameMatch) return false;
+        } else if (q.section !== selectedSectionFilter) {
+          return false;
+        }
       }
 
+      // 3. Status filter
       const s = userStates[idx];
       if (filter === 'all') return true;
       if (filter === 'answered') return !!s?.selectedOption;
@@ -120,9 +150,24 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
       if (filter === 'bookmarked') return !!s?.isBookmarked;
       return true;
     });
-  }, [questions, userStates, filter, selectedSectionFilter, searchQuery]);
+  }, [questions, userStates, filter, selectedSectionFilter, searchQuery, derivedSections]);
 
-  const handleSelect = (idx: number) => {
+  const handleSectionChange = (val: string) => {
+    setSelectedSectionFilter(val);
+    soundManager.playClick();
+
+    if (val !== 'all') {
+      const targetSec = derivedSections.find(s => s.id === val || s.name === val);
+      if (targetSec) {
+        const [start] = targetSec.questionRange.split('-').map(Number);
+        if (!isNaN(start) && start > 0 && start <= questions.length) {
+          onSelectQuestion(start - 1);
+        }
+      }
+    }
+  };
+
+  const handleSelectQuestion = (idx: number) => {
     soundManager.playNavigation();
     onSelectQuestion(idx);
     if (onCloseDrawer) {
@@ -137,7 +182,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         <div className={styles.titleRow}>
           <div className={styles.title}>
             <div className={styles.titleIcon}>
-              <LayoutGrid size={15} />
+              <LayoutGrid size={16} />
             </div>
             <span>Question Navigator</span>
           </div>
@@ -210,28 +255,33 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         </div>
       </div>
 
-      {/* 3. Section Select & Search */}
+      {/* 3. Section Select Dropdown & Search */}
       <div className={styles.controlsRow}>
-        <select
-          className={styles.sectionSelect}
-          value={selectedSectionFilter}
-          onChange={(e) => setSelectedSectionFilter(e.target.value)}
-          aria-label="Filter by Section"
-        >
-          <option value="all">All Sections ({questions.length}Q)</option>
-          {derivedSections.map((sec) => (
-            <option key={sec.id || sec.name} value={sec.name}>
-              {sec.name} ({sec.total}Q)
+        <div className={styles.sectionDropdownWrap}>
+          <select
+            className={styles.sectionSelect}
+            value={selectedSectionFilter}
+            onChange={(e) => handleSectionChange(e.target.value)}
+            aria-label="Filter by Paper Section"
+          >
+            <option value="all">
+              All Sections ({questions.length} Questions)
             </option>
-          ))}
-        </select>
+            {derivedSections.map((sec, idx) => (
+              <option key={sec.id || sec.name} value={sec.id || sec.name}>
+                {idx + 1}. {language === 'hindi' ? sec.nameHindi : sec.name} (Q{sec.questionRange} • {sec.total}Q)
+              </option>
+            ))}
+          </select>
+          <ChevronDown size={14} className={styles.selectChevron} />
+        </div>
 
         <div className={styles.searchBox}>
           <Search size={13} className={styles.searchIcon} />
           <input
             type="text"
             className={styles.searchInput}
-            placeholder="Search questions or topics..."
+            placeholder="Search question # or topic keyword..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             aria-label="Search question text"
@@ -261,7 +311,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
               <button
                 key={q.id || idx}
                 className={btnCls}
-                onClick={() => handleSelect(idx)}
+                onClick={() => handleSelectQuestion(idx)}
                 aria-label={`Jump to Question ${q.questionNumber}`}
                 title={`Q${q.questionNumber}: ${q.section}`}
               >

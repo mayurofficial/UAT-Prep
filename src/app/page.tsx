@@ -518,6 +518,8 @@ export default function Home() {
                   userStates={states}
                   onSelectQuestion={i => setIdx(i)}
                   sections={activeExamData.sections}
+                  activeSectionId={secId}
+                  language={language}
                 />
               </div>
             </div>
@@ -532,6 +534,8 @@ export default function Home() {
             userStates={states}
             onSelectQuestion={i => setIdx(i)}
             sections={activeExamData.sections}
+            activeSectionId={secId}
+            language={language}
             isMobileDrawer={true}
             onCloseDrawer={() => setIsPaletteDrawerOpen(false)}
           />
