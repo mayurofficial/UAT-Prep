@@ -17,6 +17,7 @@ import { ExamGuideView } from '@/components/ExamGuideView';
 import { ResultDashboard } from '@/components/ResultDashboard';
 import { PrintWorksheet } from '@/components/PrintWorksheet';
 import { LtStudyView } from '@/components/LtStudyView';
+import { LtSyllabusView } from '@/components/LtSyllabusView';
 import { ShortcutsModal } from '@/components/ShortcutsModal';
 import { soundManager } from '@/utils/audioFeedback';
 
@@ -453,7 +454,19 @@ export default function Home() {
 
         {/* Main Canvas Views */}
         <main className={styles.mainWorkspace}>
-          {mode === 'study' && <LtStudyView onStartPractice={() => setMode('practice')} />}
+          {mode === 'study' && (
+            <LtStudyView
+              onStartPractice={() => setMode('practice')}
+              onViewSyllabus={() => setMode('syllabus')}
+            />
+          )}
+
+          {mode === 'syllabus' && (
+            <LtSyllabusView
+              language={language}
+              onStartPractice={() => setMode('practice')}
+            />
+          )}
 
           {mode === 'handbook' && <HandbookView />}
 

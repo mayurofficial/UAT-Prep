@@ -21,14 +21,17 @@ import {
   Binary,
   Atom,
   Eye,
-  EyeOff
+  EyeOff,
+  FileText,
+  Layers
 } from 'lucide-react';
 
 interface LtStudyViewProps {
   onStartPractice?: () => void;
+  onViewSyllabus?: () => void;
 }
 
-export const LtStudyView: React.FC<LtStudyViewProps> = ({ onStartPractice }) => {
+export const LtStudyView: React.FC<LtStudyViewProps> = ({ onStartPractice, onViewSyllabus }) => {
   const [activeModuleId, setActiveModuleId] = useState<string>('pedagogy');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [expandedTopicIds, setExpandedTopicIds] = useState<Record<string, boolean>>({
@@ -206,6 +209,17 @@ export const LtStudyView: React.FC<LtStudyViewProps> = ({ onStartPractice }) => 
         </div>
 
         <div className={styles.controlButtons}>
+          {onViewSyllabus && (
+            <button
+              className={styles.actionBtn}
+              onClick={onViewSyllabus}
+              title="Browse Complete 84-Page Official Subject-Concerned Syllabus"
+              style={{ background: 'rgba(227, 116, 0, 0.1)', color: '#e37400', borderColor: 'rgba(227, 116, 0, 0.3)' }}
+            >
+              <FileText size={15} />
+              <span>Official Syllabus (84 Pages)</span>
+            </button>
+          )}
           <button className={styles.actionBtn} onClick={expandAll} title="Expand all units">
             <Eye size={15} />
             <span>Expand All</span>

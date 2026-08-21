@@ -164,6 +164,17 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
           </button>
 
           <button
+            className={`${styles.navItem} ${mode === 'syllabus' ? styles.navItemActive : ''}`}
+            onClick={() => handleNavClick('syllabus')}
+          >
+            <div className={styles.navItemLeft}>
+              <span className={styles.navItemIcon}><Layers size={16} /></span>
+              <span>LT Syllabus (पाठ्यक्रम)</span>
+            </div>
+            <span className={styles.navBadge}>14 Subjects</span>
+          </button>
+
+          <button
             className={`${styles.navItem} ${mode === 'practice' ? styles.navItemActive : ''}`}
             onClick={() => handleNavClick('practice')}
           >

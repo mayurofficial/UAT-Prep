@@ -65,8 +65,52 @@ export interface ExamData {
   questions: QuestionItem[];
 }
 
-export type AppMode = 'practice' | 'exam' | 'study' | 'handbook' | 'guide' | 'result';
+export type AppMode = 'practice' | 'exam' | 'study' | 'syllabus' | 'handbook' | 'guide' | 'result';
 export type LanguageMode = 'bilingual' | 'hindi' | 'english';
+
+export interface LtSubjectTopic {
+  english: string;
+  hindi: string;
+}
+
+export interface LtSubjectUnit {
+  id?: string;
+  title: {
+    english: string;
+    hindi: string;
+  };
+  topics: LtSubjectTopic[];
+}
+
+export interface LtSourcePage {
+  page: number;
+  source_text: string;
+}
+
+export interface LtSubjectData {
+  id: string;
+  subject: {
+    english: string;
+    hindi: string;
+  };
+  page_range: string;
+  color?: string;
+  icon?: string;
+  units: LtSubjectUnit[];
+  source_pages: LtSourcePage[];
+}
+
+export interface LtCompleteSyllabusData {
+  title: {
+    english: string;
+    hindi: string;
+  };
+  source_file: string;
+  pages: number;
+  bilingual: boolean;
+  note: string;
+  subjects: LtSubjectData[];
+}
 
 export interface UserAnswerState {
   selectedOption: string | null;

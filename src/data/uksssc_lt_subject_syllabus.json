@@ -1,0 +1,1265 @@
+{
+  "title": {
+    "english": "UKSSSC Assistant Teacher (LT Grade) 2024 – Subject Concerned Syllabus",
+    "hindi": "यूकेएसएसएससी सहायक अध्यापक (एल.टी. ग्रेड) 2024 – विषयवार पाठ्यक्रम"
+  },
+  "source_file": "UKSSSC-LT-Grade-Teacher-Syllabus-2024-Subject-Concerned.pdf",
+  "pages": 84,
+  "bilingual": true,
+  "note": "Official 2024 Subject-Concerned Syllabus for UKSSSC Assistant Teacher (LT Grade). Scanned page text preserved with bilingual subject and unit breakdowns.",
+  "subjects": [
+    {
+      "id": "hindi",
+      "subject": {
+        "english": "Hindi",
+        "hindi": "हिन्दी"
+      },
+      "page_range": "1-4",
+      "color": "#e37400",
+      "icon": "BookMarked",
+      "units": [
+        {
+          "id": "hindi-u1",
+          "title": {
+            "english": "Language (खण्ड : अ - भाषा)",
+            "hindi": "खण्ड : अ - भाषा"
+          },
+          "topics": [
+            {
+              "english": "Hindi alphabet (Vowels, Consonants, Ayogavaha; Letters, Words, Pada, Sentences; Standard Spelling & Analysis)",
+              "hindi": "हिन्दी वर्णमाला (स्वर, व्यंजन, अयोगवाह; वर्ण, अक्षर, शब्द, पद, वाक्य; वर्तनी, वर्तनी का मानकीकरण, वर्तनी विश्लेषण)"
+            },
+            {
+              "english": "Word Formation: Sandhi, Samas, Prefixes (Upsarg), Suffixes (Pratyaya)",
+              "hindi": "हिन्दी शब्द रचना (संधि, समास, उपसर्ग, प्रत्यय)"
+            },
+            {
+              "english": "Word Classes: By structure (Rudh, Yaugik, Yogarudh); By history (Tatsam, Tadbhav, Deshaj, Videshi, Sankar); By grammar (Noun, Pronoun, Verb, Adverb); By meaning (Antonyms, Synonyms, One-word substitutions)",
+              "hindi": "शब्द भेद (रचना: रूढ़, यौगिक, योगरूढ़; इतिहास: तत्सम, तद्भव, देशज, विदेशी, संकर; व्याकरण: संज्ञा, सर्वनाम, क्रिया, क्रिया-विशेषण; अर्थ: विलोम, पर्यायवाची, अनेकार्थी, वाक्यांश के लिए एक शब्द)"
+            },
+            {
+              "english": "Sentences: Simple, Compound, Complex; Sentence Correction; Idioms and Proverbs; Punctuation marks",
+              "hindi": "वाक्य भेद (सरल, संयुक्त, मिश्र वाक्य; वाक्य शुद्धि; मुहावरे एवं लोकोक्तियां; विराम चिह्न)"
+            },
+            {
+              "english": "Hindi Language & Devanagari Script: Origin, Dialects of Hindi, Evolution of Devanagari, Scientific Standardization",
+              "hindi": "हिन्दी भाषा और देवनागरी लिपि (उद्भव, बोलियाँ, देवनागरी का उद्भव, विकास, वैज्ञानिकता एवं मानकीकरण)"
+            },
+            {
+              "english": "Functional Hindi (प्रयोजनमूलक हिन्दी): Official correspondence, Media (Print & Electronic Journalism), Computing in Hindi",
+              "hindi": "प्रयोजनमूलक हिन्दी (कार्यालयी हिन्दी, पत्राचार, प्रिंट व इलेक्ट्रॉनिक पत्रकारिता, हिन्दी भाषा कम्प्यूटिंग)"
+            }
+          ]
+        },
+        {
+          "id": "hindi-u2",
+          "title": {
+            "english": "Literature (खण्ड : ब - साहित्य)",
+            "hindi": "खण्ड : ब - साहित्य"
+          },
+          "topics": [
+            {
+              "english": "History of Hindi Literature: Periodization & Trends (Adikal, Bhaktikal, Ritikal, Adhunikkal); Literary Genres (Poetry forms, Novels, Stories, Drama, One-act plays, Essays, Memoirs, Sketches, Biographies, Travelogues, Diaries, Features)",
+              "hindi": "हिन्दी साहित्य का इतिहास (आदिकाल, भक्तिकाल, रीतिकाल, आधुनिककाल; काव्य रूप, उपन्यास, कहानी, नाटक, एकांकी, निबंध, संस्मरण, रेखाचित्र, जीवनी, आत्मकथा, यात्रा साहित्य)"
+            },
+            {
+              "english": "Elements of Poetics (काव्यांग परिचय): Rasa (Rasavayava, 11 Rasas); Chhanda (Matrik & Varnik Chhandas); Alankara (Anuprasa, Yamaka, Slesha, Upama, Rupaka, Utpreksha, etc.); Shabda Shakti (Abhidha, Lakshana, Vyanjana)",
+              "hindi": "काव्यांग परिचय (रस, स्थायीभाव, रसभेद; मात्रिक एवं वर्णिक छन्द; प्रमुख अलंकार; शब्द शक्तियां: अभिधा, लक्षणा, व्यंजना)"
+            },
+            {
+              "english": "Poets & Authors: Amir Khusro, Chandbardai, Kabir, Jayasi, Surdas, Tulsidas, Meera, Keshav, Bihari, Bhushan, Ghananand; Bharatendu, Maithilisharan Gupt, Prasad, Pant, Nirala, Mahadevi Varma, Dinkar, Agyeya, Muktibodh, Nagarjun, Manglesh Dabral, Viren Dangwal, etc.",
+              "hindi": "प्रमुख कवि एवं गद्यकार (कबीर, सूर, तुलसी, जायसी, मीरा, बिहारी; भारतेन्दु, प्रसाद, पन्त, निराला, महादेवी; प्रेमचंद, गुलेरी, हजारीप्रसाद द्विवेदी, मोहन राकेश, शैलेश मटियानी, मंगलेश डबराल, वीरेन डंगवाल)"
+            },
+            {
+              "english": "Regional Languages & Folk Literature of Uttarakhand (उत्तराखण्ड की जनपदीय भाषाएँ और साहित्य)",
+              "hindi": "उत्तराखण्ड की भाषाएँ, लोकसाहित्य, प्रमुख साहित्यकार (तारादत्त गैरोला, अबोधबन्धु बहुगुणा, मोहनलाल नेगी, गौर्दा, शेरदा अनपढ़, चारुचन्द्र पाण्डे)"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 1,
+          "source_text": "सहायक अध्यापक हिन्दी (एल0टी० ग्रेड) हेतु पाठ्यक्रम\nविषय-हिन्दी\nखण्ड : अ-भाषा\n1. हिन्दी वर्णमाला-\n(क) स्वर, व्यंजन, अयोगवाह\n(ख) वर्ण, अक्षर, शब्द, पद, वाक्य\n(ग) वर्तनी, वर्तनी का मानकीकरण, वर्तनी विश्लेषण\n2. हिन्दी शब्द रचना-\nसंधि, समास, उपसर्ग, प्रत्यय |\n3. शब्द भेद\n1. रचना की दृष्टि से-रूढ, यौगिक, योगरूढ़ ।\n2. इतिहास की दृष्टि से- तत्सम, तद्भव, देशज, विदेशी, संकर ।\n3. व्याकरण की दृष्टि से-संज्ञा, सर्वनाम, क्रिया, क्रिया विशेषण |\n4. अर्थ की दृष्टि से- विलोम, पर्यायवाची, अनेकार्थी, वाक्यांश के लिए प्रयुक्त एक शब्द |\n4. वाक्य-\n(क) रचना की दृष्टि से वाक्य भेद- सरल वाक्य, संयुक्त वाक्य, मिश्र वाक्य\n(ख) वाक्य शुद्धि\n(ग) मुहावरे एवं लोकोक्तियां\n5. विराम चिन्ह\n6. हिन्दी भाषा और देवनागरी लिपि :\n(क) हिन्दी भाषा का उद्भव और विकास\n(ख) हिन्दी की बोलियाँ\n(ग) देवनागरी लिपि का उद्भव और विकास\n(घ) देवनागरी लिपि की वैज्ञानिकता एवं मानकीकरण"
+        },
+        {
+          "page": 2,
+          "source_text": "7. प्रयोजनमूलक हिन्दी :\n(क) कार्यालयी हिन्दी : स्वरूप एवं पत्राचार\n(ख) हिन्दी भाषा के विविध रूप\n(ग) हिन्दी पत्रकारिता : प्रिंट एवं इलेक्ट्रॉनिक पत्रकारिता\n(घ) हिन्दी भाषा कम्प्यूटिंग\n\nखण्ड : ब-साहित्य\n1. हिन्दी साहित्य का इतिहास-\n(क) काल विभाजन एवं नामकरण : आदिकाल, भक्तिकाल, रीतिकाल, आधुनिककाल- प्रमुख प्रवृत्तियाँ, रचनाकार एवं रचनाएँ |\n(ख) साहित्यिक विधाएँ : सामान्य परिचय |\n1. पद्य साहित्य- प्रबन्ध काव्य, खण्ड काव्य, मुक्तक काव्य |\n2. गद्य साहित्य- उपन्यास, कहानी, नाटक, एकांकी, निबंध, संस्मरण, रेखाचित्र, जीवनी, रिपोर्ताज, आत्मकथा, यात्रा साहित्य, डायरी, फीचर |\n2. काव्यांग परिचय :\n(क) रस-\n1. रसावयव- स्थायीभाव, विभाव, अनुभाव, संचारीभाव\n2. रसभेद- श्रृंगार, हास्य, वीर, अद्भुत, करुण, रौद्र, भयानक, वीभत्स, शान्त, भक्ति, वात्सल्य |\n(ख) छन्द-\n1. मात्रिक छन्द- दोहा, चौपाई, रोला, सोरठा, सवैया, बरवै।\n2. वर्णिक छन्द- वसन्ततिलका, उपेन्द्रवज्रा, शिखरिणी, मालिनी\n(ग) अलंकार -\nअनुप्रास, यमक, श्लेष, उत्प्रेक्षा, उपमा, रूपक, अतिशयोक्ति, वक्रोक्ति, विशेषोक्ति, विभावना, समासोक्ति, अन्योक्ति, संदेह, भ्रान्तिमान |\n(घ) शब्द शक्ति- अभिधा, लक्षणा, व्यंजना |"
+        },
+        {
+          "page": 3,
+          "source_text": "3. हिन्दी काव्य-1\n(क) आदिकालीन एवं भक्तिकालीन काव्य- अमीर खुसरो, चन्दवरदाई, कबीर, जायसी, सूर, तुलसी, मीरा।\n(ख) रीतिकालीन काव्य- केशव, बिहारी, भूषण, घनानन्द\n4. हिन्दी काव्य-2 आधुनिक काव्य-\n(क) भारतेन्दु युग से छायावाद तक- भारतेन्दु, हरिऔध, मैथिलीशरण गुप्त, श्रीधर पाठक, चंद्रकुँवर बर्त्वाल, जयशंकर प्रसाद, सुमित्रानंदन पंत, सूर्यकान्त त्रिपाठी निराला, महादेवी वर्मा |\n(ख) छायावादोत्तर काव्य- हरिवंशराय बच्चन, रामधारी सिंह दिनकर, अज्ञेय, मुक्तिबोध, नागार्जुन, नरेश मेहता, केदारनाथ सिंह, अशोक बाजपेयी, लीलाधर जगूड़ी, मंगलेश डबराल, वीरेन डंगवाल, सर्वेश्वरदयाल सक्सेना, रघुवीर सहाय, केदारनाथ अग्रवाल |\n5. हिन्दी गद्य-\nकथा साहित्य- चन्द्रधर शर्मा गुलेरी, प्रेमचंद, जयशंकर प्रसाद, पाण्डेय बेचन शर्मा 'उग्र', हजारी प्रसाद द्विवेदी, इलाचन्द्र जोशी, जैनेन्द्र, यशपाल, मोहन राकेश, शैलेश मटियानी, राजेन्द्र यादव, कमलेश्वर, कृष्णा सोबती, मनोहर श्याम जोशी, फणीश्वर नाथ रेणु, भीष्म साहनी, मन्नू भण्डारी, उषा प्रियंवदा, वल्लभ डोभाल, सुभाष पंत, निर्मल वर्मा।\n6. नाट्य साहित्य-\nभारतेन्दु हरिश्चन्द्र, रामकुमार वर्मा, उपेन्द्रनाथ 'अश्क', भुवनेश्वर, सेठ गोविन्द दास, जगदीश चन्द्र माथुर, उदयशंकर भट्ट, गोविन्द बल्लभ पंत, जयशंकर प्रसाद, मोहन राकेश, विष्णु प्रभाकर, लक्ष्मीनारायण मिश्र।\n7. कथेतर गद्य-\nनिबंध- चंद्रधर शर्मा गुलेरी, बालकृष्ण भट्ट, रामचन्द्र शुक्ल, हजारी प्रसाद द्विवेदी, रामधारी सिंह दिनकर, विद्यानिवास मिश्र, कुबेरनाथ राय, हरिशंकर परसाई |"
+        },
+        {
+          "page": 4,
+          "source_text": "8. रेखाचित्र एवं अन्य गद्य विधाएँ- पद्म सिंह शर्मा कमलेश, बनारसी दास चतुर्वेदी, महादेवी वर्मा, रामवृक्ष बेनीपुरी, कन्हैयालाल मिश्र, विष्णु प्रभाकर |\n9. जनपदीय भाषा एवं साहित्य-\n(क) उत्तराखण्ड की भाषाएँ एवं उनके लोकसाहित्य का परिचय |\n(ख) तोताकृष्ण गैरोला, तारादत्त गैरोला, जीवानन्द श्रीयाल, अबोधबन्धु बहुगुणा, मोहनलाल नेगी, महावीर प्रसाद गैरोला, गौर्दा, शेरदा अनपढ़, चारुचन्द्र पाण्डे, देवकी नन्दन ध्यानी |"
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "subject": {
+        "english": "English",
+        "hindi": "अंग्रेज़ी"
+      },
+      "page_range": "5-6",
+      "color": "#1a73e8",
+      "icon": "Languages",
+      "units": [
+        {
+          "id": "eng-u1",
+          "title": {
+            "english": "Unit 1: English Grammar",
+            "hindi": "इकाई 1: अंग्रेज़ी व्याकरण"
+          },
+          "topics": [
+            {
+              "english": "Parts of Speech, Tenses, Articles, Prepositions, Subject-Verb Agreement, Transformation of Sentences",
+              "hindi": "Parts of Speech, Tenses, Articles, Prepositions, Subject-Verb Agreement, Transformation of Sentences"
+            }
+          ]
+        },
+        {
+          "id": "eng-u2",
+          "title": {
+            "english": "Unit 2: English Usage & Vocabulary",
+            "hindi": "इकाई 2: अंग्रेज़ी प्रयोग एवं शब्दावली"
+          },
+          "topics": [
+            {
+              "english": "One Word Substitution, Antonyms, Synonyms, Spotting Errors in Sentences, Figures of Speech, Comprehension",
+              "hindi": "One Word Substitution, Antonyms, Synonyms, Spotting Errors, Figures of Speech, Comprehension Passages"
+            }
+          ]
+        },
+        {
+          "id": "eng-u3",
+          "title": {
+            "english": "Unit 3: Literary Forms and Movements",
+            "hindi": "इकाई 3: साहित्यिक रूप एवं आंदोलन"
+          },
+          "topics": [
+            {
+              "english": "Movements: Renaissance, Metaphysical Poets, Neo-classical Age, Romanticism, Victorianism, Modernism, Avant-garde",
+              "hindi": "Renaissance, Metaphysical Poets, Neo-classical Age, Romanticism, Victorianism, Modernism, Avant-garde"
+            },
+            {
+              "english": "Dramatic Terms: Dramatic Irony, Climax, Chorus, Hamartia, Soliloquy, Aside, Conflict, Atmosphere, Catastrophe, Action, Plot",
+              "hindi": "Dramatic Terms (Irony, Climax, Chorus, Hamartia, Soliloquy, Aside, Conflict, Plot)"
+            },
+            {
+              "english": "Poetic Forms: Ballad, Ode, Dramatic Monologue, Heroic Couplet, Lyric, Sonnet, Conceit, Elegy, Poetic Diction, Imagery, Allusion, Symbolism",
+              "hindi": "Poetic Forms (Ballad, Ode, Dramatic Monologue, Heroic Couplet, Sonnet, Elegy, Imagery, Symbolism)"
+            },
+            {
+              "english": "Fiction: Picaresque Novel, Regional Novel, Stream of Consciousness Technique, Caricature, Novella",
+              "hindi": "Fiction (Picaresque Novel, Regional Novel, Stream of Consciousness, Novella)"
+            }
+          ]
+        },
+        {
+          "id": "eng-u4",
+          "title": {
+            "english": "Unit 4: Drama",
+            "hindi": "इकाई 4: नाटक"
+          },
+          "topics": [
+            {
+              "english": "Shakespeare: Twelfth Night, As You Like It (Comedies); Othello, Macbeth (Tragedies)",
+              "hindi": "Shakespeare: Twelfth Night, As You Like It, Othello, Macbeth"
+            },
+            {
+              "english": "G.B. Shaw: Arms and the Man; Girish Karnad: Tughlaq; J.M. Synge: Riders to the Sea",
+              "hindi": "G.B. Shaw: Arms and the Man; Girish Karnad: Tughlaq; J.M. Synge: Riders to the Sea"
+            }
+          ]
+        },
+        {
+          "id": "eng-u5",
+          "title": {
+            "english": "Unit 5: Poetry",
+            "hindi": "इकाई 5: काव्य"
+          },
+          "topics": [
+            {
+              "english": "British Poetry: John Donne, Alexander Pope, William Wordsworth, John Keats, Alfred Tennyson, Robert Browning, T.S. Eliot, W.B. Yeats",
+              "hindi": "British Poetry: Donne, Pope, Wordsworth, Keats, Tennyson, Browning, Eliot, Yeats"
+            },
+            {
+              "english": "American Poetry: Walt Whitman, Emily Dickinson, Robert Frost, Sylvia Plath",
+              "hindi": "American Poetry: Whitman, Dickinson, Frost, Plath"
+            },
+            {
+              "english": "Indian English Poetry: Nissim Ezekiel, A.K. Ramanujan, Sarojini Naidu, Kamala Das",
+              "hindi": "Indian English Poetry: Ezekiel, Ramanujan, Naidu, Kamala Das"
+            }
+          ]
+        },
+        {
+          "id": "eng-u6",
+          "title": {
+            "english": "Unit 6: Fiction & Prose",
+            "hindi": "इकाई 6: उपन्यास एवं गद्य"
+          },
+          "topics": [
+            {
+              "english": "Thomas Hardy (The Mayor of Casterbridge), Charles Dickens (Oliver Twist), Virginia Woolf (Mrs. Dalloway), Mulk Raj Anand (Untouchable), R.K. Narayan (The Guide)",
+              "hindi": "Hardy, Dickens, Virginia Woolf, Mulk Raj Anand, R.K. Narayan"
+            },
+            {
+              "english": "Essays: Francis Bacon (Of Studies, Of Truth), Joseph Addison, Charles Lamb, William Hazlitt, Mahatma Gandhi (My Experiments with Truth), Bertrand Russell, S. Radhakrishnan, Amitav Ghosh, Arundhati Roy",
+              "hindi": "Bacon, Addison, Lamb, Hazlitt, Mahatma Gandhi, Russell, Radhakrishnan, Amitav Ghosh, Arundhati Roy"
+            }
+          ]
+        },
+        {
+          "id": "eng-u7",
+          "title": {
+            "english": "Unit 7: Indian Writing in Translation",
+            "hindi": "इकाई 7: अनुवाद में भारतीय लेखन"
+          },
+          "topics": [
+            {
+              "english": "Saadat Hasan Manto (Toba Tek Singh), Vijay Tendulkar (Silence! The Court is in Session), Munshi Premchand (Deliverance), Ismat Chughtai (Kallu), Mahasweta Devi (Mother of 1084)",
+              "hindi": "Manto (Toba Tek Singh), Vijay Tendulkar, Premchand (Deliverance), Ismat Chughtai, Mahasweta Devi (Mother of 1084)"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 5,
+          "source_text": "Syllabus for the Post of Assistant Teacher (LT Grade)\nEnglish\nUNIT 1: ENGLISH GRAMMAR\n(a) Parts of Speech\n(b) Tenses\n(c) Articles\n(d) Prepositions\n(e) Subject/verb Agreement\n(f) Transformation of Sentences\nUNIT 2: ENGLISH USAGE\n(a) One Word Substitution\n(b) Antonyms\n(c) Synonyms\n(d) Spotting Errors in Sentences\n(e) Figures of Speech\n(f) Comprehension\nUNIT 3: LITERARY FORMS AND MOVEMENTS\n(a) Renaissance, Metaphysical Poets, Neo-classical Age, Romanticism, Victorianism, Modernism, Avant-garde\n(b) Dramatic Irony, Climax, Chorus, Hamartia, Soliloquy, Aside, Conflict, Atmosphere, Catastrophe, Action, Plot\n(c) Ballad, Ode, Dramatic Monologue, Heroic Couplet, Lyric, Sonnet, Conceit, Elegy, Poetic Diction, Imagery, Allusion, Symbolism\n(d) Fiction, Picaresque Novel, Regional Novel, Stream of Consciousness Technique, Caricature, Novella\nUNIT 4: DRAMA\n(a) Shakespearean Comedies: Twelfth Night, As You Like It\n(b) Shakespearean Tragedies: Othello, Macbeth\n(c) GB Shaw: Arms and the Man\n(d) Girish Karnad: Tughlaq\n(e) J M Synge- Riders to the Sea\nUNIT 5: POETRY\n(i) British Poetry: John Donne, Alexander Pope, William Wordsworth, John Keats, Alfred Tennyson, Robert Browning, TS Eliot, WB Yeats\n(ii) American Poetry: Walt Whitman, Emily Dickinson, Robert Frost"
+        },
+        {
+          "page": 6,
+          "source_text": "(d) Sylvia Plath\n(iii) Indian English Poetry: Nissim Ezekiel, A K Ramanujan, Sarojini Naidu, Kamala Das\n\nUNIT 6: FICTION & PROSE\n(a) Thomas Hardy: The Mayor of Casterbridge\n(b) Charles Dickens: Oliver Twist\n(c) Virginia Woolf: Mrs. Dalloway\n(d) Mulk Raj Anand: Untouchable\n(e) RK Narayan: The Guide\n(f) Francis Bacon: Of Studies, Of Truth\n(g) Joseph Addison: Sir Roger at Home\n(h) Charles Lamb: Poor Relations, Dream Children\n(i) William Hazlitt: On the Ignorance of the Learned\n(j) Mahatma Gandhi: The Story of My Experiments with Truth\n(k) Other Major Prose Writers: A G Gardiner, Bertrand Russell, S. Radhakrishnan, Amitav Ghosh, Arundhati Roy\n\nUNIT 7: INDIAN WRITING IN TRANSLATION\n(a) Saadat Hasan Manto: Toba Tek Singh\n(b) Vijay Tendulkar: Silence! The Court is in Session\n(c) Munshi Premchand: Deliverance\n(d) Ismat Chughtai: Kallu\n(e) Mahasweta Devi: Mother of 1084"
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "subject": {
+        "english": "Mathematics",
+        "hindi": "गणित"
+      },
+      "page_range": "9-11",
+      "color": "#1e8e3e",
+      "icon": "Binary",
+      "units": [
+        {
+          "id": "math-u1",
+          "title": {
+            "english": "Set Theory, Matrices & Trigonometry",
+            "hindi": "समुच्चय सिद्धान्त, आव्यूह एवं त्रिकोणमिति"
+          },
+          "topics": [
+            {
+              "english": "Set Theory: Sets, Operations, Relations, Equivalence Relations, Functions (Domain, Co-domain, Range, Composition)",
+              "hindi": "समुच्चय, संबंध, तुल्यता संबंध, फलन, प्रांत, सह-प्रांत, परास एवं फलनों का संयोजन"
+            },
+            {
+              "english": "Matrices and Determinants: Types of matrices, Inverse, Rank, Eigenvalues & Eigenvectors, System of Linear Equations, Properties of Determinants",
+              "hindi": "आव्यूह के प्रकार, व्युत्क्रम, जाति (Rank), आइगेन मान ও सदिश, रैखिक समीकरण निकाय का हल, सारणिक गुणधर्म"
+            },
+            {
+              "english": "Trigonometry: Trigonometric functions and equations, Inverse trigonometric functions, Exponential/circular/hyperbolic/logarithmic functions, Gregory series, Summation of series",
+              "hindi": "त्रिकोणमितीय फलन एवं समीकरण, प्रतिलोम फलन, अतिपरवलयिक फलन, ग्रेगरी श्रेणी, श्रेणियों का योग"
+            }
+          ]
+        },
+        {
+          "id": "math-u2",
+          "title": {
+            "english": "Vector Analysis & Calculus",
+            "hindi": "सदिश विश्लेषण एवं कलन (Calculus)"
+          },
+          "topics": [
+            {
+              "english": "Vector Analysis: Vector/scalar products, Del operator, Gradient, Directional Derivative, Divergence, Curl, Line/Surface/Volume integrals, Theorems of Green, Stokes and Gauss",
+              "hindi": "सदिश एवं अदिश गुणन, डेल ऑपरेटर, प्रवणता (Gradient), डायवर्जेंस, कर्ल, रेखा/पृष्ठ/आयतन समाकल, ग्रीन, स्टोक्स एवं गॉस प्रमेय"
+            },
+            {
+              "english": "Differential Calculus: Limits, Continuity, Differentiability, Leibnitz Theorem, Rolle's & Mean Value Theorems, Indeterminate Forms, Curvature, Asymptotes, Partial differentiation, Euler's theorem, Maxima/Minima and Saddle points",
+              "hindi": "सीमा, सांतत्य, अवकलनीयता, लेबनीज प्रमेय, रोले एवं मध्यमान प्रमेय, अनिश्चित रूप, अनंतस्पर्शी, आंशिक अवकलन, आयलर प्रमेय, उच्चिष्ठ एवं निम्निष्ठ"
+            },
+            {
+              "english": "Integral Calculus: Definite integrals and properties, Beta and Gamma functions, Multiple integrals, Applications to finding Length, Area and Volume",
+              "hindi": "निश्चित समाकल, बीटा एवं गामा फलन, बहु-समाकल, लम्बाई, क्षेत्रफल एवं आयतन ज्ञात करने में अनुप्रयोग"
+            }
+          ]
+        },
+        {
+          "id": "math-u3",
+          "title": {
+            "english": "Coordinate Geometry, Algebra & Differential Equations",
+            "hindi": "निर्देशांक ज्यामिति, बीजगणित एवं अवकल समीकरण"
+          },
+          "topics": [
+            {
+              "english": "Coordinate Geometry: 2D (Straight lines, Circles, Conics, Polar coordinates) and 3D (Direction cosines, Planes, Straight lines in space, Sphere, Cone, Cylinder)",
+              "hindi": "2D: सरल रेखाएं, वृत्त, शांकव परिच्छेद; 3D: दिक्-कोज्याएँ, समतल, त्रिविम में सरल रेखा, गोला, शंकु एवं बेलन"
+            },
+            {
+              "english": "Abstract Algebra: Descarte's Rule of signs, Roots of cubic equations, Binary operations, Groups, Subgroups, Cyclic groups, Permutation groups, Cosets, Lagrange's Theorem, Rings, Integral Domains, Fields",
+              "hindi": "देकार्त का चिन्ह नियम, त्रिघात समीकरण के मूल, समूह (Groups), उपसमूह, चक्रीय समूह, क्रमचय समूह, लैग्रेंज प्रमेय, वलय (Rings), पूर्णांकीय प्रांत एवं क्षेत्र"
+            },
+            {
+              "english": "Differential Equations: Order & Degree, First-order ODEs, Linear ODE with constant coefficients, Cauchy-Euler equations, Simultaneous ODEs, Total differential equations, First-order PDEs",
+              "hindi": "अवकल समीकरण की कोटि व घात, प्रथम कोटि के ODE, अचर गुणांक वाले रैखिक ODE, कौशी-आयलर समीकरण, PDE का वर्गीकरण"
+            }
+          ]
+        },
+        {
+          "id": "math-u4",
+          "title": {
+            "english": "Analysis, Linear Algebra, Numerical Methods & Statistics",
+            "hindi": "विश्लेषण, रैखिक बीजगणित, संख्यात्मक विधियां एवं सांख्यिकी"
+          },
+          "topics": [
+            {
+              "english": "Real & Complex Analysis: Real number system, Countability, Open/Closed sets, Completeness of R, Complex numbers, Argand plane, Analytic functions, Cauchy-Riemann equations",
+              "hindi": "वास्तविक संख्या निकाय, संवृत्त/विवृत्त समुच्चय, R की पूर्णता, सम्मिश्र संख्याएं, अर्गैंड तल, विश्लेषिक फलन"
+            },
+            {
+              "english": "Linear Algebra: Vector spaces, Subspaces, Linear span, Linear independence/dependence, Basis and dimension, Linear transformations",
+              "hindi": "सदिश समष्टि, उप-समष्टि, रैखिक विस्तृति, रैखिक स्वतंत्रता/परतंत्रता, आधार एवं विमा, रैखिक रूपांतरण"
+            },
+            {
+              "english": "Numerical Analysis & Mathematical Statistics: Finite differences, Lagrange's and Newton's Interpolation, Root finding methods; Probability axioms, Bayes' Theorem, Central Tendency, Dispersion, Correlation & Regression",
+              "hindi": "परिमित अंतर ऑपरेटर, न्यूटन व लैग्रेंज अंतर्वेशन, मूल ज्ञात करने की विधियां; प्रायिकता, बेयस प्रमेय, केंद्रीय प्रवृत्ति के माप, अपकिरण, सहसंबंध एवं प्रतीपगमन"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 9,
+          "source_text": "SYLLABUS FOR THE POST OF ASSISTANT TEACHER (LT GRADE)- MATHEMATICS\nSet Theory: Sets, Type of sets, Operations on sets, Relation, Equivalence relation, Function, Domain, Co-domain and range, Types of functions, Composition of functions.\nMatrices and Determinants: Types of matrices, Elementary operations, Inverse of matrix, Rank of matrix, Eigenvectors and Eigen values, Characteristic equation, Solution of system of linear equations, Determinant and its properties.\nTrigonometry: Trigonometric functions, Trigonometric equations, Inverse trigonometric functions, Exponential, circular and hyperbolic functions, Logarithmic functions and their inverse, Gregory series, Summation of trigonometric series.\nVector Analysis: Vector and scalar product, Differentiation and integration of vectors, Differential operator Del, Gradient and directional derivative, curl and divergence, Line, Surface and Volume integrals and their applications to the theorems of Green's , Stoke's and Gauss's.\nDifferential Calculus: Limit, continuity and differentiability, Successive differentiation and Leibnitz theorem, Rolle's theorem, Mean value theorems, Expansion of functions, Indeterminate forms, Tangents and normals, Curvature, Asymptotes, Partial differentiation, Euler's theorem, Maxima/minima and saddle point.\nIntegral Calculus: Definite integral and properties, Limit of a sum/product, Beta and gamma integrals with their properties, Multiple integrals, Application to find length, area and volume."
+        },
+        {
+          "page": 10,
+          "source_text": "Coordinate Geometry:\n2D: Cartesian coordinate system, Straight line, Circle and conic sections, Polar coordinate system.\n3D: Cartesian coordinate system, Direction ratios and cosines, Projection, Plane, Straight line, Sphere, Cone and cylinder.\n\nAlgebra:\nDescarte's rule of sign, Roots of polynomial equation up to degree 3 and their properties.\nBinary operation, Group, Abelian group, Order of an element, Order of group, Subgroup, Cyclic group, Permutations and permutation group, Coset, Normal subgroup, Quotient group, Lagrange's theorem, Ring, Integral domain and field.\n\nDifferential Equations:\nOrder and degree of ODE, types of solutions of ODE, First order and first degree ODE and their solutions, ODE of first order and higher degree, Orthogonal trajectories, Linear ODE with constant coefficients, Cauchy-Euler homogeneous ODE, Simultaneous ODE's, Total differential equation. Order and degree of PDE, Classification of first order PDE and their solutions.\n\nAnalysis:\nReal number system, Countability of sets, Neighborhood of a point, Open and closed sets, bounded set, limit point, Completeness property of R, Archimedean principle, Order axioms. Complex numbers and their properties, Argand plane, Polar representation of complex numbers, Locus of a point on complex plane, Complex functions, Limit, continuity and differentiability of function of complex variables, Analytic function.\n\nLinear Algebra:\nVector space, Subspace, Cosets, Quotient space, linear combination of vectors, Linear span, Linearly independent and dependent vectors, Basis and dimension, Linear transformation."
+        },
+        {
+          "page": 11,
+          "source_text": "Numerical Analysis:\nFinite difference operators, Interpolation, Lagrange's and Newton's interpolation formulae, Root finding methods for nonlinear equations, System of linear equations and its solution.\n\nMathematical Statistics:\nRandom experiment, Sample space, Events and their types, Axioms of probability, Addition and multiplication theorems, Conditional probability, Baye's theorem.\nMeasures of central tendency, Measures of dispersion, Correlation and regression."
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "subject": {
+        "english": "Physics",
+        "hindi": "भौतिक विज्ञान"
+      },
+      "page_range": "12-27",
+      "color": "#7c4dff",
+      "icon": "Atom",
+      "units": [
+        {
+          "id": "phys-u1",
+          "title": {
+            "english": "Mechanics & Relativity",
+            "hindi": "यांत्रिकी एवं आपेक्षिकता का सिद्धांत"
+          },
+          "topics": [
+            {
+              "english": "Vector Analysis, Gravitation Field and Potential, Kepler's Laws, Conservation of Energy, Conservation of Linear & Angular Momentum, Dynamics of Rigid Body, Moment of Inertia",
+              "hindi": "सदिश विश्लेषण, गुरुत्वाकर्षण क्षेत्र एवं विभव, केप्लर नियम, ऊर्जा/संवेग संरक्षण, दृढ़ पिण्ड की गति, जड़त्व आघूर्ण प्रमेय"
+            },
+            {
+              "english": "Fluid Mechanics: Surface Tension, Viscosity (Poiseuille's formula), Elasticity (Hooke's law, Elastic moduli, Poisson's ratio, Torsion)",
+              "hindi": "पृष्ठ तनाव, श्यानता (प्वॉजुली सूत्र), प्रत्यास्थता (हुक का नियम, प्वासों अनुपात, मरोड़ी लोलक)"
+            },
+            {
+              "english": "Special Theory of Relativity: Michelson-Morley experiment, Lorentz Transformations, Length contraction, Time dilation, Mass-energy equivalence (E=mc²), Four-vectors",
+              "hindi": "आपेक्षिकता का विशिष्ट सिद्धांत, माइकलसन-मोर्ले प्रयोग, लारेन्ज रूपांतरण, लम्बाई संकुचन, समय विस्फारण, द्रव्यमान-ऊर्जा संबंध (E=mc²)"
+            }
+          ]
+        },
+        {
+          "id": "phys-u2",
+          "title": {
+            "english": "Electricity, Magnetism & EM Waves",
+            "hindi": "विद्युत, चुम्बकत्व एवं विद्युत-चुम्बकीय तरंगें"
+          },
+          "topics": [
+            {
+              "english": "Electrostatics: Gauss's theorem and applications, Electric potential, Capacitance, Dielectrics, Polarization",
+              "hindi": "स्थिरवैद्युतिकी: गॉस प्रमेय व अनुप्रयोग, वैद्युत विभव, धारिता, परावैद्युत माध्यम, ध्रुवण"
+            },
+            {
+              "english": "Electromagnetic Induction: Faraday's and Lenz's laws, Self and Mutual inductance, Magnetic energy density",
+              "hindi": "फैराडे एवं लेन्ज के नियम, स्व एवं अन्योन्य प्रेरण, चुम्बकीय ऊर्जा घनत्व"
+            },
+            {
+              "english": "Maxwell's Equations & EM Waves: Displacement current, Maxwell's equations, Poynting vector, EM wave propagation, Transverse nature",
+              "hindi": "मैक्सवेल के समीकरण, विस्थापन धारा, प्वाइंटिंग सदिश, विद्युत-चुम्बकीय तरंग संचरण"
+            }
+          ]
+        },
+        {
+          "id": "phys-u3",
+          "title": {
+            "english": "Thermal, Statistical & Wave Physics",
+            "hindi": "ऊष्मागतिकी, सांख्यिकीय भौतिकी एवं तरंगें"
+          },
+          "topics": [
+            {
+              "english": "Thermodynamics: Laws of Thermodynamics, Carnot Cycle, Entropy, Thermodynamic Potentials, Maxwell Relations, Joule-Thomson effect, Clausius-Clapeyron equation",
+              "hindi": "ऊष्मागतिकी के नियम, कार्नो चक्र, एन्ट्रॉपी, मैक्सवेल संबंध, जूल-थॉमसन प्रभाव, क्लासियस-क्लैपेरॉन समीकरण"
+            },
+            {
+              "english": "Kinetic Theory & Radiation: Maxwell velocity distribution, Mean free path, Blackbody Radiation, Planck's, Wien's & Stefan-Boltzmann laws",
+              "hindi": "मैक्सवेल वेग वितरण, कृष्णिका विकिरण, प्लांक, वीन एवं स्टीफन-बोल्ट्जमान नियम"
+            },
+            {
+              "english": "Statistical Mechanics: Micro/Macro states, Maxwell-Boltzmann, Fermi-Dirac and Bose-Einstein statistics",
+              "hindi": "सांख्यिकीय यांत्रिकी: मैक्सवेल-बोल्ट्जमान, फर्मी-डिराक एवं बोस-आइंस्टीन सांख्यिकी"
+            },
+            {
+              "english": "Waves & Acoustics: SHM, Damped and Forced oscillations, Resonance, Ultrasonic waves (Piezoelectric effect, SONAR), Sabine's formula for reverberation",
+              "hindi": "सरल आवर्त गति, अवमंदित व प्रणोदित दोलन, अनुनाद, पराश्रव्य तरंगें (सोनार), भवन ध्वनिकी व सैबिन सूत्र"
+            }
+          ]
+        },
+        {
+          "id": "phys-u4",
+          "title": {
+            "english": "Optics, Modern Physics, Electronics & Solid State",
+            "hindi": "प्रकाशिकी, आधुनिक भौतिकी, इलेक्ट्रॉनिक्स एवं ठोस अवस्था"
+          },
+          "topics": [
+            {
+              "english": "Optics: Fermat's principle, Cardinal points, Eyepieces, Interference (Biprism, Thin films, Michelson interferometer), Diffraction (Fraunhofer single/double/N slits, Grating), Polarization (Brewster's & Malus laws)",
+              "hindi": "फर्मा सिद्धान्त, व्यतिकरण (द्विप्रिज्म, पतली फिल्में, माइकलसन व्यतिकरणमापी), विवर्तन (ग्रेटिंग), ध्रुवण (ब्रूस्टर व मैलस नियम)"
+            },
+            {
+              "english": "Quantum Mechanics: Wave-particle duality, De Broglie hypothesis, Heisenberg uncertainty, Schrödinger equation (1D well, Tunneling), Lasers (Ruby, He-Ne)",
+              "hindi": "तरंग-कण द्वैत, डी-ब्रोग्ली, हाइजेनबर्ग अनिश्चितता, श्रोडिंगर समीकरण (विभव कूप, टनलिंग), लेजर सिद्धांत"
+            },
+            {
+              "english": "Electronics & Solid State: Network Theorems (Thevenin, Norton, Max Power), Rectifiers, Transistors, Oscillators, Logic Gates, Boolean algebra; Crystal lattices, Bragg's Law, Band theory, Hall Effect",
+              "hindi": "थेवेनिन व नॉर्टन प्रमेय, दिष्टकारी, ट्रांजिस्टर, लॉजिक गेट्स, बूलियन बीजगणित; क्रिस्टल संरचना, ब्रैग नियम, बैंड सिद्धांत, हॉल प्रभाव"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 12,
+          "source_text": "Syllabus for the post of Assistant Teacher (LT. grade) Maths: Subject- Physics\nMechanics:\nVector Analysis: Scalar and Vector product, scalar and vector field, Del operator, Gradient, Divergence and Curl of vectors, Gauss’s, Stokes’s theorem.\nGravitation Field and Potential: Newtons law of gravitation, Orbital & Escape velocity, Gravitational field Intensity and potential due to a ring, shell, solid sphere, Kepler’s laws of planetary motion, artificial satellite.\nConservation of Energy: Inertial and non-inertial frames, Work energy theorem, Conservative forces, Motion near earth surface, Law of conservation of total energy."
+        },
+        {
+          "page": 15,
+          "source_text": "Electricity & Magnetism:\nElectrostatics: Electric flux, Gauss’s theorem. Applications to point charge, line charge, spherical shell, plane sheet. Electric potential, Capacitance of isolated conductor, parallel plate, cylindrical condensers. Dielectric medium, polarisation.\nElectromagnetic Induction: Faraday’s laws, Lenz’s law, self and mutual inductance, Energy stored in magnetic field.\nMaxwell’s Equations and EM Wave Propagation: Displacement current, Maxwell’s equations, Poynting vector, transverse nature of EM waves."
+        },
+        {
+          "page": 16,
+          "source_text": "Thermal and Statistical Physics:\nThermodynamics: Zeroth, First, Second, and Third laws of thermodynamics. Carnot’s cycle, Entropy, Enthalpy, Gibbs and Helmholtz potentials, Maxwell’s relations, Joule-Thomson Effect, Clausius-Clapeyron Equation.\nKinetic Theory & Radiation: Maxwell’s distribution of velocities, Mean free path, Blackbody radiation, Planck’s law, Wien’s displacement law, Stefan Boltzmann Law.\nStatistical Mechanics: Ensembles, Maxwell-Boltzmann, Fermi-Dirac, Bose-Einstein distribution laws."
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "subject": {
+        "english": "Chemistry",
+        "hindi": "रसायन विज्ञान"
+      },
+      "page_range": "28-39",
+      "color": "#0ea5e9",
+      "icon": "FlaskConical",
+      "units": [
+        {
+          "id": "chem-u1",
+          "title": {
+            "english": "Inorganic Chemistry",
+            "hindi": "अकार्बनिक रसायन"
+          },
+          "topics": [
+            {
+              "english": "Atomic Structure: Bohr's model, de Broglie, Heisenberg uncertainty, Schrödinger equation, Quantum numbers, Aufbau/Hund/Pauli rules",
+              "hindi": "परमाणु संरचना: बोहर मॉडल, डी-ब्रोग्ली संबंध, हाइजेनबर्ग अनिश्चितता, श्रोडिंगर समीकरण, क्वांटम संख्याएं, हुंड व पॉली नियम"
+            },
+            {
+              "english": "Periodic Properties: Atomic/ionic radii, Ionization potential, Electron affinity, Electronegativity trends",
+              "hindi": "आवर्ती गुण: परमाणु व आयनिक त्रिज्या, आयनन विभव, इलेक्ट्रॉन बंधुता, विद्युत ऋणात्मकता"
+            },
+            {
+              "english": "Chemical Bonding: Ionic bonding, Lattice energy, Born-Haber cycle, Fajan's rules; Covalent bonding, VSEPR theory, Hybridization, Molecular Orbital Theory (MOT)",
+              "hindi": "रासायनिक आबंधन: आयनिक बंध, बॉर्न-हेबर चक्र, फायान्स नियम; सहसंयोजक बंध, VSEPR सिद्धांत, संकरण, आणविक कक्षक सिद्धांत (MOT)"
+            },
+            {
+              "english": "s & p Block Elements, Transition Elements, Coordination Chemistry (Werner's theory, CFT, CFSE, Jahn-Teller effect), Lanthanides and Actinides",
+              "hindi": "s एवं p ब्लॉक तत्व, संक्रमण तत्व, उपसहसंयोजन रसायन (वर्नेर सिद्धांत, क्रिस्टल फील्ड थ्योरी), लैंथेनाइड एवं एक्टिनाइड"
+            }
+          ]
+        },
+        {
+          "id": "chem-u2",
+          "title": {
+            "english": "Organic & Physical Chemistry",
+            "hindi": "कार्बनिक एवं भौतिक रसायन"
+          },
+          "topics": [
+            {
+              "english": "Structure & Bonding in Organic Molecules, Reaction Intermediates (Carbocations, Carbanions, Free radicals), Reaction Mechanisms",
+              "hindi": "कार्बनिक अणुओं की संरचना, अभिक्रिया मध्यवर्ती (कार्बोकेटायन, कार्बेनायन, मुक्त मूलक), अभिक्रिया क्रियाविधि"
+            },
+            {
+              "english": "Stereochemistry: Optical isomerism (Chirality, Enantiomers, Diastereomers, R/S, D/L systems), Geometrical isomerism (E/Z), Conformational analysis of Ethane, Butane, Cyclohexane",
+              "hindi": "त्रिविम रसायन: प्रकाशिक समावयवता (किरैलता, प्रतिबिम्बरूप, R/S नामकरण), ज्यामितीय समावयवता (E/Z), संरूपण विश्लेषण"
+            },
+            {
+              "english": "Hydrocarbons: Alkanes (Wurtz, Kolbe), Alkenes (Markovnikov rule), Alkynes, Arenes & Aromaticity (Hückel 4n+2 rule), Alkyl/Aryl Halides, Alcohols, Carbonyl Compounds",
+              "hindi": "हाइड्रोकार्बन: एल्केन, एल्कीन (मारकोनीकॉफ नियम), एल्काइन, एरोमैटिकता (हकल नियम), एल्किल/एरिल हैलाइड, एल्कोहॉल, कार्बोनिल यौगिक"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 28,
+          "source_text": "Syllabus for Assistant Teacher LT Grade Science: Chemistry\nUnit 1: Atomic Structure, Periodic Properties, Chemical Bonding (Ionic & Covalent, VBT, VSEPR, MOT), s-Block & p-Block Elements, Metallurgy."
+        },
+        {
+          "page": 29,
+          "source_text": "Chemistry of Transition Elements, Coordination Chemistry (Werner, EAN, CFT, Spectrochemical series), Lanthanides and Actinides, Acids and Bases (Pearson HSAB concept), Non-aqueous Solvents."
+        },
+        {
+          "page": 30,
+          "source_text": "Unit 2: Structure and Bonding in Organic chemistry, Mechanism of organic reactions (Intermediates: Carbocations, carbanions, free radicals, carbenes), Stereochemistry (Optical, Geometrical, Conformational), Alkanes, Cycloalkanes, Alkenes."
+        }
+      ]
+    },
+    {
+      "id": "botany",
+      "subject": {
+        "english": "Botany",
+        "hindi": "वनस्पति विज्ञान"
+      },
+      "page_range": "40-42",
+      "color": "#16a34a",
+      "icon": "Sprout",
+      "units": [
+        {
+          "id": "bot-u1",
+          "title": {
+            "english": "Morphology, Anatomy, Embryology & Biodiversity",
+            "hindi": "आकारिकी, शरीररचना, भ्रूणविज्ञान एवं जैवविविधता"
+          },
+          "topics": [
+            {
+              "english": "Morphology: Roots, stems, leaves, flowers, fruits; Primary/secondary meristems, Anatomy of root, stem, leaf; Secondary growth",
+              "hindi": "पादप आकारिकी: जड़, तना, पत्ती, पुष्प, फल; प्राथमिक व द्वितीयक विभज्योतक, आंतरिक संरचना, द्वितीयक वृद्धि"
+            },
+            {
+              "english": "Embryology: Microsporogenesis (Male gametophyte), Megasporogenesis (Female gametophyte), Pollination, Double Fertilization, Polyembryony",
+              "hindi": "भ्रूणविज्ञान: लघुबीजाणुजनन, गुरुबीजाणुजनन, परागण, दोहरा निषेचन, बहुभ्रूणता"
+            },
+            {
+              "english": "Biodiversity, Hotspots, In-situ and Ex-situ conservation, Protected areas of Uttarakhand, IUCN, Chipko movement",
+              "hindi": "जैवविविधता संरक्षण, हॉटस्पॉट, स्वस्थाने व परस्थाने संरक्षण, उत्तराखण्ड के संरक्षित क्षेत्र, चिपको आंदोलन"
+            }
+          ]
+        },
+        {
+          "id": "bot-u2",
+          "title": {
+            "english": "Cytology, Genetics, Plant Physiology & Economic Botany",
+            "hindi": "कोशिकाविज्ञान, आनुवंशिकी, पादप कार्यिकी एवं आर्थिक वनस्पति"
+          },
+          "topics": [
+            {
+              "english": "Cytology & Genetics: Mitosis, Meiosis, Mendel's Laws, Linkage, DNA replication, Genetic code, Recombinant DNA, Tissue culture",
+              "hindi": "समसूत्री व अर्धसूत्री विभाजन, मेंडल के नियम, सहलग्नता, DNA प्रतिकृति, आनुवंशिक कोड, ऊतक संवर्धन"
+            },
+            {
+              "english": "Plant Physiology: Diffusion, Osmosis, Transpiration, Mineral Nutrition, Photosynthesis (Z-scheme, Calvin C3, C4, CAM), Respiration (Glycolysis, Krebs cycle, ETS), Plant Hormones (Auxin, Gibberellin, Cytokinin, Ethylene, ABA)",
+              "hindi": "परासरण, वाष्पोत्सर्जन, खनिज पोषण, प्रकाश संश्लेषण (Z-स्कीम, C3, C4, CAM चक्र), श्वसन (ग्लाइकोलिसिस, क्रेब्स चक्र), पादप हार्मोन"
+            },
+            {
+              "english": "Economic Botany: Cereals, Millets, Fruits of Uttarakhand, Fibres (Cotton, Hemp), Timbers (Sal, Teak, Deodar), Medicinal Plants (Aconitum, Rauwolfia, Ephedra)",
+              "hindi": "आर्थिक वनस्पति विज्ञान: खाद्यान्न, उत्तराखण्ड के फल, रेशे, प्रकाष्ठ (साल, सागौन, देवदार), औषधीय पादप (सर्पगंधा, एफेड्रा)"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 40,
+          "source_text": "Unit IV: Morphology, Anatomy and Embryology of flowering plants. Secondary growth. Anther and Ovule structure, Pollination, Fertilization.\nUnit V: Biodiversity and Conservation, Hotspots, Protected areas of Uttarakhand, Ecology, Pollution, Biostatistics."
+        },
+        {
+          "page": 41,
+          "source_text": "Unit VI: Cytology, Genetics, Molecular Biology and Biotechnology (Mendel laws, DNA/RNA, Protein synthesis, Tissue culture).\nUnit VII: Plant Physiology: Transpiration, Mineral nutrition, Photosynthesis (C3, C4, CAM), Respiration (Glycolysis, Krebs), Plant growth regulators."
+        },
+        {
+          "page": 42,
+          "source_text": "Unit VIII: Economic Botany and Plant Breeding: Cereals, Fruits of Uttarakhand, Timbers, Medicinal Plants (Aconitum, Rauwolfia, Ephedra), Crop improvement."
+        }
+      ]
+    },
+    {
+      "id": "zoology",
+      "subject": {
+        "english": "Zoology",
+        "hindi": "प्राणी विज्ञान"
+      },
+      "page_range": "43-48",
+      "color": "#ec4899",
+      "icon": "Fish",
+      "units": [
+        {
+          "id": "zoo-u1",
+          "title": {
+            "english": "Evolution, Cytology, Tissues & Diversity of Living Organisms",
+            "hindi": "जैव विकास, कोशिकाविज्ञान, ऊतक एवं जन्तु विविधता"
+          },
+          "topics": [
+            {
+              "english": "Evolution: Origin of life, Lamarckism, Darwinism, Mutation theory, Hardy-Weinberg Law, Speciation, Zoogeographical regions",
+              "hindi": "जीवन की उत्पत्ति, लैमार्कवाद, डार्विनवाद, हार्डी-वीनबर्ग नियम, जाति उद्भवन, प्राणि-भौगोलिक क्षेत्र"
+            },
+            {
+              "english": "Cytology & Molecular Biology: Cell organelles, Chromosomes, Cell cycle, DNA/RNA, Protein synthesis, Lac Operon model",
+              "hindi": "कोशिकांग, गुणसूत्र, कोशिका चक्र, DNA/RNA, प्रोटीन संश्लेषण, लैक ओपेरॉन मॉडल"
+            },
+            {
+              "english": "Animal Tissues & Diversity: Epithelial, Connective, Skeletal, Vascular, Muscular, Nervous tissues; Non-Chordata (Protozoa to Echinodermata) and Chordata comparative study",
+              "hindi": "जन्तु ऊतक (उपकला, संयोजी, पेशीय, तंत्रिका); अकशेरुकी एवं कशेरुकी जन्तुओं का तुलनात्मक अध्ययन"
+            }
+          ]
+        },
+        {
+          "id": "zoo-u2",
+          "title": {
+            "english": "Biochemistry, Physiology, Immunology, Behaviour & Economic Zoology",
+            "hindi": "जैवरसायन, कार्यिकी, प्रतिरक्षा, जन्तु व्यवहार एवं आर्थिक प्राणि विज्ञान"
+          },
+          "topics": [
+            {
+              "english": "Physiology: Digestion, Respiration (Gaseous transport), Circulation (Cardiac cycle, ECG), Excretion (Nephron, Ultrafiltration), Muscle contraction (Sliding filament), Endocrine glands",
+              "hindi": "पाचन, श्वसन (गैस परिवहन), परिसंचरण (हृदय चक्र, ECG), उत्सर्जन (वृक्क, पराछानन), पेशी संकुचन, अंतःस्रावी ग्रंथियां"
+            },
+            {
+              "english": "Immunology: Innate & Acquired immunity, B & T lymphocytes, Antibodies (Immunoglobulins), MHC, Allergy, Vaccines",
+              "hindi": "प्रतिरक्षा तंत्र: जन्मजात व उपार्जित, एंटीबॉडी (इम्युनोग्लोबुलिन), वैक्सीन, एलर्जी"
+            },
+            {
+              "english": "Economic Zoology & Environmental Biology: Apiculture, Sericulture, Aquaculture, Parasitology (Plasmodium, Ascaris); Ecosystems, Food webs, Biosphere reserves, IUCN Red Data Book",
+              "hindi": "मधुमक्खी पालन, रेशम कीट पालन, मत्स्य पालन, परजीवी विज्ञान; पारिस्थितिकी, खाद्य जाल, जैव संरक्षित क्षेत्र, रेड डाटा बुक"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 43,
+          "source_text": "Unit I: Origin of Life, Evolution (Darwinism, Modern synthetic theory, Hardy-Weinberg Law, Fossils).\nUnit II: Cytology and Molecular Biology (Plasma membrane, Cell division, DNA/RNA replication, Protein synthesis, Lac operon).\nUnit III: Animal Tissue System (Epithelial, Connective, Skeletal, Vascular, Muscular, Nervous).\nUnit IV: Genetics (Mendel laws, Linkage, Sex determination, Human genetics, Blood groups)."
+        },
+        {
+          "page": 44,
+          "source_text": "Unit V: Taxonomy and Diversity of Living Organisms: Non-Chordata (Protozoa to Echinodermata) & Chordata (Protochordata to Mammalia) comparative anatomy."
+        },
+        {
+          "page": 45,
+          "source_text": "Unit VI: Biochemistry, Physiology and Immunology: Metabolism, Digestion, Respiration, Circulation, Excretion, Muscle contraction, Endocrine Glands, Immune System."
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "subject": {
+        "english": "Geography",
+        "hindi": "भूगोल"
+      },
+      "page_range": "49-52",
+      "color": "#8b5cf6",
+      "icon": "Globe",
+      "units": [
+        {
+          "id": "geo-u1",
+          "title": {
+            "english": "World & Indian Geography",
+            "hindi": "विश्व एवं भारत का भूगोल"
+          },
+          "topics": [
+            {
+              "english": "World Geography: Earth and Solar system, Landforms, Rocks, Earthquakes/Volcanoes, Atmosphere structure, Pressure belts, Ocean currents, Climate classification, Remote Sensing & GIS",
+              "hindi": "सौरमंडल, स्थलाकृतियां, चट्टानें, भूकंप व ज्वालामुखी, वायुमंडल की संरचना, समुद्री धाराएं, सुदूर संवेदन एवं GIS"
+            },
+            {
+              "english": "Geography of India: Physical divisions, Drainage systems (Himalayan & Peninsular rivers), Indian Monsoon, Soils, Natural vegetation, National Parks, Agriculture, Industries, Population",
+              "hindi": "भारत का भौतिक विभाजन, अपवाह तंत्र (गंगा, सिंधु, ब्रह्मपुत्र), मानसून प्रणाली, मृदा, प्राकृतिक वनस्पति, राष्ट्रीय उद्यान, कृषि एवं उद्योग"
+            }
+          ]
+        },
+        {
+          "id": "geo-u2",
+          "title": {
+            "english": "Geography of Uttarakhand",
+            "hindi": "उत्तराखण्ड का भूगोल"
+          },
+          "topics": [
+            {
+              "english": "Location, Physiography, Climate, Drainage (Ganga, Yamuna, Kali basins), Forests, Protected Areas, Agriculture, Horticulture, Hydropower projects, Tribes, Tourism, Disaster management in hills",
+              "hindi": "भौगोलिक अवस्थिति, भू-आकृति, जलवायु, नदियां (गंगा, यमुना, काली), वन, संरक्षित क्षेत्र, जलविद्युत परियोजनाएं, जनजातियां, आपदा प्रबंधन एवं सतत विकास"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 49,
+          "source_text": "Unit-1: Geography of World: Earth and Solar system, Weathering, Rocks, Volcanoes, Atmosphere, Cyclones, Ocean currents, Natural vegetation, Remote sensing, GIS, GPS."
+        },
+        {
+          "page": 50,
+          "source_text": "Unit-2: Geography of India: Physical divisions, Drainage, Monsoon, Soils, Biosphere reserves, Agro-climatic regions, Industries, Population, Satellites and Weather forecasting."
+        },
+        {
+          "page": 51,
+          "source_text": "Unit-3: Geography of Uttarakhand: Location, Physiography, Drainage, Forests, Protected areas, Hydropower projects, Tribes, Tourism, Disasters and Sustainable Development Goals."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "subject": {
+        "english": "History",
+        "hindi": "इतिहास"
+      },
+      "page_range": "55-57",
+      "color": "#f59e0b",
+      "icon": "Landmark",
+      "units": [
+        {
+          "id": "hist-u1",
+          "title": {
+            "english": "Ancient, Medieval & Modern Indian History",
+            "hindi": "प्राचीन, मध्यकालीन एवं आधुनिक भारतीय इतिहास"
+          },
+          "topics": [
+            {
+              "english": "Ancient India: Sources, Indus Valley Civilization, Vedic period, Rise of Magadha, Mauryan Empire & Ashoka's Dhamma, Gupta Golden Age, Harshavardhana, Cholas",
+              "hindi": "सिंधु घाटी सभ्यता, वैदिक काल, मगध का उत्कर्ष, मौर्य वंश एवं अशोक का धम्म, गुप्त काल, हर्षवर्धन, दक्षिण भारत (चोल, पल्लव)"
+            },
+            {
+              "english": "Medieval India: Delhi Sultanate (Slave, Khilji, Tughlaq, Lodi dynasties), Vijayanagara Empire, Bhakti & Sufi movements, Mughal Empire (Akbar, Jahangir, Shahjahan, Aurangzeb), Marathas & Shivaji",
+              "hindi": "दिल्ली सल्तनत (गुलाम, खिलजी, तुगलक), विजयनगर साम्राज्य, भक्ति एवं सूफी आंदोलन, मुगल काल (अकबर, मनसबदारी), मराठा साम्राज्य व शिवाजी"
+            },
+            {
+              "english": "Modern India & National Movement: British Expansion (Plassey, Buxar), Governor Generals, 1857 Revolt, 19th Century Social-Religious reforms, INC formation, Gandhian Era (Non-Cooperation, Civil Disobedience, Quit India), Independence & Partition",
+              "hindi": "ब्रिटिश शासन की स्थापना, 1857 का संग्राम, सामाजिक-धार्मिक सुधार आंदोलन, राष्ट्रीय कांग्रेस की स्थापना, गांधी युग (असहयोग, सविनय अवज्ञा, भारत छोड़ो), स्वतंत्रता एवं विभाजन"
+            }
+          ]
+        },
+        {
+          "id": "hist-u2",
+          "title": {
+            "english": "World History & Constitutional Development",
+            "hindi": "विश्व इतिहास एवं संवैधानिक विकास"
+          },
+          "topics": [
+            {
+              "english": "Constitutional Development from Regulating Act 1773 to GOI Act 1935; Renaissance, Industrial Revolution, American Revolution, French Revolution (1789), Unification of Germany & Italy, World Wars, UNO",
+              "hindi": "रेगुलेटिंग एक्ट 1773 से 1935 अधिनियम तक संवैधानिक विकास; पुनर्जागरण, औद्योगिक क्रांति, फ्रांसीसी क्रांति (1789), प्रथम व द्वितीय विश्व युद्ध, संयुक्त राष्ट्र संघ"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 55,
+          "source_text": "Units 1-9: Meaning of history, Sources, Pre-history, Harappan culture, Vedic period, Rise of Jainism & Buddhism, Mauryas, Sungas, Kushanas, Gupta Empire, Harshavardhana."
+        },
+        {
+          "page": 56,
+          "source_text": "Units 10-19: South India, Delhi Sultanate, Vijayanagar, Bhakti & Sufi movement, Mughal Empire, Maratha administration, Governor Generals, 1857 Revolt, 19th Century reform movements."
+        },
+        {
+          "page": 57,
+          "source_text": "Units 20-26: Freedom Movement, Gandhian Era, Independence & Partition, Constitutional development (1773-1935), World History (Renaissance, French Revolution, World Wars, UN)."
+        }
+      ]
+    },
+    {
+      "id": "political_science",
+      "subject": {
+        "english": "Political Science",
+        "hindi": "राजनीति शास्त्र"
+      },
+      "page_range": "58-59",
+      "color": "#ef4444",
+      "icon": "Scale",
+      "units": [
+        {
+          "id": "pol-u1",
+          "title": {
+            "english": "Political Theory, Thinkers & International Relations",
+            "hindi": "राजनीतिक सिद्धान्त, विचारक एवं अंतर्राष्ट्रीय राजनीति"
+          },
+          "topics": [
+            {
+              "english": "Political Theory: State, Nation, Sovereignty, Power, Legitimacy, Liberty, Equality, Justice, Rights, Democracy, Behaviorism",
+              "hindi": "राज्य, संप्रभुता, शक्ति व सत्ता, स्वतंत्रता, समानता, न्याय, अधिकार, प्रजातंत्र"
+            },
+            {
+              "english": "Political Thinkers & Ideologies: Western (Plato, Aristotle, Machiavelli); Indian (Kautilya, Gandhi, Ambedkar); Ideologies (Liberalism, Socialism, Marxism, Feminism, Environmentalism)",
+              "hindi": "विचारक: प्लेटो, अरस्तू, मैकियावली, कौटिल्य, गांधी, अम्बेडकर; विचारधाराएं: उदारवाद, समाजवाद, मार्क्सवाद, नारीवाद"
+            },
+            {
+              "english": "International Politics: United Nations Organization (UNO), Human Rights, Terrorism, Globalization, Non-Alignment (NAM), SAARC, G-20",
+              "hindi": "संयुक्त राष्ट्र संघ (UNO), मानवाधिकार, वैश्वीकरण, गुटनिरपेक्षता, सार्क (SAARC), जी-20 (G-20)"
+            }
+          ]
+        },
+        {
+          "id": "pol-u2",
+          "title": {
+            "english": "Indian Polity & Governance",
+            "hindi": "भारतीय राजव्यवस्था एवं लोक प्रशासन"
+          },
+          "topics": [
+            {
+              "english": "Indian Constitution: Preamble, Fundamental Rights, Fundamental Duties, Directive Principles (DPSP), Federal System",
+              "hindi": "भारतीय संविधान: प्रस्तावना, मौलिक अधिकार, मौलिक कर्तव्य, नीति निर्देशक तत्व, संघीय व्यवस्था"
+            },
+            {
+              "english": "Union & State Government: President, Prime Minister, Parliament, Supreme Court (Judicial Review & PIL), Governor, Chief Minister, High Court, Election Commission",
+              "hindi": "राष्ट्रपति, प्रधानमंत्री, संसद, सर्वोच्च न्यायालय, राज्यपाल, मुख्यमंत्री, उच्च न्यायालय, चुनाव आयोग"
+            },
+            {
+              "english": "Public Administration & Uttarakhand: Good Governance, Citizen's Charter, Panchayati Raj with special reference to Uttarakhand, Disaster Policy",
+              "hindi": "लोक प्रशासन, ई-प्रशासन, सुशासन, उत्तराखण्ड में पंचायती राज एवं आपदा प्रबंधन नीति"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 58,
+          "source_text": "Unit 1: Political Theory (State, Sovereignty, Liberty, Equality, Justice).\nUnit 2: Comparative Politics (Parliamentary vs Presidential, UK & USA).\nUnit 3: Political Thinkers (Plato, Aristotle, Machiavelli, Kautilya, Gandhi, Ambedkar).\nUnit 4: International Politics (UNO, Human rights, Disarmament, SAARC, G-20).\nUnit 5: Public Administration (Good governance, Citizen's charter, Budget)."
+        },
+        {
+          "page": 59,
+          "source_text": "Unit 6: Indian Polity: Making of Constitution, Preamble, Fundamental Rights & Duties, DPSP, Federalism, President, Prime Minister, Parliament, Supreme Court, State Executive, Election Commission, Panchayati Raj in Uttarakhand."
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "subject": {
+        "english": "Economics",
+        "hindi": "अर्थशास्त्र"
+      },
+      "page_range": "53-54",
+      "color": "#10b981",
+      "icon": "TrendingUp",
+      "units": [
+        {
+          "id": "eco-u1",
+          "title": {
+            "english": "Microeconomics & Macroeconomics",
+            "hindi": "व्यष्टि एवं समष्टि अर्थशास्त्र"
+          },
+          "topics": [
+            {
+              "english": "Microeconomics: Consumer Behaviour, Marginal Utility, Indifference Curve, Law of Demand & Elasticity, Production Function, Cost Curves, Market Structures (Perfect Competition, Monopoly, Monopolistic, Oligopoly), Factor Pricing",
+              "hindi": "उपभोक्ता व्यवहार, सीमांत उपयोगिता, उदासीनता वक्र, मांग का नियम व लोच, उत्पादन फलन, लागत वक्र, बाजार के प्रकार, साधन कीमत निर्धारण"
+            },
+            {
+              "english": "Macroeconomics: National Income concepts & measurement, Classical & Keynesian Employment theories, Multiplier & Accelerator, Inflation, Trade Cycles, Money & Banking (RBI Monetary policy), Public Finance, GST",
+              "hindi": "राष्ट्रीय आय की अवधारणाएं, केन्जियन रोजगार सिद्धांत, गुणक व त्वरक, मुद्रास्फीति, बैंकिंग व मौद्रिक नीति, लोक वित्त, GST"
+            }
+          ]
+        },
+        {
+          "id": "eco-u2",
+          "title": {
+            "english": "Indian Economy, Uttarakhand Economy & Statistics",
+            "hindi": "भारतीय अर्थव्यवस्था, उत्तराखण्ड की अर्थव्यवस्था एवं सांख्यिकी"
+          },
+          "topics": [
+            {
+              "english": "Indian Economy: Demographic trends, Agriculture, Industry, Services, Poverty alleviation, Unemployment, Foreign Trade, PM Jan Dhan, Union Budget, SDGs",
+              "hindi": "भारतीय अर्थव्यवस्था की विशेषताएं, कृषि, उद्योग, सेवा क्षेत्र, गरीबी व बेरोजगारी, वित्तीय समावेशन, बजट, सतत विकास लक्ष्य"
+            },
+            {
+              "english": "Uttarakhand Economy: Natural resources, Organic farming, Cooperative farming, Tourism, State budget analysis, Disaster management mechanism",
+              "hindi": "उत्तराखण्ड के प्राकृतिक संसाधन, जैविक खेती, पर्यटन, राज्य का बजट विश्लेषण एवं आपदा प्रबंधन"
+            },
+            {
+              "english": "Statistics: Central Tendency (Mean, Median, Mode), Dispersion (Std Deviation, Variance), Correlation (Karl Pearson, Spearman Rank), Regression, Index Numbers",
+              "hindi": "केंद्रीय प्रवृत्ति के माप, अपकिरण (प्रमाप विचलन), सहसंबंध (कार्ल पियर्सन, स्पीयरमैन), प्रतीपगमन, सूचकांक"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 53,
+          "source_text": "Unit 1: Microeconomics (Consumer behaviour, Indifference curve, Demand elasticity, Production function, Markets, Factor pricing, International trade).\nUnit 2: Macroeconomics (National income, Keynesian theory, Inflation, Money & Banking, Monetary policy, Public finance, GST, Fiscal policy).\nUnit 3: Indian Economy (Demographics, Agriculture, Poverty alleviation, Foreign trade, Financial inclusion, Budget, SDGs)."
+        },
+        {
+          "page": 54,
+          "source_text": "Uttarakhand Economy: Natural resources, Organic farming, Industrialization, Tourism, State budget, Disaster management.\nUnit 4: Statistics (Mean, Median, Mode, Standard deviation, Lorenz curve, Correlation, Regression, Consumer Price Index)."
+        }
+      ]
+    },
+    {
+      "id": "sanskrit",
+      "subject": {
+        "english": "Sanskrit",
+        "hindi": "संस्कृत"
+      },
+      "page_range": "7-8",
+      "color": "#d97706",
+      "icon": "ScrollText",
+      "units": [
+        {
+          "id": "sk-u1",
+          "title": {
+            "english": "Vedic Literature, Grammar & Indian Philosophy",
+            "hindi": "वैदिक साहित्य, व्याकरण एवं भारतीय दर्शन"
+          },
+          "topics": [
+            {
+              "english": "Vedic Literature: Rigveda, Yajurveda, Samaveda, Atharvaveda, Vedangas, Brahmanas, Aranyakas, Upanishads",
+              "hindi": "चार वेद, वेदांग, ब्राह्मण, आरण्यक, उपनिषद्"
+            },
+            {
+              "english": "Grammar: Sandhi, Krt Pratyaya, Shabdarupa (Ram, Hari, Guru, Pitri, Rajan, Rama, Mati, Nadi, Asmad, Yushmad, etc.), Dhaturupa (5 Lakaras: Lat, Lot, Lang, Lrit, Vidhilin), Samasa, Karaka",
+              "hindi": "संज्ञा, संधि, कृत् प्रत्यय, शब्दरूप, धातुरूप (लट्, लोट्, लङ्, लृट्, विधिलिङ्), समास, कारक"
+            },
+            {
+              "english": "Indian Philosophy: Overview and Tarkasangraha",
+              "hindi": "भारतीय दर्शन का संक्षिप्त परिचय एवं तर्कसंग्रह"
+            }
+          ]
+        },
+        {
+          "id": "sk-u2",
+          "title": {
+            "english": "Classical Poetry, Poetics & Modern Sanskrit Literature",
+            "hindi": "काव्य, काव्यशास्त्र एवं अर्वाचीन संस्कृत साहित्य"
+          },
+          "topics": [
+            {
+              "english": "Prescribed Texts: Mahabharata (Gita Ch. 1), Raghuvamsa (Canto 1), Kumarasambhavam (Canto 1), Abhijnanasakuntalam, Kiratarjuniya, Hitopadesha, Nitisataka, Kadambari (Shukanasopadesha), Shivrajavijaya",
+              "hindi": "महाभारतम् (गीता प्रथमोऽध्याय), रघुवंशम्, कुमारसंभवम्, अभिज्ञानशाकुन्तलम्, किरातार्जुनीयम्, नीतिशतकम्, कादम्बरी, शिवराजविजयः"
+            },
+            {
+              "english": "Poetics: History of Sanskrit Literature (Kalidasa, Bhasa, Magha, Bharavi, Bhavabhuti, Banabhatta, Dandin), Alankara & Chhanda (Sahityadarpana & Kavyaprakasha)",
+              "hindi": "संस्कृत साहित्य का इतिहास, प्रमुख अलंकार, छन्द, साहित्यदर्पण एवं काव्यप्रकाश"
+            },
+            {
+              "english": "Modern Sanskrit Authors & Authors of Uttarakhand (सदानन्द डबराल, शिवप्रसाद भारद्वाज, हरिनारायण दीक्षित, जगदीश सेमवाल, आदि)",
+              "hindi": "अर्वाचीन संस्कृत साहित्यकार एवं उत्तराखण्ड के संस्कृत विद्वान"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 7,
+          "source_text": "इकाई 1: वैदिक साहित्य (चार वेद, वेदांग, ब्राह्मण, आरण्यक, उपनिषद्)।\nइकाई 2: व्याकरण (संज्ञा, संधि, कृत् प्रत्यय, शब्दरूप, धातुरूप, समास, कारक)।\nइकाई 3: भारतीय दर्शन एवं तर्कसंग्रहः।\nइकाई 4: काव्य एवं काव्यशास्त्र (रघुवंशम्, अभिज्ञानशाकुन्तलम्, किरातार्जुनीयम्, नीतिशतकम्, अलंकार, छन्द, साहित्यदर्पण, काव्यप्रकाश)।"
+        },
+        {
+          "page": 8,
+          "source_text": "इकाई 5: अर्वाचीन संस्कृत साहित्य (अम्बिकादत्त व्यास, जानकीवल्लभ शास्त्री, रेवाप्रसाद द्विवेदी, आदि) एवं उत्तराखण्ड के अर्वाचीन संस्कृत साहित्यकार (सदानन्द डबराल, शिवप्रसाद भारद्वाज, हरिनारायण दीक्षित, आदि)।"
+        }
+      ]
+    },
+    {
+      "id": "physical_education",
+      "subject": {
+        "english": "Physical Education",
+        "hindi": "शारीरिक शिक्षा"
+      },
+      "page_range": "60-65",
+      "color": "#059669",
+      "icon": "Activity",
+      "units": [
+        {
+          "id": "pe-u1",
+          "title": {
+            "english": "History, Anatomy, Physiology & Health Education",
+            "hindi": "इतिहास, शरीररचना, शरीर क्रियाविज्ञान एवं स्वास्थ्य शिक्षा"
+          },
+          "topics": [
+            {
+              "english": "History of Physical Education in India & World, Olympic Movement, Asian Games, Honors & Awards (Khel Ratna, Arjuna, Dronacharya)",
+              "hindi": "शारीरिक शिक्षा का इतिहास, ओलंपिक आंदोलन, खेल पुरस्कार (खेल रत्न, अर्जुन, द्रोणाचार्य अवार्ड)"
+            },
+            {
+              "english": "Anatomy & Physiology: Cells, Tissues, Joints, Muscular/Respiratory/Circulatory systems, Effects of Exercise",
+              "hindi": "शरीर क्रियाविज्ञान: कोशिकाएं, संधियां, पेशीय, श्वसन, परिसंचरण तंत्र, व्यायाम का प्रभाव"
+            },
+            {
+              "english": "Health Education: Personal hygiene, Communicable diseases, Balanced diet, Sports Injuries (Sprain, Strain, Fracture, Postural deformities), First Aid (RICE, CPR), WADA & NADA",
+              "hindi": "स्वास्थ्य शिक्षा, संक्रामक रोग, संतुलित आहार, खेल चोटें व प्राथमिक चिकित्सा (RICE, CPR), डोपिंग व WADA/NADA"
+            }
+          ]
+        },
+        {
+          "id": "pe-u2",
+          "title": {
+            "english": "Sports Training, Biomechanics, Psychology & Coaching",
+            "hindi": "खेल प्रशिक्षण, जैवयांत्रिकी, खेल मनोविज्ञान एवं कोचिंग"
+          },
+          "topics": [
+            {
+              "english": "Sports Training: Principles, Training load, Overload, Physical fitness components (Strength, Speed, Endurance, Flexibility), Periodization",
+              "hindi": "खेल प्रशिक्षण के सिद्धांत, लोड, सुपर कम्पनसेशन, गति, शक्ति, सहनशीलता, लचीलापन"
+            },
+            {
+              "english": "Kinesiology & Biomechanics: Newton's Laws in sports, Levers, Equilibrium, Muscle contractions (Isometric, Isotonic, Isokinetic)",
+              "hindi": "न्यूटन के गति नियम, उत्तोलक (Levers), संतुलन, पेशी संकुचन"
+            },
+            {
+              "english": "Sports Psychology, Tests & Measurements (AAHPER, Harvard Step test, BMI), Officiating & Coaching, Rules of 20+ Sports and Games",
+              "hindi": "खेल मनोविज्ञान, फिटनेस परीक्षण (AAHPER, हार्वर्ड स्टेप टेस्ट), 20 से अधिक खेलों के नियम व मैदान माप"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 60,
+          "source_text": "Unit 1: Nature, Scope, History of Physical education, Olympic Movement, Awards (Khel Ratna, Arjuna, Dronacharya, MAKA Trophy)."
+        },
+        {
+          "page": 61,
+          "source_text": "Unit 2: Anatomy and Physiology in Physical Education (Joints, Muscular, Respiratory, Circulatory systems).\nUnit 3: Health Education (Hygiene, Communicable diseases, Nutrition, WHO, UNICEF)."
+        },
+        {
+          "page": 62,
+          "source_text": "Sports Injuries, Postural deformities, First Aid (RICE, PRICE, CPR), Doping (WADA, NADA).\nUnit 4: Sports Training (Principles, Overload, Fitness components: Strength, Endurance, Speed, Flexibility)."
+        },
+        {
+          "page": 63,
+          "source_text": "Unit 5: Kinesiology & Biomechanics (Newton laws, Levers, Muscle contraction).\nUnit 6: Test, Measurement & Evaluation (AAHPER test, Harvard step test, BMI).\nUnit 7: Sports Psychology."
+        },
+        {
+          "page": 64,
+          "source_text": "Unit 8: Officiating & Coaching, Tournament fixtures (Knockout, Round robin), Rules & Dimensions of Track & Field, Football, Hockey, Volleyball, Basketball, Cricket, etc.\nUnit 9: Teaching methods & ICT in PE."
+        }
+      ]
+    },
+    {
+      "id": "home_science",
+      "subject": {
+        "english": "Home Science",
+        "hindi": "गृह विज्ञान"
+      },
+      "page_range": "66-70",
+      "color": "#f43f5e",
+      "icon": "Home",
+      "units": [
+        {
+          "id": "hs-u1",
+          "title": {
+            "english": "Home Management & Textiles",
+            "hindi": "गृह प्रबन्ध एवं वस्त्र व परिधान"
+          },
+          "topics": [
+            {
+              "english": "Home Management: Concepts, Decision making, Resource management, Money & Budgeting, Work simplification, Savings & Investments, Housing & Interior decoration, Consumer rights",
+              "hindi": "गृह प्रबन्ध प्रक्रिया, संसाधन, पारिवारिक बजट, कार्य सरलीकरण, बचत व निवेश, आवास व आंतरिक सज्जा, उपभोक्ता अधिकार"
+            },
+            {
+              "english": "Textiles & Clothing: Fibre classification (Cotton, Wool, Silk, Rayon, Nylon), Fibre identification tests, Yarn making, Weaving, Finishes (Bleaching, Mercerizing, Sanforizing), Dyeing & Printing, Garment construction, Laundry art",
+              "hindi": "वस्त्र उपयोगी रेशे (कपास, ऊन, रेशम, नायलॉन), परीक्षण, सूत निर्माण, बुनाई, परिसज्जा, रंगाई व छपाई, परिधान निर्माण, धुलाई कला"
+            }
+          ]
+        },
+        {
+          "id": "hs-u2",
+          "title": {
+            "english": "Food, Nutrition, Human Development & Extension Education",
+            "hindi": "आहार एवं पोषण, बाल विकास एवं प्रसार शिक्षा"
+          },
+          "topics": [
+            {
+              "english": "Food & Nutrition: Macronutrients & Micronutrients, ICMR RDA guidelines, Meal planning, Therapeutic diets for diseases (Diabetes, Fever, Hypertension, Peptic ulcer), Food preservation methods",
+              "hindi": "पोषक तत्व (प्रोटीन, विटामिन, खनिज), संतुलित आहार, RDA, उपचारात्मक आहार (मधुमेह, मोटापा, कुपोषण), खाद्य परिरक्षण"
+            },
+            {
+              "english": "Child Development: Stages from Infancy to Old Age, Growth & Development milestones, Prenatal care, Immunization schedule, Developmental tasks",
+              "hindi": "बाल विकास की अवस्थाएं (शैशवावस्था से वृद्धावस्था तक), मील के पत्थर, प्रसवपूर्व विकास, टीकाकरण सारणी"
+            },
+            {
+              "english": "Home Science Extension Education, Women Empowerment, Child & Women welfare organizations (WHO, UNICEF, CARE, ICDS, NIPCCD), Population Education",
+              "hindi": "गृह विज्ञान प्रसार शिक्षा, महिला सशक्तिकरण, कल्याणकारी संस्थाएं (UNICEF, ICDS, CARE), जनसंख्या शिक्षा"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 66,
+          "source_text": "इकाई 1: गृह प्रबन्ध (संसाधन, पारिवारिक आय, बजट, कार्य सरलीकरण, बचत, आवास, पुष्प सज्जा, रंग योजना, उपभोक्ता अधिकार)।"
+        },
+        {
+          "page": 67,
+          "source_text": "इकाई 2: वस्त्र एवं परिधान (तन्तु, कपास, रेशम, नायलॉन, तन्तु परीक्षण, बुनाई, वस्त्र परिसज्जा, रंगाई-छपाई, ड्राफ्टिंग, धुलाई कला)।"
+        },
+        {
+          "page": 68,
+          "source_text": "इकाई 3: आहार एवं पोषण (पोषक तत्व, ICMR RDA, उपचारात्मक आहार, विभिन्न अवस्थाओं में पोषण, परिरक्षण विधियां)।"
+        },
+        {
+          "page": 69,
+          "source_text": "इकाई 4: बाल विकास (गर्भावस्था, शैशवावस्था, बाल्यावस्था, किशोरावस्था, वयस्क व वृद्धावस्था के विकास व समस्याएं)।"
+        },
+        {
+          "page": 70,
+          "source_text": "इकाई 5: गृह विज्ञान प्रसार शिक्षा, महिला सशक्तिकरण, संस्थाएं (WHO, UNICEF, ICDS, NIPCCD), जनसंख्या शिक्षा।"
+        }
+      ]
+    },
+    {
+      "id": "commerce",
+      "subject": {
+        "english": "Commerce",
+        "hindi": "वाणिज्य"
+      },
+      "page_range": "71-76",
+      "color": "#6366f1",
+      "icon": "Building2",
+      "units": [
+        {
+          "id": "com-u1",
+          "title": {
+            "english": "Financial, Cost & Management Accounting",
+            "hindi": "वित्तीय, लागत एवं प्रबन्धकीय लेखांकन"
+          },
+          "topics": [
+            {
+              "english": "Financial Accounting: Accounting Principles, Journal, Ledger, Trial Balance, Final Accounts, Partnership Accounts, Company Accounts (Issue/Forfeiture of shares, Debentures), Computerized Accounting",
+              "hindi": "लेखांकन सिद्धांत, दोहरा लेखा प्रणाली, जर्नल, लेजर, तलपट, अंतिम खाते, साझेदारी खाते, कम्पनी खाते"
+            },
+            {
+              "english": "Cost & Management Accounting: Elements of Cost, Costing methods (Job, Contract, Process), Marginal Costing, Budgetary Control, Cash Flow & Fund Flow statements, Ratio Analysis",
+              "hindi": "लागत लेखांकन, सीमांत लागत, बजटरी नियंत्रण, कोष प्रवाह व रोकड़ प्रवाह विवरण, अनुपात विश्लेषण"
+            }
+          ]
+        },
+        {
+          "id": "com-u2",
+          "title": {
+            "english": "Financial Management, Taxation, Banking, Law & Marketing",
+            "hindi": "वित्तीय प्रबन्ध, कराधान, बैंकिंग, व्यापारिक सन्नियम एवं विपणन"
+          },
+          "topics": [
+            {
+              "english": "Income Tax: Heads of income, Deductions, TDS, Online filing; GST: Structure (CGST, SGST, IGST), Input Tax Credit",
+              "hindi": "आयकर: आय के शीर्षक, कटौतियां, TDS; वस्तु एवं सेवा कर (GST), इनपुट टैक्स क्रेडिट"
+            },
+            {
+              "english": "Money & Banking, RBI Monetary Policy, Insurance (IRDA), Auditing, Business Laws (Contract Act 1872, Sale of Goods 1930, Companies Act 2013, Consumer Protection 2019)",
+              "hindi": "मुद्रा एवं बैंकिंग, RBI मौद्रिक नीति, बीमा (IRDA), अंकेक्षण, व्यापारिक नियम (अनुबंध अधिनियम 1872, कंपनी अधिनियम 2013)"
+            },
+            {
+              "english": "Business Management & Marketing: Management principles, Marketing Mix (4Ps), Consumer behaviour, Market segmentation; Business Statistics & Economics",
+              "hindi": "प्रबन्ध के सिद्धांत, विपणन मिश्रण (4Ps), उपभोक्ता व्यवहार, व्यावसायिक सांख्यिकी एवं अर्थशास्त्र"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 71,
+          "source_text": "Unit 1: Financial Accounting & Advanced Financial Accounting (Double entry, Final accounts, Partnerships, Share capital, Debentures, Liquidation)."
+        },
+        {
+          "page": 72,
+          "source_text": "Unit 2: Cost and Management Accounting (Cost classification, Marginal costing, Budgeting, Cash flow, Ratio analysis).\nUnit 3: Financial Management and Taxation."
+        },
+        {
+          "page": 73,
+          "source_text": "Income Tax & GST (Heads of income, TDS, Input tax credit).\nUnit 4: Money, Banking, Insurance, Auditing and Law."
+        },
+        {
+          "page": 74,
+          "source_text": "Insurance (IRDA), Auditing principles, Business Laws (Contract Act 1872, Sale of Goods 1930, Partnership 1932, Companies Act 2013, Consumer Protection 2019).\nUnit 5: Business Management, Marketing Management and Business Communication."
+        },
+        {
+          "page": 75,
+          "source_text": "Marketing Mix, Consumer behavior, Business Communication.\nUnit 6: Business Statistics and Economics (Averages, Dispersion, Correlation, Elasticity of demand, Market structures)."
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "subject": {
+        "english": "Music",
+        "hindi": "संगीत"
+      },
+      "page_range": "77-79",
+      "color": "#a855f7",
+      "icon": "Music",
+      "units": [
+        {
+          "id": "mus-u1",
+          "title": {
+            "english": "Indian Classical Music Fundamentals & Historical Studies",
+            "hindi": "भारतीय शास्त्रीय संगीत के आधारभूत तत्व एवं ऐतिहासिक अध्ययन"
+          },
+          "topics": [
+            {
+              "english": "Fundamentals: Sound (Nada, Shruti, Swara, Saptak, Grama, Murchhana, Jati, Raga, Thaat), Laya, Tala, Alap, Tana, Gat (Masitkhani, Razakhani)",
+              "hindi": "नाद, श्रुति, स्वर, सप्तक, ग्राम, मूर्च्छना, जाति, थाट, राग वर्गीकरण, लय, ताल, आलाप, तान, मसीतखानी व रजाखानी गत"
+            },
+            {
+              "english": "Historical Study: Samagana, Vedic musical instruments, Prabandha gana; Study of Ancient Texts (Natya Shastra, Brihaddeshi, Sangita Ratnakara, Sangita Parijata, Chaturdandi Prakashika)",
+              "hindi": "सामगान, वैदिक वाद्य, ग्रन्थों का अध्ययन (नाट्यशास्त्र, बृहद्देशी, संगीतरत्नाकर, संगीत पारिजात, राग तरंगिणी)"
+            },
+            {
+              "english": "Vocal Styles: Classical (Dhrupad, Dhamar, Khayal, Thumri, Tappa, Tarana); Folk songs of Uttarakhand (Jhora, Chanchari, Nyoli, Chhaufala, Thadya, Jagar, Chapeli)",
+              "hindi": "गायन शैलियां: ध्रुपद, धमार, ख्याल, ठुमरी, तराना; उत्तराखण्ड के लोकगीत (झोड़ा, चांचरी, न्योली, चौंफला, थड़या, जागर, छपेली)"
+            }
+          ]
+        },
+        {
+          "id": "mus-u2",
+          "title": {
+            "english": "Gharanas, Eminent Musicians, Instruments & Ragas/Talas",
+            "hindi": "घराने, प्रमुख संगीतज्ञ, वाद्य एवं राग-ताल परिचय"
+          },
+          "topics": [
+            {
+              "english": "Gharanas of Khayal, Tabla & Sitar (Gwalior, Agra, Kirana, Delhi, Lucknow, Banaras, Senia)",
+              "hindi": "ख्याल गायकी, तबला एवं सितार के प्रमुख घराने (ग्वालियर, किराना, आगरा, बनारस, लखनऊ)"
+            },
+            {
+              "english": "Eminent Musicians: Tansen, Swami Haridas, Pt. Vishnu Narayan Bhatkhande, Pt. Vishnu Digambar Paluskar, Ustad Zakir Hussain, Pt. Bhimsen Joshi, Pt. Ravi Shankar, Ustad Bismillah Khan, etc.",
+              "hindi": "प्रमुख संगीतज्ञ: तानसेन, भातखण्डे, पलुस्कर, जाकिर हुसैन, भीमसेन जोशी, रविशंकर, बिस्मिल्ला खां"
+            },
+            {
+              "english": "Indian Instruments (Tat, Sushir, Avanaddha, Ghana) and Detailed study of 30+ Ragas and 14+ Talas",
+              "hindi": "भारतीय वाद्य (तत्, सुषिर, अवनद्ध, घन) तथा 30 से अधिक रागों एवं 14 तालों का विस्तृत अध्ययन"
+            }
+          ]
+        }
+      ],
+      "source_pages": [
+        {
+          "page": 77,
+          "source_text": "खण्ड 1: भारतीय शास्त्रीय संगीत का सामान्य अध्ययन (ध्वनि, नाद, श्रुति, स्वर, सप्तक, ग्राम, मूर्च्छना, थाट, राग, ताल, वाद्य)।\nखण्ड 2: ऐतिहासिक अध्ययन, संगीत ग्रन्थ (नाट्यशास्त्र, संगीतरत्नाकर), गायन शैलियां (ध्रुपद, ख्याल, ठुमरी) व उत्तराखण्ड के लोकगीत।"
+        },
+        {
+          "page": 78,
+          "source_text": "खण्ड 3: घराने (ख्याल, तबला, सितार), महान संगीतज्ञ (तानसेन, भातखण्डे, पलुस्कर, भीमसेन जोशी, रविशंकर, बिस्मिल्ला खां)।\nखण्ड 4: भारतीय संगीत के वाद्य (तत्, सुषिर, अवनद्ध, घन)।\nखण्ड 5: प्रमुख रागों एवं तालों का परिचय।"
+        },
+        {
+          "page": 79,
+          "source_text": "खण्ड 6: भातखण्डे एवं पलुस्कर स्वरलिपि पद्धति, गायक/वादक के गुण-दोष, रागों का समय सिद्धान्त।"
+        }
+      ]
+    }
+  ]
+}
