@@ -46,6 +46,8 @@ export interface ExamSection {
 }
 
 export interface ExamData {
+  paperId?: string;
+  year?: string;
   exam: string;
   targetExam: TargetExam;
   examTitle: string;
@@ -73,6 +75,9 @@ export interface UserAnswerState {
 }
 
 export interface ExamResults {
+  paperId?: string;
+  year?: string;
+  paperTitle?: string;
   targetExam: TargetExam;
   totalQuestions: number;
   totalMarks: number;

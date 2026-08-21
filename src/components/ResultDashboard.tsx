@@ -47,7 +47,7 @@ export const ResultDashboard: React.FC<ResultDashboardProps> = ({ results, onRet
         </div>
 
         <div className={styles.examTitleHead}>
-          {isLt ? 'UKSSSC LT Grade Assistant Teacher Exam Results' : 'UTET-II Paper Exam Results'}
+          {results.paperTitle || (isLt ? 'UKSSSC LT Grade Assistant Teacher Exam' : 'UTET-II Paper Exam')}
         </div>
 
         <div className={styles.scoreRing}>

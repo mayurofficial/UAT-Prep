@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { AppMode, LanguageMode, TargetExam } from '@/types/utet';
+import { PaperMeta } from '@/data/paperRegistry';
 import styles from './Header.module.css';
 import {
   GraduationCap,
@@ -12,7 +13,8 @@ import {
   Languages,
   Sun,
   Moon,
-  Sparkles
+  Calendar,
+  ChevronDown
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -27,6 +29,9 @@ interface HeaderProps {
   setFontSize: (size: 'small' | 'normal' | 'large') => void;
   selectedExam: TargetExam;
   setSelectedExam: (exam: TargetExam) => void;
+  selectedPaperId: string;
+  setSelectedPaperId: (paperId: string) => void;
+  availablePapers: PaperMeta[];
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -37,7 +42,10 @@ export const Header: React.FC<HeaderProps> = ({
   isDark,
   setIsDark,
   selectedExam,
-  setSelectedExam
+  setSelectedExam,
+  selectedPaperId,
+  setSelectedPaperId,
+  availablePapers
 }) => {
   return (
     <header className={styles.header}>
@@ -48,22 +56,44 @@ export const Header: React.FC<HeaderProps> = ({
             <GraduationCap size={18} />
           </div>
           <div className={styles.brandInfo}>
-            <span className={styles.title}>Anjali Teacher Hub</span>
-            <div className={styles.examToggleContainer}>
-              <button
-                className={`${styles.examPill} ${selectedExam === 'UTET' ? styles.examPillActiveUtet : ''}`}
-                onClick={() => setSelectedExam('UTET')}
-                title="Switch to UTET-II Eligibility Paper"
-              >
-                UTET-II (150Q)
-              </button>
-              <button
-                className={`${styles.examPill} ${selectedExam === 'LT' ? styles.examPillActiveLt : ''}`}
-                onClick={() => setSelectedExam('LT')}
-                title="Switch to UKSSSC LT Assistant Teacher Exam"
-              >
-                LT Grade (100Q)
-              </button>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span className={styles.title}>Anjali Teacher Hub</span>
+              <div className={styles.examToggleContainer}>
+                <button
+                  className={`${styles.examPill} ${selectedExam === 'UTET' ? styles.examPillActiveUtet : ''}`}
+                  onClick={() => setSelectedExam('UTET')}
+                  title="Switch to UTET-II Eligibility Paper"
+                >
+                  UTET-II
+                </button>
+                <button
+                  className={`${styles.examPill} ${selectedExam === 'LT' ? styles.examPillActiveLt : ''}`}
+                  onClick={() => setSelectedExam('LT')}
+                  title="Switch to UKSSSC LT Assistant Teacher Exam"
+                >
+                  LT Grade
+                </button>
+              </div>
+            </div>
+
+            {/* Paper / Year Selector */}
+            <div className={styles.paperSelectRow}>
+              <div className={styles.paperDropdownWrapper}>
+                <Calendar size={12} className={styles.calIcon} />
+                <select
+                  className={styles.paperSelect}
+                  value={selectedPaperId}
+                  onChange={(e) => setSelectedPaperId(e.target.value)}
+                  aria-label="Select Question Paper Year"
+                >
+                  {availablePapers.map((paper) => (
+                    <option key={paper.id} value={paper.id}>
+                      {paper.year} • {paper.badge} ({paper.totalQuestions}Q)
+                    </option>
+                  ))}
+                </select>
+                <ChevronDown size={11} className={styles.chevronIcon} />
+              </div>
             </div>
           </div>
         </div>

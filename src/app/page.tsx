@@ -1,11 +1,10 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import utetExamDataRaw from '@/data/utet_full_150_solved.json';
-import ltExamDataRaw from '@/data/lt_grade_full_100_solved.json';
 import {
   ExamData, AppMode, LanguageMode, UserAnswerState, ExamResults, TargetExam,
 } from '@/types/utet';
+import { getPapersForExam, getPaperData } from '@/data/paperRegistry';
 
 import { Header } from '@/components/Header';
 import { SectionTabs } from '@/components/SectionTabs';
@@ -20,25 +19,24 @@ import { PrintWorksheet } from '@/components/PrintWorksheet';
 import styles from './page.module.css';
 import { LayoutGrid, Heart } from 'lucide-react';
 
-const utetData = utetExamDataRaw as unknown as ExamData;
-const ltData = ltExamDataRaw as unknown as ExamData;
-
 export default function Home() {
   const [selectedExam, setSelectedExam] = useState<TargetExam>('UTET');
+  const [selectedPaperId, setSelectedPaperId] = useState<string>('utet_2024_2025');
   const [mode, setMode] = useState<AppMode>('practice');
   const [language, setLanguage] = useState<LanguageMode>('bilingual');
   const [isDark, setIsDark] = useState(false);
   const [fontSize, setFontSize] = useState<'small' | 'normal' | 'large'>('normal');
   const [idx, setIdx] = useState(0);
   const [states, setStates] = useState<Record<number, UserAnswerState>>({});
-  const [timerSec, setTimerSec] = useState(utetData.durationMinutes * 60);
+  const [timerSec, setTimerSec] = useState(150 * 60);
   const [paused, setPaused] = useState(false);
   const [results, setResults] = useState<ExamResults | null>(null);
   const [showPalette, setShowPalette] = useState(false);
 
-  const activeExamData: ExamData = selectedExam === 'UTET' ? utetData : ltData;
+  const activeExamData: ExamData = getPaperData(selectedPaperId);
   const TOTAL = activeExamData.questions.length;
   const EXAM_TIMER = (activeExamData.durationMinutes || 150) * 60;
+  const availablePapers = getPapersForExam(selectedExam);
 
   // Load initial settings & states from localStorage
   useEffect(() => {
@@ -54,10 +52,14 @@ export default function Home() {
       const savedTarget = localStorage.getItem('anjali_target_exam') as TargetExam;
       if (savedTarget === 'LT' || savedTarget === 'UTET') {
         setSelectedExam(savedTarget);
+        const defaultPaper = savedTarget === 'LT' ? 'lt_2024_2025' : 'utet_2024_2025';
+        const savedPaper = localStorage.getItem('anjali_selected_paper') || defaultPaper;
+        setSelectedPaperId(savedPaper);
       }
 
-      const storageKey = savedTarget === 'LT' ? 'anjali_lt_states' : 'anjali_utet_states';
-      const savedStates = localStorage.getItem(storageKey) || (savedTarget !== 'LT' ? localStorage.getItem('utet_states') : null);
+      const activePaper = localStorage.getItem('anjali_selected_paper') || 'utet_2024_2025';
+      const storageKey = `anjali_paper_${activePaper}_states`;
+      const savedStates = localStorage.getItem(storageKey);
       if (savedStates) setStates(JSON.parse(savedStates));
     } catch { /* noop */ }
   }, []);
@@ -81,30 +83,39 @@ export default function Home() {
   const handleExamChange = (newExam: TargetExam) => {
     if (newExam === selectedExam) return;
     setSelectedExam(newExam);
+    const newPapers = getPapersForExam(newExam);
+    const newDefaultPaper = newPapers[0]?.id || (newExam === 'LT' ? 'lt_2024_2025' : 'utet_2024_2025');
+    handlePaperChange(newDefaultPaper);
+    try { localStorage.setItem('anjali_target_exam', newExam); } catch {}
+  };
+
+  // Handle Specific Paper Change (e.g. 2024-25 vs 2023 vs 2022 vs 2021 vs 2020)
+  const handlePaperChange = (newPaperId: string) => {
+    setSelectedPaperId(newPaperId);
     setIdx(0);
     setResults(null);
     setShowPalette(false);
 
     try {
-      localStorage.setItem('anjali_target_exam', newExam);
-      const storageKey = newExam === 'LT' ? 'anjali_lt_states' : 'anjali_utet_states';
+      localStorage.setItem('anjali_selected_paper', newPaperId);
+      const storageKey = `anjali_paper_${newPaperId}_states`;
       const stored = localStorage.getItem(storageKey);
       setStates(stored ? JSON.parse(stored) : {});
     } catch {
       setStates({});
     }
 
-    const duration = newExam === 'LT' ? ltData.durationMinutes * 60 : utetData.durationMinutes * 60;
-    setTimerSec(duration);
+    const paperData = getPaperData(newPaperId);
+    setTimerSec((paperData.durationMinutes || 150) * 60);
   };
 
   const persist = useCallback((s: Record<number, UserAnswerState>) => {
     setStates(s);
     try {
-      const storageKey = selectedExam === 'LT' ? 'anjali_lt_states' : 'anjali_utet_states';
+      const storageKey = `anjali_paper_${selectedPaperId}_states`;
       localStorage.setItem(storageKey, JSON.stringify(s));
     } catch {}
-  }, [selectedExam]);
+  }, [selectedPaperId]);
 
   // Mark visited
   useEffect(() => {
@@ -203,7 +214,6 @@ export default function Home() {
 
     activeExamData.questions.forEach((q, i) => {
       const s = states[i];
-      // find section index
       const sIndex = activeExamData.sections.findIndex(sec => {
         const [start, end] = sec.questionRange.split('-').map(Number);
         return (i + 1) >= start && (i + 1) <= end;
@@ -237,6 +247,9 @@ export default function Home() {
     });
 
     setResults({
+      paperId: selectedPaperId,
+      year: activeExamData.year,
+      paperTitle: activeExamData.examTitle,
       targetExam: selectedExam,
       totalQuestions: TOTAL,
       totalMarks,
@@ -283,6 +296,9 @@ export default function Home() {
         setFontSize={setFontSize}
         selectedExam={selectedExam}
         setSelectedExam={handleExamChange}
+        selectedPaperId={selectedPaperId}
+        setSelectedPaperId={handlePaperChange}
+        availablePapers={availablePapers}
       />
 
       {(mode === 'practice' || mode === 'exam') && (
@@ -371,7 +387,7 @@ export default function Home() {
       <PrintWorksheet questions={activeExamData.questions} />
 
       <footer className={styles.footer}>
-        Made with <Heart size={11} fill="#d93025" color="#d93025" style={{ verticalAlign: 'middle' }} /> for Anjali Teacher — UTET & UKSSSC LT Grade 2026/2027
+        Made with <Heart size={11} fill="#d93025" color="#d93025" style={{ verticalAlign: 'middle' }} /> for Anjali Teacher — UTET & UKSSSC LT Grade (2020–2025 PYQs)
       </footer>
     </div>
   );
