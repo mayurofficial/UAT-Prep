@@ -23,6 +23,7 @@ interface TopNavbarProps {
   onTogglePalette: () => void;
   currentIndex: number;
   totalQuestions: number;
+  syncStatus?: 'synced' | 'saving' | 'offline';
 }
 
 export const TopNavbar: React.FC<TopNavbarProps> = ({
@@ -35,14 +36,15 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
   setFontSize,
   onTogglePalette,
   currentIndex,
-  totalQuestions
+  totalQuestions,
+  syncStatus = 'synced',
 }) => {
   const isOfficial = activePaper?.category === 'OFFICIAL_PYQ';
 
   return (
     <header className={styles.navbar}>
       <div className={styles.inner}>
-        {/* Left: Mobile Menu Trigger & Paper Pill */}
+        {/* Left: Mobile Menu Trigger & Paper Pill & Cloud Sync */}
         <div className={styles.leftGroup}>
           <button
             className={styles.menuBtn}
@@ -57,6 +59,16 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
               {activePaper.year}
             </span>
             <span>{activePaper.title}</span>
+          </div>
+
+          <div
+            className={`${styles.cloudSyncBadge} ${
+              syncStatus === 'saving' ? styles.cloudSyncSaving : ''
+            }`}
+            title="Cloud Database Sync (Netlify Blobs)"
+          >
+            <span className={styles.cloudDot} />
+            <span>{syncStatus === 'saving' ? 'Syncing...' : 'Cloud Synced'}</span>
           </div>
         </div>
 

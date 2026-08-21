@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import {
   ExamData, AppMode, LanguageMode, UserAnswerState, ExamResults, TargetExam,
 } from '@/types/utet';
@@ -28,9 +28,11 @@ import {
 } from 'lucide-react';
 
 export default function Home() {
-  // Authentication State
+  // Authentication & Cloud Sync State
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
   const [isAuthChecking, setIsAuthChecking] = useState<boolean>(true);
+  const [syncStatus, setSyncStatus] = useState<'synced' | 'saving' | 'offline'>('synced');
+  const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const [selectedExam, setSelectedExam] = useState<TargetExam>('UTET');
   const [selectedPaperId, setSelectedPaperId] = useState<string>('utet_2025');
@@ -96,37 +98,49 @@ export default function Home() {
     setIsAuthenticated(false);
   };
 
-  // Load initial settings & states from localStorage
+  // Load initial settings & states from Cloud DB / local cache
   useEffect(() => {
-    try {
-      const savedTheme = localStorage.getItem('anjali_theme') || localStorage.getItem('utet_theme');
-      if (savedTheme === 'dark') {
-        setIsDark(true);
-        document.documentElement.setAttribute('data-theme', 'dark');
-      }
-      const savedLang = localStorage.getItem('anjali_lang') as LanguageMode;
-      if (savedLang) setLanguage(savedLang);
+    const initCloudData = async () => {
+      try {
+        const savedTheme = localStorage.getItem('anjali_theme') || localStorage.getItem('utet_theme');
+        if (savedTheme === 'dark') {
+          setIsDark(true);
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        const savedLang = localStorage.getItem('anjali_lang') as LanguageMode;
+        if (savedLang) setLanguage(savedLang);
 
-      const savedTarget = localStorage.getItem('anjali_target_exam') as TargetExam;
-      if (savedTarget === 'LT' || savedTarget === 'UTET') {
-        setSelectedExam(savedTarget);
-        const defaultPaper = savedTarget === 'LT' ? 'lt_2025' : 'utet_2025';
-        const savedPaper = localStorage.getItem('anjali_selected_paper') || defaultPaper;
-        setSelectedPaperId(savedPaper);
-      }
+        const savedTarget = localStorage.getItem('anjali_target_exam') as TargetExam;
+        if (savedTarget === 'LT' || savedTarget === 'UTET') {
+          setSelectedExam(savedTarget);
+        }
 
-      const activePaper = localStorage.getItem('anjali_selected_paper') || 'utet_2025';
-      const storageKey = `anjali_paper_${activePaper}_states`;
-      const savedStates = localStorage.getItem(storageKey);
-      if (savedStates) setStates(JSON.parse(savedStates));
+        const activePaper = localStorage.getItem('anjali_selected_paper') || 'utet_2025';
+        setSelectedPaperId(activePaper);
 
-      const soundPref = localStorage.getItem('anjali_sound');
-      if (soundPref !== null) {
-        const enabled = soundPref === 'true';
-        setIsSoundEnabled(enabled);
-        soundManager.setSoundEnabled(enabled);
-      }
-    } catch { /* noop */ }
+        // Load local cache first for instant UX
+        const storageKey = `anjali_paper_${activePaper}_states`;
+        const savedStates = localStorage.getItem(storageKey);
+        if (savedStates) setStates(JSON.parse(savedStates));
+
+        // Sync fresh data from Netlify Cloud Database
+        const res = await fetch(`/api/progress?paperId=${activePaper}`);
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.states && Object.keys(data.states).length > 0) {
+          setStates(data.states);
+          localStorage.setItem(storageKey, JSON.stringify(data.states));
+        }
+
+        const soundPref = localStorage.getItem('anjali_sound');
+        if (soundPref !== null) {
+          const enabled = soundPref === 'true';
+          setIsSoundEnabled(enabled);
+          soundManager.setSoundEnabled(enabled);
+        }
+      } catch { /* noop */ }
+    };
+
+    initCloudData();
   }, []);
 
   // Sync theme
@@ -160,29 +174,66 @@ export default function Home() {
     try { localStorage.setItem('anjali_target_exam', newExam); } catch {}
   };
 
-  // Handle Specific Paper Change
-  const handlePaperChange = (newPaperId: string) => {
+  // Handle Specific Paper Change with Cloud Sync
+  const handlePaperChange = async (newPaperId: string) => {
     setSelectedPaperId(newPaperId);
     setIdx(0);
     setResults(null);
     setIsPaletteDrawerOpen(false);
+    setSyncStatus('saving');
 
+    // 1. Instant local cache restore
+    const storageKey = `anjali_paper_${newPaperId}_states`;
     try {
       localStorage.setItem('anjali_selected_paper', newPaperId);
-      const storageKey = `anjali_paper_${newPaperId}_states`;
       const stored = localStorage.getItem(storageKey);
       setStates(stored ? JSON.parse(stored) : {});
     } catch {
       setStates({});
     }
+
+    // 2. Fetch fresh state from Netlify Cloud Database
+    try {
+      const res = await fetch(`/api/progress?paperId=${newPaperId}`);
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.states && Object.keys(data.states).length > 0) {
+        setStates(data.states);
+        try { localStorage.setItem(storageKey, JSON.stringify(data.states)); } catch {}
+      }
+      setSyncStatus('synced');
+    } catch {
+      setSyncStatus('synced');
+    }
   };
 
   const persist = useCallback((s: Record<number, UserAnswerState>) => {
     setStates(s);
+    setSyncStatus('saving');
+
+    // Instant local cache
     try {
       const storageKey = `anjali_paper_${selectedPaperId}_states`;
       localStorage.setItem(storageKey, JSON.stringify(s));
     } catch {}
+
+    // Debounced Cloud Database Sync (Netlify Blobs)
+    if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+    saveTimerRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch('/api/progress', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ paperId: selectedPaperId, states: s }),
+        });
+        if (res.ok) {
+          setSyncStatus('synced');
+        } else {
+          setSyncStatus('offline');
+        }
+      } catch {
+        setSyncStatus('offline');
+      }
+    }, 400);
   }, [selectedPaperId]);
 
   // Mark visited
@@ -296,12 +347,7 @@ export default function Home() {
     const totalMarks = activeExamData.totalMarks || TOTAL;
     const percentage = Math.round((netScore / totalMarks) * 100);
 
-    secStats.forEach(s => {
-      const secNeg = Number((s.incorrect * penaltyRate).toFixed(2));
-      s.score = Number(Math.max(0, s.correct - secNeg).toFixed(2));
-    });
-
-    setResults({
+    const finalResultPayload: ExamResults = {
       paperId: selectedPaperId,
       year: activeExamData.year,
       category: activeExamData.category,
@@ -322,8 +368,19 @@ export default function Home() {
       timeTakenSec: Object.values(states).reduce((acc, s) => acc + (s.timeSpentSec || 0), 0),
       isQualifiedOrTopTier: selectedExam === 'LT' ? netScore >= 60 : grossScore >= 90,
       sectionScores: secStats,
-    });
+    };
+
+    setResults(finalResultPayload);
     setMode('result');
+
+    // Persist exam result to Netlify Cloud Database
+    try {
+      fetch('/api/results', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ result: finalResultPayload }),
+      });
+    } catch {}
   };
 
   const retake = () => {
@@ -331,6 +388,10 @@ export default function Home() {
     setIdx(0);
     setResults(null);
     setMode('practice');
+    try {
+      fetch(`/api/progress?paperId=${selectedPaperId}`, { method: 'DELETE' });
+      localStorage.removeItem(`anjali_paper_${selectedPaperId}_states`);
+    } catch {}
   };
 
   // Keyboard Hotkeys Listener
@@ -456,6 +517,7 @@ export default function Home() {
           onTogglePalette={() => setIsPaletteDrawerOpen(true)}
           currentIndex={idx}
           totalQuestions={TOTAL}
+          syncStatus={syncStatus}
         />
 
         {/* Section Tabs in Practice */}
