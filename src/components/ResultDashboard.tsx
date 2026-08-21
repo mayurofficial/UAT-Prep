@@ -50,6 +50,20 @@ export const ResultDashboard: React.FC<ResultDashboardProps> = ({ results, onRet
           {results.paperTitle || (isLt ? 'UKSSSC LT Grade Assistant Teacher Exam' : 'UTET-II Paper Exam')}
         </div>
 
+        {results.category && (
+          <div style={{ marginTop: -8, marginBottom: 12 }}>
+            {results.category === 'OFFICIAL_PYQ' ? (
+              <span style={{ fontSize: '11px', fontWeight: 700, color: '#16a34a', background: 'rgba(22, 163, 74, 0.12)', padding: '2px 8px', borderRadius: '4px' }}>
+                🏛️ Official Previous Year Paper
+              </span>
+            ) : (
+              <span style={{ fontSize: '11px', fontWeight: 700, color: '#9334e6', background: 'rgba(147, 51, 234, 0.12)', padding: '2px 8px', borderRadius: '4px' }}>
+                ⚡ Practice Model Mock Test
+              </span>
+            )}
+          </div>
+        )}
+
         <div className={styles.scoreRing}>
           <span className={styles.scoreBig}>{isLt ? results.netScore.toFixed(2) : results.grossScore}</span>
           <span className={styles.scoreOf}>/ {results.totalMarks} Marks</span>

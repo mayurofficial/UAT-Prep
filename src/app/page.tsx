@@ -249,6 +249,7 @@ export default function Home() {
     setResults({
       paperId: selectedPaperId,
       year: activeExamData.year,
+      category: activeExamData.category,
       paperTitle: activeExamData.examTitle,
       targetExam: selectedExam,
       totalQuestions: TOTAL,

@@ -13,8 +13,9 @@ import {
   Languages,
   Sun,
   Moon,
-  Calendar,
-  ChevronDown
+  ChevronDown,
+  ShieldCheck,
+  Sparkles
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -47,6 +48,11 @@ export const Header: React.FC<HeaderProps> = ({
   setSelectedPaperId,
   availablePapers
 }) => {
+  const officialPyqs = availablePapers.filter(p => p.category === 'OFFICIAL_PYQ');
+  const modelTests = availablePapers.filter(p => p.category === 'MODEL_TEST');
+  const activePaperMeta = availablePapers.find(p => p.id === selectedPaperId) || availablePapers[0];
+  const isOfficial = activePaperMeta?.category === 'OFFICIAL_PYQ';
+
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
@@ -76,21 +82,44 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </div>
 
-            {/* Paper / Year Selector */}
+            {/* Categorized Paper Selector (Official PYQ vs Model Tests) */}
             <div className={styles.paperSelectRow}>
-              <div className={styles.paperDropdownWrapper}>
-                <Calendar size={12} className={styles.calIcon} />
+              <div className={`${styles.paperDropdownWrapper} ${isOfficial ? styles.officialWrapper : styles.modelWrapper}`}>
+                {isOfficial ? (
+                  <span className={styles.officialBadge} title="Authentic Exam Paper Provided">
+                    <ShieldCheck size={11} /> Official PYQ
+                  </span>
+                ) : (
+                  <span className={styles.modelBadge} title="Practice Mock Test">
+                    <Sparkles size={11} /> Model Mock
+                  </span>
+                )}
+
                 <select
                   className={styles.paperSelect}
                   value={selectedPaperId}
                   onChange={(e) => setSelectedPaperId(e.target.value)}
-                  aria-label="Select Question Paper Year"
+                  aria-label="Select Question Paper"
                 >
-                  {availablePapers.map((paper) => (
-                    <option key={paper.id} value={paper.id}>
-                      {paper.year} • {paper.badge} ({paper.totalQuestions}Q)
-                    </option>
-                  ))}
+                  {officialPyqs.length > 0 && (
+                    <optgroup label="🏛️ आधिकारिक पिछले वर्ष के प्रश्न-पत्र (Official PYQ Papers)">
+                      {officialPyqs.map((paper) => (
+                        <option key={paper.id} value={paper.id}>
+                          {paper.year} • {paper.title} ({paper.totalQuestions}Q)
+                        </option>
+                      ))}
+                    </optgroup>
+                  )}
+
+                  {modelTests.length > 0 && (
+                    <optgroup label="⚡ मॉडल एवं अभ्यास मॉक टेस्ट (Practice & Model Tests)">
+                      {modelTests.map((paper) => (
+                        <option key={paper.id} value={paper.id}>
+                          {paper.year} • {paper.title} ({paper.totalQuestions}Q)
+                        </option>
+                      ))}
+                    </optgroup>
+                  )}
                 </select>
                 <ChevronDown size={11} className={styles.chevronIcon} />
               </div>
