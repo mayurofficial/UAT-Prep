@@ -21,7 +21,7 @@ import { LayoutGrid, Heart } from 'lucide-react';
 
 export default function Home() {
   const [selectedExam, setSelectedExam] = useState<TargetExam>('UTET');
-  const [selectedPaperId, setSelectedPaperId] = useState<string>('utet_2024_2025');
+  const [selectedPaperId, setSelectedPaperId] = useState<string>('utet_2025');
   const [mode, setMode] = useState<AppMode>('practice');
   const [language, setLanguage] = useState<LanguageMode>('bilingual');
   const [isDark, setIsDark] = useState(false);
@@ -52,12 +52,12 @@ export default function Home() {
       const savedTarget = localStorage.getItem('anjali_target_exam') as TargetExam;
       if (savedTarget === 'LT' || savedTarget === 'UTET') {
         setSelectedExam(savedTarget);
-        const defaultPaper = savedTarget === 'LT' ? 'lt_2024_2025' : 'utet_2024_2025';
+        const defaultPaper = savedTarget === 'LT' ? 'lt_2025' : 'utet_2025';
         const savedPaper = localStorage.getItem('anjali_selected_paper') || defaultPaper;
         setSelectedPaperId(savedPaper);
       }
 
-      const activePaper = localStorage.getItem('anjali_selected_paper') || 'utet_2024_2025';
+      const activePaper = localStorage.getItem('anjali_selected_paper') || 'utet_2025';
       const storageKey = `anjali_paper_${activePaper}_states`;
       const savedStates = localStorage.getItem(storageKey);
       if (savedStates) setStates(JSON.parse(savedStates));
@@ -84,12 +84,12 @@ export default function Home() {
     if (newExam === selectedExam) return;
     setSelectedExam(newExam);
     const newPapers = getPapersForExam(newExam);
-    const newDefaultPaper = newPapers[0]?.id || (newExam === 'LT' ? 'lt_2024_2025' : 'utet_2024_2025');
+    const newDefaultPaper = newPapers[0]?.id || (newExam === 'LT' ? 'lt_2025' : 'utet_2025');
     handlePaperChange(newDefaultPaper);
     try { localStorage.setItem('anjali_target_exam', newExam); } catch {}
   };
 
-  // Handle Specific Paper Change (e.g. 2024-25 vs 2023 vs 2022 vs 2021 vs 2020)
+  // Handle Specific Paper Change (e.g. 2025 vs 2023 vs 2022 vs 2021 vs 2020)
   const handlePaperChange = (newPaperId: string) => {
     setSelectedPaperId(newPaperId);
     setIdx(0);

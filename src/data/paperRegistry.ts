@@ -1,12 +1,12 @@
 import { ExamData, TargetExam } from '@/types/utet';
 
-import utet2024Data from './papers/utet_2024_2025.json';
+import utet2025Data from './papers/utet_2025.json';
 import utet2020Data from './papers/utet_2020.json';
 import utet2019Data from './papers/utet_2019.json';
 import utet2023Data from './papers/utet_2023.json';
 import utet2022Data from './papers/utet_2022.json';
 import utet2021Data from './papers/utet_2021.json';
-import lt2024Data from './papers/lt_2024_2025.json';
+import lt2025Data from './papers/lt_2025.json';
 import lt2021Data from './papers/lt_2021.json';
 
 export type PaperCategory = 'OFFICIAL_PYQ' | 'MODEL_TEST';
@@ -30,10 +30,10 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
   // 1. OFFICIAL PREVIOUS YEAR PAPERS (PYQ)
   // (Authentic verified papers provided from real exams)
   // ==========================================
-  utet_2024_2025: {
-    ...(utet2024Data as unknown as ExamData),
+  utet_2025: {
+    ...(utet2025Data as unknown as ExamData),
     category: 'OFFICIAL_PYQ',
-    sourceNote: 'Official UBSE UTET-II Exam Paper (Set A - Oct 2024)',
+    sourceNote: 'Official UBSE UTET-II Exam Paper (Set A - 2025 Exam)',
   },
   utet_2020: {
     ...(utet2020Data as unknown as ExamData),
@@ -50,10 +50,10 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
   // 2. MODEL MOCK TESTS & PRACTICE PAPERS
   // (Full-length practice tests for mock exam simulation)
   // ==========================================
-  lt_2024_2025: {
-    ...(lt2024Data as unknown as ExamData),
+  lt_2025: {
+    ...(lt2025Data as unknown as ExamData),
     category: 'MODEL_TEST',
-    sourceNote: 'UKSSSC LT Assistant Teacher Full Model Test (Latest Pattern)',
+    sourceNote: 'UKSSSC LT Assistant Teacher 2025 Full Model Test (Latest Pattern)',
   },
   lt_2021_model: {
     ...(lt2021Data as unknown as ExamData),
@@ -82,17 +82,17 @@ export const PAPERS_LIST: PaperMeta[] = [
   // 1. OFFICIAL PREVIOUS YEAR PAPERS (PYQ)
   // ==========================================
   {
-    id: 'utet_2024_2025',
+    id: 'utet_2025',
     targetExam: 'UTET',
     category: 'OFFICIAL_PYQ',
-    year: '2024–2025',
-    title: 'UTET-II 2024–2025 (Official Exam Paper)',
+    year: '2025',
+    title: 'UTET-II 2025 (Official Exam Paper)',
     badge: 'Official PYQ (Set A)',
     totalQuestions: 150,
     durationMinutes: 150,
     hasNegativeMarking: false,
     negativePenalty: 0,
-    sourceNote: 'Authentic UBSE Exam Paper from Oct 24, 2024',
+    sourceNote: 'Authentic UBSE Exam Paper 2025 (Set A)',
   },
   {
     id: 'utet_2020',
@@ -125,11 +125,11 @@ export const PAPERS_LIST: PaperMeta[] = [
   // 2. MODEL MOCK TESTS & PRACTICE PAPERS
   // ==========================================
   {
-    id: 'lt_2024_2025',
+    id: 'lt_2025',
     targetExam: 'LT',
     category: 'MODEL_TEST',
-    year: '2024–2025',
-    title: 'UKSSSC LT Grade Model Test (Latest Pattern)',
+    year: '2025',
+    title: 'UKSSSC LT Grade 2025 Model Test (Latest Pattern)',
     badge: 'Model Test',
     totalQuestions: 100,
     durationMinutes: 120,
@@ -204,5 +204,5 @@ export function getModelTests(exam: TargetExam): PaperMeta[] {
 }
 
 export function getPaperData(paperId: string): ExamData {
-  return PAPERS_REGISTRY[paperId] || PAPERS_REGISTRY['utet_2024_2025'];
+  return PAPERS_REGISTRY[paperId] || PAPERS_REGISTRY['utet_2025'];
 }

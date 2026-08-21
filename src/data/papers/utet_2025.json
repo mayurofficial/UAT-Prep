@@ -1,7 +1,7 @@
 {
   "exam": "UTET-II",
   "targetExam": "UTET",
-  "examTitle": "UTET-II 2024–2025 (Official Exam Paper)",
+  "examTitle": "UTET-II 2025 (Official Exam Paper)",
   "examSubtitle": "Eligibility Test • 150 Questions • 150 Minutes • No Negative Marking",
   "candidate": "Anjali Teacher",
   "totalQuestions": 150,
@@ -6949,6 +6949,6 @@
       }
     }
   ],
-  "paperId": "utet_2024_2025",
-  "year": "2024–2025"
+  "paperId": "utet_2025",
+  "year": "2025"
 }

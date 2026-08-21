@@ -1,7 +1,7 @@
 {
   "exam": "UKSSSC LT Grade",
   "targetExam": "LT",
-  "examTitle": "UKSSSC LT Grade 2024–2025 (Official Pattern Paper)",
+  "examTitle": "UKSSSC LT Grade 2025 (Official Pattern Paper)",
   "examSubtitle": "Recruitment Exam • 100 Questions • 120 Minutes • -0.25 Negative Marking",
   "candidate": "Anjali Teacher",
   "totalQuestions": 100,
@@ -4771,6 +4771,6 @@
       }
     }
   ],
-  "paperId": "lt_2024_2025",
-  "year": "2024–2025"
+  "paperId": "lt_2025",
+  "year": "2025"
 }
