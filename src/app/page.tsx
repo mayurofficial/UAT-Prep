@@ -38,8 +38,6 @@ export default function Home() {
   // Question & Navigation State
   const [idx, setIdx] = useState(0);
   const [states, setStates] = useState<Record<number, UserAnswerState>>({});
-  const [timerSec, setTimerSec] = useState(150 * 60);
-  const [paused, setPaused] = useState(false);
   const [results, setResults] = useState<ExamResults | null>(null);
 
   // Responsive Drawer & Modal States
@@ -49,7 +47,6 @@ export default function Home() {
 
   const activeExamData: ExamData = getPaperData(selectedPaperId);
   const TOTAL = activeExamData.questions.length;
-  const EXAM_TIMER = (activeExamData.durationMinutes || 150) * 60;
   const availablePapers = getPapersForExam(selectedExam);
   const activePaperMeta = availablePapers.find(p => p.id === selectedPaperId) || availablePapers[0];
 
@@ -132,9 +129,6 @@ export default function Home() {
     } catch {
       setStates({});
     }
-
-    const paperData = getPaperData(newPaperId);
-    setTimerSec((paperData.durationMinutes || 150) * 60);
   };
 
   const persist = useCallback((s: Record<number, UserAnswerState>) => {
@@ -279,7 +273,7 @@ export default function Home() {
       negativeDeduction,
       netScore,
       percentage,
-      timeTakenSec: EXAM_TIMER - timerSec,
+      timeTakenSec: Object.values(states).reduce((acc, s) => acc + (s.timeSpentSec || 0), 0),
       isQualifiedOrTopTier: selectedExam === 'LT' ? netScore >= 60 : grossScore >= 90,
       sectionScores: secStats,
     });

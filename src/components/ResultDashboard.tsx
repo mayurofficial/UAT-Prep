@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { ExamResults } from '@/types/utet';
 import styles from './ResultDashboard.module.css';
-import { Trophy, RotateCcw, BookOpen, AlertTriangle, CheckCircle2, TrendingUp, Award } from 'lucide-react';
+import { Trophy, RotateCcw, BookOpen } from 'lucide-react';
 
 interface ResultDashboardProps {
   results: ExamResults;

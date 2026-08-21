@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import syllabusDataRaw from '@/data/uksssc_lt_subject_syllabus.json';
-import { LtCompleteSyllabusData, LtSubjectData, LanguageMode } from '@/types/utet';
+import { LtCompleteSyllabusData, LanguageMode } from '@/types/utet';
 import styles from './LtSyllabusView.module.css';
 import {
   BookOpen,
@@ -14,7 +14,6 @@ import {
   Layers,
   Sparkles,
   ShieldCheck,
-  CheckCircle2,
   Atom,
   Binary,
   FlaskConical,
