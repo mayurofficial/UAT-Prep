@@ -3,11 +3,12 @@
 }
 
 @media print {
-  body * {
+  :global(body *) {
     visibility: hidden;
   }
 
-  .printContainer, .printContainer * {
+  .printContainer,
+  .printContainer * {
     visibility: visible;
   }
 
