@@ -1,0 +1,80 @@
+.printContainer {
+  display: none;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printContainer, .printContainer * {
+    visibility: visible;
+  }
+
+  .printContainer {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    color: black;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  .printHeader {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  .printTitle {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .printSub {
+    font-size: 11pt;
+    color: #444;
+  }
+
+  .printQuestionItem {
+    page-break-inside: avoid;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .printQNum {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .printOptionsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin: 8px 0;
+  }
+
+  .printOption {
+    font-size: 10pt;
+  }
+
+  .printCorrectAns {
+    font-weight: bold;
+    color: #0b57d0;
+  }
+
+  .printSolution {
+    background-color: #f9f9f9;
+    padding: 6px 10px;
+    border-left: 3px solid #1a73e8;
+    font-size: 9.5pt;
+    margin-top: 6px;
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "UTET Master Theory Handbook (डिजिटल नोट्स एवं सूत्र)",
+  "subtitle": "High-Yield Revision Notes for Anjali - Mission Teacher 2026/2027",
+  "modules": [
+    {
+      "id": "cdp-theories",
+      "title": "1. बाल विकास के प्रमुख सिद्धांत (Child Psychology Theorists)",
+      "color": "#1a73e8",
+      "items": [
+        {
+          "topic": "जीन पियाजे - संज्ञानात्मक विकास (Jean Piaget)",
+          "summaryEn": "Piaget proposed 4 stages of cognitive development: Sensorimotor (0-2y, Object Permanence), Pre-operational (2-7y, Egocentrism, Animism), Concrete Operational (7-11y, Conservation, Reversibility), Formal Operational (11+y, Abstract & Hypothetical Logic).",
+          "summaryHi": "पियाजे ने संज्ञानात्मक विकास की 4 अवस्थाएं बताईं: 1. संवेदी-गामक (0-2 वर्ष, वस्तु स्थायित्व), 2. पूर्व-संक्रियात्मक (2-7 वर्ष, आत्मकेंद्रित, जीववाद), 3. मूर्त संक्रियात्मक (7-11 वर्ष, संरक्षण, प्रतिवर्ती चिंतन), 4. अमूर्त संक्रियात्मक (11+ वर्ष, परिकल्पनात्मक तार्किक चिंतन)।",
+          "mnemonic": "SPCF (Some People Can Fly) -> Sensorimotor, Pre-op, Concrete, Formal",
+          "keyTerms": ["Assimilation (आत्मसातीकरण)", "Accommodation (समायोजन)", "Equilibration (संतुलन)"]
+        },
+        {
+          "topic": "लेव वायगोत्स्की - सामाजिक-सांस्कृतिक सिद्धांत (Lev Vygotsky)",
+          "summaryEn": "Emphasized that social interaction, culture, and language drive cognitive development. Key constructs: ZPD (Zone of Proximal Development), Scaffolding (temporary assistance by MKO), and Private Speech (self-guidance).",
+          "summaryHi": "संज्ञानात्मक विकास में समाज, संस्कृति और भाषा की प्राथमिक भूमिका। मुख्य संकल्पनाएं: ZPD (समीपस्थ विकास का क्षेत्र), Scaffolding (पाड़/अस्थायी सहारा) और Private Speech (आंतरिक/स्व-निर्देशित वार्ता)।",
+          "mnemonic": "Vygotsky = SCL (Social, Cultural, Language)",
+          "keyTerms": ["ZPD", "Scaffolding (पाड़)", "MKO (More Knowledgeable Other)"]
+        },
+        {
+          "topic": "लॉरेंस कोहलबर्ग - नैतिक विकास (Lawrence Kohlberg)",
+          "summaryEn": "3 Levels & 6 Stages: Level 1 (Pre-conventional: Obedience/Punishment, Instrumental exchange), Level 2 (Conventional: Good boy/girl, Law & Order), Level 3 (Post-conventional: Social contract, Universal ethical principles).",
+          "summaryHi": "3 स्तर और 6 चरण: स्तर 1 (पूर्व-पारंपरिक: दंड एवं आज्ञापालन, स्वार्थ/अदला-बदली), स्तर 2 (पारंपरिक: अच्छा लड़का/अच्छी लड़की, सामाजिक व्यवस्था), स्तर 3 (उत्तर-पारंपरिक: सामाजिक अनुबंध, सार्वभौमिक नैतिक सिद्धांत)।",
+          "mnemonic": "Heinz Dilemma -> How moral reasoning evolves with age",
+          "keyTerms": ["Moral Dilemma (नैतिक दुविधा)", "Moral Reasoning (नैतिक तर्कणा)"]
+        },
+        {
+          "topic": "समावेशी शिक्षा एवं अधिगम अक्षमताएं (Inclusive Education)",
+          "summaryEn": "Dyslexia (Reading disorder), Dysgraphia (Writing disorder), Dyscalculia (Math/number disorder), Dyspraxia (Motor coordination), Plus Curriculum (Compensatory skills like Braille for visually impaired).",
+          "summaryHi": "डिस्लेक्सिया (पठन विकार), डिस्ग्राफिया (लेखन विकार), डिस्कैल्कुलिया (गणितीय गणना विकार), डिस्प्रेक्सिया (गतिक कौशल विकार), प्लस पाठ्यक्रम (दृष्टिबाधितों हेतु ब्रेल व गतिशीलता कौशल)।",
+          "mnemonic": "Lex = Text/Reading | Graph = Writing | Calc = Math",
+          "keyTerms": ["RPwD Act 2016 (21 Disabilities)", "Inclusive Classroom (समावेशी कक्षा)"]
+        }
+      ]
+    },
+    {
+      "id": "hindi-grammar",
+      "title": "2. हिन्दी व्याकरण एवं शिक्षण विधियां (Hindi Mastery)",
+      "color": "#e37400",
+      "items": [
+        {
+          "topic": "स्वर एवं व्यंजन संधि की पहचान ट्रिक्स",
+          "summaryEn": "Dirgha (अ/आ + अ/आ = आ, ई, ऊ), Guna (अ/आ + इ/ई = ए, ओ, अर्), Vriddhi (अ/आ + ए/ऐ = ऐ, औ), Yan (इ/ई + असमान स्वर = य्, व्, र्), Ayadi (ए/ऐ/ओ/औ + स्वर = अय्, आय्, अव्, आव्).",
+          "summaryHi": "दीर्घ संधि (बड़ी मात्रा: आ, ई, ऊ), गुण संधि (एक मात्रा: ए, ओ, अर् जैसे रमेश, सूर्योदय), वृद्धि संधि (दो मात्राएं: ऐ, औ जैसे एकैक, महौषध), यण संधि (य, व, र के पहले आधा अक्षर जैसे इत्यादि, स्वागत), अयादि संधि (अक्षर में अय्, आय्, अव्, आव् जैसे नयन, पवन)।",
+          "mnemonic": "गुण = 1 चोटी (े, ो) | वृद्धि = 2 चोटी (ै, ौ) | यण = य, व से पहले आधा अक्षर",
+          "keyTerms": ["स्वर संधि (5 भेद)", "व्यंजन संधि", "विसर्ग संधि"]
+        },
+        {
+          "topic": "समास के 6 भेद और आसान पहचान",
+          "summaryEn": "Avyayibhav (First word prefix/adverb like यथा, प्रति), Tatpurush (Karak vibhakti hidden), Karmadharaya (Adjective-noun / Upameya-upaman like नीलकमल), Dvigu (First word number like चौराहा), Dvandva (Both words equal, hyphen like माता-पिता), Bahuvrihi (Third special meaning like दशानन).",
+          "summaryHi": "1. अव्ययीभाव (पहला पद प्रधान व अव्यय जैसे यथाशक्ति, प्रतिदिन), 2. तत्पुरुष (कारक चिह्नों का लोप जैसे राजपुत्र = राजा का पुत्र), 3. कर्मधारय (विशेषण-विशेष्य जैसे पीतांबर), 4. द्विगु (पहला पद संख्यावाचक जैसे त्रिलोक), 5. द्वंद्व (दोनों पद प्रधान, योजक चिह्न जैसे रात-दिन), 6. बहुव्रीहि (अन्य पद प्रधान जैसे लंबोदर = गणेशजी)।",
+          "mnemonic": "द्विगु = संख्या | द्वंद्व = दोनों बराबर (और/या) | बहुव्रीहि = तीसरा अर्थ (भगवान/विशिष्ट)",
+          "keyTerms": ["पूर्वपद", "उत्तरपद", "विग्रह"]
+        }
+      ]
+    },
+    {
+      "id": "math-science",
+      "title": "3. गणित एवं विज्ञान के प्रमुख सूत्र (Math & Science Formulas)",
+      "color": "#ea4335",
+      "items": [
+        {
+          "topic": "चाल, समय और दूरी (Speed, Time & Distance)",
+          "summaryEn": "Speed = Distance / Time. km/h to m/s -> Multiply by 5/18. m/s to km/h -> Multiply by 18/5. Trains in opposite directions -> Relative Speed = S1 + S2, Total Distance = L1 + L2.",
+          "summaryHi": "चाल = दूरी / समय। किमी/घंटा को मी/से में बदलना = 5/18 से गुणा। मी/से को किमी/घंटा में = 18/5 से गुणा। विपरीत दिशा में ट्रेनें -> सापेक्ष चाल = S1 + S2, पार करने का समय = (L1 + L2) / (S1 + S2)। समान दिशा में चालें घटती हैं (S1 - S2)।",
+          "mnemonic": "विपरीत दिशा (+) | समान दिशा (-)",
+          "keyTerms": ["Relative Speed (सापेक्ष चाल)", "Average Speed = 2xy/(x+y)"]
+        },
+        {
+          "topic": "पोषण एवं हीनताजन्य रोग (Nutrition & Deficiency Diseases)",
+          "summaryEn": "Protein deficiency: Kwashiorkor (swollen belly). Protein + Calorie deficiency: Marasmus (extreme wasting). Vitamin A: Night blindness. Vitamin B1: Beriberi. Vitamin C: Scurvy. Vitamin D: Rickets. Iron: Anaemia. Iodine: Goitre.",
+          "summaryHi": "प्रोटीन की कमी: क्वाशियोरकर (पेट फूलना)। प्रोटीन + ऊर्जा कमी: मेरास्मस (अत्यधिक दुर्बलता)। विटामिन A: रतौंधी। विटामिन B1: बेरी-बेरी। विटामिन C: स्कर्वी (मसूड़ों से खून)। विटामिन D: रिकेट्स (कमजोर हड्डियां)। आयरन: एनीमिया (खून की कमी)। आयोडीन: घेंघा/गलगंड।",
+          "mnemonic": "K = Kwashiorkor (Kids belly) | M = Marasmus (Muscle wasting)",
+          "keyTerms": ["Ductility (wires)", "Malleability (sheets)", "Sonorous (ringing sound)"]
+        }
+      ]
+    }
+  ]
+}

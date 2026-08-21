@@ -1,0 +1,132 @@
+.handbook {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero {
+  padding: 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+}
+
+.heroTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.heroSub {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  transition: border-color .15s var(--ease);
+}
+
+.search:focus-within {
+  border-color: var(--blue);
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: var(--text);
+  outline: none;
+  font-family: inherit;
+}
+
+.module {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.moduleHead {
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border);
+}
+
+.items {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 700px) {
+  .items { grid-template-columns: 1fr 1fr; }
+}
+
+.item {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.itemTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.itemText {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.itemHi {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  border-top: 1px dashed var(--border);
+  padding-top: 6px;
+}
+
+.mnemonic {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 10px;
+  background: var(--orange-light);
+  color: var(--orange);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+}

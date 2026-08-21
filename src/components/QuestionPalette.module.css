@@ -1,0 +1,131 @@
+.palette {
+  background: var(--card);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.paletteTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filters {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  transition: all .15s var(--ease);
+}
+
+.chip:hover {
+  background: var(--hover);
+}
+
+.chipActive {
+  background: var(--blue-light);
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.legend {
+  display: flex;
+  gap: 12px;
+  font-size: 10px;
+  color: var(--text-hint);
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dotAnswered { background: var(--green); }
+.dotMarked { background: var(--purple); }
+.dotVisited { background: var(--red); }
+.dotUnvisited { background: var(--border); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.qBtn {
+  height: 34px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  transition: all .1s var(--ease);
+  position: relative;
+}
+
+.qBtn:hover {
+  border-color: var(--blue);
+}
+
+.current {
+  box-shadow: 0 0 0 2px var(--blue);
+  border-color: var(--blue);
+}
+
+.answered {
+  background: var(--green-light);
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.marked {
+  background: var(--purple-light);
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
+.visited {
+  background: var(--red-light);
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.unvisited {
+  background: var(--bg-subtle);
+  color: var(--text-hint);
+  border-color: var(--border-light);
+}
+
+.star {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: var(--orange);
+}

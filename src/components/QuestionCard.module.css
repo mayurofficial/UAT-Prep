@@ -1,0 +1,256 @@
+.card {
+  background: var(--card);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Top row */
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.qNum {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--blue);
+  background: var(--blue-light);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.bookmark {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-hint);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  transition: all .15s var(--ease);
+}
+
+.bookmark:hover {
+  background: var(--hover);
+  color: var(--text-secondary);
+}
+
+.bookmarkActive {
+  color: var(--orange);
+  background: var(--orange-light);
+}
+
+/* Question text */
+.question {
+  margin-bottom: 24px;
+}
+
+.qEn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.qHi {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-top: 6px;
+}
+
+.fontSmall .qEn { font-size: 14px; }
+.fontSmall .qHi { font-size: 13px; }
+.fontLarge .qEn { font-size: 18px; }
+.fontLarge .qHi { font-size: 17px; }
+
+/* Options */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--border);
+  background: var(--bg);
+  transition: all .15s var(--ease);
+  width: 100%;
+  text-align: left;
+}
+
+.option:hover {
+  border-color: var(--blue);
+  background: var(--blue-light);
+}
+
+.optSelected {
+  border-color: var(--blue) !important;
+  background: var(--blue-light) !important;
+}
+
+.optCorrect {
+  border-color: var(--green) !important;
+  background: var(--green-light) !important;
+}
+
+.optWrong {
+  border-color: var(--red) !important;
+  background: var(--red-light) !important;
+}
+
+.circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  margin-top: 1px;
+  transition: all .15s var(--ease);
+}
+
+.optSelected .circle {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
+}
+
+.optCorrect .circle {
+  border-color: var(--green);
+  background: var(--green);
+  color: #fff;
+}
+
+.optWrong .circle {
+  border-color: var(--red);
+  background: var(--red);
+  color: #fff;
+}
+
+.optText {
+  flex: 1;
+}
+
+.optEn {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.optHi {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+.statusIcon {
+  margin-left: auto;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+/* Bottom controls */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-light);
+  flex-wrap: wrap;
+}
+
+.leftControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rightControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  transition: all .15s var(--ease);
+}
+
+.navBtn:hover:not(:disabled) {
+  background: var(--hover);
+}
+
+.navBtn:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+.navPrimary {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+
+.navPrimary:hover:not(:disabled) {
+  background: var(--blue-dark);
+}
+
+.reviewBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--purple);
+  border: 1px solid var(--purple);
+  background: transparent;
+  transition: all .15s var(--ease);
+}
+
+.reviewActive {
+  background: var(--purple-light);
+}
+
+.clearBtn {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-hint);
+  padding: 6px 10px;
+  border-radius: var(--radius-full);
+}
+
+.clearBtn:hover {
+  color: var(--red);
+  background: var(--red-light);
+}

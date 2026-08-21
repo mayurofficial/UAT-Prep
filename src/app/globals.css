@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+
+:root {
+  --blue: #1a73e8;
+  --blue-light: #e8f0fe;
+  --blue-dark: #174ea6;
+  --green: #1e8e3e;
+  --green-light: #e6f4ea;
+  --red: #d93025;
+  --red-light: #fce8e6;
+  --orange: #e37400;
+  --orange-light: #fef7e0;
+  --purple: #7c4dff;
+  --purple-light: #f3e8fd;
+
+  --bg: #ffffff;
+  --bg-subtle: #f8f9fa;
+  --card: #ffffff;
+  --text: #202124;
+  --text-secondary: #5f6368;
+  --text-hint: #9aa0a6;
+  --border: #e0e0e0;
+  --border-light: #f1f3f4;
+  --hover: #f1f3f4;
+
+  --shadow-sm: 0 1px 2px rgba(60,64,67,.1);
+  --shadow-md: 0 1px 3px rgba(60,64,67,.15), 0 1px 2px rgba(60,64,67,.1);
+  --shadow-lg: 0 4px 12px rgba(60,64,67,.12);
+
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  --ease: cubic-bezier(.4,0,.2,1);
+}
+
+[data-theme='dark'] {
+  --blue: #8ab4f8;
+  --blue-light: #1d2a3a;
+  --blue-dark: #aecbfa;
+  --green: #81c995;
+  --green-light: #1b2e20;
+  --red: #f28b82;
+  --red-light: #3c2020;
+  --orange: #fdd663;
+  --orange-light: #332b10;
+  --purple: #b388ff;
+  --purple-light: #2d1f42;
+
+  --bg: #1a1a1a;
+  --bg-subtle: #222222;
+  --card: #2d2d2d;
+  --text: #e8eaed;
+  --text-secondary: #9aa0a6;
+  --text-hint: #6b6f74;
+  --border: #3c4043;
+  --border-light: #333;
+  --hover: #3c4043;
+
+  --shadow-sm: none;
+  --shadow-md: 0 1px 3px rgba(0,0,0,.3);
+  --shadow-lg: 0 4px 12px rgba(0,0,0,.3);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans Devanagari', -apple-system, system-ui, sans-serif;
+  background: var(--bg-subtle);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  transition: background .2s var(--ease), color .2s var(--ease);
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-hint); }
+
+::selection {
+  background: var(--blue-light);
+  color: var(--text);
+}

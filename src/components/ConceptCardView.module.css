@@ -1,0 +1,80 @@
+.concept {
+  margin-top: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-subtle);
+}
+
+.conceptHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.topicTag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: var(--blue-light);
+  color: var(--blue);
+}
+
+.conceptBody {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 14px;
+  border: 1px solid var(--border-light);
+}
+
+.sectionLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.labelSolution { color: var(--green); }
+.labelTheory { color: var(--blue); }
+.labelTrick { color: var(--orange); }
+.labelTrap { color: var(--red); }
+
+.content {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  white-space: pre-line;
+}
+
+.contentHi {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  color: var(--text-secondary);
+}
+
+.trickBox {
+  border-left: 3px solid var(--orange);
+  background: var(--orange-light);
+}
+
+.trapBox {
+  border-left: 3px solid var(--red);
+  background: var(--red-light);
+}
