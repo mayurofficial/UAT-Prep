@@ -10,8 +10,7 @@ import {
   Eye,
   EyeOff,
   AlertCircle,
-  KeyRound,
-  Sparkles
+  KeyRound
 } from 'lucide-react';
 import { soundManager } from '@/utils/audioFeedback';
 
@@ -82,13 +81,6 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
     } finally {
       setLoading(false);
     }
-  };
-
-  const handleQuickFill = () => {
-    setUsername('anjali');
-    setPassword('teacher@2025');
-    setErrorMsg(null);
-    soundManager.playClick();
   };
 
   return (
@@ -202,24 +194,6 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
             )}
           </button>
         </form>
-
-        {/* Demo Credentials Helper */}
-        <div className={styles.demoHelperCard}>
-          <div className={styles.demoHelperLeft}>
-            <span className={styles.demoHelperTitle}>Educator Credentials:</span>
-            <span className={styles.demoHelperCreds}>
-              ID: <strong>anjali</strong> • Pass: <strong>teacher@2025</strong>
-            </span>
-          </div>
-          <button
-            type="button"
-            className={styles.fillBtn}
-            onClick={handleQuickFill}
-          >
-            <Sparkles size={11} style={{ marginRight: 4 }} />
-            Quick Fill
-          </button>
-        </div>
       </div>
     </div>
   );
