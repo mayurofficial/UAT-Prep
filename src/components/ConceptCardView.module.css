@@ -1,6 +1,6 @@
 .concept {
   margin-top: 20px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-default);
   border-radius: var(--radius-lg);
   overflow: hidden;
   background: var(--bg-subtle);
@@ -11,20 +11,21 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 16px;
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--blue);
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-default);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  color: var(--primary);
 }
 
 .topicTag {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: var(--text-2xs);
+  font-weight: var(--font-bold);
   padding: 2px 8px;
   border-radius: var(--radius-full);
-  background: var(--blue-light);
-  color: var(--blue);
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary-glow);
 }
 
 .conceptBody {
@@ -35,46 +36,48 @@
 }
 
 .section {
-  background: var(--card);
-  border-radius: var(--radius);
-  padding: 14px;
-  border: 1px solid var(--border-light);
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  border: 1px solid var(--border-subtle);
 }
 
 .sectionLabel {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: var(--text-xs);
+  font-weight: var(--font-bold);
   margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
-.labelSolution { color: var(--green); }
-.labelTheory { color: var(--blue); }
-.labelTrick { color: var(--orange); }
-.labelTrap { color: var(--red); }
+.labelSolution { color: var(--success); }
+.labelTheory { color: var(--primary); }
+.labelTrick { color: var(--warning); }
+.labelTrap { color: var(--error); }
 
 .content {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--text);
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
   white-space: pre-line;
 }
 
 .contentHi {
   margin-top: 8px;
   padding-top: 8px;
-  border-top: 1px dashed var(--border);
+  border-top: 1px dashed var(--border-default);
   color: var(--text-secondary);
 }
 
 .trickBox {
-  border-left: 3px solid var(--orange);
-  background: var(--orange-light);
+  border-left: 3px solid var(--warning);
+  background: var(--warning-light);
 }
 
 .trapBox {
-  border-left: 3px solid var(--red);
-  background: var(--red-light);
+  border-left: 3px solid var(--error);
+  background: var(--error-light);
 }
