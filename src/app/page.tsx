@@ -15,6 +15,7 @@ import { HandbookView } from '@/components/HandbookView';
 import { ExamGuideView } from '@/components/ExamGuideView';
 import { ResultDashboard } from '@/components/ResultDashboard';
 import { PrintWorksheet } from '@/components/PrintWorksheet';
+import { LtStudyView } from '@/components/LtStudyView';
 
 import styles from './page.module.css';
 import { LayoutGrid, Heart } from 'lucide-react';
@@ -326,6 +327,8 @@ export default function Home() {
       )}
 
       <main className={styles.main}>
+        {mode === 'study' && <LtStudyView onStartPractice={() => setMode('practice')} />}
+
         {mode === 'handbook' && <HandbookView />}
 
         {mode === 'guide' && (

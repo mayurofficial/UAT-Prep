@@ -130,6 +130,14 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Navigation Modes */}
         <nav className={styles.modes}>
           <button
+            className={`${styles.modeBtn} ${mode === 'study' ? styles.modeBtnActive : ''}`}
+            onClick={() => setMode('study')}
+            title="Uttarakhand LT Assistant Teacher Master Syllabus & Study Notes"
+          >
+            <GraduationCap size={15} />
+            <span>LT अध्ययन (LT Study Hub)</span>
+          </button>
+          <button
             className={`${styles.modeBtn} ${mode === 'practice' ? styles.modeBtnActive : ''}`}
             onClick={() => setMode('practice')}
           >
