@@ -3,7 +3,7 @@
 }
 
 @media print {
-  :global(body *) {
+  body *:not(.printContainer):not(.printContainer *) {
     visibility: hidden;
   }
 
