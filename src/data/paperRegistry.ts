@@ -1,11 +1,11 @@
 import { ExamData, TargetExam } from '@/types/utet';
 
 import utet2024Data from './papers/utet_2024_2025.json';
+import utet2020Data from './papers/utet_2020.json';
 import utet2019Data from './papers/utet_2019.json';
 import utet2023Data from './papers/utet_2023.json';
 import utet2022Data from './papers/utet_2022.json';
 import utet2021Data from './papers/utet_2021.json';
-import utet2020Data from './papers/utet_2020.json';
 import lt2024Data from './papers/lt_2024_2025.json';
 import lt2021Data from './papers/lt_2021.json';
 
@@ -34,6 +34,11 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
     ...(utet2024Data as unknown as ExamData),
     category: 'OFFICIAL_PYQ',
     sourceNote: 'Official UBSE UTET-II Exam Paper (Set A - Oct 2024)',
+  },
+  utet_2020: {
+    ...(utet2020Data as unknown as ExamData),
+    category: 'OFFICIAL_PYQ',
+    sourceNote: 'Official UBSE UTET-II 2020 Exam Paper (Set A - 2020)',
   },
   utet_2019: {
     ...(utet2019Data as unknown as ExamData),
@@ -70,11 +75,6 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
     category: 'MODEL_TEST',
     sourceNote: 'UTET-II Model Mock Test (High-Yield 2021 Pattern)',
   },
-  utet_2020_model: {
-    ...(utet2020Data as unknown as ExamData),
-    category: 'MODEL_TEST',
-    sourceNote: 'UTET-II Model Mock Test (High-Yield 2020 Pattern)',
-  },
 };
 
 export const PAPERS_LIST: PaperMeta[] = [
@@ -93,6 +93,19 @@ export const PAPERS_LIST: PaperMeta[] = [
     hasNegativeMarking: false,
     negativePenalty: 0,
     sourceNote: 'Authentic UBSE Exam Paper from Oct 24, 2024',
+  },
+  {
+    id: 'utet_2020',
+    targetExam: 'UTET',
+    category: 'OFFICIAL_PYQ',
+    year: '2020',
+    title: 'UTET-II 2020 (Official Exam Paper)',
+    badge: 'Official PYQ (Set A)',
+    totalQuestions: 150,
+    durationMinutes: 150,
+    hasNegativeMarking: false,
+    negativePenalty: 0,
+    sourceNote: 'Authentic UBSE Exam Paper from 2020',
   },
   {
     id: 'utet_2019',
@@ -169,19 +182,6 @@ export const PAPERS_LIST: PaperMeta[] = [
     category: 'MODEL_TEST',
     year: '2021',
     title: 'UTET-II Model Test 3 (2021 Pattern)',
-    badge: 'Model Test',
-    totalQuestions: 150,
-    durationMinutes: 150,
-    hasNegativeMarking: false,
-    negativePenalty: 0,
-    sourceNote: '150Q Comprehensive Bilingual Practice Paper',
-  },
-  {
-    id: 'utet_2020_model',
-    targetExam: 'UTET',
-    category: 'MODEL_TEST',
-    year: '2020',
-    title: 'UTET-II Model Test 4 (2020 Pattern)',
     badge: 'Model Test',
     totalQuestions: 150,
     durationMinutes: 150,
