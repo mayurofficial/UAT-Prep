@@ -4,9 +4,13 @@ import React, { useState, useMemo } from 'react';
 import { QuestionItem, UserAnswerState } from '@/types/utet';
 import styles from './QuestionPalette.module.css';
 import {
-  LayoutGrid, Star, CheckCircle2, Flag, AlertCircle, Circle, Bookmark,
-  Layers, ChevronRight, Zap
+  LayoutGrid,
+  Star,
+  Search,
+  X,
+  Zap
 } from 'lucide-react';
+import { soundManager } from '@/utils/audioFeedback';
 
 interface QuestionPaletteProps {
   questions: QuestionItem[];
@@ -14,6 +18,8 @@ interface QuestionPaletteProps {
   userStates: Record<number, UserAnswerState>;
   onSelectQuestion: (index: number) => void;
   sections?: { id: string; name: string; nameHindi: string; questionRange: string; total: number; color?: string }[];
+  isMobileDrawer?: boolean;
+  onCloseDrawer?: () => void;
 }
 
 type Filter = 'all' | 'unanswered' | 'answered' | 'marked' | 'bookmarked';
@@ -24,9 +30,12 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
   userStates,
   onSelectQuestion,
   sections,
+  isMobileDrawer = false,
+  onCloseDrawer,
 }) => {
   const [filter, setFilter] = useState<Filter>('all');
   const [selectedSectionFilter, setSelectedSectionFilter] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState<string>('');
 
   // Compute live statistics
   const stats = useMemo(() => {
@@ -85,7 +94,19 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
 
   // Filtered items
   const filtered = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+
     return questions.map((q, idx) => ({ q, idx })).filter(({ q, idx }) => {
+      // Search query
+      if (query) {
+        const textMatch =
+          q.question.english.toLowerCase().includes(query) ||
+          q.question.hindi.toLowerCase().includes(query) ||
+          (q.topic && q.topic.toLowerCase().includes(query)) ||
+          String(q.questionNumber).includes(query);
+        if (!textMatch) return false;
+      }
+
       // Section filter
       if (selectedSectionFilter !== 'all' && q.section !== selectedSectionFilter) {
         return false;
@@ -99,23 +120,18 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
       if (filter === 'bookmarked') return !!s?.isBookmarked;
       return true;
     });
-  }, [questions, userStates, filter, selectedSectionFilter]);
+  }, [questions, userStates, filter, selectedSectionFilter, searchQuery]);
 
-  // Helper to jump to section
-  const handleSectionJump = (sectionName: string) => {
-    if (sectionName === 'all') {
-      setSelectedSectionFilter('all');
-      return;
-    }
-    setSelectedSectionFilter(sectionName);
-    const firstIdx = questions.findIndex(q => q.section === sectionName);
-    if (firstIdx !== -1) {
-      onSelectQuestion(firstIdx);
+  const handleSelect = (idx: number) => {
+    soundManager.playNavigation();
+    onSelectQuestion(idx);
+    if (onCloseDrawer) {
+      onCloseDrawer();
     }
   };
 
-  return (
-    <aside className={styles.paletteContainer}>
+  const content = (
+    <div className={styles.paletteContainer}>
       {/* 1. Header with Progress Indicator */}
       <div className={styles.header}>
         <div className={styles.titleRow}>
@@ -126,7 +142,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
             <span>Question Navigator</span>
           </div>
           <span className={styles.badgeProgress}>
-            <Zap size={12} className={styles.zapIcon} /> {stats.progressPercent}% Done
+            <Zap size={11} /> {stats.progressPercent}% Done
           </span>
         </div>
 
@@ -139,200 +155,143 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
         </div>
         <div className={styles.progressLabel}>
           <span>{stats.totalAnswered} of {questions.length} Attempted</span>
-          <span>{questions.length - stats.totalAnswered} Remaining</span>
+          <span>{questions.length - stats.totalAnswered} Left</span>
         </div>
       </div>
 
-      {/* 2. Interactive Status Badges Summary */}
+      {/* 2. Status Summary Grid */}
       <div className={styles.statusGrid}>
         <div
-          className={`${styles.statusCard} ${styles.cardAnswered} ${filter === 'answered' ? styles.statusActive : ''}`}
+          className={`${styles.statusCard} ${filter === 'answered' ? styles.statusActive : ''}`}
           onClick={() => setFilter(filter === 'answered' ? 'all' : 'answered')}
-          title="Filter by Answered"
+          title="Filter Answered Questions"
         >
-          <div className={styles.statusTop}>
-            <span className={styles.statusDotGreen} />
-            <span className={styles.statusCount}>{stats.totalAnswered}</span>
+          <div className={styles.statusLabel}>
+            <span className={`${styles.dot} ${styles.dotAnswered}`} />
+            <span>Answered</span>
           </div>
-          <span className={styles.statusText}>Answered</span>
+          <span className={styles.statusCount}>{stats.answered}</span>
         </div>
 
         <div
-          className={`${styles.statusCard} ${styles.cardMarked} ${filter === 'marked' ? styles.statusActive : ''}`}
+          className={`${styles.statusCard} ${filter === 'marked' ? styles.statusActive : ''}`}
           onClick={() => setFilter(filter === 'marked' ? 'all' : 'marked')}
-          title="Filter by Marked for Review"
+          title="Filter Marked for Review Questions"
         >
-          <div className={styles.statusTop}>
-            <span className={styles.statusDotPurple} />
-            <span className={styles.statusCount}>{stats.marked + stats.answeredAndMarked}</span>
+          <div className={styles.statusLabel}>
+            <span className={`${styles.dot} ${styles.dotMarked}`} />
+            <span>Review</span>
           </div>
-          <span className={styles.statusText}>Review</span>
+          <span className={styles.statusCount}>{stats.marked + stats.answeredAndMarked}</span>
         </div>
 
         <div
-          className={`${styles.statusCard} ${styles.cardSkipped} ${filter === 'unanswered' ? styles.statusActive : ''}`}
+          className={`${styles.statusCard} ${filter === 'unanswered' ? styles.statusActive : ''}`}
           onClick={() => setFilter(filter === 'unanswered' ? 'all' : 'unanswered')}
-          title="Filter by Skipped / Pending"
+          title="Filter Unanswered Questions"
         >
-          <div className={styles.statusTop}>
-            <span className={styles.statusDotRed} />
-            <span className={styles.statusCount}>{stats.visitedSkipped}</span>
+          <div className={styles.statusLabel}>
+            <span className={`${styles.dot} ${styles.dotSkipped}`} />
+            <span>Skipped</span>
           </div>
-          <span className={styles.statusText}>Skipped</span>
+          <span className={styles.statusCount}>{stats.visitedSkipped}</span>
         </div>
 
         <div
-          className={`${styles.statusCard} ${styles.cardUnvisited} ${filter === 'all' ? styles.statusActive : ''}`}
-          onClick={() => setFilter('all')}
-          title="Total Questions"
+          className={`${styles.statusCard} ${filter === 'bookmarked' ? styles.statusActive : ''}`}
+          onClick={() => setFilter(filter === 'bookmarked' ? 'all' : 'bookmarked')}
+          title="Filter Saved Bookmarks"
         >
-          <div className={styles.statusTop}>
-            <span className={styles.statusDotGray} />
-            <span className={styles.statusCount}>{stats.notVisited}</span>
+          <div className={styles.statusLabel}>
+            <Star size={11} color="#f59e0b" fill="#f59e0b" />
+            <span>Saved</span>
           </div>
-          <span className={styles.statusText}>Unvisited</span>
+          <span className={styles.statusCount}>{stats.bookmarked}</span>
         </div>
       </div>
 
-      {/* 3. Section & Category Filters Container */}
-      <div className={styles.controlsSection}>
-        {/* Section Filter Pills */}
-        {derivedSections.length > 1 && (
-          <div className={styles.sectionTabsWrapper}>
-            <div className={styles.sectionTabs}>
-              <button
-                className={`${styles.sectionTab} ${selectedSectionFilter === 'all' ? styles.sectionTabActive : ''}`}
-                onClick={() => handleSectionJump('all')}
-              >
-                All Sections
-              </button>
-              {derivedSections.map((sec) => {
-                const isSecActive = selectedSectionFilter === sec.name;
-                const shortName = sec.name
-                  .replace('Child Development and Pedagogy', 'CDP')
-                  .replace('First Language - English/Hindi', 'Lang I')
-                  .replace('First Language - English', 'Lang I')
-                  .replace('First Language - Hindi', 'Hindi')
-                  .replace('Second Language - English', 'Lang II')
-                  .replace('Second Language - Hindi', 'Hindi')
-                  .replace('Science & Mathematics', 'Math/Sci')
-                  .replace('Mathematics and Science', 'Math/Sci')
-                  .replace('Teaching Aptitude & Pedagogy', 'Pedagogy')
-                  .replace('Uttarakhand General Knowledge', 'UK GK')
-                  .replace('General Science & Specialized Subject', 'Science');
+      {/* 3. Section Select & Search */}
+      <div className={styles.controlsRow}>
+        <select
+          className={styles.sectionSelect}
+          value={selectedSectionFilter}
+          onChange={(e) => setSelectedSectionFilter(e.target.value)}
+          aria-label="Filter by Section"
+        >
+          <option value="all">All Sections ({questions.length}Q)</option>
+          {derivedSections.map((sec) => (
+            <option key={sec.id || sec.name} value={sec.name}>
+              {sec.name} ({sec.total}Q)
+            </option>
+          ))}
+        </select>
 
-                return (
-                  <button
-                    key={sec.id}
-                    className={`${styles.sectionTab} ${isSecActive ? styles.sectionTabActive : ''}`}
-                    onClick={() => handleSectionJump(sec.name)}
-                    title={`${sec.name} (${sec.questionRange})`}
-                  >
-                    {shortName}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {/* Status Filter Chips */}
-        <div className={styles.filterPills}>
-          <button
-            className={`${styles.pill} ${filter === 'all' && selectedSectionFilter === 'all' ? styles.pillActive : ''}`}
-            onClick={() => { setFilter('all'); setSelectedSectionFilter('all'); }}
-          >
-            All ({questions.length})
-          </button>
-          <button
-            className={`${styles.pill} ${filter === 'unanswered' ? styles.pillActive : ''}`}
-            onClick={() => setFilter(filter === 'unanswered' ? 'all' : 'unanswered')}
-          >
-            Pending ({questions.length - stats.totalAnswered})
-          </button>
-          <button
-            className={`${styles.pill} ${filter === 'marked' ? styles.pillActive : ''}`}
-            onClick={() => setFilter(filter === 'marked' ? 'all' : 'marked')}
-          >
-            Marked ({stats.marked + stats.answeredAndMarked})
-          </button>
-          {stats.bookmarked > 0 && (
-            <button
-              className={`${styles.pill} ${filter === 'bookmarked' ? styles.pillActive : ''}`}
-              onClick={() => setFilter(filter === 'bookmarked' ? 'all' : 'bookmarked')}
-            >
-              ⭐ Saved ({stats.bookmarked})
-            </button>
-          )}
+        <div className={styles.searchBox}>
+          <Search size={13} className={styles.searchIcon} />
+          <input
+            type="text"
+            className={styles.searchInput}
+            placeholder="Search questions or topics..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            aria-label="Search question text"
+          />
         </div>
       </div>
 
-      {/* 5. Modern Question Number Button Grid */}
-      <div className={styles.gridWrapper}>
-        <div className={styles.grid}>
+      {/* 4. Question Buttons Grid */}
+      <div className={styles.gridScroll}>
+        <div className={styles.questionGrid}>
           {filtered.map(({ q, idx }) => {
-            const s = userStates[idx] || {
-              selectedOption: null,
-              isMarkedForReview: false,
-              isBookmarked: false,
-              visited: false,
-              timeSpentSec: 0,
-            };
+            const s = userStates[idx];
+            const isCurrent = idx === currentIndex;
+            const isAnswered = s && !!s.selectedOption;
+            const isMarked = s && s.isMarkedForReview;
+            const isBookmarked = s && s.isBookmarked;
+            const isVisitedSkipped = s && s.visited && !s.selectedOption && !s.isMarkedForReview;
 
-            const isCurrent = currentIndex === idx;
-            const hasAns = s.selectedOption !== null;
-            const isMarked = s.isMarkedForReview;
-            const isVisited = s.visited;
-
-            let buttonStatusClass = styles.btnUnvisited;
-            if (hasAns && isMarked) {
-              buttonStatusClass = styles.btnAnsAndMarked;
-            } else if (hasAns) {
-              buttonStatusClass = styles.btnAnswered;
-            } else if (isMarked) {
-              buttonStatusClass = styles.btnMarked;
-            } else if (isVisited) {
-              buttonStatusClass = styles.btnVisited;
-            }
+            let btnCls = styles.qBtn;
+            if (isCurrent) btnCls += ` ${styles.qCurrent}`;
+            if (isAnswered && isMarked) btnCls += ` ${styles.qAnsweredAndMarked}`;
+            else if (isAnswered) btnCls += ` ${styles.qAnswered}`;
+            else if (isMarked) btnCls += ` ${styles.qMarked}`;
+            else if (isVisitedSkipped) btnCls += ` ${styles.qVisitedSkipped}`;
 
             return (
               <button
-                key={q.id}
-                className={`${styles.qBtn} ${buttonStatusClass} ${isCurrent ? styles.btnCurrent : ''}`}
-                onClick={() => onSelectQuestion(idx)}
-                aria-label={`Question ${q.questionNumber}`}
+                key={q.id || idx}
+                className={btnCls}
+                onClick={() => handleSelect(idx)}
+                aria-label={`Jump to Question ${q.questionNumber}`}
                 title={`Q${q.questionNumber}: ${q.section}`}
               >
-                <span className={styles.qNumText}>{q.questionNumber}</span>
-                {s.isBookmarked && (
-                  <span className={styles.bookmarkBadge} title="Bookmarked">
-                    <Star size={7} fill="currentColor" />
-                  </span>
-                )}
-                {isMarked && !s.isBookmarked && (
-                  <span className={styles.reviewDot} />
+                {q.questionNumber}
+                {isBookmarked && (
+                  <Star size={8} className={styles.qBookmarkIndicator} fill="currentColor" />
                 )}
               </button>
             );
           })}
         </div>
       </div>
+    </div>
+  );
 
-      {/* 6. Refined Footer Legend */}
-      <div className={styles.legendBar}>
-        <div className={styles.legendItem}>
-          <span className={styles.legendSampleAnswered} /> Answered
-        </div>
-        <div className={styles.legendItem}>
-          <span className={styles.legendSampleMarked} /> Review
-        </div>
-        <div className={styles.legendItem}>
-          <span className={styles.legendSampleSkipped} /> Skipped
-        </div>
-        <div className={styles.legendItem}>
-          <span className={styles.legendSampleUnvisited} /> Not Visited
+  if (isMobileDrawer) {
+    return (
+      <div className={styles.mobileDrawerOverlay} onClick={onCloseDrawer}>
+        <div className={styles.mobileDrawerSheet} onClick={(e) => e.stopPropagation()}>
+          <div className={styles.mobileDrawerCloseRow}>
+            <span style={{ fontSize: '14px', fontWeight: 700 }}>Question Navigator</span>
+            <button className={styles.closeDrawerBtn} onClick={onCloseDrawer} aria-label="Close navigator">
+              <X size={18} />
+            </button>
+          </div>
+          {content}
         </div>
       </div>
-    </aside>
-  );
+    );
+  }
+
+  return content;
 };

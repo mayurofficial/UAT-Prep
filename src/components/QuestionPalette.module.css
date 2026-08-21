@@ -2,107 +2,81 @@
   background: var(--card);
   border-radius: 18px;
   border: 1px solid var(--border);
+  padding: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  max-height: calc(100vh - 100px);
   position: sticky;
-  top: 84px;
-  max-height: calc(100vh - 104px);
+  top: 76px;
   overflow: hidden;
-  transition: all 0.25s var(--ease);
 }
 
 [data-theme="dark"] .paletteContainer {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
   background: #1e2430;
   border-color: rgba(255, 255, 255, 0.08);
 }
 
-/* ==========================================
-   1. Header & Live Progress Bar
-   ========================================== */
+/* Header & Live Progress */
 .header {
-  padding: 16px 16px 12px;
-  border-bottom: 1px solid var(--border-light);
-  background: var(--bg);
-}
-
-[data-theme="dark"] .header {
-  background: #171c26;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .titleRow {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 
 .title {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--text);
-  letter-spacing: -0.2px;
 }
 
 .titleIcon {
   width: 26px;
   height: 26px;
-  border-radius: 7px;
-  background: linear-gradient(135deg, #1a73e8, #4285f4);
-  color: #fff;
+  border-radius: var(--radius);
+  background: var(--blue-light);
+  color: var(--blue);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .badgeProgress {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
   font-size: 11px;
-  font-weight: 700;
-  color: #059669;
-  background: rgba(16, 185, 129, 0.12);
+  font-weight: 800;
+  color: var(--blue);
+  background: var(--blue-light);
   padding: 3px 8px;
   border-radius: var(--radius-full);
-}
-
-[data-theme="dark"] .badgeProgress {
-  color: #34d399;
-  background: rgba(52, 211, 153, 0.15);
-}
-
-.zapIcon {
-  animation: pulseZap 2s infinite ease-in-out;
-}
-
-@keyframes pulseZap {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.15); opacity: 0.85; }
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .progressBarWrapper {
   width: 100%;
   height: 6px;
-  border-radius: var(--radius-full);
   background: var(--bg-subtle);
+  border-radius: 3px;
   overflow: hidden;
-  margin-bottom: 6px;
-}
-
-[data-theme="dark"] .progressBarWrapper {
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-light);
 }
 
 .progressBarFill {
   height: 100%;
-  background: linear-gradient(90deg, #10b981, #06b6d4, #3b82f6);
-  border-radius: var(--radius-full);
-  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  background: linear-gradient(90deg, #1a73e8, #10b981);
+  border-radius: 3px;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .progressLabel {
@@ -110,299 +84,182 @@
   justify-content: space-between;
   font-size: 11px;
   font-weight: 600;
-  color: var(--text-hint);
+  color: var(--text-secondary);
 }
 
-/* ==========================================
-   2. Status Grid Summary Cards
-   ========================================== */
+/* Status Cards Summary Grid */
 .statusGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 6px;
-  padding: 12px 16px;
-  background: var(--card);
 }
 
 .statusCard {
-  padding: 8px 6px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 2px;
-  transition: all 0.18s var(--ease);
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+  background: var(--bg-subtle);
+  cursor: pointer;
+  transition: all 0.15s ease;
   user-select: none;
 }
 
 .statusCard:hover {
-  transform: translateY(-1.5px);
-  border-color: var(--blue);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  border-color: var(--border);
+  background: var(--hover);
 }
 
 .statusActive {
-  box-shadow: 0 0 0 2px var(--blue);
-  border-color: var(--blue);
+  border-color: var(--blue) !important;
+  background: var(--blue-light) !important;
 }
 
-.statusTop {
+.statusLabel {
   display: flex;
   align-items: center;
-  gap: 5px;
-}
-
-.statusCount {
-  font-size: 14px;
-  font-weight: 800;
-  color: var(--text);
-  line-height: 1;
-}
-
-.statusText {
-  font-size: 10px;
+  gap: 6px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text-secondary);
 }
 
-.statusDotGreen {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #10b981;
-  box-shadow: 0 0 6px rgba(16, 185, 129, 0.6);
+.statusCount {
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--text);
 }
 
-.statusDotPurple {
-  width: 7px;
-  height: 7px;
+.dot {
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: #8b5cf6;
-  box-shadow: 0 0 6px rgba(139, 92, 246, 0.6);
 }
 
-.statusDotRed {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #f43f5e;
-  box-shadow: 0 0 6px rgba(244, 63, 94, 0.6);
-}
+.dotAnswered { background: #10b981; }
+.dotMarked { background: #8b5cf6; }
+.dotSkipped { background: #ef4444; }
+.dotNotVisited { background: var(--text-hint); }
 
-.statusDotGray {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--text-hint);
-}
-
-.cardAnswered { border-bottom: 2.5px solid #10b981; }
-.cardMarked { border-bottom: 2.5px solid #8b5cf6; }
-.cardSkipped { border-bottom: 2.5px solid #f43f5e; }
-.cardUnvisited { border-bottom: 2.5px solid var(--border); }
-
-/* ==========================================
-   3. Controls Container (Section Tabs & Filters)
-   ========================================== */
-.controlsSection {
-  background: var(--bg);
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
-  padding: 10px 14px;
+/* Section Selector & Search */
+.controlsRow {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-[data-theme="dark"] .controlsSection {
-  background: #171c26;
-  border-color: rgba(255, 255, 255, 0.08);
-}
-
-.sectionTabsWrapper {
-  width: 100%;
-  overflow-x: auto;
-  padding-bottom: 2px;
-  scrollbar-width: thin;
-}
-
-.sectionTabs {
+.searchBox {
+  position: relative;
   display: flex;
-  gap: 5px;
-  width: max-content;
-}
-
-.sectionTab {
-  font-size: 11px;
-  font-weight: 700;
-  padding: 4px 10px;
-  border-radius: 6px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
-  white-space: nowrap;
-  cursor: pointer;
-  transition: all 0.15s var(--ease);
-  flex-shrink: 0;
-  line-height: 1.3;
-}
-
-.sectionTab:hover {
-  background: var(--hover);
-  color: var(--text);
-  border-color: var(--blue);
-}
-
-.sectionTabActive {
-  background: var(--blue) !important;
-  color: #ffffff !important;
-  border-color: var(--blue) !important;
-  box-shadow: 0 1px 4px rgba(26, 115, 232, 0.35);
-}
-
-[data-theme="dark"] .sectionTabActive {
-  background: #1a73e8 !important;
-  color: #ffffff !important;
-  border-color: #1a73e8 !important;
-}
-
-/* ==========================================
-   4. Status Filter Pills
-   ========================================== */
-.filterPills {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
   align-items: center;
 }
 
-.pill {
-  font-size: 11px;
-  font-weight: 600;
-  padding: 3px 9px;
-  border-radius: var(--radius-full);
-  background: var(--card);
-  border: 1px solid var(--border);
+.searchIcon {
+  position: absolute;
+  left: 10px;
   color: var(--text-secondary);
-  cursor: pointer;
-  transition: all 0.15s var(--ease);
-  line-height: 1.3;
+  pointer-events: none;
 }
 
-.pill:hover {
-  background: var(--hover);
-  border-color: var(--text-hint);
+.searchInput {
+  width: 100%;
+  padding: 7px 10px 7px 30px;
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  font-size: 11.5px;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.searchInput:focus {
+  border-color: var(--blue);
+}
+
+.sectionSelect {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text);
+  outline: none;
+  cursor: pointer;
+}
+
+.sectionSelect option {
+  background: var(--card);
   color: var(--text);
 }
 
-.pillActive {
-  background: var(--text) !important;
-  color: var(--bg) !important;
-  border-color: var(--text) !important;
-  font-weight: 700;
-}
-
-[data-theme="dark"] .pillActive {
-  background: #e8eaed !important;
-  color: #1a1f2c !important;
-  border-color: #e8eaed !important;
-}
-
-/* ==========================================
-   5. Question Number Button Grid
-   ========================================== */
-.gridWrapper {
-  padding: 14px 16px;
+/* Question Grid */
+.gridScroll {
   overflow-y: auto;
-  flex: 1 1 auto;
+  flex-grow: 1;
+  padding-right: 4px;
   min-height: 180px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border) transparent;
+  max-height: calc(100vh - 380px);
 }
 
-.gridWrapper::-webkit-scrollbar {
-  width: 5px;
-}
-
-.gridWrapper::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.gridWrapper::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 4px;
-}
-
-.grid {
+.questionGrid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 6px;
 }
 
 .qBtn {
-  aspect-ratio: 1 / 1;
-  min-height: 36px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-  font-size: 12px;
-  font-weight: 700;
+  aspect-ratio: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text);
   cursor: pointer;
+  transition: all 0.15s ease;
   position: relative;
-  transition: transform 0.12s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.12s ease, border-color 0.12s ease;
   user-select: none;
 }
 
 .qBtn:hover {
-  transform: scale(1.08);
-  z-index: 2;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-color: var(--blue);
+  transform: scale(1.05);
 }
 
-.qBtn:active {
-  transform: scale(0.96);
+.qCurrent {
+  border-color: var(--blue) !important;
+  box-shadow: 0 0 0 2px var(--blue);
+  font-weight: 900;
 }
 
-.qNumText {
-  line-height: 1;
+.qAnswered {
+  background: #10b981 !important;
+  color: #fff !important;
+  border-color: #059669 !important;
 }
 
-/* Button States */
-.btnCurrent {
-  box-shadow: 0 0 0 2.5px #1a73e8, 0 4px 12px rgba(26, 115, 232, 0.35) !important;
-  border-color: #1a73e8 !important;
-  font-weight: 800;
-  z-index: 3;
+.qMarked {
+  background: #8b5cf6 !important;
+  color: #fff !important;
+  border-color: #7c3aed !important;
 }
 
-[data-theme="dark"] .btnCurrent {
-  box-shadow: 0 0 0 2.5px #8ab4f8, 0 4px 14px rgba(138, 180, 248, 0.4) !important;
-  border-color: #8ab4f8 !important;
+.qAnsweredAndMarked {
+  background: #8b5cf6 !important;
+  color: #fff !important;
+  border-color: #7c3aed !important;
+  position: relative;
 }
 
-.btnAnswered {
-  background: #10b981;
-  border-color: #059669;
-  color: #ffffff;
-  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.25);
-}
-
-.btnAnsAndMarked {
-  background: #8b5cf6;
-  border-color: #7c3aed;
-  color: #ffffff;
-  box-shadow: 0 2px 6px rgba(139, 92, 246, 0.25);
-}
-
-.btnAnsAndMarked::after {
+.qAnsweredAndMarked::after {
   content: '';
   position: absolute;
   bottom: 2px;
@@ -411,114 +268,72 @@
   height: 6px;
   border-radius: 50%;
   background: #10b981;
-  border: 1px solid #fff;
 }
 
-.btnMarked {
-  background: rgba(139, 92, 246, 0.15);
-  border-color: #8b5cf6;
-  color: #7c3aed;
+.qVisitedSkipped {
+  background: rgba(239, 68, 68, 0.12) !important;
+  color: #ef4444 !important;
+  border-color: rgba(239, 68, 68, 0.3) !important;
 }
 
-[data-theme="dark"] .btnMarked {
-  background: rgba(139, 92, 246, 0.25);
-  color: #c4b5fd;
-  border-color: #a78bfa;
-}
-
-.btnVisited {
-  background: rgba(244, 63, 94, 0.12);
-  border-color: #f43f5e;
-  color: #e11d48;
-}
-
-[data-theme="dark"] .btnVisited {
-  background: rgba(244, 63, 94, 0.22);
-  color: #fda4af;
-  border-color: #fb7185;
-}
-
-.btnUnvisited {
-  background: var(--bg-subtle);
-  border-color: var(--border-light);
-  color: var(--text-secondary);
-}
-
-[data-theme="dark"] .btnUnvisited {
-  background: #252c3b;
-  border-color: rgba(255, 255, 255, 0.06);
-  color: #9aa0a6;
-}
-
-.bookmarkBadge {
+.qBookmarkIndicator {
   position: absolute;
   top: 1px;
   right: 1px;
   color: #f59e0b;
+}
+
+/* Tablet & Mobile Slide-Over Modal / Bottom-Sheet */
+.mobileDrawerOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
   display: flex;
+  justify-content: flex-end;
+  animation: fadeIn 0.2s ease-out;
 }
 
-.reviewDot {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #8b5cf6;
+.mobileDrawerSheet {
+  width: 360px;
+  max-width: 90vw;
+  height: 100%;
+  background: var(--bg);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  overflow-y: auto;
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.2);
+  animation: slideLeft 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* ==========================================
-   6. Footer Legend Bar
-   ========================================== */
-.legendBar {
+.mobileDrawerCloseRow {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 14px;
-  background: var(--bg);
-  border-top: 1px solid var(--border-light);
-  font-size: 10px;
-  font-weight: 600;
-  color: var(--text-hint);
-  flex-wrap: wrap;
-  gap: 6px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
 }
 
-[data-theme="dark"] .legendBar {
-  background: #171c26;
-}
-
-.legendItem {
+.closeDrawerBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
+  color: var(--text-secondary);
 }
 
-.legendSampleAnswered {
-  width: 9px;
-  height: 9px;
-  border-radius: 2px;
-  background: #10b981;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-.legendSampleMarked {
-  width: 9px;
-  height: 9px;
-  border-radius: 2px;
-  background: #8b5cf6;
-}
-
-.legendSampleSkipped {
-  width: 9px;
-  height: 9px;
-  border-radius: 2px;
-  background: #f43f5e;
-}
-
-.legendSampleUnvisited {
-  width: 9px;
-  height: 9px;
-  border-radius: 2px;
-  background: var(--border);
+@keyframes slideLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
 }

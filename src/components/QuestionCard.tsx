@@ -4,7 +4,8 @@ import React from 'react';
 import { QuestionItem, AppMode, LanguageMode, UserAnswerState, TargetExam } from '@/types/utet';
 import styles from './QuestionCard.module.css';
 import { ConceptCardView } from './ConceptCardView';
-import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle, Tag, AlertCircle } from 'lucide-react';
+import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle, AlertCircle } from 'lucide-react';
+import { soundManager } from '@/utils/audioFeedback';
 
 interface QuestionCardProps {
   question: QuestionItem;
@@ -49,11 +50,34 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
   const sizeClass = fontSize === 'small' ? styles.fontSmall : fontSize === 'large' ? styles.fontLarge : '';
 
+  const handleOptionClick = (optId: string) => {
+    onSelectOption(optId);
+    if (isPractice) {
+      if (optId === question.correctAnswer) {
+        soundManager.playCorrect();
+      } else {
+        soundManager.playIncorrect();
+      }
+    } else {
+      soundManager.playClick();
+    }
+  };
+
+  const handleNextClick = () => {
+    soundManager.playNavigation();
+    onNext();
+  };
+
+  const handlePrevClick = () => {
+    soundManager.playNavigation();
+    onPrev();
+  };
+
   return (
     <div className={styles.card}>
       {/* Top row: question number + part / topic + bookmark */}
       <div className={styles.topRow}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+        <div className={styles.tagsGroup}>
           <span className={styles.qNum}>
             Q {question.questionNumber} / {totalQuestions}
           </span>
@@ -73,8 +97,8 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           onClick={onToggleBookmark}
           aria-label={userState.isBookmarked ? 'Remove bookmark' : 'Bookmark question'}
         >
-          <Star size={14} fill={userState.isBookmarked ? 'currentColor' : 'none'} />
-          {userState.isBookmarked ? 'Saved' : 'Save'}
+          <Star size={13} fill={userState.isBookmarked ? 'currentColor' : 'none'} />
+          <span>{userState.isBookmarked ? 'Saved' : 'Save'}</span>
         </button>
       </div>
 
@@ -102,34 +126,44 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           }
 
           return (
-            <button key={opt.id} className={cls} onClick={() => onSelectOption(opt.id)}>
+            <button
+              key={opt.id}
+              className={cls}
+              onClick={() => handleOptionClick(opt.id)}
+              aria-label={`Option ${opt.id}: ${opt.english}`}
+            >
               <div className={styles.circle}>{opt.id}</div>
               <div className={styles.optText}>
                 {language !== 'hindi' && <div className={styles.optEn}>{opt.english}</div>}
                 {language !== 'english' && <div className={styles.optHi}>{opt.hindi}</div>}
               </div>
               {isPractice && hasAnswered && isCorrectOpt && (
-                <CheckCircle2 size={18} color="var(--green)" className={styles.statusIcon} />
+                <CheckCircle2 size={18} color="#10b981" className={styles.statusIcon} />
               )}
               {isPractice && hasAnswered && isSelected && !isCorrectOpt && (
-                <XCircle size={18} color="var(--red)" className={styles.statusIcon} />
+                <XCircle size={18} color="#ef4444" className={styles.statusIcon} />
               )}
             </button>
           );
         })}
       </div>
 
-      {/* Practice Mode Live Scoring Feedback for Negative Marking */}
+      {/* Practice Mode Live Scoring Feedback */}
       {isPractice && hasAnswered && (
-        <div style={{ marginTop: 10 }}>
+        <div className={styles.feedbackRow}>
           {isCorrect ? (
-            <div style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--green)', fontSize: '13px', fontWeight: 700 }}>
-              <CheckCircle2 size={16} /> Correct! +1.00 Mark
+            <div className={styles.feedbackCorrect}>
+              <CheckCircle2 size={16} />
+              <span>Correct Answer! +1.00 Mark awarded</span>
             </div>
           ) : (
-            <div style={{ display: 'flex', alignItems: 'center', gap: 6, color: '#d93025', fontSize: '13px', fontWeight: 700 }}>
+            <div className={styles.feedbackIncorrect}>
               <AlertCircle size={16} />
-              {hasNegativeMarking ? 'Incorrect! -0.25 Negative Penalty Applied' : 'Incorrect! (0 Mark in UTET)'}
+              <span>
+                {hasNegativeMarking
+                  ? 'Incorrect! -0.25 Negative penalty applied (LT Pattern)'
+                  : 'Incorrect! (0 Mark penalty in UTET Eligibility Pattern)'}
+              </span>
             </div>
           )}
         </div>
@@ -145,7 +179,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         />
       )}
 
-      {/* Controls */}
+      {/* Desktop & Tablet In-Card Controls */}
       <div className={styles.controls}>
         <div className={styles.leftControls}>
           <button
@@ -153,22 +187,35 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             onClick={onToggleMarkReview}
           >
             <Flag size={13} />
-            {userState.isMarkedForReview ? 'Marked' : 'Review'}
+            <span>{userState.isMarkedForReview ? 'Marked for Review' : 'Mark for Review'}</span>
           </button>
+
           {hasAnswered && (
             <button className={styles.clearBtn} onClick={onClearResponse}>
-              <RotateCcw size={12} style={{ display: 'inline', marginRight: 3 }} />
-              Clear
+              <RotateCcw size={12} />
+              <span>Clear Choice</span>
             </button>
           )}
         </div>
 
         <div className={styles.rightControls}>
-          <button className={styles.navBtn} onClick={onPrev} disabled={!hasPrev}>
-            <ChevronLeft size={16} /> Previous
+          <button
+            className={styles.navBtn}
+            onClick={handlePrevClick}
+            disabled={!hasPrev}
+            aria-label="Previous question"
+          >
+            <ChevronLeft size={16} />
+            <span>Previous</span>
           </button>
-          <button className={`${styles.navBtn} ${styles.navPrimary}`} onClick={onNext} disabled={!hasNext}>
-            Next <ChevronRight size={16} />
+          <button
+            className={`${styles.navBtn} ${styles.navPrimary}`}
+            onClick={handleNextClick}
+            disabled={!hasNext}
+            aria-label="Next question"
+          >
+            <span>Next</span>
+            <ChevronRight size={16} />
           </button>
         </div>
       </div>

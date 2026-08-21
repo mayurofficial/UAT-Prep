@@ -6,7 +6,8 @@ import {
 } from '@/types/utet';
 import { getPapersForExam, getPaperData } from '@/data/paperRegistry';
 
-import { Header } from '@/components/Header';
+import { AppSidebar } from '@/components/AppSidebar';
+import { TopNavbar } from '@/components/TopNavbar';
 import { SectionTabs } from '@/components/SectionTabs';
 import { TimerBar } from '@/components/TimerBar';
 import { QuestionCard } from '@/components/QuestionCard';
@@ -16,9 +17,17 @@ import { ExamGuideView } from '@/components/ExamGuideView';
 import { ResultDashboard } from '@/components/ResultDashboard';
 import { PrintWorksheet } from '@/components/PrintWorksheet';
 import { LtStudyView } from '@/components/LtStudyView';
+import { ShortcutsModal } from '@/components/ShortcutsModal';
+import { soundManager } from '@/utils/audioFeedback';
 
 import styles from './page.module.css';
-import { LayoutGrid, Heart } from 'lucide-react';
+import {
+  ChevronLeft,
+  ChevronRight,
+  Flag,
+  LayoutGrid,
+  Heart
+} from 'lucide-react';
 
 export default function Home() {
   const [selectedExam, setSelectedExam] = useState<TargetExam>('UTET');
@@ -27,17 +36,25 @@ export default function Home() {
   const [language, setLanguage] = useState<LanguageMode>('bilingual');
   const [isDark, setIsDark] = useState(false);
   const [fontSize, setFontSize] = useState<'small' | 'normal' | 'large'>('normal');
+  const [isSoundEnabled, setIsSoundEnabled] = useState(true);
+
+  // Question & Navigation State
   const [idx, setIdx] = useState(0);
   const [states, setStates] = useState<Record<number, UserAnswerState>>({});
   const [timerSec, setTimerSec] = useState(150 * 60);
   const [paused, setPaused] = useState(false);
   const [results, setResults] = useState<ExamResults | null>(null);
-  const [showPalette, setShowPalette] = useState(false);
+
+  // Responsive Drawer & Modal States
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isPaletteDrawerOpen, setIsPaletteDrawerOpen] = useState(false);
+  const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
 
   const activeExamData: ExamData = getPaperData(selectedPaperId);
   const TOTAL = activeExamData.questions.length;
   const EXAM_TIMER = (activeExamData.durationMinutes || 150) * 60;
   const availablePapers = getPapersForExam(selectedExam);
+  const activePaperMeta = availablePapers.find(p => p.id === selectedPaperId) || availablePapers[0];
 
   // Load initial settings & states from localStorage
   useEffect(() => {
@@ -62,6 +79,13 @@ export default function Home() {
       const storageKey = `anjali_paper_${activePaper}_states`;
       const savedStates = localStorage.getItem(storageKey);
       if (savedStates) setStates(JSON.parse(savedStates));
+
+      const soundPref = localStorage.getItem('anjali_sound');
+      if (soundPref !== null) {
+        const enabled = soundPref === 'true';
+        setIsSoundEnabled(enabled);
+        soundManager.setSoundEnabled(enabled);
+      }
     } catch { /* noop */ }
   }, []);
 
@@ -80,6 +104,12 @@ export default function Home() {
     try { localStorage.setItem('anjali_lang', language); } catch {}
   }, [language]);
 
+  const handleSoundToggle = (enabled: boolean) => {
+    setIsSoundEnabled(enabled);
+    soundManager.setSoundEnabled(enabled);
+    try { localStorage.setItem('anjali_sound', String(enabled)); } catch {}
+  };
+
   // Handle Target Exam Change
   const handleExamChange = (newExam: TargetExam) => {
     if (newExam === selectedExam) return;
@@ -90,12 +120,12 @@ export default function Home() {
     try { localStorage.setItem('anjali_target_exam', newExam); } catch {}
   };
 
-  // Handle Specific Paper Change (e.g. 2025 vs 2023 vs 2022 vs 2021 vs 2020)
+  // Handle Specific Paper Change
   const handlePaperChange = (newPaperId: string) => {
     setSelectedPaperId(newPaperId);
     setIdx(0);
     setResults(null);
-    setShowPalette(false);
+    setIsPaletteDrawerOpen(false);
 
     try {
       localStorage.setItem('anjali_selected_paper', newPaperId);
@@ -131,7 +161,7 @@ export default function Home() {
     });
   }, [idx, persist]);
 
-  // Timer countdown
+  // Timer countdown for Exam Mode
   useEffect(() => {
     if (mode !== 'exam' || paused || timerSec <= 0) return;
     const t = setInterval(() => {
@@ -140,6 +170,9 @@ export default function Home() {
           clearInterval(t);
           submitExam();
           return 0;
+        }
+        if (p === 300) { // 5 minutes warning
+          soundManager.playTimerTick();
         }
         return p - 1;
       });
@@ -162,6 +195,7 @@ export default function Home() {
     if (target) {
       const [start] = target.questionRange.split('-').map(Number);
       setIdx(Math.max(0, start - 1));
+      soundManager.playNavigation();
     }
   };
 
@@ -280,81 +314,168 @@ export default function Home() {
     setMode('exam');
   };
 
+  // Keyboard Hotkeys Listener
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't trigger shortcuts when user is typing in input or select
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        e.target instanceof HTMLSelectElement
+      ) {
+        return;
+      }
+
+      const key = e.key.toUpperCase();
+
+      if (key === 'ESCAPE') {
+        setIsShortcutsOpen(false);
+        setIsPaletteDrawerOpen(false);
+        setIsSidebarOpen(false);
+        return;
+      }
+
+      if (e.key === '?') {
+        setIsShortcutsOpen(prev => !prev);
+        return;
+      }
+
+      if (key === 'Q') {
+        setIsPaletteDrawerOpen(prev => !prev);
+        return;
+      }
+
+      if (key === 'S' && mode !== 'study') {
+        setMode('study');
+        return;
+      }
+
+      // Hotkeys for Question Card
+      if (mode === 'practice' || mode === 'exam') {
+        if (key === 'A' || key === '1') {
+          select('A');
+          soundManager.playClick();
+        } else if (key === 'B' || key === '2') {
+          select('B');
+          soundManager.playClick();
+        } else if (key === 'C' || key === '3') {
+          select('C');
+          soundManager.playClick();
+        } else if (key === 'D' || key === '4') {
+          select('D');
+          soundManager.playClick();
+        } else if (key === 'ARROWLEFT' || key === 'P') {
+          if (idx > 0) {
+            setIdx(idx - 1);
+            soundManager.playNavigation();
+          }
+        } else if (key === 'ARROWRIGHT' || key === 'N') {
+          if (idx < TOTAL - 1) {
+            setIdx(idx + 1);
+            soundManager.playNavigation();
+          }
+        } else if (key === 'M') {
+          toggleReview();
+        } else if (key === 'BACKSPACE') {
+          clearResponse();
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [idx, TOTAL, mode, states]);
+
   const answered = Object.values(states).filter(s => s.selectedOption !== null).length;
   const marked = Object.values(states).filter(s => s.isMarkedForReview).length;
   const cur = states[idx] || { selectedOption: null, isMarkedForReview: false, isBookmarked: false, visited: true, timeSpentSec: 0 };
 
   return (
-    <div className={styles.wrapper}>
-      <Header
+    <div className={styles.appContainer}>
+      {/* 1. App Sidebar (Desktop Fixed / Mobile Drawer) */}
+      <AppSidebar
         mode={mode}
         setMode={setMode}
-        language={language}
-        setLanguage={setLanguage}
-        isDark={isDark}
-        setIsDark={setIsDark}
-        onPrint={() => window.print()}
-        fontSize={fontSize}
-        setFontSize={setFontSize}
         selectedExam={selectedExam}
         setSelectedExam={handleExamChange}
         selectedPaperId={selectedPaperId}
         setSelectedPaperId={handlePaperChange}
         availablePapers={availablePapers}
+        isOpen={isSidebarOpen}
+        onClose={() => setIsSidebarOpen(false)}
+        isDark={isDark}
+        setIsDark={setIsDark}
+        isSoundEnabled={isSoundEnabled}
+        setIsSoundEnabled={handleSoundToggle}
+        onOpenShortcuts={() => setIsShortcutsOpen(true)}
       />
 
-      {(mode === 'practice' || mode === 'exam') && (
-        <SectionTabs
-          sections={activeExamData.sections}
-          activeSectionId={secId}
-          onSelectSection={jumpSection}
+      {/* 2. Main Content Workspace */}
+      <div className={styles.contentArea}>
+        {/* Top Navbar */}
+        <TopNavbar
+          onToggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
+          activePaper={activePaperMeta}
+          mode={mode}
           language={language}
-        />
-      )}
-
-      {mode === 'exam' && (
-        <TimerBar
-          secondsLeft={timerSec}
-          isPaused={paused}
-          onTogglePause={() => setPaused(!paused)}
-          onSubmitExam={submitExam}
-          answeredCount={answered}
-          markedCount={marked}
+          setLanguage={setLanguage}
+          fontSize={fontSize}
+          setFontSize={setFontSize}
+          onTogglePalette={() => setIsPaletteDrawerOpen(true)}
+          currentIndex={idx}
           totalQuestions={TOTAL}
-          targetExam={selectedExam}
-          hasNegativeMarking={activeExamData.hasNegativeMarking}
         />
-      )}
 
-      <main className={styles.main}>
-        {mode === 'study' && <LtStudyView onStartPractice={() => setMode('practice')} />}
-
-        {mode === 'handbook' && <HandbookView />}
-
-        {mode === 'guide' && (
-          <ExamGuideView
-            currentExam={selectedExam}
-            onSelectExam={handleExamChange}
-            onStartPractice={() => setMode('practice')}
-          />
-        )}
-
-        {mode === 'result' && results && (
-          <ResultDashboard
-            results={results}
-            onRetake={retake}
-            onGoToPractice={() => setMode('practice')}
-          />
-        )}
-
+        {/* Section Tabs in Practice / Exam */}
         {(mode === 'practice' || mode === 'exam') && (
-          <>
-            <button className={styles.paletteToggle} onClick={() => setShowPalette(!showPalette)}>
-              <LayoutGrid size={14} />
-              {showPalette ? 'Hide question palette' : 'Show question palette'}
-            </button>
+          <SectionTabs
+            sections={activeExamData.sections}
+            activeSectionId={secId}
+            onSelectSection={jumpSection}
+            language={language}
+          />
+        )}
 
-            <div className={styles.layout}>
+        {/* Exam Timer Bar */}
+        {mode === 'exam' && (
+          <TimerBar
+            secondsLeft={timerSec}
+            isPaused={paused}
+            onTogglePause={() => setPaused(!paused)}
+            onSubmitExam={submitExam}
+            answeredCount={answered}
+            markedCount={marked}
+            totalQuestions={TOTAL}
+            targetExam={selectedExam}
+            hasNegativeMarking={activeExamData.hasNegativeMarking}
+          />
+        )}
+
+        {/* Main Canvas Views */}
+        <main className={styles.mainWorkspace}>
+          {mode === 'study' && <LtStudyView onStartPractice={() => setMode('practice')} />}
+
+          {mode === 'handbook' && <HandbookView />}
+
+          {mode === 'guide' && (
+            <ExamGuideView
+              currentExam={selectedExam}
+              onSelectExam={handleExamChange}
+              onStartPractice={() => setMode('practice')}
+            />
+          )}
+
+          {mode === 'result' && results && (
+            <ResultDashboard
+              results={results}
+              onRetake={retake}
+              onGoToPractice={() => setMode('practice')}
+            />
+          )}
+
+          {(mode === 'practice' || mode === 'exam') && (
+            <div className={styles.examGrid}>
+              {/* Center: Question Card */}
               <div>
                 <QuestionCard
                   question={currentQ}
@@ -375,25 +496,99 @@ export default function Home() {
                   fontSize={fontSize}
                 />
               </div>
-              <div className={!showPalette ? styles.sidebarHidden : ''}>
+
+              {/* Right: Docked Question Palette on Desktop */}
+              <div className={styles.desktopPalette}>
                 <QuestionPalette
                   questions={activeExamData.questions}
                   currentIndex={idx}
                   userStates={states}
-                  onSelectQuestion={i => { setIdx(i); setShowPalette(false); }}
+                  onSelectQuestion={i => setIdx(i)}
                   sections={activeExamData.sections}
                 />
               </div>
             </div>
-          </>
+          )}
+        </main>
+
+        {/* 3. Mobile / Tablet Slide-Over Question Navigator Drawer */}
+        {isPaletteDrawerOpen && (
+          <QuestionPalette
+            questions={activeExamData.questions}
+            currentIndex={idx}
+            userStates={states}
+            onSelectQuestion={i => setIdx(i)}
+            sections={activeExamData.sections}
+            isMobileDrawer={true}
+            onCloseDrawer={() => setIsPaletteDrawerOpen(false)}
+          />
         )}
-      </main>
 
-      <PrintWorksheet questions={activeExamData.questions} />
+        {/* 4. Mobile Sticky Bottom Action Bar */}
+        {(mode === 'practice' || mode === 'exam') && (
+          <div className={styles.mobileBottomBar}>
+            <button
+              className={styles.mobileBtn}
+              onClick={() => {
+                if (idx > 0) {
+                  soundManager.playNavigation();
+                  setIdx(idx - 1);
+                }
+              }}
+              disabled={idx === 0}
+              aria-label="Previous Question"
+            >
+              <ChevronLeft size={16} />
+              <span>Prev</span>
+            </button>
 
-      <footer className={styles.footer}>
-        Made with <Heart size={11} fill="#d93025" color="#d93025" style={{ verticalAlign: 'middle' }} /> for Anjali Teacher — UTET & UKSSSC LT Grade (2020–2025 PYQs)
-      </footer>
+            <button
+              className={`${styles.mobileBtn} ${styles.mobileBtnReview} ${cur.isMarkedForReview ? styles.mobileBtnReviewActive : ''}`}
+              onClick={toggleReview}
+              aria-label="Mark Question for Review"
+            >
+              <Flag size={14} />
+              <span>{cur.isMarkedForReview ? 'Marked' : 'Review'}</span>
+            </button>
+
+            <button
+              className={`${styles.mobileBtn} ${styles.mobileBtnPalette}`}
+              onClick={() => setIsPaletteDrawerOpen(true)}
+              aria-label="Open Question Palette"
+            >
+              <LayoutGrid size={14} />
+              <span>{idx + 1}/{TOTAL}</span>
+            </button>
+
+            <button
+              className={`${styles.mobileBtn} ${styles.mobileBtnPrimary}`}
+              onClick={() => {
+                if (idx < TOTAL - 1) {
+                  soundManager.playNavigation();
+                  setIdx(idx + 1);
+                }
+              }}
+              disabled={idx === TOTAL - 1}
+              aria-label="Next Question"
+            >
+              <span>Next</span>
+              <ChevronRight size={16} />
+            </button>
+          </div>
+        )}
+
+        <PrintWorksheet questions={activeExamData.questions} />
+
+        <footer className={styles.footer}>
+          Made with <Heart size={11} fill="#d93025" color="#d93025" style={{ verticalAlign: 'middle' }} /> for Anjali Teacher — UTET-II & UKSSSC LT Assistant Teacher Preparation
+        </footer>
+      </div>
+
+      {/* 5. Keyboard Shortcuts Help Modal */}
+      <ShortcutsModal
+        isOpen={isShortcutsOpen}
+        onClose={() => setIsShortcutsOpen(false)}
+      />
     </div>
   );
 }
