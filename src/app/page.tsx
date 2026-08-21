@@ -378,6 +378,7 @@ export default function Home() {
                   currentIndex={idx}
                   userStates={states}
                   onSelectQuestion={i => { setIdx(i); setShowPalette(false); }}
+                  sections={activeExamData.sections}
                 />
               </div>
             </div>

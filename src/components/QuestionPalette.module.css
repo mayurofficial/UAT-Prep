@@ -1,56 +1,472 @@
-.palette {
+.paletteContainer {
   background: var(--card);
-  border-radius: var(--radius-xl);
+  border-radius: 18px;
   border: 1px solid var(--border);
-  padding: 16px;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 84px;
+  max-height: calc(100vh - 104px);
+  overflow: hidden;
+  transition: all 0.25s var(--ease);
 }
 
-.paletteTitle {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 12px;
+[data-theme="dark"] .paletteContainer {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  background: #1e2430;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ==========================================
+   1. Header & Live Progress Bar
+   ========================================== */
+.header {
+  padding: 16px 16px 12px;
+  border-bottom: 1px solid var(--border-light);
+  background: var(--bg);
+}
+
+[data-theme="dark"] .header {
+  background: #171c26;
+}
+
+.titleRow {
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.filters {
+.title {
   display: flex;
-  gap: 4px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.2px;
 }
 
-.chip {
+.titleIcon {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeProgress {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 11px;
-  font-weight: 600;
-  padding: 4px 10px;
+  font-weight: 700;
+  color: #059669;
+  background: rgba(16, 185, 129, 0.12);
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+}
+
+[data-theme="dark"] .badgeProgress {
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.15);
+}
+
+.zapIcon {
+  animation: pulseZap 2s infinite ease-in-out;
+}
+
+@keyframes pulseZap {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.85; }
+}
+
+.progressBarWrapper {
+  width: 100%;
+  height: 6px;
   border-radius: var(--radius-full);
   background: var(--bg-subtle);
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+[data-theme="dark"] .progressBarWrapper {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.progressBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #06b6d4, #3b82f6);
+  border-radius: var(--radius-full);
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progressLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-hint);
+}
+
+/* ==========================================
+   2. Status Grid Summary Cards
+   ========================================== */
+.statusGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  padding: 12px 16px;
+  background: var(--card);
+}
+
+.statusCard {
+  padding: 8px 6px;
+  border-radius: 10px;
   border: 1px solid var(--border);
+  background: var(--bg);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  transition: all 0.18s var(--ease);
+  user-select: none;
+}
+
+.statusCard:hover {
+  transform: translateY(-1.5px);
+  border-color: var(--blue);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.statusActive {
+  box-shadow: 0 0 0 2px var(--blue);
+  border-color: var(--blue);
+}
+
+.statusTop {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.statusCount {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+
+.statusText {
+  font-size: 10px;
+  font-weight: 600;
   color: var(--text-secondary);
-  transition: all .15s var(--ease);
 }
 
-.chip:hover {
+.statusDotGreen {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.6);
+}
+
+.statusDotPurple {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8b5cf6;
+  box-shadow: 0 0 6px rgba(139, 92, 246, 0.6);
+}
+
+.statusDotRed {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #f43f5e;
+  box-shadow: 0 0 6px rgba(244, 63, 94, 0.6);
+}
+
+.statusDotGray {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-hint);
+}
+
+.cardAnswered { border-bottom: 2.5px solid #10b981; }
+.cardMarked { border-bottom: 2.5px solid #8b5cf6; }
+.cardSkipped { border-bottom: 2.5px solid #f43f5e; }
+.cardUnvisited { border-bottom: 2.5px solid var(--border); }
+
+/* ==========================================
+   3. Section Quick-Jump Filter Tabs
+   ========================================== */
+.sectionTabs {
+  display: flex;
+  gap: 4px;
+  padding: 0 16px 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.sectionTabs::-webkit-scrollbar {
+  display: none;
+}
+
+.sectionTab {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.15s var(--ease);
+  flex-shrink: 0;
+}
+
+.sectionTab:hover {
   background: var(--hover);
+  color: var(--text);
+  border-color: var(--border);
 }
 
-.chipActive {
+.sectionTabActive {
   background: var(--blue-light);
   color: var(--blue);
   border-color: var(--blue);
 }
 
-.legend {
+[data-theme="dark"] .sectionTabActive {
+  background: rgba(66, 133, 244, 0.2);
+  color: #8ab4f8;
+  border-color: #8ab4f8;
+}
+
+/* ==========================================
+   4. Filter Pills
+   ========================================== */
+.filterPills {
   display: flex;
-  gap: 12px;
-  font-size: 10px;
-  color: var(--text-hint);
-  margin-bottom: 10px;
+  gap: 5px;
+  padding: 4px 16px 10px;
   flex-wrap: wrap;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.pill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: var(--radius-full);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s var(--ease);
+}
+
+.pill:hover {
+  background: var(--hover);
+  border-color: var(--text-hint);
+}
+
+.pillActive {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+[data-theme="dark"] .pillActive {
+  background: #e8eaed;
+  color: #1a1f2c;
+  border-color: #e8eaed;
+}
+
+/* ==========================================
+   5. Question Number Button Grid
+   ========================================== */
+.gridWrapper {
+  padding: 14px 16px;
+  overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 180px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.gridWrapper::-webkit-scrollbar {
+  width: 5px;
+}
+
+.gridWrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.gridWrapper::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6px;
+}
+
+.qBtn {
+  aspect-ratio: 1 / 1;
+  min-height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.12s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.12s ease, border-color 0.12s ease;
+  user-select: none;
+}
+
+.qBtn:hover {
+  transform: scale(1.08);
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--blue);
+}
+
+.qBtn:active {
+  transform: scale(0.96);
+}
+
+.qNumText {
+  line-height: 1;
+}
+
+/* Button States */
+.btnCurrent {
+  box-shadow: 0 0 0 2.5px #1a73e8, 0 4px 12px rgba(26, 115, 232, 0.35) !important;
+  border-color: #1a73e8 !important;
+  font-weight: 800;
+  z-index: 3;
+}
+
+[data-theme="dark"] .btnCurrent {
+  box-shadow: 0 0 0 2.5px #8ab4f8, 0 4px 14px rgba(138, 180, 248, 0.4) !important;
+  border-color: #8ab4f8 !important;
+}
+
+.btnAnswered {
+  background: #10b981;
+  border-color: #059669;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.25);
+}
+
+.btnAnsAndMarked {
+  background: #8b5cf6;
+  border-color: #7c3aed;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(139, 92, 246, 0.25);
+}
+
+.btnAnsAndMarked::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #10b981;
+  border: 1px solid #fff;
+}
+
+.btnMarked {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: #8b5cf6;
+  color: #7c3aed;
+}
+
+[data-theme="dark"] .btnMarked {
+  background: rgba(139, 92, 246, 0.25);
+  color: #c4b5fd;
+  border-color: #a78bfa;
+}
+
+.btnVisited {
+  background: rgba(244, 63, 94, 0.12);
+  border-color: #f43f5e;
+  color: #e11d48;
+}
+
+[data-theme="dark"] .btnVisited {
+  background: rgba(244, 63, 94, 0.22);
+  color: #fda4af;
+  border-color: #fb7185;
+}
+
+.btnUnvisited {
+  background: var(--bg-subtle);
+  border-color: var(--border-light);
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .btnUnvisited {
+  background: #252c3b;
+  border-color: rgba(255, 255, 255, 0.06);
+  color: #9aa0a6;
+}
+
+.bookmarkBadge {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #f59e0b;
+  display: flex;
+}
+
+.reviewDot {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #8b5cf6;
+}
+
+/* ==========================================
+   6. Footer Legend Bar
+   ========================================== */
+.legendBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: var(--bg);
+  border-top: 1px solid var(--border-light);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-hint);
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+[data-theme="dark"] .legendBar {
+  background: #171c26;
 }
 
 .legendItem {
@@ -59,73 +475,30 @@
   gap: 4px;
 }
 
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+.legendSampleAnswered {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: #10b981;
 }
 
-.dotAnswered { background: var(--green); }
-.dotMarked { background: var(--purple); }
-.dotVisited { background: var(--red); }
-.dotUnvisited { background: var(--border); }
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 4px;
-  max-height: 380px;
-  overflow-y: auto;
+.legendSampleMarked {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: #8b5cf6;
 }
 
-.qBtn {
-  height: 34px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-  font-size: 12px;
-  font-weight: 600;
-  transition: all .1s var(--ease);
-  position: relative;
+.legendSampleSkipped {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: #f43f5e;
 }
 
-.qBtn:hover {
-  border-color: var(--blue);
-}
-
-.current {
-  box-shadow: 0 0 0 2px var(--blue);
-  border-color: var(--blue);
-}
-
-.answered {
-  background: var(--green-light);
-  border-color: var(--green);
-  color: var(--green);
-}
-
-.marked {
-  background: var(--purple-light);
-  border-color: var(--purple);
-  color: var(--purple);
-}
-
-.visited {
-  background: var(--red-light);
-  border-color: var(--red);
-  color: var(--red);
-}
-
-.unvisited {
-  background: var(--bg-subtle);
-  color: var(--text-hint);
-  border-color: var(--border-light);
-}
-
-.star {
-  position: absolute;
-  top: -2px;
-  right: -2px;
-  color: var(--orange);
+.legendSampleUnvisited {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: var(--border);
 }

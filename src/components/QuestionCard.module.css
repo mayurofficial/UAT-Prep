@@ -1,9 +1,16 @@
 .card {
   background: var(--card);
-  border-radius: var(--radius-xl);
+  border-radius: 18px;
   border: 1px solid var(--border);
-  padding: 28px;
-  box-shadow: var(--shadow-sm);
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s var(--ease);
+}
+
+[data-theme="dark"] .card {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  background: #1e2430;
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
 /* Top row */
@@ -11,16 +18,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  gap: 12px;
 }
 
 .qNum {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--blue);
   background: var(--blue-light);
-  padding: 4px 12px;
+  padding: 5px 14px;
   border-radius: var(--radius-full);
+  letter-spacing: 0.2px;
+}
+
+[data-theme="dark"] .qNum {
+  color: #8ab4f8;
+  background: rgba(66, 133, 244, 0.18);
 }
 
 .partBadge {
@@ -28,35 +42,41 @@
   font-weight: 700;
   color: #b05c00;
   background: rgba(227, 116, 0, 0.12);
-  padding: 3px 8px;
+  padding: 4px 10px;
   border-radius: 6px;
 }
 
 [data-theme="dark"] .partBadge {
   color: #ffaa40;
+  background: rgba(255, 170, 64, 0.15);
 }
 
 .sectionBadge {
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-secondary);
   background: var(--bg-subtle);
-  border: 1px solid var(--border);
-  padding: 3px 8px;
+  border: 1px solid var(--border-light);
+  padding: 4px 10px;
   border-radius: 6px;
 }
 
 .diffBadge {
   font-size: 10px;
-  font-weight: 700;
-  padding: 2px 7px;
+  font-weight: 800;
+  padding: 3px 8px;
   border-radius: 4px;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .diffEasy {
-  background: rgba(22, 163, 74, 0.12);
-  color: var(--green);
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
+}
+
+[data-theme="dark"] .diffEasy {
+  color: #34d399;
 }
 
 .diffMed {
@@ -72,104 +92,117 @@
 .bookmark {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-hint);
-  padding: 4px 10px;
+  padding: 6px 12px;
   border-radius: var(--radius-full);
+  border: 1px solid var(--border-light);
+  background: var(--bg);
+  cursor: pointer;
   transition: all .15s var(--ease);
 }
 
 .bookmark:hover {
   background: var(--hover);
-  color: var(--text-secondary);
+  color: var(--text);
+  border-color: var(--border);
 }
 
 .bookmarkActive {
-  color: var(--orange);
-  background: var(--orange-light);
+  color: #d97706;
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.35);
 }
 
 /* Question text */
 .question {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .qEn {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 600;
   line-height: 1.7;
   color: var(--text);
+  letter-spacing: -0.15px;
 }
 
 .qHi {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.7;
   color: var(--text-secondary);
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
-.fontSmall .qEn { font-size: 14px; }
-.fontSmall .qHi { font-size: 13px; }
-.fontLarge .qEn { font-size: 18px; }
-.fontLarge .qHi { font-size: 17px; }
+.fontSmall .qEn { font-size: 15px; }
+.fontSmall .qHi { font-size: 14px; }
+.fontLarge .qEn { font-size: 19px; }
+.fontLarge .qHi { font-size: 18px; }
 
 /* Options */
 .options {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 24px;
 }
 
 .option {
   display: flex;
   align-items: flex-start;
-  gap: 12px;
-  padding: 14px 16px;
-  border-radius: var(--radius-lg);
+  gap: 14px;
+  padding: 16px 18px;
+  border-radius: 12px;
   border: 1.5px solid var(--border);
   background: var(--bg);
-  transition: all .15s var(--ease);
+  transition: all .18s cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   text-align: left;
+  cursor: pointer;
 }
 
 .option:hover {
   border-color: var(--blue);
   background: var(--blue-light);
+  transform: translateX(4px);
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.08);
 }
 
 .optSelected {
   border-color: var(--blue) !important;
   background: var(--blue-light) !important;
+  box-shadow: 0 0 0 1.5px var(--blue), 0 4px 14px rgba(26, 115, 232, 0.12) !important;
 }
 
 .optCorrect {
-  border-color: var(--green) !important;
-  background: var(--green-light) !important;
+  border-color: #10b981 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  box-shadow: 0 0 0 1.5px #10b981, 0 4px 14px rgba(16, 185, 129, 0.12) !important;
 }
 
 .optWrong {
-  border-color: var(--red) !important;
-  background: var(--red-light) !important;
+  border-color: #ef4444 !important;
+  background: rgba(239, 68, 68, 0.08) !important;
+  box-shadow: 0 0 0 1.5px #ef4444, 0 4px 14px rgba(239, 68, 68, 0.12) !important;
 }
 
 .circle {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: 2px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 800;
   color: var(--text-secondary);
   flex-shrink: 0;
   margin-top: 1px;
-  transition: all .15s var(--ease);
+  transition: all .18s var(--ease);
 }
 
 .optSelected .circle {
@@ -179,14 +212,14 @@
 }
 
 .optCorrect .circle {
-  border-color: var(--green);
-  background: var(--green);
+  border-color: #10b981;
+  background: #10b981;
   color: #fff;
 }
 
 .optWrong .circle {
-  border-color: var(--red);
-  background: var(--red);
+  border-color: #ef4444;
+  background: #ef4444;
   color: #fff;
 }
 
@@ -195,16 +228,16 @@
 }
 
 .optEn {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text);
   line-height: 1.5;
 }
 
 .optHi {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-secondary);
-  margin-top: 2px;
+  margin-top: 3px;
   line-height: 1.5;
 }
 
@@ -220,7 +253,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding-top: 20px;
+  padding-top: 24px;
   border-top: 1px solid var(--border-light);
   flex-wrap: wrap;
 }
@@ -240,19 +273,22 @@
 .navBtn {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 8px 16px;
+  gap: 6px;
+  padding: 10px 18px;
   border-radius: var(--radius-full);
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   background: var(--bg-subtle);
   border: 1px solid var(--border);
+  cursor: pointer;
   transition: all .15s var(--ease);
 }
 
 .navBtn:hover:not(:disabled) {
   background: var(--hover);
+  border-color: var(--text-hint);
+  transform: translateY(-1px);
 }
 
 .navBtn:disabled {
@@ -261,42 +297,60 @@
 }
 
 .navPrimary {
-  background: var(--blue);
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
   color: #fff;
-  border-color: var(--blue);
+  border-color: #1a73e8;
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.25);
 }
 
 .navPrimary:hover:not(:disabled) {
-  background: var(--blue-dark);
+  background: linear-gradient(135deg, #1557b0, #1a73e8);
+  box-shadow: 0 6px 16px rgba(26, 115, 232, 0.35);
 }
 
 .reviewBtn {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 8px 14px;
+  gap: 6px;
+  padding: 9px 16px;
   border-radius: var(--radius-full);
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--purple);
-  border: 1px solid var(--purple);
-  background: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  color: #7c3aed;
+  border: 1.5px solid #8b5cf6;
+  background: rgba(139, 92, 246, 0.06);
+  cursor: pointer;
   transition: all .15s var(--ease);
 }
 
+.reviewBtn:hover {
+  background: rgba(139, 92, 246, 0.15);
+  transform: translateY(-1px);
+}
+
 .reviewActive {
-  background: var(--purple-light);
+  background: #8b5cf6 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
 }
 
 .clearBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-hint);
-  padding: 6px 10px;
+  padding: 8px 12px;
   border-radius: var(--radius-full);
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all .15s var(--ease);
 }
 
 .clearBtn:hover {
   color: var(--red);
   background: var(--red-light);
+  border-color: rgba(239, 68, 68, 0.2);
 }
