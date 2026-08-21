@@ -5,11 +5,8 @@ import { AppMode, TargetExam } from '@/types/utet';
 import { PaperMeta } from '@/data/paperRegistry';
 import styles from './AppSidebar.module.css';
 import {
-  GraduationCap,
   BookOpen,
-  Timer,
-  FileText,
-  Compass,
+  GraduationCap,
   BarChart3,
   ShieldCheck,
   Sparkles,
@@ -153,28 +150,6 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
           <div className={styles.blockLabel}>Main Modes (मुख्य अनुभाग)</div>
 
           <button
-            className={`${styles.navItem} ${mode === 'study' ? styles.navItemActive : ''}`}
-            onClick={() => handleNavClick('study')}
-          >
-            <div className={styles.navItemLeft}>
-              <span className={styles.navItemIcon}><GraduationCap size={16} /></span>
-              <span>LT Study Hub (अध्ययन)</span>
-            </div>
-            <span className={`${styles.navBadge} ${styles.navBadgeHighlight}`}>27 Topics</span>
-          </button>
-
-          <button
-            className={`${styles.navItem} ${mode === 'syllabus' ? styles.navItemActive : ''}`}
-            onClick={() => handleNavClick('syllabus')}
-          >
-            <div className={styles.navItemLeft}>
-              <span className={styles.navItemIcon}><Layers size={16} /></span>
-              <span>LT Syllabus (पाठ्यक्रम)</span>
-            </div>
-            <span className={styles.navBadge}>14 Subjects</span>
-          </button>
-
-          <button
             className={`${styles.navItem} ${mode === 'practice' ? styles.navItemActive : ''}`}
             onClick={() => handleNavClick('practice')}
           >
@@ -186,36 +161,14 @@ export const AppSidebar: React.FC<AppSidebarProps> = ({
           </button>
 
           <button
-            className={`${styles.navItem} ${mode === 'exam' ? styles.navItemActive : ''}`}
-            onClick={() => handleNavClick('exam')}
+            className={`${styles.navItem} ${mode === 'syllabus' ? styles.navItemActive : ''}`}
+            onClick={() => handleNavClick('syllabus')}
           >
             <div className={styles.navItemLeft}>
-              <span className={styles.navItemIcon}><Timer size={16} /></span>
-              <span>Mock Exam (परीक्षा)</span>
+              <span className={styles.navItemIcon}><Layers size={16} /></span>
+              <span>LT Syllabus (पाठ्यक्रम)</span>
             </div>
-            <span className={styles.navBadge}>Timed</span>
-          </button>
-
-          <button
-            className={`${styles.navItem} ${mode === 'handbook' ? styles.navItemActive : ''}`}
-            onClick={() => handleNavClick('handbook')}
-          >
-            <div className={styles.navItemLeft}>
-              <span className={styles.navItemIcon}><FileText size={16} /></span>
-              <span>Formula Notes (नोट्स)</span>
-            </div>
-            <span className={styles.navBadge}>Pedagogy</span>
-          </button>
-
-          <button
-            className={`${styles.navItem} ${mode === 'guide' ? styles.navItemActive : ''}`}
-            onClick={() => handleNavClick('guide')}
-          >
-            <div className={styles.navItemLeft}>
-              <span className={styles.navItemIcon}><Compass size={16} /></span>
-              <span>Exam Guide (रणनीति)</span>
-            </div>
-            <span className={styles.navBadge}>Pattern</span>
+            <span className={styles.navBadge}>16 Subjects</span>
           </button>
 
           {mode === 'result' && (

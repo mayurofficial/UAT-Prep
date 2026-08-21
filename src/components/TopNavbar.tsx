@@ -99,8 +99,8 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
             </button>
           </div>
 
-          {/* Palette button for mobile/tablet in Practice & Exam mode */}
-          {(mode === 'practice' || mode === 'exam') && (
+          {/* Palette button for mobile/tablet in Practice mode */}
+          {mode === 'practice' && (
             <button
               className={styles.navPaletteBtn}
               onClick={onTogglePalette}

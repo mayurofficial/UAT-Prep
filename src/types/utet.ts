@@ -65,7 +65,7 @@ export interface ExamData {
   questions: QuestionItem[];
 }
 
-export type AppMode = 'practice' | 'exam' | 'study' | 'syllabus' | 'handbook' | 'guide' | 'result';
+export type AppMode = 'practice' | 'syllabus' | 'result';
 export type LanguageMode = 'bilingual' | 'hindi' | 'english';
 
 export interface LtSubjectTopic {

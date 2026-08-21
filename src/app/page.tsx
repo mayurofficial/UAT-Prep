@@ -9,14 +9,10 @@ import { getPapersForExam, getPaperData } from '@/data/paperRegistry';
 import { AppSidebar } from '@/components/AppSidebar';
 import { TopNavbar } from '@/components/TopNavbar';
 import { SectionTabs } from '@/components/SectionTabs';
-import { TimerBar } from '@/components/TimerBar';
 import { QuestionCard } from '@/components/QuestionCard';
 import { QuestionPalette } from '@/components/QuestionPalette';
-import { HandbookView } from '@/components/HandbookView';
-import { ExamGuideView } from '@/components/ExamGuideView';
 import { ResultDashboard } from '@/components/ResultDashboard';
 import { PrintWorksheet } from '@/components/PrintWorksheet';
-import { LtStudyView } from '@/components/LtStudyView';
 import { LtSyllabusView } from '@/components/LtSyllabusView';
 import { ShortcutsModal } from '@/components/ShortcutsModal';
 import { soundManager } from '@/utils/audioFeedback';
@@ -162,24 +158,7 @@ export default function Home() {
     });
   }, [idx, persist]);
 
-  // Timer countdown for Exam Mode
-  useEffect(() => {
-    if (mode !== 'exam' || paused || timerSec <= 0) return;
-    const t = setInterval(() => {
-      setTimerSec(p => {
-        if (p <= 1) {
-          clearInterval(t);
-          submitExam();
-          return 0;
-        }
-        if (p === 300) { // 5 minutes warning
-          soundManager.playTimerTick();
-        }
-        return p - 1;
-      });
-    }, 1000);
-    return () => clearInterval(t);
-  }, [mode, paused, timerSec]);
+
 
   const currentQ = activeExamData.questions[idx] || activeExamData.questions[0];
 
@@ -309,10 +288,9 @@ export default function Home() {
 
   const retake = () => {
     setStates({});
-    setTimerSec(EXAM_TIMER);
     setIdx(0);
     setResults(null);
-    setMode('exam');
+    setMode('practice');
   };
 
   // Keyboard Hotkeys Listener
@@ -346,13 +324,8 @@ export default function Home() {
         return;
       }
 
-      if (key === 'S' && mode !== 'study') {
-        setMode('study');
-        return;
-      }
-
       // Hotkeys for Question Card
-      if (mode === 'practice' || mode === 'exam') {
+      if (mode === 'practice') {
         if (key === 'A' || key === '1') {
           select('A');
           soundManager.playClick();
@@ -427,32 +400,18 @@ export default function Home() {
           totalQuestions={TOTAL}
         />
 
-
-
-        {/* Exam Timer Bar */}
-        {mode === 'exam' && (
-          <TimerBar
-            secondsLeft={timerSec}
-            isPaused={paused}
-            onTogglePause={() => setPaused(!paused)}
-            onSubmitExam={submitExam}
-            answeredCount={answered}
-            markedCount={marked}
-            totalQuestions={TOTAL}
-            targetExam={selectedExam}
-            hasNegativeMarking={activeExamData.hasNegativeMarking}
+        {/* Section Tabs in Practice */}
+        {mode === 'practice' && (
+          <SectionTabs
+            sections={activeExamData.sections}
+            activeSectionId={secId}
+            onSelectSection={jumpSection}
+            language={language}
           />
         )}
 
         {/* Main Canvas Views */}
         <main className={styles.mainWorkspace}>
-          {mode === 'study' && (
-            <LtStudyView
-              onStartPractice={() => setMode('practice')}
-              onViewSyllabus={() => setMode('syllabus')}
-            />
-          )}
-
           {mode === 'syllabus' && (
             <LtSyllabusView
               language={language}
@@ -460,25 +419,20 @@ export default function Home() {
             />
           )}
 
-          {mode === 'handbook' && <HandbookView />}
-
-          {mode === 'guide' && (
-            <ExamGuideView
-              currentExam={selectedExam}
-              onSelectExam={handleExamChange}
-              onStartPractice={() => setMode('practice')}
-            />
-          )}
-
           {mode === 'result' && results && (
             <ResultDashboard
               results={results}
-              onRetake={retake}
+              onRetake={() => {
+                setStates({});
+                setIdx(0);
+                setResults(null);
+                setMode('practice');
+              }}
               onGoToPractice={() => setMode('practice')}
             />
           )}
 
-          {(mode === 'practice' || mode === 'exam') && (
+          {mode === 'practice' && (
             <div className={styles.examGrid}>
               {/* Center: Question Card */}
               <div>
@@ -534,7 +488,7 @@ export default function Home() {
         )}
 
         {/* 4. Mobile Sticky Bottom Action Bar */}
-        {(mode === 'practice' || mode === 'exam') && (
+        {mode === 'practice' && (
           <div className={styles.mobileBottomBar}>
             <button
               className={styles.mobileBtn}
@@ -545,27 +499,27 @@ export default function Home() {
                 }
               }}
               disabled={idx === 0}
-              aria-label="Previous Question"
+              aria-label="Previous question"
             >
               <ChevronLeft size={16} />
               <span>Prev</span>
             </button>
 
             <button
-              className={`${styles.mobileBtn} ${styles.mobileBtnReview} ${cur.isMarkedForReview ? styles.mobileBtnReviewActive : ''}`}
+              className={`${styles.mobileBtn} ${cur.isMarkedForReview ? styles.mobileBtnActiveReview : ''}`}
               onClick={toggleReview}
-              aria-label="Mark Question for Review"
+              aria-label="Mark for review"
             >
-              <Flag size={14} />
+              <Flag size={15} />
               <span>{cur.isMarkedForReview ? 'Marked' : 'Review'}</span>
             </button>
 
             <button
-              className={`${styles.mobileBtn} ${styles.mobileBtnPalette}`}
+              className={styles.mobileBtn}
               onClick={() => setIsPaletteDrawerOpen(true)}
-              aria-label="Open Question Palette"
+              aria-label="Open question navigator"
             >
-              <LayoutGrid size={14} />
+              <LayoutGrid size={15} />
               <span>{idx + 1}/{TOTAL}</span>
             </button>
 
@@ -578,7 +532,7 @@ export default function Home() {
                 }
               }}
               disabled={idx === TOTAL - 1}
-              aria-label="Next Question"
+              aria-label="Next question"
             >
               <span>Next</span>
               <ChevronRight size={16} />
