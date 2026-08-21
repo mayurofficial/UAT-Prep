@@ -50,7 +50,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "In Inclusive education:",
-      "questionHindi": "In Inclusive education:",
+      "questionHindi": "समावेशी शिक्षा (Inclusive Education) में:",
       "options": {
         "A": "There are normal classroom teachers.",
         "B": "There are special instructors.",
@@ -58,10 +58,10 @@
         "D": "There are both normal classroom teachers and special instructors."
       },
       "optionsHindi": {
-        "A": "There are normal classroom teachers.",
-        "B": "There are special instructors.",
-        "C": "There are regular processed teachers.",
-        "D": "There are both normal classroom teachers and special instructors."
+        "A": "केवल सामान्य कक्षा शिक्षक होते हैं।",
+        "B": "केवल विशेष अनुदेशक होते हैं।",
+        "C": "नियमित प्रशिक्षित शिक्षक होते हैं।",
+        "D": "सामान्य कक्षा शिक्षक और विशेष अनुदेशक दोनों होते हैं।"
       },
       "correctAnswer": "D",
       "explanation": "Inclusive education integrates all learners in mainstream classrooms through regular teachers assisted by special educators.",
@@ -84,7 +84,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "Which test is most appropriate for teachers to identify the errors or mistakes of the students?",
-      "questionHindi": "Which test is most appropriate for teachers to identify the errors or mistakes of the students?",
+      "questionHindi": "शिक्षकों के लिए छात्रों की त्रुटियों या कमियों की पहचान करने हेतु कौन-सा परीक्षण सर्वाधिक उपयुक्त है?",
       "options": {
         "A": "Diagnostic test",
         "B": "Achievement test",
@@ -92,10 +92,10 @@
         "D": "Teacher made test"
       },
       "optionsHindi": {
-        "A": "Diagnostic test",
-        "B": "Achievement test",
-        "C": "Standardized test",
-        "D": "Teacher made test"
+        "A": "निदानात्मक परीक्षण (Diagnostic test)",
+        "B": "उपलब्धि परीक्षण",
+        "C": "मानकीकृत परीक्षण",
+        "D": "शिक्षक निर्मित परीक्षण"
       },
       "correctAnswer": "A",
       "explanation": "A Diagnostic test is designed specifically to identify the specific learning gaps, errors, and weaknesses of students.",
@@ -118,7 +118,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "The chronological age of a child is 8 years and mental age is 10 years, then what will be the intelligence quotient of the child?",
-      "questionHindi": "The chronological age of a child is 8 years and mental age is 10 years, then what will be the intelligence quotient of the child?",
+      "questionHindi": "एक बच्चे की वास्तविक आयु (CA) 8 वर्ष तथा मानसिक आयु (MA) 10 वर्ष है, तो उस बच्चे की बुद्धि लब्धि (IQ) क्या होगी?",
       "options": {
         "A": "80",
         "B": "125",
@@ -127,7 +127,7 @@
       },
       "optionsHindi": {
         "A": "80",
-        "B": "125",
+        "B": "125 [(10/8) × 100 = 125]",
         "C": "100",
         "D": "120"
       },
@@ -152,7 +152,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "Which one of the following quality of teacher will enhance learning?",
-      "questionHindi": "Which one of the following quality of teacher will enhance learning?",
+      "questionHindi": "शिक्षक का निम्नलिखित में से कौन-सा गुण छात्रों के सीखने को बढ़ावा देगा?",
       "options": {
         "A": "Communicating ability",
         "B": "Motivation ability",
@@ -160,10 +160,10 @@
         "D": "Physical personality"
       },
       "optionsHindi": {
-        "A": "Communicating ability",
-        "B": "Motivation ability",
-        "C": "Guiding ability",
-        "D": "Physical personality"
+        "A": "संवाद क्षमता",
+        "B": "अभिप्रेरणा क्षमता (Motivation ability)",
+        "C": "मार्गदर्शन क्षमता",
+        "D": "शारीरिक व्यक्तित्व"
       },
       "correctAnswer": "B",
       "explanation": "Motivation ability of the teacher directly engages students' intrinsic interest and enhances effective learning.",
@@ -186,7 +186,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "The objective method of Personality measure is:",
-      "questionHindi": "The objective method of Personality measure is:",
+      "questionHindi": "व्यक्तित्व मापन की वस्तुनिष्ठ विधि कौन-सी है?",
       "options": {
         "A": "Observation",
         "B": "Interview",
@@ -194,10 +194,10 @@
         "D": "Case-study"
       },
       "optionsHindi": {
-        "A": "Observation",
-        "B": "Interview",
-        "C": "Rating scale",
-        "D": "Case-study"
+        "A": "अवलोकन",
+        "B": "साक्षात्कार",
+        "C": "निर्धारण मापनी (Rating scale)",
+        "D": "व्यक्ति अध्ययन (केस-स्टडी)"
       },
       "correctAnswer": "C",
       "explanation": "Rating scales provide an objective, standardized quantitative technique for assessing personality traits.",
@@ -220,7 +220,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "What a teacher should not do to shape an inclusive classroom?",
-      "questionHindi": "What a teacher should not do to shape an inclusive classroom?",
+      "questionHindi": "एक समावेशी कक्षा को आकार देने के लिए एक शिक्षक को क्या नहीं करना चाहिए?",
       "options": {
         "A": "Teacher must be proficient in his subject.",
         "B": "Students' individuality should be respected.",
@@ -228,10 +228,10 @@
         "D": "Teacher should be interested in co-curricular activity."
       },
       "optionsHindi": {
-        "A": "Teacher must be proficient in his subject.",
-        "B": "Students' individuality should be respected.",
-        "C": "Teacher should have a strict and conservative approach towards students.",
-        "D": "Teacher should be interested in co-curricular activity."
+        "A": "शिक्षक को अपने विषय में निपुण होना चाहिए।",
+        "B": "छात्रों की वैयक्तिकता का सम्मान किया जाना चाहिए।",
+        "C": "शिक्षक को छात्रों के प्रति सख्त और रूढ़िवादी दृष्टिकोण रखना चाहिए।",
+        "D": "शिक्षक को पाठ्य-सहगामी गतिविधियों में रुचि रखनी चाहिए।"
       },
       "correctAnswer": "C",
       "explanation": "A strict and conservative attitude restricts learner autonomy, flexibility, and inclusivity in the classroom.",
@@ -254,7 +254,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "Kohlberg has given the following levels of moral development:",
-      "questionHindi": "Kohlberg has given the following levels of moral development:",
+      "questionHindi": "कोहलबर्ग ने नैतिक विकास के कितने स्तर (Levels) प्रतिपादित किए हैं?",
       "options": {
         "A": "3",
         "B": "4",
@@ -262,7 +262,7 @@
         "D": "5"
       },
       "optionsHindi": {
-        "A": "3",
+        "A": "3 (पूर्व-पारंपरिक, पारंपरिक, उत्तर-पारंपरिक)",
         "B": "4",
         "C": "6",
         "D": "5"
@@ -288,7 +288,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "The best way for a teacher to make his/her students learn:",
-      "questionHindi": "The best way for a teacher to make his/her students learn:",
+      "questionHindi": "एक शिक्षक के लिए अपने छात्रों को सिखाने का सबसे अच्छा तरीका क्या है?",
       "options": {
         "A": "By giving a good lecture",
         "B": "By showing the model",
@@ -296,10 +296,10 @@
         "D": "By educational excursion"
       },
       "optionsHindi": {
-        "A": "By giving a good lecture",
-        "B": "By showing the model",
-        "C": "By using over head projector in teaching",
-        "D": "By educational excursion"
+        "A": "अच्छा व्याख्यान देकर",
+        "B": "मॉडल दिखाकर",
+        "C": "ओवरहेड प्रोजेक्टर का उपयोग करके",
+        "D": "शैक्षिक भ्रमण द्वारा (By educational excursion)"
       },
       "correctAnswer": "D",
       "explanation": "Educational excursions provide direct, hands-on, authentic experiential learning in real-world contexts.",
@@ -356,7 +356,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "The term comprehensive evaluation in continuous and comprehensive evaluation means:",
-      "questionHindi": "The term comprehensive evaluation in continuous and comprehensive evaluation means:",
+      "questionHindi": "सतत एवं व्यापक मूल्यांकन (CCE) में 'व्यापक' शब्द का क्या अर्थ है?",
       "options": {
         "A": "Evaluation of all subjects",
         "B": "Evaluation of educational area",
@@ -364,10 +364,10 @@
         "D": "Evaluation of co-educational area"
       },
       "optionsHindi": {
-        "A": "Evaluation of all subjects",
-        "B": "Evaluation of educational area",
-        "C": "Evaluation of educational and co-educational area",
-        "D": "Evaluation of co-educational area"
+        "A": "सभी विषयों का मूल्यांकन",
+        "B": "केवल शैक्षिक क्षेत्र का मूल्यांकन",
+        "C": "शैक्षिक एवं सह-शैक्षिक दोनों क्षेत्रों का समग्र मूल्यांकन (Educational and co-educational area)",
+        "D": "केवल सह-शैक्षिक क्षेत्र का मूल्यांकन"
       },
       "correctAnswer": "C",
       "explanation": "Comprehensive evaluation in CCE assesses holistic development encompassing both Scholastic (educational) and Co-scholastic (co-curricular/affective) domains.",
@@ -390,7 +390,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "The stage from 7 to 12 years is called:",
-      "questionHindi": "The stage from 7 to 12 years is called:",
+      "questionHindi": "7 से 12 वर्ष की विकासात्मक अवस्था क्या कहलाती है?",
       "options": {
         "A": "Infancy",
         "B": "Late-childhood",
@@ -398,10 +398,10 @@
         "D": "Early-childhood"
       },
       "optionsHindi": {
-        "A": "Infancy",
-        "B": "Late-childhood",
-        "C": "Adolescence",
-        "D": "Early-childhood"
+        "A": "शैशवावस्था",
+        "B": "उत्तर-बाल्यावस्था (Late-childhood)",
+        "C": "किशोरावस्था",
+        "D": "पूर्व-बाल्यावस्था"
       },
       "correctAnswer": "B",
       "explanation": "The developmental age range of 7 to 12 years corresponds to Late Childhood (उत्तर बाल्यावस्था / School Age).",
@@ -424,7 +424,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "Law of Readiness is related to:",
-      "questionHindi": "Law of Readiness is related to:",
+      "questionHindi": "तत्परता का नियम (Law of Readiness) किससे संबंधित है?",
       "options": {
         "A": "Operant Conditioning theory",
         "B": "Classical Conditioning theory",
@@ -432,10 +432,10 @@
         "D": "Trial-Error theory"
       },
       "optionsHindi": {
-        "A": "Operant Conditioning theory",
-        "B": "Classical Conditioning theory",
-        "C": "Sign-Learning theory",
-        "D": "Trial-Error theory"
+        "A": "क्रिया-प्रसूत अनुबंधन सिद्धांत",
+        "B": "शास्त्रीय अनुबंधन सिद्धांत",
+        "C": "चिह्न-अधिगम सिद्धांत",
+        "D": "प्रयास एवं त्रुटि का सिद्धांत (थार्नडाइक)"
       },
       "correctAnswer": "D",
       "explanation": "The Law of Readiness is one of Thorndike's 3 primary laws of learning in Trial and Error Theory.",
@@ -560,7 +560,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "A child holding the Pencil by using his fingers and thumb shows which principle of development?",
-      "questionHindi": "A child holding the Pencil by using his fingers and thumb shows which principle of development?",
+      "questionHindi": "एक बच्चे द्वारा उंगलियों और अंगूठे का उपयोग करके पेंसिल पकड़ना विकास के किस सिद्धांत को दर्शाता है?",
       "options": {
         "A": "General to Specific",
         "B": "Specific to General",
@@ -568,10 +568,10 @@
         "D": "None of the above"
       },
       "optionsHindi": {
-        "A": "General to Specific",
-        "B": "Specific to General",
-        "C": "Principle of Continuity",
-        "D": "None of the above"
+        "A": "सामान्य से विशिष्ट का सिद्धांत (General to Specific)",
+        "B": "विशिष्ट से सामान्य",
+        "C": "निरंतरता का सिद्धांत",
+        "D": "उपरोक्त में से कोई नहीं"
       },
       "correctAnswer": "A",
       "explanation": "Transitioning from using the entire hand (gross motor) to using specific fingers and thumb (fine motor) exemplifies the General to Specific developmental trend.",
@@ -594,7 +594,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "Reaching conclusions through examples and facts comes under which teaching method?",
-      "questionHindi": "Reaching conclusions through examples and facts comes under which teaching method?",
+      "questionHindi": "उदाहरणों और विशिष्ट तथ्यों के माध्यम से सामान्य निष्कर्ष पर पहुंचना किस शिक्षण विधि के अंतर्गत आता है?",
       "options": {
         "A": "Deductive Method",
         "B": "Analytic Method",
@@ -602,10 +602,10 @@
         "D": "Lecture Method"
       },
       "optionsHindi": {
-        "A": "Deductive Method",
-        "B": "Analytic Method",
-        "C": "Inductive Method",
-        "D": "Lecture Method"
+        "A": "निगमन विधि",
+        "B": "विश्लेषणात्मक विधि",
+        "C": "आगमन विधि (Inductive Method)",
+        "D": "व्याख्यान विधि"
       },
       "correctAnswer": "C",
       "explanation": "The Inductive Method (आगमन विधि) proceeds from concrete examples and specific facts to general rules and conclusions.",
@@ -628,7 +628,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "According to Piaget, at which stage of cognitive development does a child start arranging different objects in a sequential manner in view of some of their characteristics?",
-      "questionHindi": "According to Piaget, at which stage of cognitive development does a child start arranging different objects in a sequential manner in view of some of their characteristics?",
+      "questionHindi": "पियाजे के अनुसार, संज्ञानात्मक विकास की किस अवस्था में बच्चा वस्तुओं को उनके गुणों के आधार पर क्रमानुसार व्यवस्थित करना (Seriation) शुरू करता है?",
       "options": {
         "A": "Concrete-operational stage",
         "B": "Sensory-motor stage",
@@ -636,10 +636,10 @@
         "D": "Formal-operational stage"
       },
       "optionsHindi": {
-        "A": "Concrete-operational stage",
-        "B": "Sensory-motor stage",
-        "C": "Pre-operational stage",
-        "D": "Formal-operational stage"
+        "A": "मूर्त संक्रियात्मक अवस्था (Concrete-operational stage)",
+        "B": "संवेदी-गामक अवस्था",
+        "C": "पूर्व-संक्रियात्मक अवस्था",
+        "D": "औपचारिक संक्रियात्मक अवस्था"
       },
       "correctAnswer": "A",
       "explanation": "Seriation (arranging objects sequentially by size, height, or weight) develops during Piaget's Concrete Operational stage (7-11 years).",
@@ -730,7 +730,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "Cephalocaudal sequence of motor development is:",
-      "questionHindi": "Cephalocaudal sequence of motor development is:",
+      "questionHindi": "गामक विकास का मस्तकाधोमुखी (Cephalocaudal) क्रम क्या है?",
       "options": {
         "A": "Head → Trunk → Hand → Leg",
         "B": "Head → Hand → Leg → Trunk",
@@ -738,10 +738,10 @@
         "D": "Mouth → Neck → Trunk → Head"
       },
       "optionsHindi": {
-        "A": "Head → Trunk → Hand → Leg",
-        "B": "Head → Hand → Leg → Trunk",
-        "C": "Head → Neck → Mouth → Hand",
-        "D": "Mouth → Neck → Trunk → Head"
+        "A": "सिर -> धड़ -> हाथ -> पैर (Head -> Trunk -> Hand -> Leg)",
+        "B": "सिर -> हाथ -> पैर -> धड़",
+        "C": "सिर -> गर्दन -> मुंह -> हाथ",
+        "D": "मुंह -> गर्दन -> धड़ -> सिर"
       },
       "correctAnswer": "A",
       "explanation": "Cephalocaudal motor development proceeds headward to downward: Head control -> Trunk control -> Hand coordination -> Leg/walking control.",
@@ -764,7 +764,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "In which stage of teaching the Lesson Plan is prepared by the teacher?",
-      "questionHindi": "In which stage of teaching the Lesson Plan is prepared by the teacher?",
+      "questionHindi": "शिक्षक द्वारा पाठ योजना (Lesson Plan) का निर्माण शिक्षण के किस चरण में किया जाता है?",
       "options": {
         "A": "Pre-active phase of teaching",
         "B": "Inter-active phase of teaching",
@@ -772,10 +772,10 @@
         "D": "None of the above"
       },
       "optionsHindi": {
-        "A": "Pre-active phase of teaching",
-        "B": "Inter-active phase of teaching",
-        "C": "Post-active phase of teaching",
-        "D": "None of the above"
+        "A": "शिक्षण का पूर्व-सक्रिय चरण (Pre-active phase)",
+        "B": "शिक्षण का अंतःक्रियात्मक चरण",
+        "C": "शिक्षण का उत्तर-सक्रिय चरण",
+        "D": "उपरोक्त में से कोई नहीं"
       },
       "correctAnswer": "A",
       "explanation": "Lesson planning, defining behavioral objectives, and selecting TLMs occur in the Pre-active phase of teaching (Planning stage).",
@@ -900,7 +900,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "\"Children actively construct knowledge as they manipulate and explore their world.\" Whose statement is this?",
-      "questionHindi": "\"Children actively construct knowledge as they manipulate and explore their world.\" Whose statement is this?",
+      "questionHindi": "'बच्चे अपने संसार की खोज और उसमें हेरफेर करते हुए सक्रिय रूप से ज्ञान का निर्माण करते हैं।' यह कथन किसका है?",
       "options": {
         "A": "Spearman",
         "B": "Terman",
@@ -908,10 +908,10 @@
         "D": "Binet"
       },
       "optionsHindi": {
-        "A": "Spearman",
-        "B": "Terman",
-        "C": "Piaget",
-        "D": "Binet"
+        "A": "स्पीयरमैन",
+        "B": "टर्मन",
+        "C": "जीन पियाजे (Piaget)",
+        "D": "बिने"
       },
       "correctAnswer": "C",
       "explanation": "Jean Piaget described children as 'active little scientists' who actively construct knowledge through cognitive schemas and environmental exploration.",
@@ -968,7 +968,7 @@
       "section": "cdp",
       "subject": "Child Development and Pedagogy",
       "question": "The correct sequence of motivational needs propounded by Maslow is: (i) Physiological needs, (ii) Belongingness and love needs, (iii) Needs for self-actualization, (iv) Esteem needs, (v) Safety needs.",
-      "questionHindi": "The correct sequence of motivational needs propounded by Maslow is: (i) Physiological needs, (ii) Belongingness and love needs, (iii) Needs for self-actualization, (iv) Esteem needs, (v) Safety needs.",
+      "questionHindi": "मैस्लो द्वारा प्रतिपादित अभिप्रेरणात्मक आवश्यकताओं का सही क्रम क्या है?\n(i) शारीरिक आवश्यकताएं (ii) अपनत्व एवं स्नेह (iii) आत्म-साक्षात्कार (iv) आत्मसम्मान (v) सुरक्षा",
       "options": {
         "A": "(i) (ii) (v) (iv) (iii)",
         "B": "(i) (iv) (ii) (v) (iii)",
@@ -3144,7 +3144,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "If (x - 3) is a factor of x³ + x² - 17x + 15, then remainder will be:",
-      "questionHindi": "If (x - 3) is a factor of x³ + x² - 17x + 15, then remainder will be:",
+      "questionHindi": "यदि (x - 3), बहुपद x³ + x² - 17x + 15 का एक गुणनखंड है, तो शेषफल क्या होगा?",
       "options": {
         "A": "−2",
         "B": "+3",
@@ -3154,7 +3154,7 @@
       "optionsHindi": {
         "A": "−2",
         "B": "+3",
-        "C": "zero",
+        "C": "शून्य (zero)",
         "D": "+1"
       },
       "correctAnswer": "C",
@@ -3178,7 +3178,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "In ΔABC, if 1/2 ∠A + 1/3 ∠C + 1/2 ∠B = 80°, then ∠C will be:",
-      "questionHindi": "In ΔABC, if 1/2 ∠A + 1/3 ∠C + 1/2 ∠B = 80°, then ∠C will be:",
+      "questionHindi": "ΔABC में, यदि 1/2 ∠A + 1/3 ∠C + 1/2 ∠B = 80° है, तो ∠C का मान क्या होगा?",
       "options": {
         "A": "70°",
         "B": "60°",
@@ -3187,7 +3187,7 @@
       },
       "optionsHindi": {
         "A": "70°",
-        "B": "60°",
+        "B": "60° (∠C = 60°)",
         "C": "50°",
         "D": "100°"
       },
@@ -3212,7 +3212,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Greatest common divisor and least common multiple of two positive integers are 12 and 72 respectively. If one number is 24, then the difference of numbers is:",
-      "questionHindi": "Greatest common divisor and least common multiple of two positive integers are 12 and 72 respectively. If one number is 24, then the difference of numbers is:",
+      "questionHindi": "दो धनात्मक पूर्णांकों का म.स. (GCD) और ल.स. (LCM) क्रमशः 12 और 72 हैं। यदि एक संख्या 24 है, तो दोनों संख्याओं का अंतर क्या है?",
       "options": {
         "A": "18",
         "B": "12",
@@ -3221,7 +3221,7 @@
       },
       "optionsHindi": {
         "A": "18",
-        "B": "12",
+        "B": "12 (दूसरी संख्या 36, अंतर 12)",
         "C": "21",
         "D": "24"
       },
@@ -3246,7 +3246,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Number of rounds in travelling 4 km by a tyre of diameter 7/11 m will be:",
-      "questionHindi": "Number of rounds in travelling 4 km by a tyre of diameter 7/11 m will be:",
+      "questionHindi": "7/11 मीटर व्यास वाले एक पहिये द्वारा 4 किमी की दूरी तय करने में लगाए गए चक्करों की संख्या क्या होगी?",
       "options": {
         "A": "1947",
         "B": "1857",
@@ -3256,7 +3256,7 @@
       "optionsHindi": {
         "A": "1947",
         "B": "1857",
-        "C": "2000",
+        "C": "2000 (परिधि = 2 मी => 4000/2 = 2000)",
         "D": "1700"
       },
       "correctAnswer": "C",
@@ -3348,7 +3348,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "If height of an equilateral triangle is √3 cm, then its perimeter will be:",
-      "questionHindi": "If height of an equilateral triangle is √3 cm, then its perimeter will be:",
+      "questionHindi": "यदि एक समबाहु त्रिभुज की ऊंचाई √3 सेमी है, तो इसका परिमाप क्या होगा?",
       "options": {
         "A": "7 cm",
         "B": "6 cm",
@@ -3356,10 +3356,10 @@
         "D": "5√3 cm"
       },
       "optionsHindi": {
-        "A": "7 cm",
-        "B": "6 cm",
-        "C": "5 cm",
-        "D": "5√3 cm"
+        "A": "7 सेमी",
+        "B": "6 सेमी (भुजा 2 सेमी => परिमाप 6 सेमी)",
+        "C": "5 सेमी",
+        "D": "5√3 सेमी"
       },
       "correctAnswer": "B",
       "explanation": "Height h = (√3/2)a = √3 cm => side a = 2 cm. Perimeter = 3a = 6 cm.",
@@ -3756,7 +3756,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "If the ratio of radii of two spheres are 2 : 3, then the ratio of their volumes will be:",
-      "questionHindi": "If the ratio of radii of two spheres are 2 : 3, then the ratio of their volumes will be:",
+      "questionHindi": "यदि दो गोलों की त्रिज्याओं का अनुपात 2 : 3 है, तो उनके आयतनों का अनुपात क्या होगा?",
       "options": {
         "A": "27 : 8",
         "B": "8 : 27",
@@ -3765,7 +3765,7 @@
       },
       "optionsHindi": {
         "A": "27 : 8",
-        "B": "8 : 27",
+        "B": "8 : 27 (2³ : 3³ = 8 : 27)",
         "C": "2 : 3",
         "D": "3 : 2"
       },
@@ -3858,7 +3858,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "If x = 2 + √3, then the value of (x² + x⁻²) will be:",
-      "questionHindi": "If x = 2 + √3, then the value of (x² + x⁻²) will be:",
+      "questionHindi": "यदि x = 2 + √3 है, तो (x² + x⁻²) का मान क्या होगा?",
       "options": {
         "A": "11",
         "B": "12",
@@ -4096,7 +4096,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "The number of edges in a polyhedron having 8 faces and 6 vertices will be:",
-      "questionHindi": "The number of edges in a polyhedron having 8 faces and 6 vertices will be:",
+      "questionHindi": "8 फलक (Faces) और 6 शीर्ष (Vertices) वाले एक बहुफलक (Polyhedron) में किनारों (Edges) की संख्या क्या होगी?",
       "options": {
         "A": "14",
         "B": "16",
@@ -4106,7 +4106,7 @@
       "optionsHindi": {
         "A": "14",
         "B": "16",
-        "C": "12",
+        "C": "12 (F+V-E=2 => 8+6-12=2)",
         "D": "7"
       },
       "correctAnswer": "C",
@@ -4198,7 +4198,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "The rockets work on the principle of conservation of:",
-      "questionHindi": "The rockets work on the principle of conservation of:",
+      "questionHindi": "रॉकेट किस संरक्षण सिद्धांत पर कार्य करते हैं?",
       "options": {
         "A": "Mass",
         "B": "Energy",
@@ -4206,10 +4206,10 @@
         "D": "All of these"
       },
       "optionsHindi": {
-        "A": "Mass",
-        "B": "Energy",
-        "C": "Momentum",
-        "D": "All of these"
+        "A": "द्रव्यमान संरक्षण",
+        "B": "ऊर्जा संरक्षण",
+        "C": "संवेग संरक्षण (Conservation of Momentum)",
+        "D": "उपरोक्त सभी"
       },
       "correctAnswer": "C",
       "explanation": "Rocket propulsion operates on Newton's third law and the law of conservation of linear momentum.",
@@ -4334,7 +4334,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Which of the following material typically offers the least resistance to electric current?",
-      "questionHindi": "Which of the following material typically offers the least resistance to electric current?",
+      "questionHindi": "निम्नलिखित में से कौन-सा पदार्थ विद्युत धारा के प्रति सबसे कम प्रतिरोध (सर्वाधिक चालकता) प्रदान करता है?",
       "options": {
         "A": "Gold",
         "B": "Copper",
@@ -4342,10 +4342,10 @@
         "D": "Silver"
       },
       "optionsHindi": {
-        "A": "Gold",
-        "B": "Copper",
-        "C": "Aluminium",
-        "D": "Silver"
+        "A": "सोना",
+        "B": "तांबा",
+        "C": "एल्युमिनियम",
+        "D": "चांदी (Silver)"
       },
       "correctAnswer": "D",
       "explanation": "Silver possesses the highest electrical conductivity and lowest electrical resistivity among all metals.",
@@ -4572,7 +4572,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Bronze is an alloy of:",
-      "questionHindi": "Bronze is an alloy of:",
+      "questionHindi": "कांसा (Bronze) किसकी मिश्रधातु है?",
       "options": {
         "A": "Copper and Tin",
         "B": "Copper and Zinc",
@@ -4580,10 +4580,10 @@
         "D": "Brass and Tin"
       },
       "optionsHindi": {
-        "A": "Copper and Tin",
-        "B": "Copper and Zinc",
-        "C": "Zinc and Tin",
-        "D": "Brass and Tin"
+        "A": "तांबा और टिन (Copper and Tin - Cu+Sn)",
+        "B": "तांबा और जस्ता",
+        "C": "जस्ता और टिन",
+        "D": "पीतल और टिन"
       },
       "correctAnswer": "A",
       "explanation": "Bronze is a metallic alloy composed predominantly of Copper and Tin (Cu + Sn).",
@@ -4776,7 +4776,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Where is the ozone layer found in the atmosphere?",
-      "questionHindi": "Where is the ozone layer found in the atmosphere?",
+      "questionHindi": "वायुमंडल में ओजोन परत (Ozone Layer) किस मंडल में पाई जाती है?",
       "options": {
         "A": "Troposphere",
         "B": "Ionosphere",
@@ -4784,10 +4784,10 @@
         "D": "Stratosphere"
       },
       "optionsHindi": {
-        "A": "Troposphere",
-        "B": "Ionosphere",
-        "C": "Mesosphere",
-        "D": "Stratosphere"
+        "A": "क्षोभमंडल",
+        "B": "आयनमंडल",
+        "C": "मध्यमंडल",
+        "D": "समताप मंडल (Stratosphere)"
       },
       "correctAnswer": "D",
       "explanation": "The protective ozone layer (O₃) is situated in the Stratosphere between 15 km and 35 km altitude.",
@@ -4912,7 +4912,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Which of the following metals are stored in kerosene oil?",
-      "questionHindi": "Which of the following metals are stored in kerosene oil?",
+      "questionHindi": "निम्नलिखित में से कौन-सी धातुओं को मिट्टी के तेल (Kerosene) में संग्रहित किया जाता है?",
       "options": {
         "A": "Potassium and Magnesium",
         "B": "Sodium and Magnesium",
@@ -4920,10 +4920,10 @@
         "D": "Potassium and Sodium"
       },
       "optionsHindi": {
-        "A": "Potassium and Magnesium",
-        "B": "Sodium and Magnesium",
-        "C": "Aluminium and Sodium",
-        "D": "Potassium and Sodium"
+        "A": "पोटैशियम और मैग्नीशियम",
+        "B": "सोडियम और मैग्नीशियम",
+        "C": "एल्युमिनियम और सोडियम",
+        "D": "पोटैशियम और सोडियम (Potassium and Sodium)"
       },
       "correctAnswer": "D",
       "explanation": "Alkali metals Sodium (Na) and Potassium (K) react violently with air and water, and must be preserved under kerosene.",
@@ -4946,7 +4946,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "'Pashmina' is obtained from:",
-      "questionHindi": "'Pashmina' is obtained from:",
+      "questionHindi": "प्रसिद्ध 'पश्मीना' ऊन किससे प्राप्त की जाती है?",
       "options": {
         "A": "Sheep",
         "B": "Goat",
@@ -4954,10 +4954,10 @@
         "D": "Yak"
       },
       "optionsHindi": {
-        "A": "Sheep",
-        "B": "Goat",
-        "C": "Rabbit",
-        "D": "Yak"
+        "A": "भेड़",
+        "B": "बकरी (Changthangi Goat)",
+        "C": "खरगोश",
+        "D": "याक"
       },
       "correctAnswer": "B",
       "explanation": "Pashmina is an exquisite ultra-fine cashmere wool harvested from Changthangi goats (Capra hircus).",
@@ -4980,7 +4980,7 @@
       "section": "math_sci",
       "subject": "Mathematics and Science",
       "question": "Plants take CO₂ from the atmosphere mainly through their:",
-      "questionHindi": "Plants take CO₂ from the atmosphere mainly through their:",
+      "questionHindi": "पौधे वातावरण से CO₂ मुख्य रूप से किसके माध्यम से ग्रहण करते हैं?",
       "options": {
         "A": "Stems",
         "B": "Roots",
@@ -4988,10 +4988,10 @@
         "D": "Flowers"
       },
       "optionsHindi": {
-        "A": "Stems",
-        "B": "Roots",
-        "C": "Leaves",
-        "D": "Flowers"
+        "A": "तने",
+        "B": "जड़ें",
+        "C": "पत्तियां (Leaves - रंध्रों द्वारा)",
+        "D": "फूल"
       },
       "correctAnswer": "C",
       "explanation": "Terrestrial plants absorb carbon dioxide primarily through microscopic stomatal pores located on the surface of leaves.",

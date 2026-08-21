@@ -61,28 +61,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which part of the brain performs all cognitive, emotional and motor activities?",
-        "hindi": "Which part of the brain performs all cognitive, emotional and motor activities?"
+        "hindi": "मस्तिष्क का कौन-सा भाग सभी संज्ञानात्मक, संवेगात्मक और गामक गतिविधियों का निष्पादन करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Forebrain",
-          "hindi": "Forebrain"
+          "hindi": "अग्र-मस्तिष्क (Forebrain)"
         },
         {
           "id": "B",
           "english": "Midbrain",
-          "hindi": "Midbrain"
+          "hindi": "मध्य-मस्तिष्क (Midbrain)"
         },
         {
           "id": "C",
           "english": "Hindbrain",
-          "hindi": "Hindbrain"
+          "hindi": "पश्च-मस्तिष्क (Hindbrain)"
         },
         {
           "id": "D",
           "english": "None of the above",
-          "hindi": "None of the above"
+          "hindi": "उपरोक्त में से कोई नहीं"
         }
       ],
       "correctAnswer": "A",
@@ -107,28 +107,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Anincrease in the size of body parts or of the organism as a whole is called",
-        "hindi": "Anincrease in the size of body parts or of the organism as a whole is called"
+        "hindi": "शरीर के अंगों या पूरे जीव के आकार व भार में होने वाली वृद्धि को क्या कहा जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Growth",
-          "hindi": "Growth"
+          "hindi": "वृद्धि (Growth)"
         },
         {
           "id": "B",
           "english": "Development",
-          "hindi": "Development"
+          "hindi": "विकास (Development)"
         },
         {
           "id": "C",
           "english": "Maturation",
-          "hindi": "Maturation"
+          "hindi": "परिपक्वता (Maturation)"
         },
         {
           "id": "D",
           "english": "Evolution",
-          "hindi": "Evolution"
+          "hindi": "क्रमविकास (Evolution)"
         }
       ],
       "correctAnswer": "A",
@@ -153,28 +153,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Which of the following is not a system of memory according to the stage model of memory?",
-        "hindi": "Which of the following is not a system of memory according to the stage model of memory?"
+        "hindi": "स्मृति के अवस्था मॉडल (Atkinson-Shiffrin Model) के अनुसार निम्नलिखित में से कौन-सी स्मृति की प्रणाली नहीं है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Sensory memory",
-          "hindi": "Sensory memory"
+          "hindi": "संवेदी स्मृति (Sensory memory)"
         },
         {
           "id": "B",
           "english": "Short term memory",
-          "hindi": "Short term memory"
+          "hindi": "अल्पकालिक स्मृति (Short term memory)"
         },
         {
           "id": "C",
           "english": "Long term memory",
-          "hindi": "Long term memory"
+          "hindi": "दीर्घकालिक स्मृति (Long term memory)"
         },
         {
           "id": "D",
           "english": "Working memory",
-          "hindi": "Working memory"
+          "hindi": "कार्यशील स्मृति (Working memory - बैडले मॉडल)"
         }
       ],
       "correctAnswer": "D",
@@ -199,28 +199,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "To think more about the relationship between objects and backgrounds is called",
-        "hindi": "To think more about the relationship between objects and backgrounds is called"
+        "hindi": "वस्तुओं और उनकी पृष्ठभूमि के बीच के संबंधों के बारे में गहराई से सोचने को क्या कहा जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Analytical thinking",
-          "hindi": "Analytical thinking"
+          "hindi": "विश्लेषणात्मक चिंतन"
         },
         {
           "id": "B",
           "english": "Holistic thinking",
-          "hindi": "Holistic thinking"
+          "hindi": "समग्र / पूर्णतावादी चिंतन (Holistic thinking)"
         },
         {
           "id": "C",
           "english": "Rational thinking",
-          "hindi": "Rational thinking"
+          "hindi": "तर्कसंगत चिंतन"
         },
         {
           "id": "D",
           "english": "None of the above",
-          "hindi": "None of the above"
+          "hindi": "उपरोक्त में से कोई नहीं"
         }
       ],
       "correctAnswer": "B",
@@ -245,28 +245,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "\"Wanting to eat when one is over- weight\" is an example of which type of Conflict?",
-        "hindi": "\"Wanting to eat when one is over- weight\" is an example of which type of Conflict?"
+        "hindi": "'अधिक वजन होने पर भी स्वादिष्ट भोजन खाने की इच्छा होना' किस प्रकार के द्वंद्व (Conflict) का उदाहरण है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Approach - Approach Conflict",
-          "hindi": "Approach - Approach Conflict"
+          "hindi": "उपागम - उपागम द्वंद्व"
         },
         {
           "id": "B",
           "english": "Avoidance - Avoidance Conflict",
-          "hindi": "Avoidance - Avoidance Conflict"
+          "hindi": "परिहार - परिहार द्वंद्व"
         },
         {
           "id": "C",
           "english": "Approach - Avoidance Conflict",
-          "hindi": "Approach - Avoidance Conflict"
+          "hindi": "उपागम - परिहार द्वंद्व (Approach - Avoidance Conflict)"
         },
         {
           "id": "D",
           "english": "None of the above",
-          "hindi": "None of the above"
+          "hindi": "उपरोक्त में से कोई नहीं"
         }
       ],
       "correctAnswer": "C",
@@ -291,28 +291,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Who devised the Concept of Intelligence Quotient (I.Q.)?",
-        "hindi": "Who devised the Concept of Intelligence Quotient (I.Q.)?"
+        "hindi": "बुद्धि लब्धि (I.Q.) की अवधारणा का प्रतिपादन किसने किया था?"
       },
       "options": [
         {
           "id": "A",
           "english": "William Stern",
-          "hindi": "William Stern"
+          "hindi": "विलियम स्टर्न (1912)"
         },
         {
           "id": "B",
           "english": "Terman",
-          "hindi": "Terman"
+          "hindi": "लुईस टर्मन"
         },
         {
           "id": "C",
           "english": "Ross",
-          "hindi": "Ross"
+          "hindi": "रॉस"
         },
         {
           "id": "D",
           "english": "Binet",
-          "hindi": "Binet"
+          "hindi": "अल्फ्रेड बिने"
         }
       ],
       "correctAnswer": "A",
@@ -337,28 +337,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "At present Psychology is called as the science of",
-        "hindi": "At present Psychology is called as the science of"
+        "hindi": "वर्तमान समय में मनोविज्ञान को किसका विज्ञान माना जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Soul",
-          "hindi": "Soul"
+          "hindi": "आत्मा का विज्ञान"
         },
         {
           "id": "B",
           "english": "Mind",
-          "hindi": "Mind"
+          "hindi": "मन का विज्ञान"
         },
         {
           "id": "C",
           "english": "Behaviour",
-          "hindi": "Behaviour"
+          "hindi": "व्यवहार का विज्ञान (Science of Behaviour - वाटसन)"
         },
         {
           "id": "D",
           "english": "Conciousness",
-          "hindi": "Conciousness"
+          "hindi": "चेतना का विज्ञान"
         }
       ],
       "correctAnswer": "C",
@@ -383,28 +383,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which among the following is NOT a Projective test?",
-        "hindi": "Which among the following is NOT a Projective test?"
+        "hindi": "निम्नलिखित में से कौन-सा एक प्रक्षेपी परीक्षण (Projective Test) नहीं है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Rorschach Inkblot test",
-          "hindi": "Rorschach Inkblot test"
+          "hindi": "रोर्शा स्याही धब्बा परीक्षण"
         },
         {
           "id": "B",
           "english": "Thematic Apperception test (TAT)",
-          "hindi": "Thematic Apperception test (TAT)"
+          "hindi": "प्रासंगिक अंतर्बोध परीक्षण (TAT)"
         },
         {
           "id": "C",
           "english": "Draw-a-Man test",
-          "hindi": "Draw-a-Man test"
+          "hindi": "ड्रॉ-ए-मैन परीक्षण"
         },
         {
           "id": "D",
           "english": "MMPI",
-          "hindi": "MMPI"
+          "hindi": "MMPI (मिनेसोटा मल्टीफैसिक पर्सनालिटी इन्वेंटरी - वस्तुनिष्ठ प्रश्नावली)"
         }
       ],
       "correctAnswer": "D",
@@ -429,28 +429,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "A teacher should study Educational Psychology so that",
-        "hindi": "A teacher should study Educational Psychology so that"
+        "hindi": "एक शिक्षक को शिक्षा मनोविज्ञान का अध्ययन क्यों करना चाहिए?"
       },
       "options": [
         {
           "id": "A",
           "english": "He may stand first in his exams.",
-          "hindi": "He may stand first in his exams."
+          "hindi": "ताकि वह अपनी परीक्षाओं में प्रथम आ सके।"
         },
         {
           "id": "B",
           "english": "He may develop the effectiveness of his teaching through its help.",
-          "hindi": "He may develop the effectiveness of his teaching through its help."
+          "hindi": "ताकि वह इसकी सहायता से अपने शिक्षण की प्रभावशीलता को बढ़ा सके।"
         },
         {
           "id": "C",
           "english": "He may feel self satisfaction.",
-          "hindi": "He may feel self satisfaction."
+          "hindi": "ताकि वह आत्म-संतुष्टि महसूस कर सके।"
         },
         {
           "id": "D",
           "english": "He may impress others.",
-          "hindi": "He may impress others."
+          "hindi": "ताकि वह दूसरों को प्रभावित कर सके।"
         }
       ],
       "correctAnswer": "B",
@@ -475,28 +475,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "A child is getting spoiled in bad company. What would be your duty as a teacher?",
-        "hindi": "A child is getting spoiled in bad company. What would be your duty as a teacher?"
+        "hindi": "यदि कोई बालक बुरी संगति में बिगड़ रहा है, तो एक शिक्षक के रूप में आपका क्या कर्तव्य होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "To contact his parents.",
-          "hindi": "To contact his parents."
+          "hindi": "उसके माता-पिता से संपर्क करना।"
         },
         {
           "id": "B",
           "english": "To ignore him.",
-          "hindi": "To ignore him."
+          "hindi": "उसे नजरअंदाज करना।"
         },
         {
           "id": "C",
           "english": "To counsel him by taking him in confidence.",
-          "hindi": "To counsel him by taking him in confidence."
+          "hindi": "उसे विश्वास में लेकर उसका उचित परामर्श एवं मार्गदर्शन करना।"
         },
         {
           "id": "D",
           "english": "To scold him.",
-          "hindi": "To scold him."
+          "hindi": "उसे डांटना व दंडित करना।"
         }
       ],
       "correctAnswer": "C",
@@ -521,28 +521,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "According to Piaget in which stage of Cognitive development hypothetical thinking develops?",
-        "hindi": "According to Piaget in which stage of Cognitive development hypothetical thinking develops?"
+        "hindi": "पियाजे के अनुसार संज्ञानात्मक विकास की किस अवस्था में परिकल्पनात्मक-निगमनात्मक चिंतन (Hypothetico-deductive thinking) विकसित होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Sensory motor",
-          "hindi": "Sensory motor"
+          "hindi": "संवेदी गामक"
         },
         {
           "id": "B",
           "english": "Pre operational",
-          "hindi": "Pre operational"
+          "hindi": "पूर्व संक्रियात्मक"
         },
         {
           "id": "C",
           "english": "Concrete operational",
-          "hindi": "Concrete operational"
+          "hindi": "मूर्त संक्रियात्मक"
         },
         {
           "id": "D",
           "english": "Formal operational",
-          "hindi": "Formal operational"
+          "hindi": "औपचारिक संक्रियात्मक अवस्था (Formal operational - 11+ वर्ष)"
         }
       ],
       "correctAnswer": "D",
@@ -751,28 +751,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Responses that lead organisms to get rid of painful stimuli or avoid and escape from them, provide which type of reinforcement?",
-        "hindi": "Responses that lead organisms to get rid of painful stimuli or avoid and escape from them, provide which type of reinforcement?"
+        "hindi": "वे अनुक्रियाएं जो जीवों को कष्टप्रद उद्दीपकों से छुटकारा दिलाती हैं या उनसे बचने में मदद करती हैं, किस प्रकार का पुनर्बलन प्रदान करती हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Positive reinforcement",
-          "hindi": "Positive reinforcement"
+          "hindi": "सकारात्मक पुनर्बलन"
         },
         {
           "id": "B",
           "english": "Negative reinforcement",
-          "hindi": "Negative reinforcement"
+          "hindi": "नकारात्मक पुनर्बलन (Negative Reinforcement)"
         },
         {
           "id": "C",
           "english": "Delayed reinforcement",
-          "hindi": "Delayed reinforcement"
+          "hindi": "विलंबित पुनर्बलन"
         },
         {
           "id": "D",
           "english": "Partial reinforcement",
-          "hindi": "Partial reinforcement"
+          "hindi": "आंशिक पुनर्बलन"
         }
       ],
       "correctAnswer": "B",
@@ -935,28 +935,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The reasoning from \"General to particular\" is called",
-        "hindi": "The reasoning from \"General to particular\" is called"
+        "hindi": "'सामान्य से विशिष्ट की ओर' (General to Particular) तर्क करने की प्रक्रिया क्या कहलाती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Inductive Reasoning",
-          "hindi": "Inductive Reasoning"
+          "hindi": "आगमनात्मक तर्क"
         },
         {
           "id": "B",
           "english": "Deductive Reasoning",
-          "hindi": "Deductive Reasoning"
+          "hindi": "निगमनात्मक तर्क (Deductive Reasoning)"
         },
         {
           "id": "C",
           "english": "Analogical Reasoning",
-          "hindi": "Analogical Reasoning"
+          "hindi": "सादृश्यपरक तर्क"
         },
         {
           "id": "D",
           "english": "Creative Reasoning",
-          "hindi": "Creative Reasoning"
+          "hindi": "सृजनात्मक तर्क"
         }
       ],
       "correctAnswer": "B",
@@ -981,28 +981,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Which type of thinking abilities generally include fluency, flexibility, orginality and elaboration?",
-        "hindi": "Which type of thinking abilities generally include fluency, flexibility, orginality and elaboration?"
+        "hindi": "किस प्रकार की चिंतन क्षमताओं में प्रवाह (Fluency), लचीलापन (Flexibility), मौलिकता (Originality) और विस्तार शामिल होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Lateral thinking",
-          "hindi": "Lateral thinking"
+          "hindi": "पार्श्व चिंतन"
         },
         {
           "id": "B",
           "english": "Vertical thinking",
-          "hindi": "Vertical thinking"
+          "hindi": "लंबवत चिंतन"
         },
         {
           "id": "C",
           "english": "Convergent thinking",
-          "hindi": "Convergent thinking"
+          "hindi": "अभिसारी चिंतन"
         },
         {
           "id": "D",
           "english": "Divergent thinking",
-          "hindi": "Divergent thinking"
+          "hindi": "अपसारी चिंतन (Divergent thinking - सृजनात्मकता)"
         }
       ],
       "correctAnswer": "D",
@@ -1027,28 +1027,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "According to Abraham H.Maslow's Hierarchy Of Needs, which need is on the bottom among the following needs?",
-        "hindi": "According to Abraham H.Maslow's Hierarchy Of Needs, which need is on the bottom among the following needs?"
+        "hindi": "अब्राहम मैस्लो के आवश्यकता पदानुक्रम में सबसे निचले (आधारभूत) पायदान पर कौन-सी आवश्यकता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Physiological needs",
-          "hindi": "Physiological needs"
+          "hindi": "शारीरिक आवश्यकताएं (Physiological needs - भूख, प्यास, नींद)"
         },
         {
           "id": "B",
           "english": "Safety needs",
-          "hindi": "Safety needs"
+          "hindi": "सुरक्षा की आवश्यकताएं"
         },
         {
           "id": "C",
           "english": "Belongingness needs",
-          "hindi": "Belongingness needs"
+          "hindi": "संबंध व स्नेह की आवश्यकताएं"
         },
         {
           "id": "D",
           "english": "Esteem needs",
-          "hindi": "Esteem needs"
+          "hindi": "आत्मसम्मान की आवश्यकताएं"
         }
       ],
       "correctAnswer": "A",
@@ -4201,28 +4201,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The line x + y = 0 passes through which of the following quadrant/quadrants?",
-        "hindi": "The line x + y = 0 passes through which of the following quadrant/quadrants?"
+        "hindi": "रेखा x + y = 0 निम्नलिखित में से किस चतुर्थांश (Quadrant) से होकर गुजरती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "IV quadrant only",
-          "hindi": "IV quadrant only"
+          "hindi": "केवल IV चतुर्थांश"
         },
         {
           "id": "B",
           "english": "II quadrant only",
-          "hindi": "II quadrant only"
+          "hindi": "केवल II चतुर्थांश"
         },
         {
           "id": "C",
           "english": "II & IV quadrants",
-          "hindi": "II & IV quadrants"
+          "hindi": "द्वितीय एवं चतुर्थ चतुर्थांश (II & IV quadrants)"
         },
         {
           "id": "D",
           "english": "I & III quadrants",
-          "hindi": "I & III quadrants"
+          "hindi": "प्रथम एवं तृतीय चतुर्थांश"
         }
       ],
       "correctAnswer": "C",
@@ -4247,7 +4247,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "On dividing a number by 5, we get 3 as a remainder. What will be the remainder when the square of this number is divided by 5?",
-        "hindi": "On dividing a number by 5, we get 3 as a remainder. What will be the remainder when the square of this number is divided by 5?"
+        "hindi": "किसी संख्या को 5 से विभाजित करने पर 3 शेषफल प्राप्त होता है। यदि इस संख्या के वर्ग को 5 से विभाजित किया जाए, तो शेषफल क्या होगा?"
       },
       "options": [
         {
@@ -4268,7 +4268,7 @@
         {
           "id": "D",
           "english": "4",
-          "hindi": "4"
+          "hindi": "4 (3² = 9 mod 5 = 4)"
         }
       ],
       "correctAnswer": "D",
@@ -4293,7 +4293,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "If 40% of the people read newspaper X, 50% read newspaper Y and 10% read both newspapers, then what percentage of the people read neither newspaper?",
-        "hindi": "If 40% of the people read newspaper X, 50% read newspaper Y and 10% read both newspapers, then what percentage of the people read neither newspaper?"
+        "hindi": "यदि 40% लोग समाचार पत्र X पढ़ते हैं, 50% समाचार पत्र Y पढ़ते हैं और 10% दोनों समाचार पत्र पढ़ते हैं, तो कितने प्रतिशत लोग कोई भी समाचार पत्र नहीं पढ़ते?"
       },
       "options": [
         {
@@ -4309,7 +4309,7 @@
         {
           "id": "C",
           "english": "20%",
-          "hindi": "20%"
+          "hindi": "20% (100 - (40+50-10) = 20%)"
         },
         {
           "id": "D",
@@ -4615,28 +4615,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The ratio of circumradius and inradius of an equilateral triangle will be",
-        "hindi": "The ratio of circumradius and inradius of an equilateral triangle will be"
+        "hindi": "एक समबाहु त्रिभुज के परिवृत्त की त्रिज्या (Circumradius) और अंतर्वृत्त की त्रिज्या (Inradius) का अनुपात क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "1:2",
-          "hindi": "1:2"
+          "hindi": "1 : 2"
         },
         {
           "id": "B",
           "english": "3:1",
-          "hindi": "3:1"
+          "hindi": "3 : 1"
         },
         {
           "id": "C",
           "english": "2:1",
-          "hindi": "2:1"
+          "hindi": "2 : 1 (R : r = 2 : 1)"
         },
         {
           "id": "D",
           "english": "1:3",
-          "hindi": "1:3"
+          "hindi": "1 : 3"
         }
       ],
       "correctAnswer": "C",
@@ -5489,28 +5489,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The nature of mathematics is —",
-        "hindi": "The nature of mathematics is —"
+        "hindi": "गणित की प्रकृति कैसी होती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Analogical",
-          "hindi": "Analogical"
+          "hindi": "अलंकारिक"
         },
         {
           "id": "B",
           "english": "Logical",
-          "hindi": "Logical"
+          "hindi": "तार्किक (Logical)"
         },
         {
           "id": "C",
           "english": "Difficult",
-          "hindi": "Difficult"
+          "hindi": "कठिन"
         },
         {
           "id": "D",
           "english": "Not for common",
-          "hindi": "Not for common"
+          "hindi": "सामान्य के लिए नहीं"
         }
       ],
       "correctAnswer": "B",
@@ -5535,28 +5535,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Three bells start ringing together at 8:35 am. If they ring after 12 s, 15 s and 18 s respectively each time, the next time they will toll together at",
-        "hindi": "Three bells start ringing together at 8:35 am. If they ring after 12 s, 15 s and 18 s respectively each time, the next time they will toll together at"
+        "hindi": "तीन घंटियां प्रातः 8:35 बजे एक साथ बजना शुरू होती हैं। यदि वे क्रमशः 12s, 15s और 18s के अंतराल पर बजती हैं, तो वे अगली बार एक साथ कब बजेंगी?"
       },
       "options": [
         {
           "id": "A",
           "english": "8:38 am",
-          "hindi": "8:38 am"
+          "hindi": "प्रातः 8:38 बजे (180s = 3 min)"
         },
         {
           "id": "B",
           "english": "8:40 am",
-          "hindi": "8:40 am"
+          "hindi": "प्रातः 8:40 बजे"
         },
         {
           "id": "C",
           "english": "8:42 am",
-          "hindi": "8:42 am"
+          "hindi": "प्रातः 8:42 बजे"
         },
         {
           "id": "D",
           "english": "11:30 am",
-          "hindi": "11:30 am"
+          "hindi": "प्रातः 11:30 बजे"
         }
       ],
       "correctAnswer": "A",
@@ -5581,28 +5581,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Too much of acid in our stomach causes indigestion. Sometimes indigestion is painful. To relieve from this indigestion, which of the following will be helpful",
-        "hindi": "Too much of acid in our stomach causes indigestion. Sometimes indigestion is painful. To relieve from this indigestion, which of the following will be helpful"
+        "hindi": "हमारे पेट में अत्यधिक अम्ल बनने पर अपच (Indigestion) हो जाता है। इस अपच से राहत पाने हेतु क्या उपयोगी होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "Lemon juice",
-          "hindi": "Lemon juice"
+          "hindi": "नींबू का रस"
         },
         {
           "id": "B",
           "english": "Milk of magnesia",
-          "hindi": "Milk of magnesia"
+          "hindi": "मिल्क ऑफ मैग्नीशिया [Mg(OH)₂ - Antacid]"
         },
         {
           "id": "C",
           "english": "Aqua regia",
-          "hindi": "Aqua regia"
+          "hindi": "अम्लराज"
         },
         {
           "id": "D",
           "english": "Vinegar",
-          "hindi": "Vinegar"
+          "hindi": "सिरका"
         }
       ],
       "correctAnswer": "B",
@@ -6041,28 +6041,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The reason for the sweet taste of fruits is",
-        "hindi": "The reason for the sweet taste of fruits is"
+        "hindi": "फलों के प्राकृतिक मीठे स्वाद का मुख्य कारण क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Maltose",
-          "hindi": "Maltose"
+          "hindi": "माल्टोज़"
         },
         {
           "id": "B",
           "english": "Ribose",
-          "hindi": "Ribose"
+          "hindi": "राइबोज़"
         },
         {
           "id": "C",
           "english": "Lactose",
-          "hindi": "Lactose"
+          "hindi": "लैक्टोज़"
         },
         {
           "id": "D",
           "english": "Fructose",
-          "hindi": "Fructose"
+          "hindi": "फ्रुक्टोज़ (Fructose - फल शर्करा)"
         }
       ],
       "correctAnswer": "D",
@@ -6087,28 +6087,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Name the part of the eye which gives colour to the eyes —",
-        "hindi": "Name the part of the eye which gives colour to the eyes —"
+        "hindi": "नेत्र का वह भाग कौन-सा है जो आंखों को उसका विशिष्ट रंग (भूरा/नीला/काला) प्रदान करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Cornea",
-          "hindi": "Cornea"
+          "hindi": "कॉर्निया"
         },
         {
           "id": "B",
           "english": "Iris",
-          "hindi": "Iris"
+          "hindi": "परितारिका / आइरिस (Iris)"
         },
         {
           "id": "C",
           "english": "Retina",
-          "hindi": "Retina"
+          "hindi": "रेटिना"
         },
         {
           "id": "D",
           "english": "Eye lens",
-          "hindi": "Eye lens"
+          "hindi": "नेत्र लेंस"
         }
       ],
       "correctAnswer": "B",
@@ -6133,28 +6133,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The brightest planet in the night sky is —",
-        "hindi": "The brightest planet in the night sky is —"
+        "hindi": "रात्रि के आकाश में सबसे चमकीला ग्रह कौन-सा दिखाई देता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Mars",
-          "hindi": "Mars"
+          "hindi": "मंगल"
         },
         {
           "id": "B",
           "english": "Mercury",
-          "hindi": "Mercury"
+          "hindi": "बुध"
         },
         {
           "id": "C",
           "english": "Jupiter",
-          "hindi": "Jupiter"
+          "hindi": "बृहस्पति"
         },
         {
           "id": "D",
           "english": "Venus",
-          "hindi": "Venus"
+          "hindi": "शुक्र (Venus - भोर व सांझ का तारा)"
         }
       ],
       "correctAnswer": "D",
@@ -6271,28 +6271,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following are also known as ‘Suicide bags' of a cell",
-        "hindi": "Which of the following are also known as ‘Suicide bags' of a cell"
+        "hindi": "कोशिका की 'आत्मघाती थैली' (Suicide Bags) किसे कहा जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Plastids",
-          "hindi": "Plastids"
+          "hindi": "लवक (Plastids)"
         },
         {
           "id": "B",
           "english": "Ribosomes",
-          "hindi": "Ribosomes"
+          "hindi": "राइबोसोम"
         },
         {
           "id": "C",
           "english": "Lysosomes",
-          "hindi": "Lysosomes"
+          "hindi": "लाइसोसोम (Lysosomes)"
         },
         {
           "id": "D",
           "english": "Mitochondria",
-          "hindi": "Mitochondria"
+          "hindi": "माइटोकॉन्ड्रिया"
         }
       ],
       "correctAnswer": "C",
@@ -6317,28 +6317,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which gland secretes harmones that maintain the correct salt balance in the blood",
-        "hindi": "Which gland secretes harmones that maintain the correct salt balance in the blood"
+        "hindi": "रक्त में लवण (सोडियम/पोटैशियम) के सही संतुलन को बनाए रखने वाले हार्मोन का स्राव कौन-सी ग्रंथि करती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Adrenal",
-          "hindi": "Adrenal"
+          "hindi": "अधिवृक्क ग्रंथि / एड्रिनल (Adrenal - Aldosterone)"
         },
         {
           "id": "B",
           "english": "Thyroid",
-          "hindi": "Thyroid"
+          "hindi": "थायरॉयड"
         },
         {
           "id": "C",
           "english": "Thymus",
-          "hindi": "Thymus"
+          "hindi": "थाइमस"
         },
         {
           "id": "D",
           "english": "Pancreas",
-          "hindi": "Pancreas"
+          "hindi": "अग्न्याशय"
         }
       ],
       "correctAnswer": "A",
@@ -6777,28 +6777,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The ability of metals to be drawn into thin wires is called ductility. The most ductile metal in following is —",
-        "hindi": "The ability of metals to be drawn into thin wires is called ductility. The most ductile metal in following is —"
+        "hindi": "धातुओं को पतले तारों में खींचने की क्षमता को तन्यता (Ductility) कहते हैं। निम्नलिखित में से सर्वाधिक तन्य धातु कौन-सी है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Aluminium",
-          "hindi": "Aluminium"
+          "hindi": "एल्युमिनियम"
         },
         {
           "id": "B",
           "english": "Copper",
-          "hindi": "Copper"
+          "hindi": "तांबा"
         },
         {
           "id": "C",
           "english": "Gold",
-          "hindi": "Gold"
+          "hindi": "सोना (Gold - 1 ग्राम सोने से 2 किमी लंबा तार बनाया जा सकता है)"
         },
         {
           "id": "D",
           "english": "Silver",
-          "hindi": "Silver"
+          "hindi": "चांदी"
         }
       ],
       "correctAnswer": "C",
@@ -6869,28 +6869,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Bile juice helps in the digestion of which component of food?",
-        "hindi": "Bile juice helps in the digestion of which component of food?"
+        "hindi": "पित्त रस (Bile Juice) भोजन के किस घटक के पाचन/पायसीकरण में सहायता करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Fats",
-          "hindi": "Fats"
+          "hindi": "वसा (Fats - Emulsification)"
         },
         {
           "id": "B",
           "english": "Proteins",
-          "hindi": "Proteins"
+          "hindi": "प्रोटीन"
         },
         {
           "id": "C",
           "english": "Carbohydrates",
-          "hindi": "Carbohydrates"
+          "hindi": "कार्बोहाइड्रेट"
         },
         {
           "id": "D",
           "english": "Minerals",
-          "hindi": "Minerals"
+          "hindi": "खनिज"
         }
       ],
       "correctAnswer": "A",

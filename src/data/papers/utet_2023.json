@@ -69,28 +69,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Who talked about identity crisis in his theory of personality?",
-        "hindi": "Who talked about identity crisis in his theory of personality?"
+        "hindi": "अपने व्यक्तित्व के सिद्धांत में 'पहचान संकट' (Identity Crisis) की बात किसने की थी?"
       },
       "options": [
         {
           "id": "A",
           "english": "Alfred Adler",
-          "hindi": "Alfred Adler"
+          "hindi": "अल्फ्रेड एडलर"
         },
         {
           "id": "B",
           "english": "Sigmund Freud",
-          "hindi": "Sigmund Freud"
+          "hindi": "सिगमंड फ्रायड"
         },
         {
           "id": "C",
           "english": "Erik Erikson",
-          "hindi": "Erik Erikson"
+          "hindi": "एरिक एरिक्सन"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "C",
@@ -115,28 +115,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "'Self' refers to -",
-        "hindi": "'Self' refers to -"
+        "hindi": "'स्व' (Self) से क्या तात्पर्य है?"
       },
       "options": [
         {
           "id": "A",
           "english": "those attributes of a person that make her/him different from others.",
-          "hindi": "those attributes of a person that make her/him different from others."
+          "hindi": "व्यक्ति के वे गुण जो उसे दूसरों से भिन्न बनाते हैं।"
         },
         {
           "id": "B",
           "english": "those aspects of a person that link her/him to a social or cultural group or are derived from it.",
-          "hindi": "those aspects of a person that link her/him to a social or cultural group or are derived from it."
+          "hindi": "व्यक्ति के वे पहलू जो उसे किसी सामाजिक या सांस्कृतिक समूह से जोड़ते हैं।"
         },
         {
           "id": "C",
           "english": "the totality of an individual's conscious experiences, ideas, thoughts and feelings with regard to herself or himself.",
-          "hindi": "the totality of an individual's conscious experiences, ideas, thoughts and feelings with regard to herself or himself."
+          "hindi": "स्वयं के प्रति व्यक्ति के सचेत अनुभवों, विचारों और भावनाओं की समग्रता।"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "C",
@@ -161,28 +161,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Which of the following is a characteristic of personality?",
-        "hindi": "Which of the following is a characteristic of personality?"
+        "hindi": "निम्नलिखित में से कौन-सी व्यक्तित्व की विशेषता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "It has both physical and psychological components.",
-          "hindi": "It has both physical and psychological components."
+          "hindi": "इसके शारीरिक और मनोवैज्ञानिक दोनों घटक होते हैं।"
         },
         {
           "id": "B",
           "english": "Its expression in terms of behaviour is fairly unique in a given individual.",
-          "hindi": "Its expression in terms of behaviour is fairly unique in a given individual."
+          "hindi": "व्यवहार के रूप में इसकी अभिव्यक्ति प्रत्येक व्यक्ति में विशिष्ट होती है।"
         },
         {
           "id": "C",
           "english": "Its main features do not easily change with time.",
-          "hindi": "Its main features do not easily change with time."
+          "hindi": "इसकी मुख्य विशेषताएं समय के साथ आसानी से नहीं बदलती हैं।"
         },
         {
           "id": "D",
           "english": "All of the above.",
-          "hindi": "All of the above."
+          "hindi": "उपरोक्त सभी"
         }
       ],
       "correctAnswer": "D",
@@ -207,28 +207,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The pioneer of 'trait approach of personality' is -",
-        "hindi": "The pioneer of 'trait approach of personality' is -"
+        "hindi": "व्यक्तित्व के 'शील-गुण उपागम' (Trait Approach) के प्रणेता कौन हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Raymond Cattell",
-          "hindi": "Raymond Cattell"
+          "hindi": "रेमंड कैटेल"
         },
         {
           "id": "B",
           "english": "Gordon Allport",
-          "hindi": "Gordon Allport"
+          "hindi": "गॉर्डन ऑलपोर्ट"
         },
         {
           "id": "C",
           "english": "H.J. Eysenck",
-          "hindi": "H.J. Eysenck"
+          "hindi": "एच.जे. आइज़ेंक"
         },
         {
           "id": "D",
           "english": "Sigmund Freud",
-          "hindi": "Sigmund Freud"
+          "hindi": "सिगमंड फ्रायड"
         }
       ],
       "correctAnswer": "B",
@@ -253,28 +253,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The theory of observational learning was given by -",
-        "hindi": "The theory of observational learning was given by -"
+        "hindi": "प्रेक्षणात्मक / सामाजिक अधिगम का सिद्धांत किसके द्वारा दिया गया था?"
       },
       "options": [
         {
           "id": "A",
           "english": "Pavlov",
-          "hindi": "Pavlov"
+          "hindi": "पावलोव"
         },
         {
           "id": "B",
           "english": "Skinner",
-          "hindi": "Skinner"
+          "hindi": "स्किनर"
         },
         {
           "id": "C",
           "english": "Bandura",
-          "hindi": "Bandura"
+          "hindi": "अल्बर्ट बंडूरा"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "C",
@@ -299,28 +299,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "A girl child is working very hard for her examination. Her behaviour is an indicator of her -",
-        "hindi": "A girl child is working very hard for her examination. Her behaviour is an indicator of her -"
+        "hindi": "एक बालिका अपनी परीक्षा के लिए अत्यधिक परिश्रम कर रही है। उसका यह व्यवहार किसका सूचक है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Sharp cognitive abilities",
-          "hindi": "Sharp cognitive abilities"
+          "hindi": "तीव्र संज्ञानात्मक क्षमताएं"
         },
         {
           "id": "B",
           "english": "High achievement motivation",
-          "hindi": "High achievement motivation"
+          "hindi": "उच्च उपलब्धि अभिप्रेरणा (Achievement Motivation)"
         },
         {
           "id": "C",
           "english": "Very Busy schedule",
-          "hindi": "Very Busy schedule"
+          "hindi": "अत्यंत व्यस्त दिनचर्या"
         },
         {
           "id": "D",
           "english": "Desire to impress her parents",
-          "hindi": "Desire to impress her parents"
+          "hindi": "अपने माता-पिता को प्रभावित करने की इच्छा"
         }
       ],
       "correctAnswer": "B",
@@ -345,28 +345,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "'Rewards play a significant role in learning', is the main characteristic of which of the following approaches of learning?",
-        "hindi": "'Rewards play a significant role in learning', is the main characteristic of which of the following approaches of learning?"
+        "hindi": "'सीखने में पुरस्कार महत्वपूर्ण भूमिका निभाते हैं', यह निम्नलिखित में से किस अधिगम उपागम की मुख्य विशेषता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Behaviouristic",
-          "hindi": "Behaviouristic"
+          "hindi": "व्यवहारवादी (Behaviouristic)"
         },
         {
           "id": "B",
           "english": "Cognitive",
-          "hindi": "Cognitive"
+          "hindi": "संज्ञानात्मक (Cognitive)"
         },
         {
           "id": "C",
           "english": "Humanistic",
-          "hindi": "Humanistic"
+          "hindi": "मानवतावादी (Humanistic)"
         },
         {
           "id": "D",
           "english": "Scientific",
-          "hindi": "Scientific"
+          "hindi": "वैज्ञानिक (Scientific)"
         }
       ],
       "correctAnswer": "A",
@@ -391,28 +391,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "'Negative Reinforcement' means -",
-        "hindi": "'Negative Reinforcement' means -"
+        "hindi": "'नकारात्मक पुनर्बलन' (Negative Reinforcement) का क्या अर्थ है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Not presenting any stimulus.",
-          "hindi": "Not presenting any stimulus."
+          "hindi": "कोई उद्दीपक प्रस्तुत न करना।"
         },
         {
           "id": "B",
           "english": "Presenting an unpleasant stimulus.",
-          "hindi": "Presenting an unpleasant stimulus."
+          "hindi": "एक अप्रिय उद्दीपक प्रस्तुत करना।"
         },
         {
           "id": "C",
           "english": "Punishment.",
-          "hindi": "Punishment."
+          "hindi": "दंड देना।"
         },
         {
           "id": "D",
           "english": "Terminating an unpleasant stimulus.",
-          "hindi": "Terminating an unpleasant stimulus."
+          "hindi": "एक अप्रिय या कष्टप्रद उद्दीपक को हटाना/समाप्त करना।"
         }
       ],
       "correctAnswer": "D",
@@ -437,28 +437,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Programmed Learning is based on -",
-        "hindi": "Programmed Learning is based on -"
+        "hindi": "अभिक्रमित अनुदेशन (Programmed Learning) किस पर आधारित है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Field theory",
-          "hindi": "Field theory"
+          "hindi": "क्षेत्र सिद्धांत (Field theory)"
         },
         {
           "id": "B",
           "english": "Operant conditioning",
-          "hindi": "Operant conditioning"
+          "hindi": "क्रिया-प्रसूत अनुबंधन (Operant conditioning)"
         },
         {
           "id": "C",
           "english": "Gestalt learning theory",
-          "hindi": "Gestalt learning theory"
+          "hindi": "गेस्टाल्ट सिद्धांत"
         },
         {
           "id": "D",
           "english": "Classical conditioning",
-          "hindi": "Classical conditioning"
+          "hindi": "शास्त्रीय अनुबंधन"
         }
       ],
       "correctAnswer": "B",
@@ -483,28 +483,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "A mathematics teacher discusses some problems in the classroom and then asks the students to work out some problems given in the book. Students are practising the law of -",
-        "hindi": "A mathematics teacher discusses some problems in the classroom and then asks the students to work out some problems given in the book. Students are practising the law of -"
+        "hindi": "एक गणित शिक्षक कक्षा में कुछ समस्याओं पर चर्चा करता है और फिर छात्रों को पुस्तक में दिए गए अभ्यास हल करने को कहता है। छात्र किस नियम का अभ्यास कर रहे हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Contiguity",
-          "hindi": "Contiguity"
+          "hindi": "सामीप्य का नियम"
         },
         {
           "id": "B",
           "english": "Reinforcement",
-          "hindi": "Reinforcement"
+          "hindi": "पुनर्बलन का नियम"
         },
         {
           "id": "C",
           "english": "Readiness",
-          "hindi": "Readiness"
+          "hindi": "तत्परता का नियम"
         },
         {
           "id": "D",
           "english": "Exercise",
-          "hindi": "Exercise"
+          "hindi": "अभ्यास का नियम (Law of Exercise)"
         }
       ],
       "correctAnswer": "D",
@@ -529,28 +529,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Interest refers to -",
-        "hindi": "Interest refers to -"
+        "hindi": "'रुचि' (Interest) से क्या तात्पर्य है?"
       },
       "options": [
         {
           "id": "A",
           "english": "An individual's preference for engaging in one or more specific activities related to others.",
-          "hindi": "An individual's preference for engaging in one or more specific activities related to others."
+          "hindi": "अन्य गतिविधियों की तुलना में किसी विशिष्ट गतिविधि में संलग्न होने की वरीयता।"
         },
         {
           "id": "B",
           "english": "Relatively enduring characteristics of a person that make her or him distinct from others.",
-          "hindi": "Relatively enduring characteristics of a person that make her or him distinct from others."
+          "hindi": "व्यक्ति की अपेक्षाकृत स्थायी विशेषताएं जो उसे दूसरों से अलग करती हैं।"
         },
         {
           "id": "C",
           "english": "An individual's underlying potential for acquiring skills.",
-          "hindi": "An individual's underlying potential for acquiring skills."
+          "hindi": "कौशल अर्जित करने की अंतर्निहित क्षमता।"
         },
         {
           "id": "D",
           "english": "The global capacity to understand the world, think rationally and use the available resources effectively when faced with challenges.",
-          "hindi": "The global capacity to understand the world, think rationally and use the available resources effectively when faced with challenges."
+          "hindi": "चुनौतियों का सामना करने पर तार्किक रूप से सोचने की वैश्विक क्षमता।"
         }
       ],
       "correctAnswer": "A",
@@ -575,28 +575,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Which of the following methods involves seeking information from a person on a one-to-one basis?",
-        "hindi": "Which of the following methods involves seeking information from a person on a one-to-one basis?"
+        "hindi": "निम्नलिखित में से किस विधि में आमने-सामने (One-to-one) बैठकर जानकारी प्राप्त की जाती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Case study",
-          "hindi": "Case study"
+          "hindi": "केस स्टडी (व्यक्ति अध्ययन)"
         },
         {
           "id": "B",
           "english": "Self-report",
-          "hindi": "Self-report"
+          "hindi": "स्व-प्रतिवेदन"
         },
         {
           "id": "C",
           "english": "Interview",
-          "hindi": "Interview"
+          "hindi": "साक्षात्कार (Interview)"
         },
         {
           "id": "D",
           "english": "Observation",
-          "hindi": "Observation"
+          "hindi": "अवलोकन"
         }
       ],
       "correctAnswer": "C",
@@ -621,28 +621,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following statements is not correct about development?",
-        "hindi": "Which of the following statements is not correct about development?"
+        "hindi": "विकास के संबंध में निम्नलिखित में से कौन-सा कथन सही नहीं है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Development is lifelong, i.e., it takes place across all age groups starting from conception to old age.",
-          "hindi": "Development is lifelong, i.e., it takes place across all age groups starting from conception to old age."
+          "hindi": "विकास जीवन-पर्यंत चलता है (गर्भाधान से वृद्धावस्था तक)।"
         },
         {
           "id": "B",
           "english": "Development is influenced by historical conditions.",
-          "hindi": "Development is influenced by historical conditions."
+          "hindi": "विकास ऐतिहासिक परिस्थितियों से प्रभावित होता है।"
         },
         {
           "id": "C",
           "english": "Development is uni-dimensional.",
-          "hindi": "Development is uni-dimensional."
+          "hindi": "विकास एक-आयामी (Uni-dimensional) होता है।"
         },
         {
           "id": "D",
           "english": "Development is highly plastic.",
-          "hindi": "Development is highly plastic."
+          "hindi": "विकास अत्यधिक लचीला (Plastic) होता है।"
         }
       ],
       "correctAnswer": "C",
@@ -667,28 +667,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Development of symbolic thought and establishment of object permanence is visible in which of the following stages of cognitive development according to Piaget?",
-        "hindi": "Development of symbolic thought and establishment of object permanence is visible in which of the following stages of cognitive development according to Piaget?"
+        "hindi": "पियाजे के अनुसार, संज्ञानात्मक विकास की किस अवस्था में प्रतीकात्मक विचार और वस्तु स्थायित्व (Object Permanence) स्पष्ट होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Sensorimotor",
-          "hindi": "Sensorimotor"
+          "hindi": "संवेदी-गामक अवस्था"
         },
         {
           "id": "B",
           "english": "Preoperational",
-          "hindi": "Preoperational"
+          "hindi": "पूर्व-संक्रियात्मक अवस्था"
         },
         {
           "id": "C",
           "english": "Concrete operational",
-          "hindi": "Concrete operational"
+          "hindi": "मूर्त संक्रियात्मक अवस्था"
         },
         {
           "id": "D",
           "english": "Formal operational",
-          "hindi": "Formal operational"
+          "hindi": "औपचारिक संक्रियात्मक अवस्था"
         }
       ],
       "correctAnswer": "A",
@@ -713,28 +713,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The stage of life that begins at the onset of puberty, when sexual maturity or the ability to reproduce is attained is commonly known as -",
-        "hindi": "The stage of life that begins at the onset of puberty, when sexual maturity or the ability to reproduce is attained is commonly known as -"
+        "hindi": "जीवन की वह अवस्था जो यौवनारंभ के साथ शुरू होती है और जिसमें यौन परिपक्वता प्राप्त होती है, कहलाती है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Childhood",
-          "hindi": "Childhood"
+          "hindi": "बाल्यावस्था"
         },
         {
           "id": "B",
           "english": "Infancy",
-          "hindi": "Infancy"
+          "hindi": "शैशवावस्था"
         },
         {
           "id": "C",
           "english": "Adulthood",
-          "hindi": "Adulthood"
+          "hindi": "प्रौढ़ावस्था"
         },
         {
           "id": "D",
           "english": "Adolescence",
-          "hindi": "Adolescence"
+          "hindi": "किशोरावस्था (Adolescence)"
         }
       ],
       "correctAnswer": "D",
@@ -759,28 +759,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following statements is correct about adolescence?",
-        "hindi": "Which of the following statements is correct about adolescence?"
+        "hindi": "किशोरावस्था के बारे में निम्नलिखित में से कौन-सा कथन सही है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Imaginary audience is adolescents' belief that others are as preoccupied with them as they are about themselves.",
-          "hindi": "Imaginary audience is adolescents' belief that others are as preoccupied with them as they are about themselves."
+          "hindi": "काल्पनिक श्रोता (Imaginary Audience) किशोरों का यह विश्वास है कि अन्य लोग उन पर उतना ही ध्यान दे रहे हैं जितना वे स्वयं पर।"
         },
         {
           "id": "B",
           "english": "Adolescents' sense of uniqueness makes them think that no one understands them or their feelings.",
-          "hindi": "Adolescents' sense of uniqueness makes them think that no one understands them or their feelings."
+          "hindi": "किशोरों की विशिष्टता का भाव उन्हें यह सोचने पर मजबूर करता है कि कोई उनकी भावनाओं को नहीं समझता।"
         },
         {
           "id": "C",
           "english": "Personal fables are often part of adolescent diaries.",
-          "hindi": "Personal fables are often part of adolescent diaries."
+          "hindi": "व्यक्तिगत आख्यान (Personal Fables) अक्सर किशोरों की डायरियों का हिस्सा होते हैं।"
         },
         {
           "id": "D",
           "english": "All of the above.",
-          "hindi": "All of the above."
+          "hindi": "उपरोक्त सभी"
         }
       ],
       "correctAnswer": "D",
@@ -805,28 +805,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Anorexia nervosa is a -",
-        "hindi": "Anorexia nervosa is a -"
+        "hindi": "एनोरेक्सिया नर्वोसा (Anorexia Nervosa) क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "sleeping disorder",
-          "hindi": "sleeping disorder"
+          "hindi": "नींद संबंधी विकार"
         },
         {
           "id": "B",
           "english": "mental disorder",
-          "hindi": "mental disorder"
+          "hindi": "मानसिक विकार"
         },
         {
           "id": "C",
           "english": "eating disorder",
-          "hindi": "eating disorder"
+          "hindi": "भोजन ग्रहण विकार (Eating disorder)"
         },
         {
           "id": "D",
           "english": "physical disorder",
-          "hindi": "physical disorder"
+          "hindi": "शारीरिक विकार"
         }
       ],
       "correctAnswer": "C",
@@ -851,28 +851,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The process of adjusting to bright light after exposure to dim light is called -",
-        "hindi": "The process of adjusting to bright light after exposure to dim light is called -"
+        "hindi": "मंद प्रकाश के बाद तीव्र प्रकाश में सामंजस्य स्थापित करने की प्रक्रिया क्या कहलाती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Regeneration",
-          "hindi": "Regeneration"
+          "hindi": "पुनर्जनन"
         },
         {
           "id": "B",
           "english": "Light adaptation",
-          "hindi": "Light adaptation"
+          "hindi": "प्रकाश अनुकूलन (Light adaptation)"
         },
         {
           "id": "C",
           "english": "Dark adaptation",
-          "hindi": "Dark adaptation"
+          "hindi": "अंधकार अनुकूलन"
         },
         {
           "id": "D",
           "english": "Saturation",
-          "hindi": "Saturation"
+          "hindi": "संतृप्ति"
         }
       ],
       "correctAnswer": "B",
@@ -897,28 +897,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following statements is correct about learning?",
-        "hindi": "Which of the following statements is correct about learning?"
+        "hindi": "अधिगम के संबंध में निम्नलिखित में से कौन-सा कथन सही है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Learning is any relatively permanent change in behaviour.",
-          "hindi": "Learning is any relatively permanent change in behaviour."
+          "hindi": "अधिगम व्यवहार में अपेक्षाकृत स्थायी परिवर्तन है।"
         },
         {
           "id": "B",
           "english": "Learning always involves some kind of experience.",
-          "hindi": "Learning always involves some kind of experience."
+          "hindi": "अधिगम में सदैव किसी प्रकार का अनुभव शामिल होता है।"
         },
         {
           "id": "C",
           "english": "Learning is an inferred process and is different from performance.",
-          "hindi": "Learning is an inferred process and is different from performance."
+          "hindi": "अधिगम एक अनुमानित प्रक्रिया है और निष्पादन से भिन्न है।"
         },
         {
           "id": "D",
           "english": "All of the above.",
-          "hindi": "All of the above."
+          "hindi": "उपरोक्त सभी"
         }
       ],
       "correctAnswer": "D",
@@ -943,28 +943,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following is not a characteristic feature of formal assessment?",
-        "hindi": "Which of the following is not a characteristic feature of formal assessment?"
+        "hindi": "निम्नलिखित में से कौन-सी औपचारिक आकलन की विशेषता नहीं है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Varies from case to case",
-          "hindi": "Varies from case to case"
+          "hindi": "मामले दर मामले भिन्न होना (Varies from case to case)"
         },
         {
           "id": "B",
           "english": "Objective",
-          "hindi": "Objective"
+          "hindi": "वस्तुनिष्ठ (Objective)"
         },
         {
           "id": "C",
           "english": "Standardized",
-          "hindi": "Standardized"
+          "hindi": "मानकीकृत (Standardized)"
         },
         {
           "id": "D",
           "english": "Organised",
-          "hindi": "Organised"
+          "hindi": "व्यवस्थित (Organised)"
         }
       ],
       "correctAnswer": "A",
@@ -989,28 +989,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The two-factor theory of intelligence was proposed by -",
-        "hindi": "The two-factor theory of intelligence was proposed by -"
+        "hindi": "बुद्धि का द्वि-कारक सिद्धांत (Two-Factor Theory) किसके द्वारा प्रस्तावित किया गया था?"
       },
       "options": [
         {
           "id": "A",
           "english": "Howard Gardner",
-          "hindi": "Howard Gardner"
+          "hindi": "हॉवर्ड गार्डनर"
         },
         {
           "id": "B",
           "english": "Robert Sternberg",
-          "hindi": "Robert Sternberg"
+          "hindi": "रॉबर्ट स्टर्नबर्ग"
         },
         {
           "id": "C",
           "english": "Charles Spearman",
-          "hindi": "Charles Spearman"
+          "hindi": "चार्ल्स स्पीयरमैन"
         },
         {
           "id": "D",
           "english": "Lev Vygotsky",
-          "hindi": "Lev Vygotsky"
+          "hindi": "लेव वाइगोत्स्की"
         }
       ],
       "correctAnswer": "C",
@@ -1035,28 +1035,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Response, organization and characterization are included in which domain of educational objectives?",
-        "hindi": "Response, organization and characterization are included in which domain of educational objectives?"
+        "hindi": "अनुक्रिया (Response), व्यवस्थापन (Organization) और चरित्रीकरण (Characterization) शैक्षिक उद्देश्यों के किस पक्ष में शामिल हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Cognitive domain",
-          "hindi": "Cognitive domain"
+          "hindi": "संज्ञानात्मक पक्ष"
         },
         {
           "id": "B",
           "english": "Affective domain",
-          "hindi": "Affective domain"
+          "hindi": "भावात्मक पक्ष (Affective domain)"
         },
         {
           "id": "C",
           "english": "Psychomotor domain",
-          "hindi": "Psychomotor domain"
+          "hindi": "मनोगामक पक्ष"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "B",
@@ -1081,28 +1081,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following is not a technique of motivation?",
-        "hindi": "Which of the following is not a technique of motivation?"
+        "hindi": "निम्नलिखित में से कौन-सी अभिप्रेरणा की प्रविधि नहीं है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Reward and Punishment",
-          "hindi": "Reward and Punishment"
+          "hindi": "पुरस्कार एवं दंड"
         },
         {
           "id": "B",
           "english": "Praise and reproof",
-          "hindi": "Praise and reproof"
+          "hindi": "प्रशंसा एवं भर्त्सना"
         },
         {
           "id": "C",
           "english": "Novelty",
-          "hindi": "Novelty"
+          "hindi": "नवीनता (Novelty)"
         },
         {
           "id": "D",
           "english": "Recall",
-          "hindi": "Recall"
+          "hindi": "प्रत्यास्मरण (Recall)"
         }
       ],
       "correctAnswer": "D",
@@ -1127,28 +1127,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Factor influencing emotional development in children is -",
-        "hindi": "Factor influencing emotional development in children is -"
+        "hindi": "बच्चों में संवेगात्मक विकास को प्रभावित करने वाला कारक है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Health and Physical development",
-          "hindi": "Health and Physical development"
+          "hindi": "स्वास्थ्य एवं शारीरिक विकास"
         },
         {
           "id": "B",
           "english": "Family atmosphere and relationship",
-          "hindi": "Family atmosphere and relationship"
+          "hindi": "पारिवारिक वातावरण एवं संबंध"
         },
         {
           "id": "C",
           "english": "Neighbourhood, community and society",
-          "hindi": "Neighbourhood, community and society"
+          "hindi": "पड़ोस, समुदाय एवं समाज"
         },
         {
           "id": "D",
           "english": "All of the above",
-          "hindi": "All of the above"
+          "hindi": "उपरोक्त सभी"
         }
       ],
       "correctAnswer": "D",
@@ -1173,28 +1173,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Type R-conditioning is known as -",
-        "hindi": "Type R-conditioning is known as -"
+        "hindi": "टाइप R-अनुबंधन (Type R Conditioning) को किस रूप में जाना जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Classical conditioning",
-          "hindi": "Classical conditioning"
+          "hindi": "शास्त्रीय अनुबंधन"
         },
         {
           "id": "B",
           "english": "Operant conditioning",
-          "hindi": "Operant conditioning"
+          "hindi": "क्रिया-प्रसूत अनुबंधन (Operant conditioning)"
         },
         {
           "id": "C",
           "english": "Connectionism",
-          "hindi": "Connectionism"
+          "hindi": "संबंधवाद"
         },
         {
           "id": "D",
           "english": "Experiential Learning",
-          "hindi": "Experiential Learning"
+          "hindi": "आनुभविक अधिगम"
         }
       ],
       "correctAnswer": "B",
@@ -1219,28 +1219,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Self - actualization needs are related to -",
-        "hindi": "Self - actualization needs are related to -"
+        "hindi": "आत्म-साक्षात्कार की आवश्यकताएं (Self-actualization needs) किससे संबंधित हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Theory of insightful learning",
-          "hindi": "Theory of insightful learning"
+          "hindi": "अंतर्दृष्टि अधिगम सिद्धांत"
         },
         {
           "id": "B",
           "english": "Field Theory",
-          "hindi": "Field Theory"
+          "hindi": "क्षेत्र सिद्धांत"
         },
         {
           "id": "C",
           "english": "Information Processing Theory",
-          "hindi": "Information Processing Theory"
+          "hindi": "सूचना प्रसंस्करण सिद्धांत"
         },
         {
           "id": "D",
           "english": "Maslow's Humanistic Theory of learning",
-          "hindi": "Maslow's Humanistic Theory of learning"
+          "hindi": "मैस्लो का मानवतावादी सिद्धांत"
         }
       ],
       "correctAnswer": "D",
@@ -1265,28 +1265,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Sensory memory is also known as -",
-        "hindi": "Sensory memory is also known as -"
+        "hindi": "संवेदी स्मृति (Sensory Memory) को किस नाम से भी जाना जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Immediate Memory",
-          "hindi": "Immediate Memory"
+          "hindi": "तात्कालिक स्मृति (Immediate Memory)"
         },
         {
           "id": "B",
           "english": "Short - Term Memory",
-          "hindi": "Short - Term Memory"
+          "hindi": "अल्पकालिक स्मृति"
         },
         {
           "id": "C",
           "english": "Long - Term Memory",
-          "hindi": "Long - Term Memory"
+          "hindi": "दीर्घकालिक स्मृति"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "A",
@@ -1311,28 +1311,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the statements are true about creativity and intelligence? (i) The relationship between creativity and intelligence is positive. (ii) Intelligence does not ensure creativity. (iii) Creativity tests involve divergent thinking whereas intelligence tests involve convergent thinking.",
-        "hindi": "Which of the statements are true about creativity and intelligence? (i) The relationship between creativity and intelligence is positive. (ii) Intelligence does not ensure creativity. (iii) Creativity tests involve divergent thinking whereas intelligence tests involve convergent thinking."
+        "hindi": "सृजनात्मकता और बुद्धि के संबंध में कौन-से कथन सत्य हैं?\n(i) सृजनात्मकता और बुद्धि के बीच धनात्मक संबंध होता है।\n(ii) बुद्धि सृजनात्मकता की गारंटी नहीं देती।\n(iii) सृजनात्मकता परीक्षणों में अपसारी चिंतन तथा बुद्धि परीक्षणों में अभिसारी चिंतन शामिल होता है।"
       },
       "options": [
         {
           "id": "A",
           "english": "(i) and (ii)",
-          "hindi": "(i) and (ii)"
+          "hindi": "(i) और (ii)"
         },
         {
           "id": "B",
           "english": "(i) and (iii)",
-          "hindi": "(i) and (iii)"
+          "hindi": "(i) और (iii)"
         },
         {
           "id": "C",
           "english": "(ii) and (iii)",
-          "hindi": "(ii) and (iii)"
+          "hindi": "(ii) और (iii)"
         },
         {
           "id": "D",
           "english": "(i), (ii) and (iii)",
-          "hindi": "(i), (ii) and (iii)"
+          "hindi": "(i), (ii) और (iii)"
         }
       ],
       "correctAnswer": "D",
@@ -1357,28 +1357,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The level of consciousness which is considered as the reservoir of instinctive or animal drives is -",
-        "hindi": "The level of consciousness which is considered as the reservoir of instinctive or animal drives is -"
+        "hindi": "चेतना का वह स्तर जिसे मूल प्रवृत्तियों या पाशविक इच्छाओं का भंडार माना जाता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Unconscious",
-          "hindi": "Unconscious"
+          "hindi": "अचेतन (Unconscious)"
         },
         {
           "id": "B",
           "english": "Preconscious",
-          "hindi": "Preconscious"
+          "hindi": "अर्धचेतन (Preconscious)"
         },
         {
           "id": "C",
           "english": "Conscious",
-          "hindi": "Conscious"
+          "hindi": "चेतन (Conscious)"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "A",
@@ -1403,28 +1403,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The kind of defence mechanism in which anxiety provoking behaviours or thoughts are totally dismissed by the unconscious is -",
-        "hindi": "The kind of defence mechanism in which anxiety provoking behaviours or thoughts are totally dismissed by the unconscious is -"
+        "hindi": "रक्षात्मक युक्ति का वह प्रकार जिसमें चिंता उत्पन्न करने वाले विचारों को अचेतन मन द्वारा पूरी तरह दबा दिया जाता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Denial",
-          "hindi": "Denial"
+          "hindi": "अस्वीकरण (Denial)"
         },
         {
           "id": "B",
           "english": "Repression",
-          "hindi": "Repression"
+          "hindi": "दमन (Repression)"
         },
         {
           "id": "C",
           "english": "Projection",
-          "hindi": "Projection"
+          "hindi": "प्रक्षेपण (Projection)"
         },
         {
           "id": "D",
           "english": "Rationalisation",
-          "hindi": "Rationalisation"
+          "hindi": "युक्तिकरण (Rationalisation)"
         }
       ],
       "correctAnswer": "B",
@@ -1449,7 +1449,7 @@
       "difficulty": "Easy",
       "question": {
         "english": "I said to my friend, \"Can you pick me up after work?\"",
-        "hindi": "I said to my friend, \"Can you pick me up after work?\""
+        "hindi": "Direct to Indirect Speech: I said to my friend, \"Can you pick me up after work?\""
       },
       "options": [
         {
@@ -1495,7 +1495,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "Had our flights been on time, we ______ reached by now.",
-        "hindi": "Had our flights been on time, we ______ reached by now."
+        "hindi": "Fill in the blank: Had our flights been on time, we ______ reached by now."
       },
       "options": [
         {
@@ -1541,28 +1541,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "'Let not Ambition mock their useful toil'",
-        "hindi": "'Let not Ambition mock their useful toil'"
+        "hindi": "Identify the figure of speech: 'Let not Ambition mock their useful toil'"
       },
       "options": [
         {
           "id": "A",
           "english": "Simile",
-          "hindi": "Simile"
+          "hindi": "Simile (उपमा)"
         },
         {
           "id": "B",
           "english": "Oxymoron",
-          "hindi": "Oxymoron"
+          "hindi": "Oxymoron (विरोधाभास)"
         },
         {
           "id": "C",
           "english": "Personification",
-          "hindi": "Personification"
+          "hindi": "Personification (मानवीकरण)"
         },
         {
           "id": "D",
           "english": "Metaphor",
-          "hindi": "Metaphor"
+          "hindi": "Metaphor (रूपक)"
         }
       ],
       "correctAnswer": "C",
@@ -1587,7 +1587,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "'The murmurous haunt of flies on summer eves'",
-        "hindi": "'The murmurous haunt of flies on summer eves'"
+        "hindi": "Identify the figure of speech: 'The murmurous haunt of flies on summer eves'"
       },
       "options": [
         {
@@ -1603,7 +1603,7 @@
         {
           "id": "C",
           "english": "Onomatopoeia",
-          "hindi": "Onomatopoeia"
+          "hindi": "Onomatopoeia (ध्वनि अनुकरण)"
         },
         {
           "id": "D",
@@ -1633,28 +1633,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "What are the productive skills of language?",
-        "hindi": "What are the productive skills of language?"
+        "hindi": "What are the productive skills of language? (भाषा के उत्पादक कौशल कौन से हैं?)"
       },
       "options": [
         {
           "id": "A",
           "english": "listening, speaking",
-          "hindi": "listening, speaking"
+          "hindi": "Listening, speaking"
         },
         {
           "id": "B",
           "english": "listening, reading",
-          "hindi": "listening, reading"
+          "hindi": "Listening, reading"
         },
         {
           "id": "C",
           "english": "reading, writing",
-          "hindi": "reading, writing"
+          "hindi": "Reading, writing"
         },
         {
           "id": "D",
           "english": "speaking, writing",
-          "hindi": "speaking, writing"
+          "hindi": "Speaking, writing (भाषण एवं लेखन)"
         }
       ],
       "correctAnswer": "D",
@@ -1679,28 +1679,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Role play should be an integral part of every language classroom because -",
-        "hindi": "Role play should be an integral part of every language classroom because -"
+        "hindi": "रोल प्ले (Role play) भाषा कक्षा का एक अभिन्न अंग होना चाहिए क्योंकि:"
       },
       "options": [
         {
           "id": "A",
           "english": "it is very useful to maintain silence in the classroom.",
-          "hindi": "it is very useful to maintain silence in the classroom."
+          "hindi": "यह कक्षा में शांति बनाए रखने में उपयोगी है।"
         },
         {
           "id": "B",
           "english": "it enables students to engage in meaningful talk.",
-          "hindi": "it enables students to engage in meaningful talk."
+          "hindi": "यह छात्रों को सार्थक संवाद में संलग्न होने में सक्षम बनाता है।"
         },
         {
           "id": "C",
           "english": "it enables students to memorize the story.",
-          "hindi": "it enables students to memorize the story."
+          "hindi": "यह छात्रों को कहानी याद करने में मदद करता है।"
         },
         {
           "id": "D",
           "english": "it enables girls and boys to interact freely.",
-          "hindi": "it enables girls and boys to interact freely."
+          "hindi": "यह छात्र-छात्राओं को स्वतंत्र रूप से बातचीत करने देता है।"
         }
       ],
       "correctAnswer": "B",
@@ -1725,28 +1725,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which one is the theory based on habit formation that says that human or any creature gives response due to stimulus or humans learn due to stimulus?",
-        "hindi": "Which one is the theory based on habit formation that says that human or any creature gives response due to stimulus or humans learn due to stimulus?"
+        "hindi": "आदत निर्माण पर आधारित वह सिद्धांत जो यह कहता है कि प्राणी उद्दीपक के कारण अनुक्रिया करता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Classical conditioning",
-          "hindi": "Classical conditioning"
+          "hindi": "शास्त्रीय अनुबंधन (Classical conditioning)"
         },
         {
           "id": "B",
           "english": "Operant conditioning",
-          "hindi": "Operant conditioning"
+          "hindi": "क्रिया-प्रसूत अनुबंधन"
         },
         {
           "id": "C",
           "english": "Stimulus conditioning",
-          "hindi": "Stimulus conditioning"
+          "hindi": "उद्दीपक अनुबंधन"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "A",
@@ -1771,28 +1771,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The scientific study of articulation, transmission and reception of speech sounds is called -",
-        "hindi": "The scientific study of articulation, transmission and reception of speech sounds is called -"
+        "hindi": "ध्वनियों के उच्चारण, संचरण एवं ग्रहण के वैज्ञानिक अध्ययन को क्या कहते हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Linguistics",
-          "hindi": "Linguistics"
+          "hindi": "भाषाविज्ञान (Linguistics)"
         },
         {
           "id": "B",
           "english": "Morphology",
-          "hindi": "Morphology"
+          "hindi": "रूपविज्ञान (Morphology)"
         },
         {
           "id": "C",
           "english": "Phonetics",
-          "hindi": "Phonetics"
+          "hindi": "ध्वनिविज्ञान (Phonetics)"
         },
         {
           "id": "D",
           "english": "Syntax",
-          "hindi": "Syntax"
+          "hindi": "वाक्यविन्यास (Syntax)"
         }
       ],
       "correctAnswer": "C",
@@ -1817,28 +1817,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "According to the National Curriculum Framework 2005, English in India is ______ in a multilingual country.",
-        "hindi": "According to the National Curriculum Framework 2005, English in India is ______ in a multilingual country."
+        "hindi": "NCF 2005 के अनुसार, बहुभाषी भारत में अंग्रेजी क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "a foreign language",
-          "hindi": "a foreign language"
+          "hindi": "विदेशी भाषा"
         },
         {
           "id": "B",
           "english": "a global language",
-          "hindi": "a global language"
+          "hindi": "एक वैश्विक भाषा (A global language)"
         },
         {
           "id": "C",
           "english": "an associate language",
-          "hindi": "an associate language"
+          "hindi": "सहयोगी भाषा"
         },
         {
           "id": "D",
           "english": "a first language",
-          "hindi": "a first language"
+          "hindi": "प्रथम भाषा"
         }
       ],
       "correctAnswer": "B",
@@ -1863,28 +1863,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The linguist, Noam Chomsky maintains that every child has an innate Language Acquisition Device (LAD) that he/she uses for -",
-        "hindi": "The linguist, Noam Chomsky maintains that every child has an innate Language Acquisition Device (LAD) that he/she uses for -"
+        "hindi": "नोम चॉम्स्की के अनुसार, प्रत्येक बच्चे में जन्मजात LAD (भाषा अर्जन उपकरण) होता है जिसका उपयोग वह किसके लिए करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Semantics",
-          "hindi": "Semantics"
+          "hindi": "अर्थविज्ञान (Semantics)"
         },
         {
           "id": "B",
           "english": "Phonetics",
-          "hindi": "Phonetics"
+          "hindi": "ध्वनिविज्ञान"
         },
         {
           "id": "C",
           "english": "Universal Grammar",
-          "hindi": "Universal Grammar"
+          "hindi": "सार्वभौमिक व्याकरण (Universal Grammar)"
         },
         {
           "id": "D",
           "english": "Complex words",
-          "hindi": "Complex words"
+          "hindi": "जटिल शब्द"
         }
       ],
       "correctAnswer": "C",
@@ -4209,28 +4209,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "A work can be completed by P and Q in 12 days, Q and R in 15 days and R and P in 20 days. In how many days P alone can finish the work?",
-        "hindi": "A work can be completed by P and Q in 12 days, Q and R in 15 days and R and P in 20 days. In how many days P alone can finish the work?"
+        "hindi": "P और Q किसी काम को 12 दिन में, Q और R 15 दिन में तथा R और P 20 दिन में पूरा कर सकते हैं। P अकेला उस कार्य को कितने दिनों में पूरा करेगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "10",
-          "hindi": "10"
+          "hindi": "10 दिन"
         },
         {
           "id": "B",
           "english": "20",
-          "hindi": "20"
+          "hindi": "20 दिन"
         },
         {
           "id": "C",
           "english": "30",
-          "hindi": "30"
+          "hindi": "30 दिन"
         },
         {
           "id": "D",
           "english": "60",
-          "hindi": "60"
+          "hindi": "60 दिन"
         }
       ],
       "correctAnswer": "C",
@@ -4255,7 +4255,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "The average marks obtained by 40 students of a class is 86. If the 5 highest marks are removed, the average reduces by one mark. Find the average marks of top 5 students.",
-        "hindi": "The average marks obtained by 40 students of a class is 86. If the 5 highest marks are removed, the average reduces by one mark. Find the average marks of top 5 students."
+        "hindi": "एक कक्षा के 40 छात्रों का औसत प्राप्तांक 86 है। यदि 5 उच्चतम प्राप्तांक हटा दिए जाएं, तो औसत 1 अंक कम हो जाता है। शीर्ष 5 छात्रों का औसत प्राप्तांक क्या है?"
       },
       "options": [
         {
@@ -4301,28 +4301,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "What is the major problem found in primary level teacher of mathematics?",
-        "hindi": "What is the major problem found in primary level teacher of mathematics?"
+        "hindi": "प्राथमिक स्तर पर गणित शिक्षक में पाई जाने वाली प्रमुख समस्या क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Lack of pedagogical training",
-          "hindi": "Lack of pedagogical training"
+          "hindi": "शिक्षणशास्त्रीय प्रशिक्षण की कमी (Lack of pedagogical training)"
         },
         {
           "id": "B",
           "english": "Lack of preparation",
-          "hindi": "Lack of preparation"
+          "hindi": "तैयारी की कमी"
         },
         {
           "id": "C",
           "english": "Busyness in record maintenance",
-          "hindi": "Busyness in record maintenance"
+          "hindi": "रिकॉर्ड रखरखाव में व्यस्तता"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "A",
@@ -4347,28 +4347,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following method is based on principles of \"Watch, listen and learn\"?",
-        "hindi": "Which of the following method is based on principles of \"Watch, listen and learn\"?"
+        "hindi": "निम्नलिखित में से कौन-सी विधि 'देखो, सुनो और सीखो' के सिद्धांत पर आधारित है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Laboratory Method",
-          "hindi": "Laboratory Method"
+          "hindi": "प्रयोगशाला विधि"
         },
         {
           "id": "B",
           "english": "Demonstration Method",
-          "hindi": "Demonstration Method"
+          "hindi": "प्रदर्शन विधि (Demonstration Method)"
         },
         {
           "id": "C",
           "english": "Lecture Method",
-          "hindi": "Lecture Method"
+          "hindi": "व्याख्यान विधि"
         },
         {
           "id": "D",
           "english": "Research Method",
-          "hindi": "Research Method"
+          "hindi": "अनुसंधान विधि"
         }
       ],
       "correctAnswer": "B",
@@ -4393,7 +4393,7 @@
       "difficulty": "Easy",
       "question": {
         "english": "If x+y=2a, then the value of a/(x-a) + a/(y-a) is -",
-        "hindi": "If x+y=2a, then the value of a/(x-a) + a/(y-a) is -"
+        "hindi": "यदि x + y = 2a है, तो a/(x-a) + a/(y-a) का मान क्या होगा?"
       },
       "options": [
         {
@@ -4439,28 +4439,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Zinc and Copper are in the ratio 5:3 in 400 gm. of an alloy. How much of copper (in gms) should be added to make the ratio 5:6?",
-        "hindi": "Zinc and Copper are in the ratio 5:3 in 400 gm. of an alloy. How much of copper (in gms) should be added to make the ratio 5:6?"
+        "hindi": "400 ग्राम की एक मिश्रधातु में जस्ता और तांबा 5:3 के अनुपात में है। अनुपात को 5:6 बनाने के लिए इसमें कितना तांबा (ग्राम में) मिलाया जाना चाहिए?"
       },
       "options": [
         {
           "id": "A",
           "english": "50",
-          "hindi": "50"
+          "hindi": "50 ग्राम"
         },
         {
           "id": "B",
           "english": "150",
-          "hindi": "150"
+          "hindi": "150 ग्राम"
         },
         {
           "id": "C",
           "english": "550",
-          "hindi": "550"
+          "hindi": "550 ग्राम"
         },
         {
           "id": "D",
           "english": "300",
-          "hindi": "300"
+          "hindi": "300 ग्राम"
         }
       ],
       "correctAnswer": "B",
@@ -4485,7 +4485,7 @@
       "difficulty": "Easy",
       "question": {
         "english": "If 1 is subtracted to both the numerator and the denominator of a fraction, it becomes 1/3. If 1 is added to both the numerator and denominator of that fraction, it becomes 1/2. Then the sum of numerator and denominator of that fraction is -",
-        "hindi": "If 1 is subtracted to both the numerator and the denominator of a fraction, it becomes 1/3. If 1 is added to both the numerator and denominator of that fraction, it becomes 1/2. Then the sum of numerator and denominator of that fraction is -"
+        "hindi": "यदि किसी भिन्न के अंश और हर दोनों में से 1 घटाया जाए तो वह 1/3 हो जाती है। यदि अंश और हर दोनों में 1 जोड़ा जाए तो वह 1/2 हो जाती है। उस भिन्न के अंश और हर का योग क्या है?"
       },
       "options": [
         {
@@ -4531,28 +4531,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "A car can finish a certain journey in 10 hours at speed of 48 km/h. In order to cover the same distance in 8 hours, the speed of the car must be increased by -",
-        "hindi": "A car can finish a certain journey in 10 hours at speed of 48 km/h. In order to cover the same distance in 8 hours, the speed of the car must be increased by -"
+        "hindi": "एक कार 48 किमी/घंटा की गति से 10 घंटे में एक निश्चित यात्रा पूरी करती है। उसी दूरी को 8 घंटे में तय करने के लिए कार की गति कितनी बढ़ानी होगी?"
       },
       "options": [
         {
           "id": "A",
           "english": "6 Km/h",
-          "hindi": "6 Km/h"
+          "hindi": "6 किमी/घंटा"
         },
         {
           "id": "B",
           "english": "12 Km/h",
-          "hindi": "12 Km/h"
+          "hindi": "12 किमी/घंटा"
         },
         {
           "id": "C",
           "english": "15 Km/h",
-          "hindi": "15 Km/h"
+          "hindi": "15 किमी/घंटा"
         },
         {
           "id": "D",
           "english": "60 Km/h",
-          "hindi": "60 Km/h"
+          "hindi": "60 किमी/घंटा"
         }
       ],
       "correctAnswer": "B",
@@ -4577,7 +4577,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "If 2160 = 2ᵃ × 3ᵇ × 5ᶜ, then the value of 3ᵃ × 2⁻ᵇ × 5⁻ᶜ will be -",
-        "hindi": "If 2160 = 2ᵃ × 3ᵇ × 5ᶜ, then the value of 3ᵃ × 2⁻ᵇ × 5⁻ᶜ will be -"
+        "hindi": "यदि 2160 = 2ᵃ × 3ᵇ × 5ᶜ है, तो 3ᵃ × 2⁻ᵇ × 5⁻ᶜ का मान क्या होगा?"
       },
       "options": [
         {
@@ -4623,7 +4623,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "If third Friday is on 16th of month then what will be the date of fourth Tuesday of that month?",
-        "hindi": "If third Friday is on 16th of month then what will be the date of fourth Tuesday of that month?"
+        "hindi": "यदि किसी महीने का तीसरा शुक्रवार 16 तारीख को है, तो उस महीने के चौथे मंगलवार की तारीख क्या होगी?"
       },
       "options": [
         {
@@ -4669,7 +4669,7 @@
       "difficulty": "Easy",
       "question": {
         "english": "If the length and breadth of a room is decreased by 10% and 20% respectively, while height is increased by 5%, then what percentage will be the change in the volume of the room?",
-        "hindi": "If the length and breadth of a room is decreased by 10% and 20% respectively, while height is increased by 5%, then what percentage will be the change in the volume of the room?"
+        "hindi": "यदि एक कमरे की लंबाई और चौड़ाई में क्रमशः 10% और 20% की कमी की जाए, जबकि ऊंचाई में 5% की वृद्धि की जाए, तो कमरे के आयतन में कितने प्रतिशत परिवर्तन होगा?"
       },
       "options": [
         {
@@ -4715,7 +4715,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "If number 5132416p is divisible by 3, then which digit will come in place of p?",
-        "hindi": "If number 5132416p is divisible by 3, then which digit will come in place of p?"
+        "hindi": "यदि संख्या 5132416p 3 से विभाज्य है, तो p के स्थान पर कौन-सा अंक आएगा?"
       },
       "options": [
         {
@@ -4761,7 +4761,7 @@
       "difficulty": "Easy",
       "question": {
         "english": "The value of √(248 + √(52 + √(108 + √1296))) will be -",
-        "hindi": "The value of √(248 + √(52 + √(108 + √1296))) will be -"
+        "hindi": "√(248 + √(52 + √(108 + √1296))) का मान क्या होगा?"
       },
       "options": [
         {
@@ -4807,7 +4807,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "When the number 3⁹⁸ is divided by 5, then the remainder is -",
-        "hindi": "When the number 3⁹⁸ is divided by 5, then the remainder is -"
+        "hindi": "जब संख्या 3⁹⁸ को 5 से विभाजित किया जाता है, तो शेषफल क्या होगा?"
       },
       "options": [
         {
@@ -4853,28 +4853,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "In how many hours, the number of seconds is equal to the number of minutes in 10 days?",
-        "hindi": "In how many hours, the number of seconds is equal to the number of minutes in 10 days?"
+        "hindi": "कितने घंटों में सेकंडों की संख्या 10 दिनों में मिनटों की संख्या के बराबर होगी?"
       },
       "options": [
         {
           "id": "A",
           "english": "2 hours",
-          "hindi": "2 hours"
+          "hindi": "2 घंटे"
         },
         {
           "id": "B",
           "english": "3 hours",
-          "hindi": "3 hours"
+          "hindi": "3 घंटे"
         },
         {
           "id": "C",
           "english": "4 hours",
-          "hindi": "4 hours"
+          "hindi": "4 घंटे"
         },
         {
           "id": "D",
           "english": "5 hours",
-          "hindi": "5 hours"
+          "hindi": "5 घंटे"
         }
       ],
       "correctAnswer": "C",
@@ -4899,28 +4899,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "If the digit puzzle shown in the question is solved, the value of x and y are -",
-        "hindi": "If the digit puzzle shown in the question is solved, the value of x and y are -"
+        "hindi": "वर्गमूल (7 + 2√6) का मान क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "x = 9; y = 3",
-          "hindi": "x = 9; y = 3"
+          "hindi": "√6 + 1"
         },
         {
           "id": "B",
           "english": "x = 3; y = 9",
-          "hindi": "x = 3; y = 9"
+          "hindi": "√3 + 2"
         },
         {
           "id": "C",
           "english": "x = 5; y = 8",
-          "hindi": "x = 5; y = 8"
+          "hindi": "√2 + √5"
         },
         {
           "id": "D",
           "english": "x = 4; y = 8",
-          "hindi": "x = 4; y = 8"
+          "hindi": "2 + √5"
         }
       ],
       "correctAnswer": "A",
@@ -4945,28 +4945,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The square root of (7 + 2√6) is -",
-        "hindi": "The square root of (7 + 2√6) is -"
+        "hindi": "एक घन का आयतन 64 सेमी³ है। घन का कुल पृष्ठीय क्षेत्रफल क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "√6 + 1",
-          "hindi": "√6 + 1"
+          "hindi": "12 सेमी²"
         },
         {
           "id": "B",
           "english": "√3 + 2",
-          "hindi": "√3 + 2"
+          "hindi": "24 सेमी²"
         },
         {
           "id": "C",
           "english": "√2 + √5",
-          "hindi": "√2 + √5"
+          "hindi": "48 सेमी²"
         },
         {
           "id": "D",
           "english": "2 + √5",
-          "hindi": "2 + √5"
+          "hindi": "96 सेमी²"
         }
       ],
       "correctAnswer": "A",
@@ -4991,28 +4991,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The volume of a cube is 64 cm³. The total surface area of the cube will be -",
-        "hindi": "The volume of a cube is 64 cm³. The total surface area of the cube will be -"
+        "hindi": "एक समकोण त्रिभुज क्या नहीं हो सकता?"
       },
       "options": [
         {
           "id": "A",
           "english": "12 cm²",
-          "hindi": "12 cm²"
+          "hindi": "एक समबाहु त्रिभुज (An equilateral triangle)"
         },
         {
           "id": "B",
           "english": "24 cm²",
-          "hindi": "24 cm²"
+          "hindi": "एक समद्विबाहु त्रिभुज"
         },
         {
           "id": "C",
           "english": "48 cm²",
-          "hindi": "48 cm²"
+          "hindi": "एक विषमबाहु त्रिभुज"
         },
         {
           "id": "D",
           "english": "96 cm²",
-          "hindi": "96 cm²"
+          "hindi": "एक बहुभुज"
         }
       ],
       "correctAnswer": "D",
@@ -5037,28 +5037,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "A right angled triangle cannot be -",
-        "hindi": "A right angled triangle cannot be -"
+        "hindi": "पांच अंकों की सबसे बड़ी पूर्ण वर्ग संख्या कौन-सी है?"
       },
       "options": [
         {
           "id": "A",
           "english": "An equilateral triangle",
-          "hindi": "An equilateral triangle"
+          "hindi": "99999"
         },
         {
           "id": "B",
           "english": "An isosceles triangle",
-          "hindi": "An isosceles triangle"
+          "hindi": "99976"
         },
         {
           "id": "C",
           "english": "A scalene triangle",
-          "hindi": "A scalene triangle"
+          "hindi": "99856"
         },
         {
           "id": "D",
           "english": "A polygon",
-          "hindi": "A polygon"
+          "hindi": "99764"
         }
       ],
       "correctAnswer": "A",
@@ -5083,28 +5083,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The greatest five digit perfect square number is -",
-        "hindi": "The greatest five digit perfect square number is -"
+        "hindi": "3 और 200 के बीच ऐसी कितनी प्राकृतिक संख्याएं हैं जो 7 से विभाज्य हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "99999",
-          "hindi": "99999"
+          "hindi": "27"
         },
         {
           "id": "B",
           "english": "99976",
-          "hindi": "99976"
+          "hindi": "28"
         },
         {
           "id": "C",
           "english": "99856",
-          "hindi": "99856"
+          "hindi": "29"
         },
         {
           "id": "D",
           "english": "99764",
-          "hindi": "99764"
+          "hindi": "30"
         }
       ],
       "correctAnswer": "C",
@@ -5129,28 +5129,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The value of 5 1/5 - [3 1/2 - {5/6 - (3/5 + 1/10 - 4/15)}] will be -",
-        "hindi": "The value of 5 1/5 - [3 1/2 - {5/6 - (3/5 + 1/10 - 4/15)}] will be -"
+        "hindi": "यदि HCF(a, 8) = 4 तथा LCM(a, 8) = 24 है, तो 'a' का मान क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "21/10",
-          "hindi": "21/10"
+          "hindi": "14"
         },
         {
           "id": "B",
           "english": "17/10",
-          "hindi": "17/10"
+          "hindi": "8"
         },
         {
           "id": "C",
           "english": "8/10",
-          "hindi": "8/10"
+          "hindi": "10"
         },
         {
           "id": "D",
           "english": "12/10",
-          "hindi": "12/10"
+          "hindi": "12"
         }
       ],
       "correctAnswer": "A",
@@ -5175,28 +5175,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "How many natural numbers lie between 3 and 200 which are divisible by 7?",
-        "hindi": "How many natural numbers lie between 3 and 200 which are divisible by 7?"
+        "hindi": "80 मीटर व्यास वाले एक वृत्ताकार पार्क में अधिकतम क्षेत्रफल वाला एक वर्गाकार खेल का मैदान है। खेल के मैदान का क्षेत्रफल क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "27",
-          "hindi": "27"
+          "hindi": "6400 वर्ग मी."
         },
         {
           "id": "B",
           "english": "28",
-          "hindi": "28"
+          "hindi": "3200 वर्ग मी."
         },
         {
           "id": "C",
           "english": "29",
-          "hindi": "29"
+          "hindi": "1600 वर्ग मी."
         },
         {
           "id": "D",
           "english": "30",
-          "hindi": "30"
+          "hindi": "12800 वर्ग मी."
         }
       ],
       "correctAnswer": "B",
@@ -5221,28 +5221,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "If HCF (a, 8) = 4 and LCM (a, 8) = 24, then the value of 'a' is -",
-        "hindi": "If HCF (a, 8) = 4 and LCM (a, 8) = 24, then the value of 'a' is -"
+        "hindi": "वह विधि जिसमें उदाहरणों द्वारा नए नियमों की स्थापना की जाती है:"
       },
       "options": [
         {
           "id": "A",
           "english": "14",
-          "hindi": "14"
+          "hindi": "निगमन विधि"
         },
         {
           "id": "B",
           "english": "8",
-          "hindi": "8"
+          "hindi": "आगमन विधि (Inductive Method)"
         },
         {
           "id": "C",
           "english": "10",
-          "hindi": "10"
+          "hindi": "विश्लेषणात्मक विधि"
         },
         {
           "id": "D",
           "english": "12",
-          "hindi": "12"
+          "hindi": "संश्लेषण विधि"
         }
       ],
       "correctAnswer": "D",
@@ -5267,28 +5267,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "In a circular park of diameter 80m, there is a square shaped playground of maximum area. The area of the playground is -",
-        "hindi": "In a circular park of diameter 80m, there is a square shaped playground of maximum area. The area of the playground is -"
+        "hindi": "गणित की सबसे प्राचीन शाखा कौन-सी है?"
       },
       "options": [
         {
           "id": "A",
           "english": "6400 m²",
-          "hindi": "6400 m²"
+          "hindi": "बीजगणित"
         },
         {
           "id": "B",
           "english": "3200 m²",
-          "hindi": "3200 m²"
+          "hindi": "अंकगणित (Arithmetic)"
         },
         {
           "id": "C",
           "english": "1600 m²",
-          "hindi": "1600 m²"
+          "hindi": "ज्यामिति"
         },
         {
           "id": "D",
           "english": "12800 m²",
-          "hindi": "12800 m²"
+          "hindi": "ज्योतिष गणित"
         }
       ],
       "correctAnswer": "B",
@@ -5313,28 +5313,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The method in which new rules are established by examples is -",
-        "hindi": "The method in which new rules are established by examples is -"
+        "hindi": "हॉगबेन के अनुसार - 'गणित सभ्यता और संस्कृति का दर्पण है।' यह कथन गणित के किस मूल्य को दर्शाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Deductive Method",
-          "hindi": "Deductive Method"
+          "hindi": "सांस्कृतिक मूल्य (Cultural Value)"
         },
         {
           "id": "B",
           "english": "Inductive Method",
-          "hindi": "Inductive Method"
+          "hindi": "सामाजिक मूल्य"
         },
         {
           "id": "C",
           "english": "Analytical Method",
-          "hindi": "Analytical Method"
+          "hindi": "अनुशासनात्मक मूल्य"
         },
         {
           "id": "D",
           "english": "Synthesis Method",
-          "hindi": "Synthesis Method"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "B",
@@ -5359,28 +5359,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The oldest branch of Mathematics is -",
-        "hindi": "The oldest branch of Mathematics is -"
+        "hindi": "यदि x:y = 1:2 है, तो (8x + 9y) : (8x + 2y) का मान क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "Algebra",
-          "hindi": "Algebra"
+          "hindi": "22 : 29"
         },
         {
           "id": "B",
           "english": "Arithmetic",
-          "hindi": "Arithmetic"
+          "hindi": "29 : 22"
         },
         {
           "id": "C",
           "english": "Geometry",
-          "hindi": "Geometry"
+          "hindi": "13 : 6"
         },
         {
           "id": "D",
           "english": "Astrology Math",
-          "hindi": "Astrology Math"
+          "hindi": "6 : 13"
         }
       ],
       "correctAnswer": "B",
@@ -5405,28 +5405,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "What is the importance of Mathematics at Primary level?",
-        "hindi": "What is the importance of Mathematics at Primary level?"
+        "hindi": "यदि 30 सेमी त्रिज्या और 45 सेमी ऊंचाई वाले धातु के एक शंकु को पिघलाकर 5 सेमी त्रिज्या वाले धातु के गोले बनाए जाते हैं, तो गोलों की संख्या होगी:"
       },
       "options": [
         {
           "id": "A",
           "english": "Cultural",
-          "hindi": "Cultural"
+          "hindi": "81"
         },
         {
           "id": "B",
           "english": "Social",
-          "hindi": "Social"
+          "hindi": "41"
         },
         {
           "id": "C",
           "english": "Religious",
-          "hindi": "Religious"
+          "hindi": "80"
         },
         {
           "id": "D",
           "english": "Mental",
-          "hindi": "Mental"
+          "hindi": "40"
         }
       ],
       "correctAnswer": "D",
@@ -5589,28 +5589,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Disposable plastic plates which are thrown away after eating food, should not be used because -",
-        "hindi": "Disposable plastic plates which are thrown away after eating food, should not be used because -"
+        "hindi": "भोजन करने के बाद फेंकी जाने वाली डिस्पोजेबल प्लास्टिक की प्लेटों का उपयोग नहीं किया जाना चाहिए क्योंकि:"
       },
       "options": [
         {
           "id": "A",
           "english": "they are made of materials with light weight.",
-          "hindi": "they are made of materials with light weight."
+          "hindi": "वे हल्के वजन की सामग्री से बनी होती हैं।"
         },
         {
           "id": "B",
           "english": "they are made of toxic materials.",
-          "hindi": "they are made of toxic materials."
+          "hindi": "वे विषैले पदार्थों से बनी होती हैं।"
         },
         {
           "id": "C",
           "english": "they are made of biodegradable materials.",
-          "hindi": "they are made of biodegradable materials."
+          "hindi": "वे जैव-निम्नीकरणीय सामग्री से बनी होती हैं।"
         },
         {
           "id": "D",
           "english": "they are made of non-biodegradable materials.",
-          "hindi": "they are made of non-biodegradable materials."
+          "hindi": "वे गैर-जैव-निम्नीकरणीय (Non-biodegradable) सामग्री से बनी होती हैं।"
         }
       ],
       "correctAnswer": "D",
@@ -5635,28 +5635,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The most rapidly dwindling natural resource in the world is -",
-        "hindi": "The most rapidly dwindling natural resource in the world is -"
+        "hindi": "विश्व में सबसे तेजी से घटने वाला प्राकृतिक संसाधन कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "water",
-          "hindi": "water"
+          "hindi": "जल"
         },
         {
           "id": "B",
           "english": "forests",
-          "hindi": "forests"
+          "hindi": "वन (Forests)"
         },
         {
           "id": "C",
           "english": "wind",
-          "hindi": "wind"
+          "hindi": "पवन"
         },
         {
           "id": "D",
           "english": "sunlight",
-          "hindi": "sunlight"
+          "hindi": "सूर्य का प्रकाश"
         }
       ],
       "correctAnswer": "B",
@@ -5681,28 +5681,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The basic objective of educational excursion in EVS is -",
-        "hindi": "The basic objective of educational excursion in EVS is -"
+        "hindi": "पर्यावरण अध्ययन (EVS) में शैक्षिक भ्रमण का मूल उद्देश्य क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "to develop the energy of children",
-          "hindi": "to develop the energy of children"
+          "hindi": "बच्चों की ऊर्जा का विकास करना"
         },
         {
           "id": "B",
           "english": "first hand experience to the students",
-          "hindi": "first hand experience to the students"
+          "hindi": "छात्रों को प्रत्यक्ष/व्यावहारिक अनुभव प्रदान करना (First hand experience)"
         },
         {
           "id": "C",
           "english": "to promote socialisation",
-          "hindi": "to promote socialisation"
+          "hindi": "समाजीकरण को बढ़ावा देना"
         },
         {
           "id": "D",
           "english": "to promote team spirit",
-          "hindi": "to promote team spirit"
+          "hindi": "टीम भावना को बढ़ावा देना"
         }
       ],
       "correctAnswer": "B",
@@ -5727,28 +5727,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Meaning of environmental education is -",
-        "hindi": "Meaning of environmental education is -"
+        "hindi": "पर्यावरण शिक्षा का मुख्य अर्थ क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "to engage students with burdensome schedule",
-          "hindi": "to engage students with burdensome schedule"
+          "hindi": "छात्रों को बोझिल कार्यक्रम में व्यस्त रखना"
         },
         {
           "id": "B",
           "english": "aware children about environment",
-          "hindi": "aware children about environment"
+          "hindi": "बच्चों को पर्यावरण के प्रति जागरूक करना"
         },
         {
           "id": "C",
           "english": "to entertain children",
-          "hindi": "to entertain children"
+          "hindi": "बच्चों का मनोरंजन करना"
         },
         {
           "id": "D",
           "english": "to save environment from pollution through education",
-          "hindi": "to save environment from pollution through education"
+          "hindi": "शिक्षा के माध्यम से पर्यावरण को प्रदूषण से बचाना"
         }
       ],
       "correctAnswer": "D",
@@ -5773,28 +5773,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "After the lunch break, while teaching EVS, you find that students are not taking interest in the lesson. What would you do?",
-        "hindi": "After the lunch break, while teaching EVS, you find that students are not taking interest in the lesson. What would you do?"
+        "hindi": "NCERT की EVS पाठ्यपुस्तकों में उच्च प्राथमिकता और स्थान किसे दिया गया है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Use audio-visual aids based on multiple intelligence to make the lesson interesting.",
-          "hindi": "Use audio-visual aids based on multiple intelligence to make the lesson interesting."
+          "hindi": "विषय की बुनियादी अवधारणाओं की व्याख्या करना।"
         },
         {
           "id": "B",
           "english": "Change the topic immediately.",
-          "hindi": "Change the topic immediately."
+          "hindi": "शिक्षार्थियों को चिंतन और विस्मय के अवसर प्रदान करना (Contemplation and wondering)।"
         },
         {
           "id": "C",
           "english": "Take the children out to play in the ground.",
-          "hindi": "Take the children out to play in the ground."
+          "hindi": "तकनीकी शब्दों की सटीक परिभाषाएं प्रदान करना।"
         },
         {
           "id": "D",
           "english": "Ask them to put their heads down on the desk and relax.",
-          "hindi": "Ask them to put their heads down on the desk and relax."
+          "hindi": "अभ्यास प्रश्नों की बड़ी संख्या शामिल करना।"
         }
       ],
       "correctAnswer": "A",
@@ -5819,28 +5819,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Higher priority and space has been given in NCERT textbooks on EVS to -",
-        "hindi": "Higher priority and space has been given in NCERT textbooks on EVS to -"
+        "hindi": "विश्व का सबसे बड़ा पारिस्थितिकी तंत्र (Largest Ecosystem) कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Explain basic concepts of the subject.",
-          "hindi": "Explain basic concepts of the subject."
+          "hindi": "वन"
         },
         {
           "id": "B",
           "english": "Provide opportunities to learners for contemplation and wondering.",
-          "hindi": "Provide opportunities to learners for contemplation and wondering."
+          "hindi": "घास का मैदान"
         },
         {
           "id": "C",
           "english": "Provide exact definitions of technical terms.",
-          "hindi": "Provide exact definitions of technical terms."
+          "hindi": "झील"
         },
         {
           "id": "D",
           "english": "Include large number of practice questions.",
-          "hindi": "Include large number of practice questions."
+          "hindi": "महासागर (Ocean)"
         }
       ],
       "correctAnswer": "B",
@@ -5865,28 +5865,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Aanchal frequently asks probing and imaginative questions in her Class V EVS. By doing so, she aims at improving -",
-        "hindi": "Aanchal frequently asks probing and imaginative questions in her Class V EVS. By doing so, she aims at improving -"
+        "hindi": "भारत का प्रथम राष्ट्रीय उद्यान कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Observation skills",
-          "hindi": "Observation skills"
+          "hindi": "कान्हा राष्ट्रीय उद्यान"
         },
         {
           "id": "B",
           "english": "Emotional Skills",
-          "hindi": "Emotional Skills"
+          "hindi": "पेरियार"
         },
         {
           "id": "C",
           "english": "Thinking Skills",
-          "hindi": "Thinking Skills"
+          "hindi": "जिम कॉर्बेट राष्ट्रीय उद्यान (Corbett)"
         },
         {
           "id": "D",
           "english": "Speaking Skills",
-          "hindi": "Speaking Skills"
+          "hindi": "राजाजी"
         }
       ],
       "correctAnswer": "C",
@@ -5911,28 +5911,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "A teacher asks every child to use some waste material from their homes and make something useful out of it. The pedagogical intention of the teacher is not to -",
-        "hindi": "A teacher asks every child to use some waste material from their homes and make something useful out of it. The pedagogical intention of the teacher is not to -"
+        "hindi": "मृदा अपरदन (Soil Erosion) को किसके द्वारा रोका जा सकता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Judge the best student of the class.",
-          "hindi": "Judge the best student of the class."
+          "hindi": "वनरोपण द्वारा (Raising forests)"
         },
         {
           "id": "B",
           "english": "Develop creativity among children.",
-          "hindi": "Develop creativity among children."
+          "hindi": "वनों की कटाई द्वारा"
         },
         {
           "id": "C",
           "english": "Make children understand the concept of recycle, reuse and reduce.",
-          "hindi": "Make children understand the concept of recycle, reuse and reduce."
+          "hindi": "उर्वरकों के अत्यधिक उपयोग से"
         },
         {
           "id": "D",
           "english": "Organize an exhibition of best articles made out of waste.",
-          "hindi": "Organize an exhibition of best articles made out of waste."
+          "hindi": "अतिचारण द्वारा"
         }
       ],
       "correctAnswer": "A",
@@ -5957,28 +5957,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Largest Ecosystem of the world is -",
-        "hindi": "Largest Ecosystem of the world is -"
+        "hindi": "गंगा एक्शन प्लान (GAP) किस वर्ष शुरू किया गया था?"
       },
       "options": [
         {
           "id": "A",
           "english": "Forest",
-          "hindi": "Forest"
+          "hindi": "1986 में"
         },
         {
           "id": "B",
           "english": "Grass Land",
-          "hindi": "Grass Land"
+          "hindi": "1988 में"
         },
         {
           "id": "C",
           "english": "Lake",
-          "hindi": "Lake"
+          "hindi": "1990 में"
         },
         {
           "id": "D",
           "english": "Ocean",
-          "hindi": "Ocean"
+          "hindi": "1983 में"
         }
       ],
       "correctAnswer": "D",
@@ -6003,28 +6003,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "First National Park of India is -",
-        "hindi": "First National Park of India is -"
+        "hindi": "रेडियोधर्मिता (Radioactivity) की तीव्रता किसमें मापी जाती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Kanha",
-          "hindi": "Kanha"
+          "hindi": "डेसिबल"
         },
         {
           "id": "B",
           "english": "Periyar",
-          "hindi": "Periyar"
+          "hindi": "क्यूरी (Curie)"
         },
         {
           "id": "C",
           "english": "Corbett",
-          "hindi": "Corbett"
+          "hindi": "हर्ट्ज़"
         },
         {
           "id": "D",
           "english": "Rajaji",
-          "hindi": "Rajaji"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "C",
@@ -6049,28 +6049,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "In villages, people use wood as fuel because -",
-        "hindi": "In villages, people use wood as fuel because -"
+        "hindi": "माइकोराइजा (Mycorrhiza) कवक मूल किसमें उपस्थित होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "it is considered to be an ideal fuel.",
-          "hindi": "it is considered to be an ideal fuel."
+          "hindi": "साइकस"
         },
         {
           "id": "B",
           "english": "of its easy availability and low cost.",
-          "hindi": "of its easy availability and low cost."
+          "hindi": "गुलाब"
         },
         {
           "id": "C",
           "english": "it is environment friendly.",
-          "hindi": "it is environment friendly."
+          "hindi": "पाइनस / चीड़ (Pinus)"
         },
         {
           "id": "D",
           "english": "it catches fire easily.",
-          "hindi": "it catches fire easily."
+          "hindi": "बुरांश"
         }
       ],
       "correctAnswer": "B",
@@ -6095,28 +6095,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Soil erosion can be prevented by -",
-        "hindi": "Soil erosion can be prevented by -"
+        "hindi": "टिनिटस (Tinnitus) रोग का क्या प्रभाव होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "raising forests",
-          "hindi": "raising forests"
+          "hindi": "कान में लगातार सीटी/घंटी बजने जैसी आवाज आना"
         },
         {
           "id": "B",
           "english": "deforestation",
-          "hindi": "deforestation"
+          "hindi": "कम दृष्टि"
         },
         {
           "id": "C",
           "english": "excessive use of fertilizer",
-          "hindi": "excessive use of fertilizer"
+          "hindi": "शुष्क त्वचा"
         },
         {
           "id": "D",
           "english": "overgrazing by animals",
-          "hindi": "overgrazing by animals"
+          "hindi": "धीमी हृदय गति"
         }
       ],
       "correctAnswer": "A",
@@ -6141,28 +6141,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Ganga Action Plan (G.A.P.) was launched in -",
-        "hindi": "Ganga Action Plan (G.A.P.) was launched in -"
+        "hindi": "मटर की खेती के बाद उसी खेत में बिना उर्वरक के गेहूं का अधिक उत्पादन होने का क्या कारण है?"
       },
       "options": [
         {
           "id": "A",
           "english": "in 1986",
-          "hindi": "in 1986"
+          "hindi": "प्रकाश संश्लेषण"
         },
         {
           "id": "B",
           "english": "in 1988",
-          "hindi": "in 1988"
+          "hindi": "वाष्पोत्सर्जन"
         },
         {
           "id": "C",
           "english": "in 1990",
-          "hindi": "in 1990"
+          "hindi": "राइजोबियम जीवाणु (Rhizobium Bacteria - नाइट्रोजन स्थिरीकरण)"
         },
         {
           "id": "D",
           "english": "in 1983",
-          "hindi": "in 1983"
+          "hindi": "श्वसन गुणांक"
         }
       ],
       "correctAnswer": "A",
@@ -6187,28 +6187,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Intensity of radioactivity is measured in -",
-        "hindi": "Intensity of radioactivity is measured in -"
+        "hindi": "पृथ्वी की भू-पर्पटी (Earth's Crust) में सबसे प्रमुख/प्रचुर मात्रा में पाया जाने वाला तत्व कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Decibel",
-          "hindi": "Decibel"
+          "hindi": "एल्युमिनियम"
         },
         {
           "id": "B",
           "english": "Curie",
-          "hindi": "Curie"
+          "hindi": "लोहा"
         },
         {
           "id": "C",
           "english": "Hertz",
-          "hindi": "Hertz"
+          "hindi": "ऑक्सीजन (Oxygen - ~46.6%)"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "सिलिकॉन"
         }
       ],
       "correctAnswer": "B",
@@ -6233,28 +6233,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Mycorrhiza is present in -",
-        "hindi": "Mycorrhiza is present in -"
+        "hindi": "भारत में किस प्रकार के वन सर्वाधिक क्षेत्रफल को आच्छादित करते हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Cycas",
-          "hindi": "Cycas"
+          "hindi": "उष्णकटिबंधीय आर्द्र सदाबहार वन"
         },
         {
           "id": "B",
           "english": "Rose",
-          "hindi": "Rose"
+          "hindi": "उष्णकटिबंधीय अर्ध-सदाबहार वन"
         },
         {
           "id": "C",
           "english": "Pinus (Chir)",
-          "hindi": "Pinus (Chir)"
+          "hindi": "उष्णकटिबंधीय नम पर्णपाती वन (Tropical Moist Deciduous)"
         },
         {
           "id": "D",
           "english": "Buransh",
-          "hindi": "Buransh"
+          "hindi": "शुष्क उष्णकटिबंधीय वन"
         }
       ],
       "correctAnswer": "C",
@@ -6279,28 +6279,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Effect of Tinnitus disease is -",
-        "hindi": "Effect of Tinnitus disease is -"
+        "hindi": "निम्नलिखित में से कौन-सा ईंधन न्यूनतम पर्यावरणीय प्रदूषण का कारण बनता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Persistent ringing sound in ear",
-          "hindi": "Persistent ringing sound in ear"
+          "hindi": "डीजल"
         },
         {
           "id": "B",
           "english": "Low eye sight",
-          "hindi": "Low eye sight"
+          "hindi": "कोयला"
         },
         {
           "id": "C",
           "english": "Dry Skin",
-          "hindi": "Dry Skin"
+          "hindi": "हाइड्रोजन (Hydrogen)"
         },
         {
           "id": "D",
           "english": "Slow Heart Beat",
-          "hindi": "Slow Heart Beat"
+          "hindi": "केरोसिन"
         }
       ],
       "correctAnswer": "A",
@@ -6325,28 +6325,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following is/are not an air pollutant?",
-        "hindi": "Which of the following is/are not an air pollutant?"
+        "hindi": "पारिस्थितिकी तंत्र का एक अजैविक (Abiotic) घटक कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "X-Ray",
-          "hindi": "X-Ray"
+          "hindi": "पौधे"
         },
         {
           "id": "B",
           "english": "CO₂, CO gas",
-          "hindi": "CO₂, CO gas"
+          "hindi": "कवक"
         },
         {
           "id": "C",
           "english": "SPM particle",
-          "hindi": "SPM particle"
+          "hindi": "ह्यूमस (Humus)"
         },
         {
           "id": "D",
           "english": "SO₂ gas",
-          "hindi": "SO₂ gas"
+          "hindi": "जीवाणु"
         }
       ],
       "correctAnswer": "A",
@@ -6371,28 +6371,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Factor responsible for Little Ice Age is -",
-        "hindi": "Factor responsible for Little Ice Age is -"
+        "hindi": "मनुष्यों में पराबैंगनी (UV) किरणों के अत्यधिक संपर्क से क्या परिणाम होता है?\n(i) प्रतिरक्षा प्रणाली को नुकसान\n(ii) फेफड़ों को नुकसान\n(iii) त्वचा का कैंसर\n(iv) पेप्टिक अल्सर"
       },
       "options": [
         {
           "id": "A",
           "english": "Plantations",
-          "hindi": "Plantations"
+          "hindi": "(i) और (ii)"
         },
         {
           "id": "B",
           "english": "Volcanic Dust",
-          "hindi": "Volcanic Dust"
+          "hindi": "(ii) और (iv)"
         },
         {
           "id": "C",
           "english": "Excessive Transport Vehicles",
-          "hindi": "Excessive Transport Vehicles"
+          "hindi": "(i) और (iii)"
         },
         {
           "id": "D",
           "english": "Sound Pollutants",
-          "hindi": "Sound Pollutants"
+          "hindi": "(iii) और (iv)"
         }
       ],
       "correctAnswer": "B",
@@ -6417,28 +6417,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Raheem prepares a pond, fills water therein and disperses fishes in it, but fishes are not alive in pond. Its reason is -",
-        "hindi": "Raheem prepares a pond, fills water therein and disperses fishes in it, but fishes are not alive in pond. Its reason is -"
+        "hindi": "फ्लोराइड प्रदूषण मुख्य रूप से किसे प्रभावित करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Deep Pond",
-          "hindi": "Deep Pond"
+          "hindi": "दांतों को (Teeth - Fluorosis)"
         },
         {
           "id": "B",
           "english": "Absence of dissolved oxygen in water",
-          "hindi": "Absence of dissolved oxygen in water"
+          "hindi": "हृदय को"
         },
         {
           "id": "C",
           "english": "Cemented Pond",
-          "hindi": "Cemented Pond"
+          "hindi": "गुर्दे को"
         },
         {
           "id": "D",
           "english": "None of above",
-          "hindi": "None of above"
+          "hindi": "मस्तिष्क को"
         }
       ],
       "correctAnswer": "B",
@@ -6463,28 +6463,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Suresh produced much production of wheat without use of fertilizers in same field, where peas were cultivated earlier. Its reason is -",
-        "hindi": "Suresh produced much production of wheat without use of fertilizers in same field, where peas were cultivated earlier. Its reason is -"
+        "hindi": "आगरा के ताजमहल को अधिक सीमा तक प्रभावित करने वाला प्रदूषण कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Photosynthesis",
-          "hindi": "Photosynthesis"
+          "hindi": "वायु प्रदूषण (Air pollution - अम्लीय वर्षा)"
         },
         {
           "id": "B",
           "english": "Transpiration",
-          "hindi": "Transpiration"
+          "hindi": "जल प्रदूषण"
         },
         {
           "id": "C",
           "english": "Rhizobium Bacteria",
-          "hindi": "Rhizobium Bacteria"
+          "hindi": "मृदा प्रदूषण"
         },
         {
           "id": "D",
           "english": "Respiratory Quotient",
-          "hindi": "Respiratory Quotient"
+          "hindi": "ध्वनि प्रदूषण"
         }
       ],
       "correctAnswer": "C",

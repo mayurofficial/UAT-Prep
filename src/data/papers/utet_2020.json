@@ -61,28 +61,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The skill in forming visual images and patterns is called as",
-        "hindi": "The skill in forming visual images and patterns is called as"
+        "hindi": "दृश्य छवियों और पैटर्न बनाने के कौशल को गार्डनर के अनुसार क्या कहा जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Spatial Intelligence",
-          "hindi": "Spatial Intelligence"
+          "hindi": "स्थानिक बुद्धि (Spatial Intelligence)"
         },
         {
           "id": "B",
           "english": "Logical Intelligence",
-          "hindi": "Logical Intelligence"
+          "hindi": "तार्किक बुद्धि"
         },
         {
           "id": "C",
           "english": "Kinesthetic Intelligence",
-          "hindi": "Kinesthetic Intelligence"
+          "hindi": "शारीरिक-गतिसंवेदी बुद्धि"
         },
         {
           "id": "D",
           "english": "Intrapersonal Intelligence",
-          "hindi": "Intrapersonal Intelligence"
+          "hindi": "अंतरावैयक्तिक बुद्धि"
         }
       ],
       "correctAnswer": "A",
@@ -107,28 +107,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "People with I.Q. scores in the range of 90 - 109 have",
-        "hindi": "People with I.Q. scores in the range of 90 - 109 have"
+        "hindi": "90 - 109 के बीच बुद्धि लब्धि (I.Q.) स्कोर वाले व्यक्तियों में किस प्रकार की बुद्धि होती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Superior Intelligence",
-          "hindi": "Superior Intelligence"
+          "hindi": "श्रेष्ठ बुद्धि"
         },
         {
           "id": "B",
           "english": "High Average Intelligence",
-          "hindi": "High Average Intelligence"
+          "hindi": "उच्च औसत बुद्धि"
         },
         {
           "id": "C",
           "english": "Average Intelligence",
-          "hindi": "Average Intelligence"
+          "hindi": "औसत / सामान्य बुद्धि (Average Intelligence)"
         },
         {
           "id": "D",
           "english": "Low Intelligence",
-          "hindi": "Low Intelligence"
+          "hindi": "मंद बुद्धि"
         }
       ],
       "correctAnswer": "C",
@@ -153,28 +153,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Emotional Intelligence is a set of skills that underlie: (1) Accurate appraisal (2) Expression (3) Regulation of emotions",
-        "hindi": "Emotional Intelligence is a set of skills that underlie: (1) Accurate appraisal (2) Expression (3) Regulation of emotions"
+        "hindi": "संवेगात्मक बुद्धि (Emotional Intelligence) कौशलों का एक समूह है जिसमें शामिल है:\n(1) सटीक मूल्यांकन (2) संवेगों की अभिव्यक्ति (3) संवेगों का नियमन"
       },
       "options": [
         {
           "id": "A",
           "english": "1 & 2",
-          "hindi": "1 & 2"
+          "hindi": "1 और 2"
         },
         {
           "id": "B",
           "english": "1 & 3",
-          "hindi": "1 & 3"
+          "hindi": "1 और 3"
         },
         {
           "id": "C",
           "english": "1, 2 & 3",
-          "hindi": "1, 2 & 3"
+          "hindi": "1, 2 और 3"
         },
         {
           "id": "D",
           "english": "2 & 3",
-          "hindi": "2 & 3"
+          "hindi": "2 और 3"
         }
       ],
       "correctAnswer": "C",
@@ -383,28 +383,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Human behaviour is the result of continuous interaction between cognitive, behavioural and environmental determinants. This has been explained by which psychologist in his theory of learning?",
-        "hindi": "Human behaviour is the result of continuous interaction between cognitive, behavioural and environmental determinants. This has been explained by which psychologist in his theory of learning?"
+        "hindi": "'मानव व्यवहार संज्ञानात्मक, व्यवहारात्मक और पर्यावरणीय निर्धारकों के बीच निरंतर अंतःक्रिया का परिणाम है।' यह किस मनोवैज्ञानिक ने अपने अधिगम सिद्धांत में समझाया है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Jean Piaget",
-          "hindi": "Jean Piaget"
+          "hindi": "जीन पियाजे"
         },
         {
           "id": "B",
           "english": "Bruner",
-          "hindi": "Bruner"
+          "hindi": "जेरोम ब्रूनर"
         },
         {
           "id": "C",
           "english": "Albert Bandura",
-          "hindi": "Albert Bandura"
+          "hindi": "अल्बर्ट बंडूरा (पारस्परिक निर्धारणवाद / Triadic Reciprocal Determinism)"
         },
         {
           "id": "D",
           "english": "B.F. Skinner",
-          "hindi": "B.F. Skinner"
+          "hindi": "बी.एफ. स्किनर"
         }
       ],
       "correctAnswer": "C",
@@ -429,28 +429,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Whatever is taught to the children should be repeated, revised and used from time to time. This is related to which law of Thorndike?",
-        "hindi": "Whatever is taught to the children should be repeated, revised and used from time to time. This is related to which law of Thorndike?"
+        "hindi": "बच्चों को जो कुछ भी सिखाया जाए उसे समय-समय पर दोहराया, संशोधित और उपयोग किया जाना चाहिए। यह थार्नडाइक के किस नियम से संबंधित है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Law of Effect",
-          "hindi": "Law of Effect"
+          "hindi": "प्रभाव का नियम"
         },
         {
           "id": "B",
           "english": "Law of Exercise",
-          "hindi": "Law of Exercise"
+          "hindi": "अभ्यास का नियम (Law of Exercise - उपयोग व अनुप्रयोग)"
         },
         {
           "id": "C",
           "english": "Law of Readiness",
-          "hindi": "Law of Readiness"
+          "hindi": "तत्परता का नियम"
         },
         {
           "id": "D",
           "english": "None of these",
-          "hindi": "None of these"
+          "hindi": "इनमें से कोई नहीं"
         }
       ],
       "correctAnswer": "B",
@@ -475,28 +475,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The sequence of four processes involved at memory level learning is",
-        "hindi": "The sequence of four processes involved at memory level learning is"
+        "hindi": "स्मृति स्तर के अधिगम में शामिल चार प्रक्रियाओं का सही क्रम क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Perception, Recognition, Retention, Recall",
-          "hindi": "Perception, Recognition, Retention, Recall"
+          "hindi": "प्रत्यक्षीकरण, पहचान, धारणा, प्रत्यास्मरण"
         },
         {
           "id": "B",
           "english": "Perception, Retention, Recognition, Recall",
-          "hindi": "Perception, Retention, Recognition, Recall"
+          "hindi": "प्रत्यक्षीकरण, धारणा, पहचान, प्रत्यास्मरण"
         },
         {
           "id": "C",
           "english": "Perception, Recall, Retention, Recognition",
-          "hindi": "Perception, Recall, Retention, Recognition"
+          "hindi": "प्रत्यक्षीकरण, प्रत्यास्मरण, धारणा, पहचान"
         },
         {
           "id": "D",
           "english": "Perception, Retention, Recall, Recognition",
-          "hindi": "Perception, Retention, Recall, Recognition"
+          "hindi": "प्रत्यक्षीकरण, धारणा (Retention), प्रत्यास्मरण (Recall), पहचान (Recognition)"
         }
       ],
       "correctAnswer": "D",
@@ -843,28 +843,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "\"Zone of proximal development\" has been described by",
-        "hindi": "\"Zone of proximal development\" has been described by"
+        "hindi": "'समीपस्थ विकास का क्षेत्र' (ZPD - Zone of Proximal Development) की अवधारणा किसके द्वारा वर्णित की गई है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Vygotsky",
-          "hindi": "Vygotsky"
+          "hindi": "लेव वाइगोत्स्की (Lev Vygotsky)"
         },
         {
           "id": "B",
           "english": "Piaget",
-          "hindi": "Piaget"
+          "hindi": "जीन पियाजे"
         },
         {
           "id": "C",
           "english": "Bruner",
-          "hindi": "Bruner"
+          "hindi": "जेरोम ब्रूनर"
         },
         {
           "id": "D",
           "english": "Kohlberg",
-          "hindi": "Kohlberg"
+          "hindi": "लॉरेंस कोहलबर्ग"
         }
       ],
       "correctAnswer": "A",
@@ -1211,28 +1211,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Dysgraphia is a type of learning disability associated with",
-        "hindi": "Dysgraphia is a type of learning disability associated with"
+        "hindi": "डिस्ग्राफिया (Dysgraphia) किससे संबंधित एक प्रकार की अधिगम अक्षमता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Problem in reading",
-          "hindi": "Problem in reading"
+          "hindi": "पढ़ने में समस्या (डिस्लेक्सिया)"
         },
         {
           "id": "B",
           "english": "Problem in calculating",
-          "hindi": "Problem in calculating"
+          "hindi": "गणना करने में समस्या (डिस्कैल्कुलिया)"
         },
         {
           "id": "C",
           "english": "Problem in writing",
-          "hindi": "Problem in writing"
+          "hindi": "लिखने में समस्या (Problem in writing)"
         },
         {
           "id": "D",
           "english": "Problem in paying attention",
-          "hindi": "Problem in paying attention"
+          "hindi": "ध्यान देने में समस्या (ADHD)"
         }
       ],
       "correctAnswer": "C",
@@ -4201,13 +4201,13 @@
       "difficulty": "Easy",
       "question": {
         "english": "Two numbers x and y when divided by 6 leave remainders 4 and 5 respectively. The remainder obtained when x + y² is divided by 6 is:",
-        "hindi": "Two numbers x and y when divided by 6 leave remainders 4 and 5 respectively. The remainder obtained when x + y² is divided by 6 is:"
+        "hindi": "दो संख्याएं x और y ऐसी हैं कि जब उन्हें 6 से विभाजित किया जाता है, तो क्रमशः 4 और 5 शेषफल बचता है। जब (x + y²) को पुनः 6 से विभाजित किया जाएगा तो शेषफल क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "5",
-          "hindi": "5"
+          "hindi": "5 (4 + 25 = 29 mod 6 = 5)"
         },
         {
           "id": "B",
@@ -4247,28 +4247,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "If the length and breadth of a rectangle are increased by 25% and decreased by 20% respectively, then the change in area is:",
-        "hindi": "If the length and breadth of a rectangle are increased by 25% and decreased by 20% respectively, then the change in area is:"
+        "hindi": "यदि एक आयत की लंबाई में 25% की वृद्धि और चौड़ाई में 20% की कमी की जाती है, तो उसके क्षेत्रफल में क्या परिवर्तन होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "No change (0%)",
-          "hindi": "No change (0%)"
+          "hindi": "कोई परिवर्तन नहीं होगा (Area remains unchanged - 1.25 × 0.80 = 1.00)"
         },
         {
           "id": "B",
           "english": "Increased by 25%",
-          "hindi": "Increased by 25%"
+          "hindi": "25% की वृद्धि"
         },
         {
           "id": "C",
           "english": "Increased by 20%",
-          "hindi": "Increased by 20%"
+          "hindi": "20% की वृद्धि"
         },
         {
           "id": "D",
           "english": "Decreased by 10%",
-          "hindi": "Decreased by 10%"
+          "hindi": "10% की कमी"
         }
       ],
       "correctAnswer": "A",
@@ -4339,7 +4339,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "The value of (2ⁿ + 2ⁿ⁻¹) / (2ⁿ⁺¹ - 2ⁿ), for n being a natural number, is:",
-        "hindi": "The value of (2ⁿ + 2ⁿ⁻¹) / (2ⁿ⁺¹ - 2ⁿ), for n being a natural number, is:"
+        "hindi": "यदि n एक प्राकृतिक संख्या है, तो [2ⁿ + 2ⁿ⁻¹] / [2ⁿ⁺¹ - 2ⁿ] का मान क्या होगा?"
       },
       "options": [
         {
@@ -4355,7 +4355,7 @@
         {
           "id": "C",
           "english": "3/2",
-          "hindi": "3/2"
+          "hindi": "3/2 (1.5)"
         },
         {
           "id": "D",
@@ -4523,13 +4523,13 @@
       "difficulty": "Medium",
       "question": {
         "english": "The sum of interior angles of a polygon is 2160°. The number of sides of the polygon is:",
-        "hindi": "The sum of interior angles of a polygon is 2160°. The number of sides of the polygon is:"
+        "hindi": "एक बहुभुज के अंतःकोणों का योग 2160° है। बहुभुज की भुजाओं की संख्या क्या होगी?"
       },
       "options": [
         {
           "id": "A",
           "english": "14",
-          "hindi": "14"
+          "hindi": "14 [(n-2)×180° = 2160° => n-2 = 12 => n = 14]"
         },
         {
           "id": "B",
@@ -4845,7 +4845,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "If the sum of first n natural numbers is 55, then the value of n is:",
-        "hindi": "If the sum of first n natural numbers is 55, then the value of n is:"
+        "hindi": "यदि प्रथम n प्राकृतिक संख्याओं का योग 55 है, तो n का मान क्या होगा?"
       },
       "options": [
         {
@@ -4861,7 +4861,7 @@
         {
           "id": "C",
           "english": "10",
-          "hindi": "10"
+          "hindi": "10 [n(n+1)/2 = 10(11)/2 = 55]"
         },
         {
           "id": "D",
@@ -5673,28 +5673,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Purest and highest grade form of coal is:",
-        "hindi": "Purest and highest grade form of coal is:"
+        "hindi": "कोयले का शुद्धतम एवं सर्वोच्च गुणवत्ता वाला रूप कौन-सा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Lignite",
-          "hindi": "Lignite"
+          "hindi": "लिग्नाइट"
         },
         {
           "id": "B",
           "english": "Bituminous",
-          "hindi": "Bituminous"
+          "hindi": "बिटुमिनस"
         },
         {
           "id": "C",
           "english": "Anthracite",
-          "hindi": "Anthracite"
+          "hindi": "एंथ्रेसाइट (Anthracite - ~90-95% कार्बन)"
         },
         {
           "id": "D",
           "english": "Peat",
-          "hindi": "Peat"
+          "hindi": "पीट"
         }
       ],
       "correctAnswer": "C",
@@ -5719,13 +5719,13 @@
       "difficulty": "Medium",
       "question": {
         "english": "Melting Point of pure ice in Kelvin scale is:",
-        "hindi": "Melting Point of pure ice in Kelvin scale is:"
+        "hindi": "शुद्ध बर्फ का गलनांक (Melting Point) केल्विन पैमाने पर कितना होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "273 K",
-          "hindi": "273 K"
+          "hindi": "273.15 K (273 K)"
         },
         {
           "id": "B",
@@ -5735,7 +5735,7 @@
         {
           "id": "C",
           "english": "373 K",
-          "hindi": "373 K"
+          "hindi": "273 K"
         },
         {
           "id": "D",
@@ -5811,28 +5811,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "A non-metal allotrope which is a good conductor of heat and electricity is:",
-        "hindi": "A non-metal allotrope which is a good conductor of heat and electricity is:"
+        "hindi": "वह कौन-सा अधातु है जो ऊष्मा एवं विद्युत का अच्छा सुचालक होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Diamond",
-          "hindi": "Diamond"
+          "hindi": "हीरा"
         },
         {
           "id": "B",
           "english": "Sulphur",
-          "hindi": "Sulphur"
+          "hindi": "सल्फर"
         },
         {
           "id": "C",
           "english": "Graphite",
-          "hindi": "Graphite"
+          "hindi": "ग्रेफाइट (Graphite - कार्बन का अपररूप)"
         },
         {
           "id": "D",
           "english": "Phosphorous",
-          "hindi": "Phosphorous"
+          "hindi": "फास्फोरस"
         }
       ],
       "correctAnswer": "C",
@@ -6133,28 +6133,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "From which class skill development/vocational courses start in the National Education Policy 2020?",
-        "hindi": "From which class skill development/vocational courses start in the National Education Policy 2020?"
+        "hindi": "राष्ट्रीय शिक्षा नीति (NEP 2020) के अनुसार किस कक्षा से कौशल विकास (व्यावसायिक शिल्प) पाठ्यक्रम शुरू होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "Class 5",
-          "hindi": "Class 5"
+          "hindi": "कक्षा 5"
         },
         {
           "id": "B",
           "english": "Class 6",
-          "hindi": "Class 6"
+          "hindi": "कक्षा 6 (Class 6 - कारपेंटरी, बागवानी, कोडिंग आदि)"
         },
         {
           "id": "C",
           "english": "Class 4",
-          "hindi": "Class 4"
+          "hindi": "कक्षा 4"
         },
         {
           "id": "D",
           "english": "Class 8",
-          "hindi": "Class 8"
+          "hindi": "कक्षा 8"
         }
       ],
       "correctAnswer": "B",
@@ -6501,7 +6501,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "Momentum of a particle of mass m is p. Its kinetic energy will be:",
-        "hindi": "Momentum of a particle of mass m is p. Its kinetic energy will be:"
+        "hindi": "यदि m द्रव्यमान वाले किसी कण का संवेग p है, तो उसकी गतिज ऊर्जा (Kinetic Energy) क्या होगी?"
       },
       "options": [
         {
@@ -6522,7 +6522,7 @@
         {
           "id": "D",
           "english": "p²/(2m)",
-          "hindi": "p²/(2m)"
+          "hindi": "p² / (2m)"
         }
       ],
       "correctAnswer": "D",
@@ -6547,28 +6547,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The mass of a man is 72 kg on Earth. The value of g at the Moon's surface is 1/6 of Earth. The mass of the man on the Moon will be:",
-        "hindi": "The mass of a man is 72 kg on Earth. The value of g at the Moon's surface is 1/6 of Earth. The mass of the man on the Moon will be:"
+        "hindi": "पृथ्वी पर एक व्यक्ति का द्रव्यमान 72 किग्रा है। चंद्रमा की सतह पर g का मान पृथ्वी का 1/6 है। चंद्रमा पर व्यक्ति का द्रव्यमान क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "12 kg",
-          "hindi": "12 kg"
+          "hindi": "12 किग्रा (यह भार है, द्रव्यमान नहीं)"
         },
         {
           "id": "B",
           "english": "120 kg",
-          "hindi": "120 kg"
+          "hindi": "120 किग्रा"
         },
         {
           "id": "C",
           "english": "72 kg",
-          "hindi": "72 kg"
+          "hindi": "72 किग्रा (द्रव्यमान सदैव स्थिर रहता है)"
         },
         {
           "id": "D",
           "english": "432 kg",
-          "hindi": "432 kg"
+          "hindi": "432 किग्रा"
         }
       ],
       "correctAnswer": "C",
@@ -6731,28 +6731,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Total internal reflection is possible when light travels from:",
-        "hindi": "Total internal reflection is possible when light travels from:"
+        "hindi": "पूर्ण आंतरिक परावर्तन (Total Internal Reflection) तभी संभव है जब प्रकाश गमन करता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Air to water",
-          "hindi": "Air to water"
+          "hindi": "वायु से जल में"
         },
         {
           "id": "B",
           "english": "Air to glass",
-          "hindi": "Air to glass"
+          "hindi": "वायु से कांच में"
         },
         {
           "id": "C",
           "english": "Water to glass",
-          "hindi": "Water to glass"
+          "hindi": "जल से कांच में"
         },
         {
           "id": "D",
           "english": "Glass to water",
-          "hindi": "Glass to water"
+          "hindi": "कांच से जल में (सघन से विरल माध्यम में)"
         }
       ],
       "correctAnswer": "D",
@@ -6777,28 +6777,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Which of the following reproduces exclusively inside a host living cell?",
-        "hindi": "Which of the following reproduces exclusively inside a host living cell?"
+        "hindi": "निम्नलिखित में से कौन-सा सूक्ष्मजीव केवल किसी जीवित पोषक कोशिका (Host Cell) के भीतर ही जनन करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Bacteria",
-          "hindi": "Bacteria"
+          "hindi": "जीवाणु"
         },
         {
           "id": "B",
           "english": "Virus",
-          "hindi": "Virus"
+          "hindi": "विषाणु / वायरस (Virus - सजीव व निर्जीव की योजक कड़ी)"
         },
         {
           "id": "C",
           "english": "Amoeba",
-          "hindi": "Amoeba"
+          "hindi": "अमीबा"
         },
         {
           "id": "D",
           "english": "Fungus",
-          "hindi": "Fungus"
+          "hindi": "कवक"
         }
       ],
       "correctAnswer": "B",

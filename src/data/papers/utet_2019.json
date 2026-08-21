@@ -61,28 +61,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "According to Piaget during which stage children develop the ability to perform operations on mental representation, making them capable of conservation",
-        "hindi": "According to Piaget during which stage children develop the ability to perform operations on mental representation, making them capable of conservation"
+        "hindi": "पियाजे के अनुसार, किस अवस्था में बच्चे मानसिक निरूपण पर संक्रियाएं करने की क्षमता विकसित करते हैं, जिससे वे 'संरक्षण' (Conservation) करने में सक्षम होते हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Formal operations",
-          "hindi": "Formal operations"
+          "hindi": "औपचारिक संक्रियात्मक"
         },
         {
           "id": "B",
           "english": "Concrete operations",
-          "hindi": "Concrete operations"
+          "hindi": "मूर्त संक्रियात्मक अवस्था (Concrete operations - 7-11 वर्ष)"
         },
         {
           "id": "C",
           "english": "Sensori-motor",
-          "hindi": "Sensori-motor"
+          "hindi": "संवेदी-गामक"
         },
         {
           "id": "D",
           "english": "Pre-operational",
-          "hindi": "Pre-operational"
+          "hindi": "पूर्व-संक्रियात्मक"
         }
       ],
       "correctAnswer": "B",
@@ -105,28 +105,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following statements are correct in reference to learning disabled children - (i) They have disorders of attention. (ii) They have good motor coordination and manual dexterity. (iii) They fail to understand and follow oral directions.",
-        "hindi": "Which of the following statements are correct in reference to learning disabled children - (i) They have disorders of attention. (ii) They have good motor coordination and manual dexterity. (iii) They fail to understand and follow oral directions."
+        "hindi": "अधिगम अक्षम (Learning Disabled) बच्चों के संदर्भ में निम्नलिखित में से कौन-से कथन सही हैं?\n(i) उनमें अवधान संबंधी विकार होते हैं।\n(ii) उनका गामक समन्वय और शारीरिक निपुणता अच्छी होती है।\n(iii) वे मौखिक निर्देशों को समझने और उनका पालन करने में विफल रहते हैं।"
       },
       "options": [
         {
           "id": "A",
           "english": "(i) and (ii)",
-          "hindi": "(i) and (ii)"
+          "hindi": "(i) और (ii)"
         },
         {
           "id": "B",
           "english": "(ii) and (iii)",
-          "hindi": "(ii) and (iii)"
+          "hindi": "(ii) और (iii)"
         },
         {
           "id": "C",
           "english": "(i) and (iii)",
-          "hindi": "(i) and (iii)"
+          "hindi": "(i) और (iii)"
         },
         {
           "id": "D",
           "english": "only (i)",
-          "hindi": "only (i)"
+          "hindi": "केवल (i)"
         }
       ],
       "correctAnswer": "C",
@@ -149,28 +149,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Colours of a rainbow are remembered as VIBGYOR. Which technique of enhancing memory is this?",
-        "hindi": "Colours of a rainbow are remembered as VIBGYOR. Which technique of enhancing memory is this?"
+        "hindi": "इंद्रधनुष के रंगों को 'VIBGYOR' के रूप में याद रखा जाता है। स्मृति बढ़ाने की यह कौन-सी तकनीक है?"
       },
       "options": [
         {
           "id": "A",
           "english": "The keyword method",
-          "hindi": "The keyword method"
+          "hindi": "कीवर्ड विधि"
         },
         {
           "id": "B",
           "english": "The method of Loci",
-          "hindi": "The method of Loci"
+          "hindi": "लोकी विधि (Method of Loci)"
         },
         {
           "id": "C",
           "english": "Chunking",
-          "hindi": "Chunking"
+          "hindi": "खंडीकरण (Chunking)"
         },
         {
           "id": "D",
           "english": "First Letter Technique",
-          "hindi": "First Letter Technique"
+          "hindi": "प्रथम अक्षर तकनीक / निमोनिक (First Letter Technique)"
         }
       ],
       "correctAnswer": "D",
@@ -193,28 +193,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The global capacity to understand the world, think rationally and use available resources effectively when faced with challenges is:",
-        "hindi": "The global capacity to understand the world, think rationally and use available resources effectively when faced with challenges is:"
+        "hindi": "दुनिया को समझने, तार्किक रूप से सोचने और चुनौतियों का सामना करने पर उपलब्ध संसाधनों का प्रभावी ढंग से उपयोग करने की वैश्विक क्षमता क्या कहलाती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Aptitude",
-          "hindi": "Aptitude"
+          "hindi": "अभिक्षमता (Aptitude)"
         },
         {
           "id": "B",
           "english": "Interest",
-          "hindi": "Interest"
+          "hindi": "रुचि (Interest)"
         },
         {
           "id": "C",
           "english": "Intelligence",
-          "hindi": "Intelligence"
+          "hindi": "बुद्धि (Intelligence - वेक्सलर परिभाषा)"
         },
         {
           "id": "D",
           "english": "Personality",
-          "hindi": "Personality"
+          "hindi": "व्यक्तित्व"
         }
       ],
       "correctAnswer": "C",
@@ -281,28 +281,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "In which type of learning process is a subject generally passive?",
-        "hindi": "In which type of learning process is a subject generally passive?"
+        "hindi": "किस प्रकार की अधिगम प्रक्रिया में सामान्यतः विषय (प्रयोज्य) निष्क्रिय रहता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Classical Conditioning",
-          "hindi": "Classical Conditioning"
+          "hindi": "शास्त्रीय अनुबंधन (Classical Conditioning - पावलोव)"
         },
         {
           "id": "B",
           "english": "Operant Conditioning",
-          "hindi": "Operant Conditioning"
+          "hindi": "क्रिया-प्रसूत अनुबंधन"
         },
         {
           "id": "C",
           "english": "Cognitive Learning",
-          "hindi": "Cognitive Learning"
+          "hindi": "संज्ञानात्मक अधिगम"
         },
         {
           "id": "D",
           "english": "Instrumental Conditioning",
-          "hindi": "Instrumental Conditioning"
+          "hindi": "नैमित्तिक अनुबंधन"
         }
       ],
       "correctAnswer": "A",
@@ -369,28 +369,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Need for achievement is a:",
-        "hindi": "Need for achievement is a:"
+        "hindi": "उपलब्धि की आवश्यकता (Need for Achievement - nAch) किस प्रकार का प्रेरक है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Inborn motive",
-          "hindi": "Inborn motive"
+          "hindi": "जन्मजात प्रेरक"
         },
         {
           "id": "B",
           "english": "Biological motive",
-          "hindi": "Biological motive"
+          "hindi": "जैविक प्रेरक"
         },
         {
           "id": "C",
           "english": "Acquired motive",
-          "hindi": "Acquired motive"
+          "hindi": "अर्जित / मनोसामाजिक प्रेरक (Acquired motive - मैक्लेलैंड)"
         },
         {
           "id": "D",
           "english": "Safety motive",
-          "hindi": "Safety motive"
+          "hindi": "सुरक्षा प्रेरक"
         }
       ],
       "correctAnswer": "C",
@@ -457,28 +457,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "If a student doesn't want to study as well as he doesn't want to be unsuccessful in examination, then in this situation he is facing which type of conflict?",
-        "hindi": "If a student doesn't want to study as well as he doesn't want to be unsuccessful in examination, then in this situation he is facing which type of conflict?"
+        "hindi": "यदि कोई छात्र पढ़ना भी नहीं चाहता और परीक्षा में असफल भी नहीं होना चाहता, तो इस स्थिति में वह किस प्रकार के द्वंद्व का सामना कर रहा है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Approach - Approach conflict",
-          "hindi": "Approach - Approach conflict"
+          "hindi": "उपागम - उपागम द्वंद्व"
         },
         {
           "id": "B",
           "english": "Avoidance - Avoidance conflict",
-          "hindi": "Avoidance - Avoidance conflict"
+          "hindi": "परिहार - परिहार द्वंद्व (Avoidance - Avoidance Conflict - दोनों अवांछित विकल्प)"
         },
         {
           "id": "C",
           "english": "Approach - Avoidance conflict",
-          "hindi": "Approach - Avoidance conflict"
+          "hindi": "उपागम - परिहार द्वंद्व"
         },
         {
           "id": "D",
           "english": "Multiple-Approach avoidance",
-          "hindi": "Multiple-Approach avoidance"
+          "hindi": "बहु-उपागम परिहार"
         }
       ],
       "correctAnswer": "B",
@@ -501,28 +501,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "What is the correct sequence of the given four stages of creative thinking?",
-        "hindi": "What is the correct sequence of the given four stages of creative thinking?"
+        "hindi": "सृजनात्मक चिंतन के चार चरणों का सही क्रम क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Preparation - Verification - Illumination - Incubation",
-          "hindi": "Preparation - Verification - Illumination - Incubation"
+          "hindi": "तैयारी - सत्यापन - प्रदीप्ति - उद्भवन"
         },
         {
           "id": "B",
           "english": "Incubation - Illumination - Verification - Preparation",
-          "hindi": "Incubation - Illumination - Verification - Preparation"
+          "hindi": "उद्भवन - प्रदीप्ति - सत्यापन - तैयारी"
         },
         {
           "id": "C",
           "english": "Preparation - Incubation - Verification - Illumination",
-          "hindi": "Preparation - Incubation - Verification - Illumination"
+          "hindi": "तैयारी - उद्भवन - सत्यापन - प्रदीप्ति"
         },
         {
           "id": "D",
           "english": "Preparation - Incubation - Illumination - Verification",
-          "hindi": "Preparation - Incubation - Illumination - Verification"
+          "hindi": "तैयारी (Preparation) -> उद्भवन (Incubation) -> प्रदीप्ति (Illumination) -> सत्यापन (Verification)"
         }
       ],
       "correctAnswer": "D",
@@ -545,28 +545,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "In this type of reasoning a person tries to reach at specific conclusion on the basis of predetermined facts and rules:",
-        "hindi": "In this type of reasoning a person tries to reach at specific conclusion on the basis of predetermined facts and rules:"
+        "hindi": "इस प्रकार के तर्क में व्यक्ति पूर्व निर्धारित तथ्यों और नियमों के आधार पर विशिष्ट निष्कर्ष पर पहुंचने का प्रयास करता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Inductive",
-          "hindi": "Inductive"
+          "hindi": "आगमनात्मक तर्क"
         },
         {
           "id": "B",
           "english": "Deductive",
-          "hindi": "Deductive"
+          "hindi": "निगमनात्मक तर्क (Deductive Reasoning)"
         },
         {
           "id": "C",
           "english": "Evaluative",
-          "hindi": "Evaluative"
+          "hindi": "मूल्यांकनपरक"
         },
         {
           "id": "D",
           "english": "Analogical",
-          "hindi": "Analogical"
+          "hindi": "सादृश्यपरक"
         }
       ],
       "correctAnswer": "B",
@@ -1205,28 +1205,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "\"Assessment as Learning\" helps in:",
-        "hindi": "\"Assessment as Learning\" helps in:"
+        "hindi": "'सीखने के रूप में आकलन' (Assessment as Learning) किसमें सहायता करता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Building skills of learning to learn among children.",
-          "hindi": "Building skills of learning to learn among children."
+          "hindi": "बच्चों में स्वयं सीखने का कौशल (Metacognition / Learning to learn) विकसित करने में।"
         },
         {
           "id": "B",
           "english": "Reporting without labelling or comparing children.",
-          "hindi": "Reporting without labelling or comparing children."
+          "hindi": "बच्चों की तुलना किए बिना रिपोर्टिंग करने में।"
         },
         {
           "id": "C",
           "english": "Helps teacher to review and modify the teaching learning.",
-          "hindi": "Helps teacher to review and modify the teaching learning."
+          "hindi": "शिक्षक को अपने शिक्षण में संशोधन करने में।"
         },
         {
           "id": "D",
           "english": "Helps to address learning gaps.",
-          "hindi": "Helps to address learning gaps."
+          "hindi": "अधिगम अंतराल को दूर करने में।"
         }
       ],
       "correctAnswer": "A",
@@ -4021,13 +4021,13 @@
       "difficulty": "Easy",
       "question": {
         "english": "The least number of 4 digits which when divided by 5, 8, 10 and 15 leaves 2 as remainder in each case, is:",
-        "hindi": "The least number of 4 digits which when divided by 5, 8, 10 and 15 leaves 2 as remainder in each case, is:"
+        "hindi": "4 अंकों की वह न्यूनतम संख्या कौन-सी है जिसे 5, 8, 10 और 15 से विभाजित करने पर प्रत्येक स्थिति में 2 शेषफल बचता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "1082",
-          "hindi": "1082"
+          "hindi": "1082 [LCM(5,8,10,15) = 120; 120×9 + 2 = 1082]"
         },
         {
           "id": "B",
@@ -4109,7 +4109,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "A number when divided by 899 gives a remainder 63. If the same number is divided by 29 then the remainder will be:",
-        "hindi": "A number when divided by 899 gives a remainder 63. If the same number is divided by 29 then the remainder will be:"
+        "hindi": "किसी संख्या को 899 से विभाजित करने पर 63 शेषफल प्राप्त होता है। यदि उसी संख्या को 29 से विभाजित किया जाए तो शेषफल क्या होगा?"
       },
       "options": [
         {
@@ -4120,7 +4120,7 @@
         {
           "id": "B",
           "english": "5",
-          "hindi": "5"
+          "hindi": "5 (63 mod 29 = 5)"
         },
         {
           "id": "C",
@@ -4130,7 +4130,7 @@
         {
           "id": "D",
           "english": "9",
-          "hindi": "9"
+          "hindi": "8"
         }
       ],
       "correctAnswer": "B",
@@ -4329,7 +4329,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "The sum of interior angles of a regular pentagon is:",
-        "hindi": "The sum of interior angles of a regular pentagon is:"
+        "hindi": "एक सम पंचभुज के अंतःकोणों का योग कितना होता है?"
       },
       "options": [
         {
@@ -4345,7 +4345,7 @@
         {
           "id": "C",
           "english": "540°",
-          "hindi": "540°"
+          "hindi": "540° [(5-2)×180° = 540°]"
         },
         {
           "id": "D",
@@ -4373,7 +4373,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "The number of lines of symmetry for a regular hexagon is:",
-        "hindi": "The number of lines of symmetry for a regular hexagon is:"
+        "hindi": "एक सम षट्भुज (Regular Hexagon) में सममिति रेखाओं (Lines of Symmetry) की संख्या कितनी होती है?"
       },
       "options": [
         {
@@ -4417,7 +4417,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "The difference between simple interest and compound interest on a sum of money for 2 years at the rate of 10% per annum is ₹15. The sum of money is:",
-        "hindi": "The difference between simple interest and compound interest on a sum of money for 2 years at the rate of 10% per annum is ₹15. The sum of money is:"
+        "hindi": "किसी धनराशि पर 2 वर्ष के लिए 10% वार्षिक दर से साधारण ब्याज और चक्रवृद्धि ब्याज का अंतर ₹15 है। वह धनराशि क्या है?"
       },
       "options": [
         {
@@ -4428,7 +4428,7 @@
         {
           "id": "B",
           "english": "₹1500",
-          "hindi": "₹1500"
+          "hindi": "₹1500 [Diff = P(R/100)² => 15 = P(0.01) => P = 1500]"
         },
         {
           "id": "C",
@@ -4857,7 +4857,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "The sum of even numbers from 1 to 40 is:",
-        "hindi": "The sum of even numbers from 1 to 40 is:"
+        "hindi": "1 से 40 तक की सभी सम संख्याओं का योग क्या होगा?"
       },
       "options": [
         {
@@ -4868,7 +4868,7 @@
         {
           "id": "B",
           "english": "420",
-          "hindi": "420"
+          "hindi": "420 [n = 20 सम संख्याएं => Sum = n(n+1) = 20×21 = 420]"
         },
         {
           "id": "C",
@@ -5517,28 +5517,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following gaseous mixtures is carried by deep-sea divers for respiration to avoid decompression sickness?",
-        "hindi": "Which of the following gaseous mixtures is carried by deep-sea divers for respiration to avoid decompression sickness?"
+        "hindi": "गहरे समुद्र में गोताखोरों द्वारा श्वसन हेतु निम्नलिखित में से कौन-सा गैसीय मिश्रण प्रयुक्त किया जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Air",
-          "hindi": "Air"
+          "hindi": "साधारण वायु"
         },
         {
           "id": "B",
           "english": "Oxygen & Carbon monoxide",
-          "hindi": "Oxygen & Carbon monoxide"
+          "hindi": "ऑक्सीजन और कार्बन मोनोऑक्साइड"
         },
         {
           "id": "C",
           "english": "Oxygen & Carbon dioxide",
-          "hindi": "Oxygen & Carbon dioxide"
+          "hindi": "ऑक्सीजन और कार्बन डाइऑक्साइड"
         },
         {
           "id": "D",
           "english": "Oxygen & Helium",
-          "hindi": "Oxygen & Helium"
+          "hindi": "ऑक्सीजन और हीलियम (Heliox - 80% He + 20% O₂)"
         }
       ],
       "correctAnswer": "D",
@@ -5737,28 +5737,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Who synthesized the first artificial functional gene?",
-        "hindi": "Who synthesized the first artificial functional gene?"
+        "hindi": "प्रथम कृत्रिम जीन (Artificial Gene) का प्रयोगशाला में संश्लेषण किसने किया था?"
       },
       "options": [
         {
           "id": "A",
           "english": "Gregor Mendel",
-          "hindi": "Gregor Mendel"
+          "hindi": "ग्रेगर मेंडल"
         },
         {
           "id": "B",
           "english": "Watson and Crick",
-          "hindi": "Watson and Crick"
+          "hindi": "वाटसन और क्रिक"
         },
         {
           "id": "C",
           "english": "Thomas Hunt Morgan",
-          "hindi": "Thomas Hunt Morgan"
+          "hindi": "टी.एच. मॉर्गन"
         },
         {
           "id": "D",
           "english": "Dr. Har Gobind Khorana",
-          "hindi": "Dr. Har Gobind Khorana"
+          "hindi": "डॉ. हरगोविंद खुराना (नोबेल पुरस्कार 1968)"
         }
       ],
       "correctAnswer": "D",
@@ -6001,28 +6001,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The central metallic element present in the Chlorophyll molecule is:",
-        "hindi": "The central metallic element present in the Chlorophyll molecule is:"
+        "hindi": "क्लोरोफिल के केंद्रीय परमाणु में कौन-सी धातु उपस्थित होती है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Beryllium",
-          "hindi": "Beryllium"
+          "hindi": "बेरिलियम"
         },
         {
           "id": "B",
           "english": "Calcium",
-          "hindi": "Calcium"
+          "hindi": "कैल्शियम"
         },
         {
           "id": "C",
           "english": "Magnesium",
-          "hindi": "Magnesium"
+          "hindi": "मैग्नीशियम (Magnesium - Mg²⁺)"
         },
         {
           "id": "D",
           "english": "Strontium",
-          "hindi": "Strontium"
+          "hindi": "स्ट्रोंटियम"
         }
       ],
       "correctAnswer": "C",
@@ -6221,28 +6221,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "The slope of a velocity-time graph represents:",
-        "hindi": "The slope of a velocity-time graph represents:"
+        "hindi": "वेग-समय ग्राफ (v-t Graph) का ढलान (Slope) कौन-सी भौतिक राशि दर्शाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Distance",
-          "hindi": "Distance"
+          "hindi": "दूरी"
         },
         {
           "id": "B",
           "english": "Displacement",
-          "hindi": "Displacement"
+          "hindi": "विस्थापन"
         },
         {
           "id": "C",
           "english": "Acceleration",
-          "hindi": "Acceleration"
+          "hindi": "त्वरण (Acceleration - a = dv/dt)"
         },
         {
           "id": "D",
           "english": "Speed",
-          "hindi": "Speed"
+          "hindi": "चाल"
         }
       ],
       "correctAnswer": "C",

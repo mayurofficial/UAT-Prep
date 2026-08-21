@@ -61,28 +61,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "The salient features of School Based Assessment are —",
-        "hindi": "The salient features of School Based Assessment are —"
+        "hindi": "विद्यालय आधारित आकलन (School Based Assessment) की मुख्य विशेषताएं क्या हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Teacher centered and lecture based pedagogy",
-          "hindi": "Teacher centered and lecture based pedagogy"
+          "hindi": "शिक्षक केंद्रित एवं व्याख्यान आधारित शिक्षाशास्त्र"
         },
         {
           "id": "B",
           "english": "Child centered and lecture based pedagogy",
-          "hindi": "Child centered and lecture based pedagogy"
+          "hindi": "बाल केंद्रित एवं व्याख्यान आधारित शिक्षाशास्त्र"
         },
         {
           "id": "C",
           "english": "Child centered and activity based pedagogy",
-          "hindi": "Child centered and activity based pedagogy"
+          "hindi": "बाल केंद्रित एवं गतिविधि आधारित शिक्षाशास्त्र (Child centered and activity based)"
         },
         {
           "id": "D",
           "english": "None of the above",
-          "hindi": "None of the above"
+          "hindi": "उपरोक्त में से कोई नहीं"
         }
       ],
       "correctAnswer": "C",
@@ -107,28 +107,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following statement is correct with reference to human development :",
-        "hindi": "Which of the following statement is correct with reference to human development :"
+        "hindi": "मानव विकास के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Human development means increase in weight and size of a human.",
-          "hindi": "Human development means increase in weight and size of a human."
+          "hindi": "मानव विकास का तात्पर्य केवल मानव के वजन और आकार में वृद्धि से है।"
         },
         {
           "id": "B",
           "english": "Human development is quantitative as well as qualitative.",
-          "hindi": "Human development is quantitative as well as qualitative."
+          "hindi": "मानव विकास मात्रात्मक होने के साथ-साथ गुणात्मक भी होता है (Quantitative as well as qualitative)।"
         },
         {
           "id": "C",
           "english": "Human development is only quantitative.",
-          "hindi": "Human development is only quantitative."
+          "hindi": "मानव विकास केवल मात्रात्मक है।"
         },
         {
           "id": "D",
           "english": "Human development means only increase in physical organs.",
-          "hindi": "Human development means only increase in physical organs."
+          "hindi": "मानव विकास का अर्थ केवल शारीरिक अंगों में वृद्धि है।"
         }
       ],
       "correctAnswer": "B",
@@ -153,7 +153,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "Which of the following mental processes are included under mental development- (1) Memory (2) Thinking (3) Motivation",
-        "hindi": "Which of the following mental processes are included under mental development- (1) Memory (2) Thinking (3) Motivation"
+        "hindi": "मानसिक विकास के अंतर्गत निम्नलिखित में से कौन-सी मानसिक प्रक्रियाएं शामिल हैं?\n(1) स्मृति (2) चिंतन (3) अभिप्रेरणा"
       },
       "options": [
         {
@@ -174,7 +174,7 @@
         {
           "id": "D",
           "english": "Only 2",
-          "hindi": "Only 2"
+          "hindi": "केवल 2"
         }
       ],
       "correctAnswer": "A",
@@ -199,28 +199,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following fact is true in reference to the principle of human development-",
-        "hindi": "Which of the following fact is true in reference to the principle of human development-"
+        "hindi": "मानव विकास के सिद्धांतों के संदर्भ में निम्नलिखित में से कौन-सा तथ्य सत्य है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Principle of continuous development",
-          "hindi": "Principle of continuous development"
+          "hindi": "निरंतर विकास का सिद्धांत"
         },
         {
           "id": "B",
           "english": "Principle of different rate of development",
-          "hindi": "Principle of different rate of development"
+          "hindi": "विकास की विभिन्न दर का सिद्धांत"
         },
         {
           "id": "C",
           "english": "Principle of Interaction of Heredity and Environment",
-          "hindi": "Principle of Interaction of Heredity and Environment"
+          "hindi": "वंशानुक्रम एवं वातावरण की अंतःक्रिया का सिद्धांत"
         },
         {
           "id": "D",
           "english": "All of the above",
-          "hindi": "All of the above"
+          "hindi": "उपरोक्त सभी"
         }
       ],
       "correctAnswer": "D",
@@ -245,7 +245,7 @@
       "difficulty": "Easy",
       "question": {
         "english": "Factors that hinders learning process are — (1) Stress (2) Fatigue (3) Interest",
-        "hindi": "Factors that hinders learning process are — (1) Stress (2) Fatigue (3) Interest"
+        "hindi": "सीखने की प्रक्रिया में बाधा डालने वाले कारक कौन-से हैं?\n(1) तनाव (2) थकान (3) रुचि"
       },
       "options": [
         {
@@ -291,28 +291,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Solving a mathematics problem or imagining about something is an example of which process?",
-        "hindi": "Solving a mathematics problem or imagining about something is an example of which process?"
+        "hindi": "गणित की किसी समस्या को हल करना या किसी वस्तु की कल्पना करना किस प्रक्रिया का उदाहरण है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Biological",
-          "hindi": "Biological"
+          "hindi": "जैविक"
         },
         {
           "id": "B",
           "english": "Social",
-          "hindi": "Social"
+          "hindi": "सामाजिक"
         },
         {
           "id": "C",
           "english": "Cognitive",
-          "hindi": "Cognitive"
+          "hindi": "संज्ञानात्मक (Cognitive)"
         },
         {
           "id": "D",
           "english": "Emotional",
-          "hindi": "Emotional"
+          "hindi": "संवेगात्मक"
         }
       ],
       "correctAnswer": "C",
@@ -337,28 +337,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "In which stage of development individuals move beyond concrete experiences and think in abstract and more logical way?",
-        "hindi": "In which stage of development individuals move beyond concrete experiences and think in abstract and more logical way?"
+        "hindi": "विकास की किस अवस्था में व्यक्ति मूर्त अनुभवों से आगे बढ़कर अमूर्त और अधिक तार्किक तरीके से सोचने लगते हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Sensori motor stage",
-          "hindi": "Sensori motor stage"
+          "hindi": "संवेदी-गामक अवस्था"
         },
         {
           "id": "B",
           "english": "Preoperational stage",
-          "hindi": "Preoperational stage"
+          "hindi": "पूर्व-संक्रियात्मक अवस्था"
         },
         {
           "id": "C",
           "english": "Concrete operational stage",
-          "hindi": "Concrete operational stage"
+          "hindi": "मूर्त संक्रियात्मक अवस्था"
         },
         {
           "id": "D",
           "english": "Formal operational stage",
-          "hindi": "Formal operational stage"
+          "hindi": "औपचारिक संक्रियात्मक अवस्था (Formal operational)"
         }
       ],
       "correctAnswer": "D",
@@ -383,7 +383,7 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following ideas in Piaget's theory can be applied in teaching students - (1) Use of constructivist approach. (2) Consider the child's knowledge and level of thinking. (3) Use of continuous assessment. (4) Turn the Classroom into a setting of exploration and discovery.",
-        "hindi": "Which of the following ideas in Piaget's theory can be applied in teaching students - (1) Use of constructivist approach. (2) Consider the child's knowledge and level of thinking. (3) Use of continuous assessment. (4) Turn the Classroom into a setting of exploration and discovery."
+        "hindi": "पियाजे के सिद्धांत के निम्नलिखित विचारों में से किसे शिक्षण में लागू किया जा सकता है?\n(1) रचनावादी उपागम का उपयोग।\n(2) बच्चे के ज्ञान और चिंतन स्तर को ध्यान में रखना।\n(3) सतत आकलन का उपयोग।\n(4) कक्षा को अन्वेषण एवं खोज के माहौल में बदलना।"
       },
       "options": [
         {
@@ -429,28 +429,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "\"If a student does not have willingness to study then you cannot expect good results from him.\" This statement reflects which Principle of learning?",
-        "hindi": "\"If a student does not have willingness to study then you cannot expect good results from him.\" This statement reflects which Principle of learning?"
+        "hindi": "'यदि किसी छात्र में पढ़ने की इच्छा नहीं है, तो आप उससे अच्छे परिणाम की अपेक्षा नहीं कर सकते।' यह कथन सीखने के किस नियम को दर्शाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Law of effect",
-          "hindi": "Law of effect"
+          "hindi": "प्रभाव का नियम"
         },
         {
           "id": "B",
           "english": "Law of recency",
-          "hindi": "Law of recency"
+          "hindi": "नवीनता का नियम"
         },
         {
           "id": "C",
           "english": "Law of readiness",
-          "hindi": "Law of readiness"
+          "hindi": "तत्परता का नियम (Law of Readiness)"
         },
         {
           "id": "D",
           "english": "Law of exercise",
-          "hindi": "Law of exercise"
+          "hindi": "अभ्यास का नियम"
         }
       ],
       "correctAnswer": "C",
@@ -475,28 +475,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "If a student suddenly gets a solution of a problem while trying to solve that problem then this type of learning is called as -",
-        "hindi": "If a student suddenly gets a solution of a problem while trying to solve that problem then this type of learning is called as -"
+        "hindi": "यदि किसी छात्र को किसी समस्या को हल करने का प्रयास करते समय अचानक उसका समाधान मिल जाता है, तो इस प्रकार का अधिगम कहलाता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Learning by Imitation",
-          "hindi": "Learning by Imitation"
+          "hindi": "अनुकरण द्वारा सीखना"
         },
         {
           "id": "B",
           "english": "Learning by Practice",
-          "hindi": "Learning by Practice"
+          "hindi": "अभ्यास द्वारा सीखना"
         },
         {
           "id": "C",
           "english": "Learning by Insight",
-          "hindi": "Learning by Insight"
+          "hindi": "अंतर्दृष्टि द्वारा सीखना (Learning by Insight)"
         },
         {
           "id": "D",
           "english": "Learning by Trial and Error",
-          "hindi": "Learning by Trial and Error"
+          "hindi": "प्रयास एवं त्रुटि द्वारा सीखना"
         }
       ],
       "correctAnswer": "C",
@@ -521,28 +521,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "If in a class, a student compares various answers and judge which is the best answer then this type of thinking is called as -",
-        "hindi": "If in a class, a student compares various answers and judge which is the best answer then this type of thinking is called as -"
+        "hindi": "यदि कक्षा में कोई छात्र विभिन्न उत्तरों की तुलना करता है और निर्णय लेता है कि कौन-सा उत्तर सर्वोत्तम है, तो इस प्रकार का चिंतन कहलाता है:"
       },
       "options": [
         {
           "id": "A",
           "english": "Creative thinking",
-          "hindi": "Creative thinking"
+          "hindi": "सृजनात्मक चिंतन"
         },
         {
           "id": "B",
           "english": "Innovative thinking",
-          "hindi": "Innovative thinking"
+          "hindi": "अभिनव चिंतन"
         },
         {
           "id": "C",
           "english": "Critical thinking",
-          "hindi": "Critical thinking"
+          "hindi": "आलोचनात्मक चिंतन (Critical thinking)"
         },
         {
           "id": "D",
           "english": "Imaginative thinking",
-          "hindi": "Imaginative thinking"
+          "hindi": "काल्पनिक चिंतन"
         }
       ],
       "correctAnswer": "C",
@@ -567,28 +567,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "If a student can make good tune of a song and he also interacts with other students, helps others and has a very good social circle then he is good at which intellectual skills -",
-        "hindi": "If a student can make good tune of a song and he also interacts with other students, helps others and has a very good social circle then he is good at which intellectual skills -"
+        "hindi": "यदि कोई छात्र किसी गीत की अच्छी धुन बना सकता है और वह अन्य छात्रों के साथ मिलजुलकर रहता है, दूसरों की मदद करता है, तो उसमें कौन-सी बौद्धिक क्षमताएं हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Musical and Intrapersonal",
-          "hindi": "Musical and Intrapersonal"
+          "hindi": "संगीतमय एवं अंतरावैयक्तिक"
         },
         {
           "id": "B",
           "english": "Musical and Interpersonal",
-          "hindi": "Musical and Interpersonal"
+          "hindi": "संगीतमय एवं अंतर्वैयक्तिक (Musical and Interpersonal)"
         },
         {
           "id": "C",
           "english": "Interpersonal and Verbal",
-          "hindi": "Interpersonal and Verbal"
+          "hindi": "अंतर्वैयक्तिक एवं शाब्दिक"
         },
         {
           "id": "D",
           "english": "Verbal and Musical",
-          "hindi": "Verbal and Musical"
+          "hindi": "शाब्दिक एवं संगीतमय"
         }
       ],
       "correctAnswer": "B",
@@ -613,28 +613,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following statement is correct about Intelligence tests-",
-        "hindi": "Which of the following statement is correct about Intelligence tests-"
+        "hindi": "बुद्धि परीक्षणों के बारे में निम्नलिखित में से कौन-सा कथन सही है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Intelligence tests are only verbal",
-          "hindi": "Intelligence tests are only verbal"
+          "hindi": "बुद्धि परीक्षण केवल मौखिक होते हैं।"
         },
         {
           "id": "B",
           "english": "Nonverbal intelligence test have many statements.",
-          "hindi": "Nonverbal intelligence test have many statements."
+          "hindi": "अशाब्दिक बुद्धि परीक्षणों में कई कथन होते हैं।"
         },
         {
           "id": "C",
           "english": "We can use intelligence test in any age group.",
-          "hindi": "We can use intelligence test in any age group."
+          "hindi": "हम किसी भी आयु वर्ग में किसी भी बुद्धि परीक्षण का उपयोग कर सकते हैं।"
         },
         {
           "id": "D",
           "english": "We can use intelligence test only on the age group for which it is developed.",
-          "hindi": "We can use intelligence test only on the age group for which it is developed."
+          "hindi": "हम बुद्धि परीक्षण का उपयोग केवल उसी आयु वर्ग पर कर सकते हैं जिसके लिए इसे विकसित किया गया है।"
         }
       ],
       "correctAnswer": "D",
@@ -659,28 +659,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which approach place the learner not the teacher at the center of education Process-",
-        "hindi": "Which approach place the learner not the teacher at the center of education Process-"
+        "hindi": "कौन-सा दृष्टिकोण शिक्षक को नहीं, बल्कि शिक्षार्थी को शिक्षा प्रक्रिया के केंद्र में रखता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Learner Centered Approach",
-          "hindi": "Learner Centered Approach"
+          "hindi": "शिक्षार्थी केंद्रित उपागम"
         },
         {
           "id": "B",
           "english": "Constructivist Approach",
-          "hindi": "Constructivist Approach"
+          "hindi": "रचनावादी उपागम"
         },
         {
           "id": "C",
           "english": "Teacher Centered Approach",
-          "hindi": "Teacher Centered Approach"
+          "hindi": "शिक्षक केंद्रित उपागम"
         },
         {
           "id": "D",
           "english": "Both (A) & (B)",
-          "hindi": "Both (A) & (B)"
+          "hindi": "दोनों (A) और (B)"
         }
       ],
       "correctAnswer": "D",
@@ -705,28 +705,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "A student writes in good handwriting because his teacher gives him a big star in his notebook. This is an example of -",
-        "hindi": "A student writes in good handwriting because his teacher gives him a big star in his notebook. This is an example of -"
+        "hindi": "एक छात्र सुंदर लिखावट में लिखता है क्योंकि उसकी शिक्षिका उसकी कॉपी में एक बड़ा तारा (स्टार) देती है। यह किसका उदाहरण है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Intrinsic Motivation",
-          "hindi": "Intrinsic Motivation"
+          "hindi": "आंतरिक अभिप्रेरणा"
         },
         {
           "id": "B",
           "english": "Learning",
-          "hindi": "Learning"
+          "hindi": "अधिगम"
         },
         {
           "id": "C",
           "english": "Practice",
-          "hindi": "Practice"
+          "hindi": "अभ्यास"
         },
         {
           "id": "D",
           "english": "Extrinsic Motivation",
-          "hindi": "Extrinsic Motivation"
+          "hindi": "बाह्य अभिप्रेरणा (Extrinsic Motivation)"
         }
       ],
       "correctAnswer": "D",
@@ -751,28 +751,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "In any school the interval bell rings at 12:00 PM daily. If one day the bell doesn't ring at 12:00 PM but still students gets up and go out for lunch break. This is an example of-",
-        "hindi": "In any school the interval bell rings at 12:00 PM daily. If one day the bell doesn't ring at 12:00 PM but still students gets up and go out for lunch break. This is an example of-"
+        "hindi": "विद्यालय में प्रतिदिन 12:00 बजे दोपहर की घंटी बजती है। यदि किसी दिन घंटी नहीं बजती, फिर भी छात्र उठकर लंच के लिए बाहर जाते हैं, तो यह किसका उदाहरण है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Classical Conditioning",
-          "hindi": "Classical Conditioning"
+          "hindi": "शास्त्रीय अनुबंधन (Classical Conditioning)"
         },
         {
           "id": "B",
           "english": "Operant Conditioning",
-          "hindi": "Operant Conditioning"
+          "hindi": "क्रिया-प्रसूत अनुबंधन"
         },
         {
           "id": "C",
           "english": "Insight Theory",
-          "hindi": "Insight Theory"
+          "hindi": "अंतर्दृष्टि सिद्धांत"
         },
         {
           "id": "D",
           "english": "Cognitive Theory",
-          "hindi": "Cognitive Theory"
+          "hindi": "संज्ञानात्मक सिद्धांत"
         }
       ],
       "correctAnswer": "A",
@@ -797,28 +797,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which theory of learning specifically emphasises on reinforcement-",
-        "hindi": "Which theory of learning specifically emphasises on reinforcement-"
+        "hindi": "सीखने का कौन-सा सिद्धांत विशेष रूप से पुनर्बलन (Reinforcement) पर बल देता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Theory of Operant Conditioning",
-          "hindi": "Theory of Operant Conditioning"
+          "hindi": "क्रिया-प्रसूत अनुबंधन का सिद्धांत (Operant Conditioning)"
         },
         {
           "id": "B",
           "english": "Insight Theory",
-          "hindi": "Insight Theory"
+          "hindi": "अंतर्दृष्टि सिद्धांत"
         },
         {
           "id": "C",
           "english": "Stimulus Response Theory",
-          "hindi": "Stimulus Response Theory"
+          "hindi": "उद्दीपक अनुक्रिया सिद्धांत"
         },
         {
           "id": "D",
           "english": "Cognitive field theory",
-          "hindi": "Cognitive field theory"
+          "hindi": "संज्ञानात्मक क्षेत्र सिद्धांत"
         }
       ],
       "correctAnswer": "A",
@@ -843,28 +843,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Inclusive education means-",
-        "hindi": "Inclusive education means-"
+        "hindi": "समावेशी शिक्षा का क्या अर्थ है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Education for special children",
-          "hindi": "Education for special children"
+          "hindi": "विशेष बच्चों के लिए शिक्षा"
         },
         {
           "id": "B",
           "english": "Including only visually impaired children in general schools",
-          "hindi": "Including only visually impaired children in general schools"
+          "hindi": "सामान्य स्कूलों में केवल दृष्टिबाधित बच्चों को शामिल करना"
         },
         {
           "id": "C",
           "english": "All children learn together in same school",
-          "hindi": "All children learn together in same school"
+          "hindi": "सभी बच्चे बिना किसी भेदभाव के एक ही स्कूल में एक साथ सीखते हैं (All children learn together in same school)"
         },
         {
           "id": "D",
           "english": "Including divyangjan in integrated schools",
-          "hindi": "Including divyangjan in integrated schools"
+          "hindi": "दिव्यांगजनों को एकीकृत स्कूलों में शामिल करना"
         }
       ],
       "correctAnswer": "C",
@@ -1027,28 +1027,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "VIBGYOR is an example of :",
-        "hindi": "VIBGYOR is an example of :"
+        "hindi": "इंद्रधनुष के रंगों को याद रखने हेतु 'VIBGYOR' किसका उदाहरण है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Mnemonic",
-          "hindi": "Mnemonic"
+          "hindi": "स्मृति सहायक युक्ति / निमोनिक (Mnemonic)"
         },
         {
           "id": "B",
           "english": "Perception",
-          "hindi": "Perception"
+          "hindi": "प्रत्यक्षीकरण"
         },
         {
           "id": "C",
           "english": "Thinking",
-          "hindi": "Thinking"
+          "hindi": "चिंतन"
         },
         {
           "id": "D",
           "english": "Reasoning",
-          "hindi": "Reasoning"
+          "hindi": "तर्क"
         }
       ],
       "correctAnswer": "A",
@@ -1257,28 +1257,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "According to Erik Erikson, children aged 6-11 years come in which stage of development?",
-        "hindi": "According to Erik Erikson, children aged 6-11 years come in which stage of development?"
+        "hindi": "एरिक एरिक्सन के अनुसार, 6 से 11 वर्ष की आयु के बच्चे विकास की किस अवस्था में आते हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "Trust Vs. Mistrust",
-          "hindi": "Trust Vs. Mistrust"
+          "hindi": "विश्वास बनाम अविश्वास"
         },
         {
           "id": "B",
           "english": "Industry Vs. Inferiority",
-          "hindi": "Industry Vs. Inferiority"
+          "hindi": "परिश्रम बनाम हीनता (Industry Vs. Inferiority)"
         },
         {
           "id": "C",
           "english": "Intimacy Vs. Isolation",
-          "hindi": "Intimacy Vs. Isolation"
+          "hindi": "घनिष्ठता बनाम अलगाव"
         },
         {
           "id": "D",
           "english": "Initiative Vs. Guilt",
-          "hindi": "Initiative Vs. Guilt"
+          "hindi": "पहल बनाम अपराधबोध"
         }
       ],
       "correctAnswer": "B",
@@ -1349,28 +1349,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Rorschach Inkblot Test is a-",
-        "hindi": "Rorschach Inkblot Test is a-"
+        "hindi": "रोर्शा स्याही धब्बा परीक्षण (Rorschach Inkblot Test) क्या है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Personality Test",
-          "hindi": "Personality Test"
+          "hindi": "व्यक्तित्व परीक्षण (Personality Test)"
         },
         {
           "id": "B",
           "english": "Intelligence Test",
-          "hindi": "Intelligence Test"
+          "hindi": "बुद्धि परीक्षण"
         },
         {
           "id": "C",
           "english": "Interest Test",
-          "hindi": "Interest Test"
+          "hindi": "रुचि परीक्षण"
         },
         {
           "id": "D",
           "english": "Aptitude Test",
-          "hindi": "Aptitude Test"
+          "hindi": "अभिक्षमता परीक्षण"
         }
       ],
       "correctAnswer": "A",
@@ -4201,28 +4201,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which one among the following is not a chemical change?",
-        "hindi": "Which one among the following is not a chemical change?"
+        "hindi": "निम्नलिखित में से कौन-सा रासायनिक परिवर्तन (Chemical Change) नहीं है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Curdling of milk",
-          "hindi": "Curdling of milk"
+          "hindi": "दूध से दही बनना"
         },
         {
           "id": "B",
           "english": "Ripening of fruit",
-          "hindi": "Ripening of fruit"
+          "hindi": "फलों का पकना"
         },
         {
           "id": "C",
           "english": "Evaporation of water",
-          "hindi": "Evaporation of water"
+          "hindi": "जल का वाष्पीकरण (Evaporation of water)"
         },
         {
           "id": "D",
           "english": "Burning of wood",
-          "hindi": "Burning of wood"
+          "hindi": "लकड़ी का जलना"
         }
       ],
       "correctAnswer": "C",
@@ -4293,28 +4293,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Suppose a boy is enjoying a ride on a merry-go-round which is moving with a constant speed of 10 m/s. It implies that the boy is —",
-        "hindi": "Suppose a boy is enjoying a ride on a merry-go-round which is moving with a constant speed of 10 m/s. It implies that the boy is —"
+        "hindi": "एक लड़का 10 मीटर/सेकंड की एकसमान गति से घूमने वाले झूले की सवारी कर रहा है। इसका तात्पर्य है कि लड़का:"
       },
       "options": [
         {
           "id": "A",
           "english": "at rest",
-          "hindi": "at rest"
+          "hindi": "विरामावस्था में है"
         },
         {
           "id": "B",
           "english": "in accelerated motion",
-          "hindi": "in accelerated motion"
+          "hindi": "त्वरित गति में है (In accelerated motion)"
         },
         {
           "id": "C",
           "english": "moving with no acceleration",
-          "hindi": "moving with no acceleration"
+          "hindi": "बिना त्वरण के गति कर रहा है"
         },
         {
           "id": "D",
           "english": "moving with uniform velocity",
-          "hindi": "moving with uniform velocity"
+          "hindi": "एकसमान वेग से गति कर रहा है"
         }
       ],
       "correctAnswer": "B",
@@ -4339,28 +4339,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which one of the following elements is present in green pigment of leaf?",
-        "hindi": "Which one of the following elements is present in green pigment of leaf?"
+        "hindi": "पत्तियों के हरे वर्णक (क्लोरोफिल) में कौन-सा तत्व उपस्थित होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Magnesium",
-          "hindi": "Magnesium"
+          "hindi": "मैग्नीशियम (Magnesium - Mg²⁺)"
         },
         {
           "id": "B",
           "english": "Phosphorus",
-          "hindi": "Phosphorus"
+          "hindi": "फास्फोरस"
         },
         {
           "id": "C",
           "english": "Iron",
-          "hindi": "Iron"
+          "hindi": "आयरन"
         },
         {
           "id": "D",
           "english": "Calcium",
-          "hindi": "Calcium"
+          "hindi": "कैल्शियम"
         }
       ],
       "correctAnswer": "A",
@@ -4569,7 +4569,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "If the ratio of two numbers is 5:6 and their HCF is 8, then their LCM will be-",
-        "hindi": "If the ratio of two numbers is 5:6 and their HCF is 8, then their LCM will be-"
+        "hindi": "यदि दो संख्याओं का अनुपात 5:6 है और उनका म.स. (HCF) 8 है, तो उनका ल.स. (LCM) क्या होगा?"
       },
       "options": [
         {
@@ -4615,28 +4615,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "The ratio of the number of diagonals of a pentagon to the number of edges of a cube is -",
-        "hindi": "The ratio of the number of diagonals of a pentagon to the number of edges of a cube is -"
+        "hindi": "एक पंचभुज के विकर्णों की संख्या और एक घन के किनारों (Edges) की संख्या का अनुपात क्या होगा?"
       },
       "options": [
         {
           "id": "A",
           "english": "4:5",
-          "hindi": "4:5"
+          "hindi": "4 : 5"
         },
         {
           "id": "B",
           "english": "1:2",
-          "hindi": "1:2"
+          "hindi": "1 : 2"
         },
         {
           "id": "C",
           "english": "5:12",
-          "hindi": "5:12"
+          "hindi": "5 : 12 (5 विकर्ण : 12 किनारे)"
         },
         {
           "id": "D",
           "english": "5:6",
-          "hindi": "5:6"
+          "hindi": "5 : 6"
         }
       ],
       "correctAnswer": "C",
@@ -4707,7 +4707,7 @@
       "difficulty": "Hard",
       "question": {
         "english": "Twin prime numbers are -",
-        "hindi": "Twin prime numbers are -"
+        "hindi": "जुड़वां अभाज्य संख्याएं (Twin Prime Numbers) कौन-सी हैं?"
       },
       "options": [
         {
@@ -4718,7 +4718,7 @@
         {
           "id": "B",
           "english": "41, 43",
-          "hindi": "41, 43"
+          "hindi": "41, 43 (अभाज्य संख्याएं जिनमें 2 का अंतर हो)"
         },
         {
           "id": "C",
@@ -5811,28 +5811,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "All the magnetic materials lose their magnetic properties when -",
-        "hindi": "All the magnetic materials lose their magnetic properties when -"
+        "hindi": "सभी चुंबकीय पदार्थ अपने चुंबकीय गुणों को कब खो देते हैं?"
       },
       "options": [
         {
           "id": "A",
           "english": "dipped in oil",
-          "hindi": "dipped in oil"
+          "hindi": "तेल में डुबोने पर"
         },
         {
           "id": "B",
           "english": "dipped in water",
-          "hindi": "dipped in water"
+          "hindi": "पानी में डुबोने पर"
         },
         {
           "id": "C",
           "english": "strongly heated",
-          "hindi": "strongly heated"
+          "hindi": "अत्यधिक गर्म करने पर (Strongly heated - क्यूरी तापमान)"
         },
         {
           "id": "D",
           "english": "brought near a piece of iron",
-          "hindi": "brought near a piece of iron"
+          "hindi": "लोहे के पास लाने पर"
         }
       ],
       "correctAnswer": "C",
@@ -5857,28 +5857,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Metal used to make wires for safety fuses must have -",
-        "hindi": "Metal used to make wires for safety fuses must have -"
+        "hindi": "सुरक्षा फ्यूज तार बनाने के लिए प्रयुक्त धातु में क्या होना चाहिए?"
       },
       "options": [
         {
           "id": "A",
           "english": "very low resistivity and high melting point",
-          "hindi": "very low resistivity and high melting point"
+          "hindi": "अत्यंत निम्न प्रतिरोधकता और उच्च गलनांक"
         },
         {
           "id": "B",
           "english": "high resistivity and low melting point",
-          "hindi": "high resistivity and low melting point"
+          "hindi": "उच्च प्रतिरोधकता और निम्न गलनांक (High resistivity and low melting point)"
         },
         {
           "id": "C",
           "english": "low resistivity and low melting point",
-          "hindi": "low resistivity and low melting point"
+          "hindi": "निम्न प्रतिरोधकता और निम्न गलनांक"
         },
         {
           "id": "D",
           "english": "high resistivity and high melting point",
-          "hindi": "high resistivity and high melting point"
+          "hindi": "उच्च प्रतिरोधकता और उच्च गलनांक"
         }
       ],
       "correctAnswer": "B",
@@ -5903,28 +5903,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "A mobile phone charger is -",
-        "hindi": "A mobile phone charger is -"
+        "hindi": "मोबाइल फोन चार्जर वास्तव में क्या होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "an inverter",
-          "hindi": "an inverter"
+          "hindi": "एक इन्वर्टर"
         },
         {
           "id": "B",
           "english": "a UPS",
-          "hindi": "a UPS"
+          "hindi": "एक यूपीएस"
         },
         {
           "id": "C",
           "english": "a step-down transformer",
-          "hindi": "a step-down transformer"
+          "hindi": "एक अपचायी ट्रांसफार्मर (A step-down transformer)"
         },
         {
           "id": "D",
           "english": "a step-up transformer",
-          "hindi": "a step-up transformer"
+          "hindi": "एक उच्चायी ट्रांसफार्मर"
         }
       ],
       "correctAnswer": "C",
@@ -5949,28 +5949,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Bronze is often used to make statues and medals whereas brass is used in making utensils, scientific apparatus and cartridges. Both brass and bronze are copper containing alloys, yet they differ in their chemical composition for additionally containing -",
-        "hindi": "Bronze is often used to make statues and medals whereas brass is used in making utensils, scientific apparatus and cartridges. Both brass and bronze are copper containing alloys, yet they differ in their chemical composition for additionally containing -"
+        "hindi": "पीतल (Brass) और कांसा (Bronze) दोनों तांबे की मिश्रधातुएं हैं, जिनमें तांबे के अतिरिक्त क्रमशः क्या पाया जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Zinc in brass and tin in bronze",
-          "hindi": "Zinc in brass and tin in bronze"
+          "hindi": "पीतल में जस्ता (Zinc) और कांस्य में टिन (Tin)"
         },
         {
           "id": "B",
           "english": "Chromium in brass and nickel in bronze",
-          "hindi": "Chromium in brass and nickel in bronze"
+          "hindi": "पीतल में क्रोमियम और कांस्य में निकेल"
         },
         {
           "id": "C",
           "english": "Nickel in brass and tin in bronze",
-          "hindi": "Nickel in brass and tin in bronze"
+          "hindi": "पीतल में निकेल और कांस्य में टिन"
         },
         {
           "id": "D",
           "english": "Iron in brass and nickel in bronze",
-          "hindi": "Iron in brass and nickel in bronze"
+          "hindi": "पीतल में लोहा और कांस्य में निकेल"
         }
       ],
       "correctAnswer": "A",
@@ -6041,28 +6041,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which one of the following minerals is necessary to control the heart beat -",
-        "hindi": "Which one of the following minerals is necessary to control the heart beat -"
+        "hindi": "हृदय की धड़कन को नियंत्रित करने के लिए निम्नलिखित में से कौन-सा खनिज आवश्यक है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Sodium",
-          "hindi": "Sodium"
+          "hindi": "सोडियम"
         },
         {
           "id": "B",
           "english": "Sulphur",
-          "hindi": "Sulphur"
+          "hindi": "सल्फर"
         },
         {
           "id": "C",
           "english": "Potassium",
-          "hindi": "Potassium"
+          "hindi": "पोटैशियम (Potassium - K⁺)"
         },
         {
           "id": "D",
           "english": "Iron",
-          "hindi": "Iron"
+          "hindi": "आयरन"
         }
       ],
       "correctAnswer": "C",
@@ -6179,28 +6179,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "When salt is added to water, then which changes occur -",
-        "hindi": "When salt is added to water, then which changes occur -"
+        "hindi": "जल में साधारण नमक मिलाने पर निम्नलिखित में से क्या परिवर्तन होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "boiling point increases and freezing point decreases",
-          "hindi": "boiling point increases and freezing point decreases"
+          "hindi": "क्वथनांक बढ़ता है और हिमांक घटता है (Boiling point increases and freezing point decreases)"
         },
         {
           "id": "B",
           "english": "boiling point decreases and freezing point increases",
-          "hindi": "boiling point decreases and freezing point increases"
+          "hindi": "क्वथनांक घटता है और हिमांक बढ़ता है"
         },
         {
           "id": "C",
           "english": "both boiling point and freezing point decrease",
-          "hindi": "both boiling point and freezing point decrease"
+          "hindi": "क्वथनांक और हिमांक दोनों घटते हैं"
         },
         {
           "id": "D",
           "english": "both boiling point and freezing point increase",
-          "hindi": "both boiling point and freezing point increase"
+          "hindi": "क्वथनांक और हिमांक दोनों बढ़ते हैं"
         }
       ],
       "correctAnswer": "A",
@@ -6225,28 +6225,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Image formed by a plane mirror is -",
-        "hindi": "Image formed by a plane mirror is -"
+        "hindi": "समतल दर्पण (Plane Mirror) द्वारा निर्मित प्रतिबिम्ब कैसा होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "virtual, behind the mirror and enlarged",
-          "hindi": "virtual, behind the mirror and enlarged"
+          "hindi": "आभासी, दर्पण के पीछे और आवर्धित"
         },
         {
           "id": "B",
           "english": "virtual, behind the mirror and of the same size as the object",
-          "hindi": "virtual, behind the mirror and of the same size as the object"
+          "hindi": "आभासी, दर्पण के पीछे और वस्तु के बराबर आकार का (Virtual, behind mirror, same size)"
         },
         {
           "id": "C",
           "english": "real, at the surface of the mirror and enlarged",
-          "hindi": "real, at the surface of the mirror and enlarged"
+          "hindi": "वास्तविक, दर्पण की सतह पर और आवर्धित"
         },
         {
           "id": "D",
           "english": "real, behind the mirror and of the same size as the object",
-          "hindi": "real, behind the mirror and of the same size as the object"
+          "hindi": "वास्तविक, दर्पण के पीछे और वस्तु के बराबर"
         }
       ],
       "correctAnswer": "B",
@@ -6363,28 +6363,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "A person with blood group AB is called a universal recipient because it has -",
-        "hindi": "A person with blood group AB is called a universal recipient because it has -"
+        "hindi": "रक्त समूह AB वाले व्यक्ति को 'सर्वग्राही' (Universal Recipient) क्यों कहा जाता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "lack of antigens",
-          "hindi": "lack of antigens"
+          "hindi": "एंटीजन की अनुपस्थिति के कारण"
         },
         {
           "id": "B",
           "english": "lack of antibodies",
-          "hindi": "lack of antibodies"
+          "hindi": "प्लाज्मा में एंटीबॉडी की अनुपस्थिति के कारण (Lack of antibodies in plasma)"
         },
         {
           "id": "C",
           "english": "lack of both antigens and antibodies",
-          "hindi": "lack of both antigens and antibodies"
+          "hindi": "एंटीजन और एंटीबॉडी दोनों की कमी के कारण"
         },
         {
           "id": "D",
           "english": "the presence of antibodies",
-          "hindi": "the presence of antibodies"
+          "hindi": "एंटीबॉडी की उपस्थिति के कारण"
         }
       ],
       "correctAnswer": "B",
@@ -6409,28 +6409,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "Which of the following spices is/are obtained from stem? (1) Clove (2) Ginger (3) Nutmeg (4) Turmeric",
-        "hindi": "Which of the following spices is/are obtained from stem? (1) Clove (2) Ginger (3) Nutmeg (4) Turmeric"
+        "hindi": "निम्नलिखित में से कौन-से मसाले पौधे के तने (Rhizome / Stem) से प्राप्त होते हैं?\n(1) लौंग (2) अदरक (3) जायफल (4) हल्दी"
       },
       "options": [
         {
           "id": "A",
           "english": "1 and 4",
-          "hindi": "1 and 4"
+          "hindi": "1 और 4"
         },
         {
           "id": "B",
           "english": "2 and 3",
-          "hindi": "2 and 3"
+          "hindi": "2 और 3"
         },
         {
           "id": "C",
           "english": "only 3",
-          "hindi": "only 3"
+          "hindi": "केवल 3"
         },
         {
           "id": "D",
           "english": "2 and 4",
-          "hindi": "2 and 4"
+          "hindi": "2 और 4 (अदरक एवं हल्दी)"
         }
       ],
       "correctAnswer": "D",
@@ -6455,28 +6455,28 @@
       "difficulty": "Medium",
       "question": {
         "english": "Which of the following are kharif crops? (1) Gram (2) Mung (3) Pigeon pea (4) Urad",
-        "hindi": "Which of the following are kharif crops? (1) Gram (2) Mung (3) Pigeon pea (4) Urad"
+        "hindi": "निम्नलिखित में से कौन-सी खरीफ फसलें हैं?\n(1) चना (2) मूंग (3) अरहर (4) उड़द"
       },
       "options": [
         {
           "id": "A",
           "english": "1 and 3",
-          "hindi": "1 and 3"
+          "hindi": "1 और 3"
         },
         {
           "id": "B",
           "english": "1, 3 and 4",
-          "hindi": "1, 3 and 4"
+          "hindi": "1, 3 और 4"
         },
         {
           "id": "C",
           "english": "2 and 4",
-          "hindi": "2 and 4"
+          "hindi": "2 और 4"
         },
         {
           "id": "D",
           "english": "2, 3 and 4",
-          "hindi": "2, 3 and 4"
+          "hindi": "2, 3 और 4 (मूंग, अरहर, उड़द)"
         }
       ],
       "correctAnswer": "D",
@@ -6685,28 +6685,28 @@
       "difficulty": "Easy",
       "question": {
         "english": "While cooking food, the compounds lost to the maximum extent are :",
-        "hindi": "While cooking food, the compounds lost to the maximum extent are :"
+        "hindi": "भोजन पकाते समय कौन-सा पोषक तत्व ऊष्मा के कारण सर्वाधिक मात्रा में नष्ट होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "Fats",
-          "hindi": "Fats"
+          "hindi": "वसा"
         },
         {
           "id": "B",
           "english": "Carbohydrates",
-          "hindi": "Carbohydrates"
+          "hindi": "कार्बोहाइड्रेट"
         },
         {
           "id": "C",
           "english": "Proteins",
-          "hindi": "Proteins"
+          "hindi": "प्रोटीन"
         },
         {
           "id": "D",
           "english": "Vitamins",
-          "hindi": "Vitamins"
+          "hindi": "विटामिन (विशेषकर विटामिन-सी)"
         }
       ],
       "correctAnswer": "D",
@@ -6915,28 +6915,28 @@
       "difficulty": "Hard",
       "question": {
         "english": "Due to which optical phenomenon, the sun appear reddish at sunrise and sunset -",
-        "hindi": "Due to which optical phenomenon, the sun appear reddish at sunrise and sunset -"
+        "hindi": "सूर्योदय और सूर्यास्त के समय सूर्य का लाल दिखाई देना किस प्रकाशिक परिघटना के कारण होता है?"
       },
       "options": [
         {
           "id": "A",
           "english": "scattering of light",
-          "hindi": "scattering of light"
+          "hindi": "प्रकाश का प्रकीर्णन (Scattering of light - रैले प्रकीर्णन)"
         },
         {
           "id": "B",
           "english": "dispersion of light",
-          "hindi": "dispersion of light"
+          "hindi": "प्रकाश का विक्षेपण"
         },
         {
           "id": "C",
           "english": "diffraction of light",
-          "hindi": "diffraction of light"
+          "hindi": "प्रकाश का विवर्तन"
         },
         {
           "id": "D",
           "english": "polarisation of light",
-          "hindi": "polarisation of light"
+          "hindi": "प्रकाश का ध्रुवीकरण"
         }
       ],
       "correctAnswer": "A",
