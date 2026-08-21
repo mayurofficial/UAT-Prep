@@ -1,95 +1,122 @@
-// High-fidelity speech synthesizer for natural Gemini-style bilingual explanations
-
-export interface SpeechController {
-  isPlaying: boolean;
-  isPaused: boolean;
-  rate: number;
-  play: (text: string, onEnd?: () => void) => void;
-  pause: () => void;
-  resume: () => void;
-  stop: () => void;
-  setRate: (rate: number) => void;
-}
+// Studio-grade Neural Speech Engine with High-Fidelity Audio Stream & Fallback
 
 export class AiVoiceSynthesizer {
-  private synth: SpeechSynthesis | null = null;
-  private currentUtterance: SpeechSynthesisUtterance | null = null;
+  private currentAudio: HTMLAudioElement | null = null;
+  private currentObjectUrl: string | null = null;
   private rate: number = 1.0;
   private isSpeaking: boolean = false;
   private isPaused: boolean = false;
+  private audioCache = new Map<string, string>();
   private onEndCallback: (() => void) | null = null;
+  private onStartCallback: (() => void) | null = null;
 
-  constructor() {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      this.synth = window.speechSynthesis;
+  public async speak(
+    text: string,
+    onEnd?: () => void,
+    onStart?: () => void
+  ): Promise<void> {
+    this.stop();
+
+    if (!text || !text.trim()) return;
+    this.onEndCallback = onEnd || null;
+    this.onStartCallback = onStart || null;
+
+    // 1. Try High-Fidelity Studio Neural Audio via Serverless API
+    try {
+      let audioUrl = this.audioCache.get(text.slice(0, 100));
+
+      if (!audioUrl) {
+        const res = await fetch('/api/ai/speech', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, lang: 'hi' }),
+        });
+
+        if (res.ok) {
+          const blob = await res.blob();
+          if (blob && blob.size > 1000) {
+            audioUrl = URL.createObjectURL(blob);
+            this.audioCache.set(text.slice(0, 100), audioUrl);
+          }
+        }
+      }
+
+      if (audioUrl) {
+        const audio = new Audio(audioUrl);
+        audio.playbackRate = this.rate;
+
+        audio.onplay = () => {
+          this.isSpeaking = true;
+          this.isPaused = false;
+          if (this.onStartCallback) this.onStartCallback();
+        };
+
+        audio.onended = () => {
+          this.isSpeaking = false;
+          this.isPaused = false;
+          if (this.onEndCallback) this.onEndCallback();
+        };
+
+        audio.onerror = () => {
+          this.isSpeaking = false;
+          this.isPaused = false;
+          if (this.onEndCallback) this.onEndCallback();
+        };
+
+        this.currentAudio = audio;
+        this.currentObjectUrl = audioUrl;
+        await audio.play();
+        return;
+      }
+    } catch {
+      // Fall through to browser speech synthesis fallback
     }
+
+    // 2. Fallback: Browser Web Speech API with Cleaned Text
+    this.speakFallback(text);
   }
 
-  private cleanTextForSpeech(text: string): string {
-    return text
-      // Remove markdown headings, symbols, and bolding
+  private speakFallback(text: string): void {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+
+    const synth = window.speechSynthesis;
+    synth.cancel();
+
+    const clean = text
       .replace(/###/g, '')
       .replace(/##/g, '')
       .replace(/#/g, '')
       .replace(/\*\*/g, '')
       .replace(/\*/g, '')
       .replace(/>/g, '')
-      .replace(/[-–—]/g, ' ')
-      .replace(/🎯|⚠️|💡|🏫|📘|✨|🎉|💪|🏛️|⚡/g, '')
+      .replace(/[-–—_]/g, ' ')
+      .replace(/🎯|⚠️|💡|🏫|📘|✨|🎉|💪|🏛️|⚡|🏆|🔍/g, '')
       .replace(/\n+/g, '. ')
       .trim();
-  }
 
-  private getBestVoice(): SpeechSynthesisVoice | null {
-    if (!this.synth) return null;
-    const voices = this.synth.getVoices();
-
-    // Prefer high-quality Hindi/Indian English neural voices
-    const hindiVoice = voices.find(
-      v =>
-        v.lang.startsWith('hi') ||
-        v.name.includes('Hindi') ||
-        v.name.includes('Google हिन्दी') ||
-        v.name.includes('Swara')
-    );
-
-    const indianEngVoice = voices.find(
-      v =>
-        v.lang === 'en-IN' ||
-        v.name.includes('India') ||
-        v.name.includes('Neerja') ||
-        v.name.includes('Prabhat')
-    );
-
-    const generalVoice = voices.find(v => v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural')));
-
-    return hindiVoice || indianEngVoice || generalVoice || voices[0] || null;
-  }
-
-  public speak(text: string, onEnd?: () => void, onStart?: () => void): void {
-    if (!this.synth) return;
-
-    this.stop();
-
-    const cleanText = this.cleanTextForSpeech(text);
-    if (!cleanText) return;
-
-    this.onEndCallback = onEnd || null;
-
-    const utterance = new SpeechSynthesisUtterance(cleanText);
+    const utterance = new SpeechSynthesisUtterance(clean);
     utterance.rate = this.rate;
     utterance.pitch = 1.0;
 
-    const voice = this.getBestVoice();
-    if (voice) {
-      utterance.voice = voice;
-      utterance.lang = voice.lang || 'hi-IN';
+    const voices = synth.getVoices();
+    const naturalVoice = voices.find(
+      v =>
+        v.lang.startsWith('hi') ||
+        v.name.includes('Hindi') ||
+        v.name.includes('Google') ||
+        v.name.includes('Natural') ||
+        v.name.includes('Swara') ||
+        v.name.includes('Neerja')
+    );
+    if (naturalVoice) {
+      utterance.voice = naturalVoice;
+      utterance.lang = naturalVoice.lang || 'hi-IN';
     }
 
     utterance.onstart = () => {
       this.isSpeaking = true;
       this.isPaused = false;
-      if (onStart) onStart();
+      if (this.onStartCallback) this.onStartCallback();
     };
 
     utterance.onend = () => {
@@ -104,38 +131,46 @@ export class AiVoiceSynthesizer {
       if (this.onEndCallback) this.onEndCallback();
     };
 
-    this.currentUtterance = utterance;
-    this.synth.speak(utterance);
+    synth.speak(utterance);
   }
 
   public pause(): void {
-    if (this.synth && this.isSpeaking && !this.isPaused) {
-      this.synth.pause();
+    if (this.currentAudio && this.isSpeaking) {
+      this.currentAudio.pause();
+      this.isPaused = true;
+    } else if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.pause();
       this.isPaused = true;
     }
   }
 
   public resume(): void {
-    if (this.synth && this.isPaused) {
-      this.synth.resume();
+    if (this.currentAudio && this.isPaused) {
+      this.currentAudio.play();
+      this.isPaused = false;
+    } else if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.resume();
       this.isPaused = false;
     }
   }
 
   public stop(): void {
-    if (this.synth) {
-      this.synth.cancel();
-      this.isSpeaking = false;
-      this.isPaused = false;
+    if (this.currentAudio) {
+      this.currentAudio.pause();
+      this.currentAudio.currentTime = 0;
+      this.currentAudio = null;
     }
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    this.isSpeaking = false;
+    this.isPaused = false;
   }
 
   public setRate(rate: number): void {
     this.rate = rate;
-    if (this.isSpeaking && this.currentUtterance) {
-      // Re-apply rate
-      const currentText = this.currentUtterance.text;
-      this.speak(currentText, this.onEndCallback || undefined);
+    if (this.currentAudio) {
+      this.currentAudio.playbackRate = rate;
     }
   }
 
