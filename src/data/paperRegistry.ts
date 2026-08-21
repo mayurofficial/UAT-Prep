@@ -1,11 +1,11 @@
 import { ExamData, TargetExam } from '@/types/utet';
 
 import utet2025Data from './papers/utet_2025.json';
+import utet2021Data from './papers/utet_2021.json';
 import utet2020Data from './papers/utet_2020.json';
 import utet2019Data from './papers/utet_2019.json';
 import utet2023Data from './papers/utet_2023.json';
 import utet2022Data from './papers/utet_2022.json';
-import utet2021Data from './papers/utet_2021.json';
 import lt2025Data from './papers/lt_2025.json';
 import lt2021Data from './papers/lt_2021.json';
 
@@ -34,6 +34,11 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
     ...(utet2025Data as unknown as ExamData),
     category: 'OFFICIAL_PYQ',
     sourceNote: 'Official UBSE UTET-II Exam Paper (Set A - 2025 Exam)',
+  },
+  utet_2021: {
+    ...(utet2021Data as unknown as ExamData),
+    category: 'OFFICIAL_PYQ',
+    sourceNote: 'Official UBSE UTET-II 2021 Exam Paper (Set C - 2021)',
   },
   utet_2020: {
     ...(utet2020Data as unknown as ExamData),
@@ -70,11 +75,6 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
     category: 'MODEL_TEST',
     sourceNote: 'UTET-II Model Mock Test (High-Yield 2022 Pattern)',
   },
-  utet_2021_model: {
-    ...(utet2021Data as unknown as ExamData),
-    category: 'MODEL_TEST',
-    sourceNote: 'UTET-II Model Mock Test (High-Yield 2021 Pattern)',
-  },
 };
 
 export const PAPERS_LIST: PaperMeta[] = [
@@ -93,6 +93,19 @@ export const PAPERS_LIST: PaperMeta[] = [
     hasNegativeMarking: false,
     negativePenalty: 0,
     sourceNote: 'Authentic UBSE Exam Paper 2025 (Set A)',
+  },
+  {
+    id: 'utet_2021',
+    targetExam: 'UTET',
+    category: 'OFFICIAL_PYQ',
+    year: '2021',
+    title: 'UTET-II 2021 (Official Exam Paper)',
+    badge: 'Official PYQ (Set C)',
+    totalQuestions: 150,
+    durationMinutes: 150,
+    hasNegativeMarking: false,
+    negativePenalty: 0,
+    sourceNote: 'Authentic UBSE Exam Paper from 2021 (Set C)',
   },
   {
     id: 'utet_2020',
@@ -169,19 +182,6 @@ export const PAPERS_LIST: PaperMeta[] = [
     category: 'MODEL_TEST',
     year: '2022',
     title: 'UTET-II Model Test 2 (2022 Pattern)',
-    badge: 'Model Test',
-    totalQuestions: 150,
-    durationMinutes: 150,
-    hasNegativeMarking: false,
-    negativePenalty: 0,
-    sourceNote: '150Q Comprehensive Bilingual Practice Paper',
-  },
-  {
-    id: 'utet_2021_model',
-    targetExam: 'UTET',
-    category: 'MODEL_TEST',
-    year: '2021',
-    title: 'UTET-II Model Test 3 (2021 Pattern)',
     badge: 'Model Test',
     totalQuestions: 150,
     durationMinutes: 150,

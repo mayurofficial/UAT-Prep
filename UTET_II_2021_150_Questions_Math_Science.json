@@ -1,0 +1,1808 @@
+{
+  "exam": "UTET-II",
+  "year": 2021,
+  "set": "C",
+  "totalQuestions": 150,
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which part of the brain performs all cognitive, emotional and motor activities?",
+      "options": {
+        "A": "Forebrain",
+        "B": "Midbrain",
+        "C": "Hindbrain",
+        "D": "None of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 2,
+      "subject": "Child Development and Pedagogy",
+      "question": "Anincrease in the size of body parts or of the organism as a whole is called",
+      "options": {
+        "A": "Growth",
+        "B": "Development",
+        "C": "Maturation",
+        "D": "Evolution"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 3,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is not a system of memory according to the stage model of memory?",
+      "options": {
+        "A": "Sensory memory",
+        "B": "Short term memory",
+        "C": "Long term memory",
+        "D": "Working memory"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 4,
+      "subject": "Child Development and Pedagogy",
+      "question": "To think more about the relationship between objects and backgrounds is called",
+      "options": {
+        "A": "Analytical thinking",
+        "B": "Holistic thinking",
+        "C": "Rational thinking",
+        "D": "None of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 5,
+      "subject": "Child Development and Pedagogy",
+      "question": "\"Wanting to eat when one is over- weight\" is an example of which type of Conflict?",
+      "options": {
+        "A": "Approach - Approach Conflict",
+        "B": "Avoidance - Avoidance Conflict",
+        "C": "Approach - Avoidance Conflict",
+        "D": "None of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 6,
+      "subject": "Child Development and Pedagogy",
+      "question": "Who devised the Concept of Intelligence Quotient (I.Q.)?",
+      "options": {
+        "A": "William Stern",
+        "B": "Terman",
+        "C": "Ross",
+        "D": "Binet"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 7,
+      "subject": "Child Development and Pedagogy",
+      "question": "At present Psychology is called as the science of",
+      "options": {
+        "A": "Soul",
+        "B": "Mind",
+        "C": "Behaviour",
+        "D": "Conciousness"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 8,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which among the following is NOT a Projective test?",
+      "options": {
+        "A": "Rorschach Inkblot test",
+        "B": "Thematic Apperception test (TAT)",
+        "C": "Draw-a-Man test",
+        "D": "MMPI"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 9,
+      "subject": "Child Development and Pedagogy",
+      "question": "A teacher should study Educational Psychology so that",
+      "options": {
+        "A": "He may stand first in his exams.",
+        "B": "He may develop the effectiveness of his teaching through its help.",
+        "C": "He may feel self satisfaction.",
+        "D": "He may impress others."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 10,
+      "subject": "Child Development and Pedagogy",
+      "question": "A child is getting spoiled in bad company. What would be your duty as a teacher?",
+      "options": {
+        "A": "To contact his parents.",
+        "B": "To ignore him.",
+        "C": "To counsel him by taking him in confidence.",
+        "D": "To scold him."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 11,
+      "subject": "Child Development and Pedagogy",
+      "question": "According to Piaget in which stage of Cognitive development hypothetical thinking develops?",
+      "options": {
+        "A": "Sensory motor",
+        "B": "Pre operational",
+        "C": "Concrete operational",
+        "D": "Formal operational"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 12,
+      "subject": "Child Development and Pedagogy",
+      "question": "\"An intelligence test may be fully verbal, fully non-verbal or fully performance based or it may consist of a mixture of items from each Category.\" This statement is",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Undecided",
+        "D": "Not clear"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 13,
+      "subject": "Child Development and Pedagogy",
+      "question": "Personality is characterised by the following features - (1) It has both Physical and Psychological components. (2) Its expression in terms of behaviour is fairly unique in a given individual. (3) Its main features do not easily change with time. Which of the following option regarding characteristic of personality is correct?",
+      "options": {
+        "A": "Only (1) and (2) is correct.",
+        "B": "Only (2) and (3) is correct.",
+        "C": "All the characteristics are false.",
+        "D": "All the characteristics are true."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 14,
+      "subject": "Child Development and Pedagogy",
+      "question": "\"Turning the head and opening the mouth when touched on the cheek\" comes under which type of reflex in the New Born?",
+      "options": {
+        "A": "Rooting",
+        "B": "Moro",
+        "C": "Grasp",
+        "D": "Babinski"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 15,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is NOT a major challenge faced by adolescents?",
+      "options": {
+        "A": "Delinquency",
+        "B": "Substance abuse",
+        "C": "Eating disorders",
+        "D": "Insecurity and dependency"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 16,
+      "subject": "Child Development and Pedagogy",
+      "question": "Responses that lead organisms to get rid of painful stimuli or avoid and escape from them, provide which type of reinforcement?",
+      "options": {
+        "A": "Positive reinforcement",
+        "B": "Negative reinforcement",
+        "C": "Delayed reinforcement",
+        "D": "Partial reinforcement"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 17,
+      "subject": "Child Development and Pedagogy",
+      "question": "According to whom, the process of skill learning passes through three phases viz. cognitive, associative and autonomous?",
+      "options": {
+        "A": "Fitts",
+        "B": "Tolman",
+        "C": "Bandura",
+        "D": "Kohler"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 18,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which type of children have poor motor co-ordination and poor manual dexterity?",
+      "options": {
+        "A": "Hearing impaired",
+        "B": "Gifted children",
+        "C": "Learning disabled",
+        "D": "All of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 19,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is not a stage of memory?",
+      "options": {
+        "A": "Encoding",
+        "B": "Storage",
+        "C": "Retrieval",
+        "D": "Attention"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 20,
+      "subject": "Child Development and Pedagogy",
+      "question": "The reasoning from \"General to particular\" is called",
+      "options": {
+        "A": "Inductive Reasoning",
+        "B": "Deductive Reasoning",
+        "C": "Analogical Reasoning",
+        "D": "Creative Reasoning"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 21,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which type of thinking abilities generally include fluency, flexibility, orginality and elaboration?",
+      "options": {
+        "A": "Lateral thinking",
+        "B": "Vertical thinking",
+        "C": "Convergent thinking",
+        "D": "Divergent thinking"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 22,
+      "subject": "Child Development and Pedagogy",
+      "question": "According to Abraham H.Maslow's Hierarchy Of Needs, which need is on the bottom among the following needs?",
+      "options": {
+        "A": "Physiological needs",
+        "B": "Safety needs",
+        "C": "Belongingness needs",
+        "D": "Esteem needs"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 23,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following is NOT a Psychosocial motive?",
+      "options": {
+        "A": "Need for achievement",
+        "B": "Need for affiliation",
+        "C": "Hunger motive",
+        "D": "Need of power"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 24,
+      "subject": "Child Development and Pedagogy",
+      "question": "Anorexia nervosa, bulimia nervosa and binge eating comes under which group of disorders?",
+      "options": {
+        "A": "Feeding and Eating disorder",
+        "B": "Specific learning disorder",
+        "C": "Autism spectrum disorder",
+        "D": "Neurodevelopmental disorder"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 25,
+      "subject": "Child Development and Pedagogy",
+      "question": "The knowledge of which of these is most essential for a teacher of primary class?",
+      "options": {
+        "A": "Child Psychology",
+        "B": "Education philosophy",
+        "C": "Health science",
+        "D": "Social science"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 26,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which of the following cannot be included under Child Psychology?",
+      "options": {
+        "A": "Child-Welfare",
+        "B": "Psychoanalysis",
+        "C": "Mental health science",
+        "D": "Education philosophy"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 27,
+      "subject": "Child Development and Pedagogy",
+      "question": "Child Psychology deals with the study of",
+      "options": {
+        "A": "Child from his birth to childhood",
+        "B": "Child from his pre-natal stage to adolescence",
+        "C": "Child from his birth to mature stage",
+        "D": "Child from his birth to youth stage"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 28,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which method is used to study the change of behaviour in a child?",
+      "options": {
+        "A": "Interview method",
+        "B": "Questionnaire method",
+        "C": "Clinical method",
+        "D": "Experimental method"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 29,
+      "subject": "Child Development and Pedagogy",
+      "question": "What should be done by the parents to prevent Juvenile delinquency?",
+      "options": {
+        "A": "Scold the children.",
+        "B": "Behave sympathetically and positively with children.",
+        "C": "Beat the children.",
+        "D": "None of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 30,
+      "subject": "Child Development and Pedagogy",
+      "question": "Which method establishes cause-effect relationship between two sets of events or variables in a Controlled setting?",
+      "options": {
+        "A": "Observational method",
+        "B": "Experimental method",
+        "C": "Correlation research",
+        "D": "Survey method"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 31,
+      "subject": "First Language - English",
+      "question": "What is the central idea of the above passage?",
+      "options": {
+        "A": "life is complex",
+        "B": "life is how we perceive or make it",
+        "C": "life is pleasant",
+        "D": "life is a mystery of existence"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 32,
+      "subject": "First Language - English",
+      "question": "Which of the given statements is true in view of the above passage?",
+      "options": {
+        "A": "Life has no sunshine or shadow.",
+        "B": "Love only those who are near and dear.",
+        "C": "Look at the bright side of the things.",
+        "D": "The world is distressful."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 33,
+      "subject": "First Language - English",
+      "question": "_____ means dark and gloomy.",
+      "options": {
+        "A": "dingy",
+        "B": "torment",
+        "C": "frown",
+        "D": "anxieties"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 34,
+      "subject": "First Language - English",
+      "question": "'Roses have thorns' symbolises in the given passage.",
+      "options": {
+        "A": "complain",
+        "B": "beauty",
+        "C": "perseverance",
+        "D": "adversity"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 35,
+      "subject": "First Language - English",
+      "question": "Why is our existence so complex?",
+      "options": {
+        "A": "because it has both pain and pleasure",
+        "B": "because we think that it is red and rosy.",
+        "C": "because we think it is comedy.",
+        "D": "because we don't greet people with smile."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 36,
+      "subject": "First Language - English",
+      "question": "Name the object in the landscape that catches the poet's eye —",
+      "options": {
+        "A": "moon",
+        "B": "night",
+        "C": "silver",
+        "D": "water"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 37,
+      "subject": "First Language - English",
+      "question": "Pick out the words or lines in the poem which suggest the quiet and stillness of the night.",
+      "options": {
+        "A": "Her beams beneath the silvery thatch",
+        "B": "Couched in his Kennel, like a log",
+        "C": "Shadowy cote the white breasts peep",
+        "D": "harvest mouse goes scampering by"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 38,
+      "subject": "First Language - English",
+      "question": "'Cote' means (choose the most appropriate option)",
+      "options": {
+        "A": "zone in water where fishes live",
+        "B": "rat's burrows",
+        "C": "coop where birds are kept",
+        "D": "where doves live"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 39,
+      "subject": "First Language - English",
+      "question": "Identify the figure of speech in- \"the moon/walks the night in her silver shoon;/This way, and that, she peers, and sees\"",
+      "options": {
+        "A": "Simile",
+        "B": "metaphor",
+        "C": "pun",
+        "D": "personification"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 40,
+      "subject": "First Language - English",
+      "question": "Which word in the poem means ‘running quickly’?",
+      "options": {
+        "A": "Scampering",
+        "B": "Kennel",
+        "C": "Peer",
+        "D": "Couch"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 41,
+      "subject": "First Language - English",
+      "question": "In which of the following options antithesis is used",
+      "options": {
+        "A": "hypocrisy is the homage vice pays to virtue.",
+        "B": "Ruin seize thee, ruthless king!",
+        "C": "I rejoiced at the happy sight.",
+        "D": "Man proposes, God disposes."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 42,
+      "subject": "First Language - English",
+      "question": "Which of the foreign words mean ‘in good faith’?",
+      "options": {
+        "A": "ex gratia",
+        "B": "bonafide",
+        "C": "sine die",
+        "D": "bon voyage"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 43,
+      "subject": "First Language - English",
+      "question": "Select the verb that takes the preposition ‘in’ after it",
+      "options": {
+        "A": "depend",
+        "B": "indulge",
+        "C": "intrude",
+        "D": "coincide"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 44,
+      "subject": "First Language - English",
+      "question": "Select the incorrect pair from the given options in view of the varying kinds of talking habits",
+      "options": {
+        "A": "taciturn - unwilling to engage in conversation",
+        "B": "laconic - using few words packed with meaning",
+        "C": "garrulous - chattering Meaninglessly",
+        "D": "vociferous - soft and fluent"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 45,
+      "subject": "First Language - English",
+      "question": "Replace the underlined words with one word in the given sentence- The bishop's address on religion and morals was the best we had this year.",
+      "options": {
+        "A": "speech",
+        "B": "sermon",
+        "C": "address",
+        "D": "hymn"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 46,
+      "subject": "First Language - English",
+      "question": "Which of the following is not a characteristic of language?",
+      "options": {
+        "A": "it is primarily vocal",
+        "B": "it is inarbitrary",
+        "C": "it is system of systems",
+        "D": "it is a form of social behaviour"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 47,
+      "subject": "First Language - English",
+      "question": "Choose the most inappropriate option regarding the importance of evaluation in education",
+      "options": {
+        "A": "It is to evaluate student's performance.",
+        "B": "It is to evaluate teacher's activities.",
+        "C": "It is to evaluate programme or curriculum.",
+        "D": "It is to keep the record for future reference."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 48,
+      "subject": "First Language - English",
+      "question": "describes all forms of human communication that are not verbal.",
+      "options": {
+        "A": "Prosody",
+        "B": "Intonation",
+        "C": "Para language",
+        "D": "Vocalics"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 49,
+      "subject": "First Language - English",
+      "question": "Name the psycholinguist who gave the theory of operant conditioning to study learning process —",
+      "options": {
+        "A": "Skinner",
+        "B": "Thorndike",
+        "C": "Piaget",
+        "D": "Bloom"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 50,
+      "subject": "First Language - English",
+      "question": "Looking quickly over a textbook to get a general or superficial idea of the content is called",
+      "options": {
+        "A": "scanning",
+        "B": "extensive reading",
+        "C": "intensive reading",
+        "D": "skimming"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 51,
+      "subject": "First Language - English",
+      "question": "A workshop is meant for",
+      "options": {
+        "A": "Hands-on-experience",
+        "B": "Listening to the scholarly lectures",
+        "C": "Learning through interaction",
+        "D": "Discussing one's own new work"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 52,
+      "subject": "First Language - English",
+      "question": "Fill in the blanks with the most appropriate infinitive in the given sentence — We get vaccinated __ smallpox.",
+      "options": {
+        "A": "to avoid",
+        "B": "to cure",
+        "C": "to keep off",
+        "D": "both (A) and (B)"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 53,
+      "subject": "First Language - English",
+      "question": "Name the underlined part in the following sentence- Let's go to the beach, shall we?",
+      "options": {
+        "A": "apostrophe",
+        "B": "interrogative remark",
+        "C": "question tag",
+        "D": "gerund"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 54,
+      "subject": "First Language - English",
+      "question": "‘To call a spade a spade’ - means",
+      "options": {
+        "A": "hurt someone",
+        "B": "speak straight forward",
+        "C": "bully somebody",
+        "D": "expose the reality"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 55,
+      "subject": "First Language - English",
+      "question": "Change the degree of given superlative sentence to positive- Mumbai is the best seaport in India.",
+      "options": {
+        "A": "Mumbai is better than any sea port in India.",
+        "B": "No seaport is as good as Mumbai in India.",
+        "C": "No other seaport in India is so good as Mumbai.",
+        "D": "Mumbai is one of the best seaports in India."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 56,
+      "subject": "First Language - English",
+      "question": "Put each word in proper order and make meaningful sentence- watched/we/pass by/the procession",
+      "options": {
+        "A": "We watched the pass by procession.",
+        "B": "We watched the procession pass by.",
+        "C": "The procession we watched pass by.",
+        "D": "Pass by the procession we watch"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 57,
+      "subject": "First Language - English",
+      "question": "Select the word closest in meaning to the underlined idiom- It is mean to crow over a fallen foe.",
+      "options": {
+        "A": "to kill",
+        "B": "to triumph over",
+        "C": "to argue upon",
+        "D": "to scold"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 58,
+      "subject": "First Language - English",
+      "question": "Select the grammatically correct statement from the following",
+      "options": {
+        "A": "They wished me to drink with them, but which I denied.",
+        "B": "Do not forget his enthusiasm who brought this movement so far.",
+        "C": "I met him on last Friday.",
+        "D": "This is the man who I talked about this morning."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 59,
+      "subject": "First Language - English",
+      "question": "Change the sentence into passive - 'Some boys were helping the wounded man.'",
+      "options": {
+        "A": "Some boys helped the wounded man.",
+        "B": "The wounded man was being helped by some boys.",
+        "C": "The wounded man has been helped by some boys.",
+        "D": "The wounded man is being helped by some boys."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 60,
+      "subject": "First Language - English",
+      "question": "Choose the correctly spelt word in the following",
+      "options": {
+        "A": "conssumate",
+        "B": "incorrigible",
+        "C": "benefection",
+        "D": "dilligent"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 61,
+      "subject": "Second Language - English",
+      "question": "Choose the correctly spelt word from the options given below.",
+      "options": {
+        "A": "Parralel",
+        "B": "Parrallel",
+        "C": "Parallel",
+        "D": "Paralel"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 62,
+      "subject": "Second Language - English",
+      "question": "Each culture P : flourishes when it comes Q : own tradition and yet R : draws strength from its S : into contact with others",
+      "options": {
+        "A": "RQPS",
+        "B": "SPQR",
+        "C": "RPQS",
+        "D": "SQPR"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 63,
+      "subject": "Second Language - English",
+      "question": "Summer vacation : P : that their children learn something worthwhile Q : who are able to provide services for anxious parents R : who want to make sure S : has become a big business for those",
+      "options": {
+        "A": "PRQS",
+        "B": "SQRP",
+        "C": "PQRS",
+        "D": "SRQP"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 64,
+      "subject": "Second Language - English",
+      "question": "A human attitude on the part of the supervisor towards his staff is necessary to",
+      "options": {
+        "A": "get them to work.",
+        "B": "keep them happy.",
+        "C": "have a congenial atmosphere at workplace.",
+        "D": "get the best out of them."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 65,
+      "subject": "Second Language - English",
+      "question": "Responsibility and accountability make a worker ~",
+      "options": {
+        "A": "shirk his duties",
+        "B": "do his job properly",
+        "C": "tense and frightened",
+        "D": "vulnerable before his supervisors"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 66,
+      "subject": "Second Language - English",
+      "question": "Supervisors do not delegate responsibility and authority to their subordinates because",
+      "options": {
+        "A": "subordinates are not capable enough.",
+        "B": "they can't trust their subordinates.",
+        "C": "they are apprehensive of losing their hold on the place of work.",
+        "D": "final responsibility is their's."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 67,
+      "subject": "Second Language - English",
+      "question": "The author's motive is to",
+      "options": {
+        "A": "suggest a solution",
+        "B": "criticise the supervisor",
+        "C": "criticise the workers",
+        "D": "write a balanced article"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 68,
+      "subject": "Second Language - English",
+      "question": "Pick out a word from the passage that means ‘to understand or think of something in a particular way' —",
+      "options": {
+        "A": "Delegate",
+        "B": "Perceive",
+        "C": "Purpose",
+        "D": "Norms"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 69,
+      "subject": "Second Language - English",
+      "question": "Experiments with sulfonamides have led to the important discovery that",
+      "options": {
+        "A": "germs are living things, and can change themselves to suit new conditions.",
+        "B": "one generation of germs lasts only twenty, twenty-five or thirty minutes.",
+        "C": "germs can adjust themselves to live and multiply in new conditions.",
+        "D": "germs are not disturbed even by the strongest possible dose of sulfonamides."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 70,
+      "subject": "Second Language - English",
+      "question": "Like all other living things, germs can change themselves to suit new conditions. This adjustment is possible because the germs have —",
+      "options": {
+        "A": "the power of fluctuation,",
+        "B": "the power of compliance.",
+        "C": "the power of adoptability.",
+        "D": "the power of adaptability,"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 71,
+      "subject": "Second Language - English",
+      "question": "Since germs can change themselves to suit new conditions, the task of fighting them has become",
+      "options": {
+        "A": "absolutely impossible.",
+        "B": "much easier.",
+        "C": "much more difficult.",
+        "D": "increasingly important."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 72,
+      "subject": "Second Language - English",
+      "question": "Germs, which are not disturbed even by the strongest possible dose of the sulfonamides, are said to have become",
+      "options": {
+        "A": "immortal",
+        "B": "immune",
+        "C": "improvised",
+        "D": "immobile"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 73,
+      "subject": "Second Language - English",
+      "question": "One generation of germs expires, bringing into existence the next generation",
+      "options": {
+        "A": "in twenty minutes",
+        "B": "in twenty-five minutes",
+        "C": "in not more than half an hour",
+        "D": "in a few hours"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 74,
+      "subject": "Second Language - English",
+      "question": "Which of the following are productive skills ?",
+      "options": {
+        "A": "Speaking & Writing",
+        "B": "Listening & Reading",
+        "C": "Listening & Speaking",
+        "D": "Reading & Writing"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 75,
+      "subject": "Second Language - English",
+      "question": "Learning a language is —",
+      "options": {
+        "A": "a science",
+        "B": "an art and a science",
+        "C": "an art and not a science",
+        "D": "none of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 76,
+      "subject": "Second Language - English",
+      "question": "The goal of grammar instruction is to enable students to carry out their communication purposes. This goal has three implications. Which one of the following is NOT one of them?",
+      "options": {
+        "A": "Students need overt instruction that connects grammar points with larger communication contexts.",
+        "B": "Students should master every aspect of each grammar point.",
+        "C": "Error correction is not always the instructor's first responsibility.",
+        "D": "Students should master only those aspects that are relevant to the immediate communication task."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 77,
+      "subject": "Second Language - English",
+      "question": "Teaching aids such as Charts, Maps, Pictures and Drawings should be used by teachers as they - 1. Prepare students mentally 2. Motivate for further preparation 3. Are not expensive",
+      "options": {
+        "A": "Only (1)",
+        "B": "(1) and (2)",
+        "C": "(2) and (3)",
+        "D": "All of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 78,
+      "subject": "Second Language - English",
+      "question": "When language is learnt naturally and without any systematic practice then it is called as",
+      "options": {
+        "A": "first language",
+        "B": "dearth",
+        "C": "acquisition",
+        "D": "erudition"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 79,
+      "subject": "Second Language - English",
+      "question": "The aim of remedial teaching programme is to provide - 1. learning support to pupils who lag far behind their counterparts in school performance. 2. systematic training to develop pupils generic skills.",
+      "options": {
+        "A": "Only (1)",
+        "B": "Only (2)",
+        "C": "Both (1) and (2)",
+        "D": "None of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 80,
+      "subject": "Second Language - English",
+      "question": "___ darkest cloud has ____ silver lining.",
+      "options": {
+        "A": "The, the",
+        "B": "A, the",
+        "C": "A, a",
+        "D": "The, a"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 81,
+      "subject": "Second Language - English",
+      "question": "English is___ language of ____ people of England.",
+      "options": {
+        "A": "the, a",
+        "B": "the, the",
+        "C": "a, a",
+        "D": "a, the"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 82,
+      "subject": "Second Language - English",
+      "question": "I am taller than you ___ two inches.",
+      "options": {
+        "A": "from",
+        "B": "by",
+        "C": "with",
+        "D": "none of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 83,
+      "subject": "Second Language - English",
+      "question": "Choose the correct conditional sentence:",
+      "options": {
+        "A": "He cannot succeed unless he does not work hard.",
+        "B": "He cannot succeed unless he worked hard.",
+        "C": "He cannot succeed unless he did not work hard.",
+        "D": "He cannot succeed unless he works hard."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 84,
+      "subject": "Second Language - English",
+      "question": "He is very intelligent ___ careless.",
+      "options": {
+        "A": "and",
+        "B": "but",
+        "C": "or",
+        "D": "as well as"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 85,
+      "subject": "Second Language - English",
+      "question": "Let's wait till he ___ his work.",
+      "options": {
+        "A": "finish",
+        "B": "will finish",
+        "C": "is finishing",
+        "D": "finishes"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 86,
+      "subject": "Second Language - English",
+      "question": "If you begin your studies at the eleventh hour, you cannot be sure to pass. (Meaning of underlined idiom)",
+      "options": {
+        "A": "at the last moment",
+        "B": "at eleven o'clock",
+        "C": "in the beginning",
+        "D": "after the exams"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 87,
+      "subject": "Second Language - English",
+      "question": "These grapes are ___.",
+      "options": {
+        "A": "sore",
+        "B": "sour",
+        "C": "soar",
+        "D": "none of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 88,
+      "subject": "Second Language - English",
+      "question": "A person who hates mankind is called",
+      "options": {
+        "A": "philanthropist",
+        "B": "existentialist",
+        "C": "misanthropist",
+        "D": "none of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 89,
+      "subject": "Second Language - English",
+      "question": "Change into Direct speech: Shalu told him that he should work hard.",
+      "options": {
+        "A": "Shalu said, \"He should work hard\".",
+        "B": "Shalu said, \"You should work hard\".",
+        "C": "Shalu told, \"He should work hard\".",
+        "D": "Shalu told, \"You should work hard\"."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 90,
+      "subject": "Second Language - English",
+      "question": "Choose the antonym of: DOCILE",
+      "options": {
+        "A": "decent",
+        "B": "angry",
+        "C": "mannered",
+        "D": "stubborn"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 91,
+      "subject": "Mathematics and Science",
+      "question": "The line x + y = 0 passes through which of the following quadrant/quadrants?",
+      "options": {
+        "A": "IV quadrant only",
+        "B": "II quadrant only",
+        "C": "II & IV quadrants",
+        "D": "I & III quadrants"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 92,
+      "subject": "Mathematics and Science",
+      "question": "On dividing a number by 5, we get 3 as a remainder. What will be the remainder when the square of this number is divided by 5?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 93,
+      "subject": "Mathematics and Science",
+      "question": "If 40% of the people read newspaper X, 50% read newspaper Y and 10% read both newspapers, then what percentage of the people read neither newspaper?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 94,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following numbers does not lie between -5/6 and 7/8?",
+      "options": {
+        "A": "17/24",
+        "B": "5/6",
+        "C": "3/4",
+        "D": "11/12"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 95,
+      "subject": "Mathematics and Science",
+      "question": "‘Buy three, get two free’, What is the percentage of discount being offered here?",
+      "options": {
+        "A": "20%",
+        "B": "33%",
+        "C": "40%",
+        "D": "66%"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 96,
+      "subject": "Mathematics and Science",
+      "question": "If y% of one hour is equal to 1 minute and 12 second, then the value of y is",
+      "options": {
+        "A": "1 minute",
+        "B": "2",
+        "C": "1/2 minute",
+        "D": "1/4 minute"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 97,
+      "subject": "Mathematics and Science",
+      "question": "In given figure, if O is the centre of circle and angle at centre is x, angle at circumference is y, then relation between x and y will be -",
+      "options": {
+        "A": "x - 2y = 0",
+        "B": "y - 2x = 0",
+        "C": "x + 2y = 270°",
+        "D": "x + 2y = 360°"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 98,
+      "subject": "Mathematics and Science",
+      "question": "If x is 50% greater than z and y is 25% greater than z, then by what percentage x will be greater than y ?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "50%",
+        "D": "75%"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 99,
+      "subject": "Mathematics and Science",
+      "question": "If p + q = 10 and pq = 5, then the value of (p/q + q/p) will be-",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "20",
+        "D": "22"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 100,
+      "subject": "Mathematics and Science",
+      "question": "The ratio of circumradius and inradius of an equilateral triangle will be",
+      "options": {
+        "A": "1:2",
+        "B": "3:1",
+        "C": "2:1",
+        "D": "1:3"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 101,
+      "subject": "Mathematics and Science",
+      "question": "Which aspect of evaluation is used when a teacher ensures that students complete an exercise in mathematics and also makes sure that instructions are clear and specific?",
+      "options": {
+        "A": "Validity",
+        "B": "Practicality",
+        "C": "Reliability",
+        "D": "Consistency"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 102,
+      "subject": "Mathematics and Science",
+      "question": "A student face difficulty in mathematics learning. The best remedy for his problems related with learning is",
+      "options": {
+        "A": "Suggestion for hard work",
+        "B": "Supervised study in library",
+        "C": "Suggestion for private tuition",
+        "D": "Diagnostic teaching"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 103,
+      "subject": "Mathematics and Science",
+      "question": "The basic aim of Heuristic strategy in teaching of mathematics is",
+      "options": {
+        "A": "To train students in scientific way of learning",
+        "B": "To train students in observation skills.",
+        "C": "To enhance self confidence in students",
+        "D": "To enhance memory level of students."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 104,
+      "subject": "Mathematics and Science",
+      "question": "A flat surface which extends indefinitely in all directions is called a",
+      "options": {
+        "A": "Plane",
+        "B": "Line",
+        "C": "Line segment",
+        "D": "Point"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 105,
+      "subject": "Mathematics and Science",
+      "question": "Area of the greatest circle inscribed inside a square of side 14 cm is",
+      "options": {
+        "A": "616 cm²",
+        "B": "308 cm²",
+        "C": "154 cm²",
+        "D": "196 cm²"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 106,
+      "subject": "Mathematics and Science",
+      "question": "A thief steals a car at 2:30 pm and drives it at 60 km/h. The theft is discovered at 3.00 pm and the owner sets off in another car at 75 km/h. When will he overtake the thief?",
+      "options": {
+        "A": "4:30 pm",
+        "B": "4:45 pm",
+        "C": "5:00 pm",
+        "D": "5:15 pm"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 107,
+      "subject": "Mathematics and Science",
+      "question": "A person incurs 5% loss by selling a watch for ₹ 1140. At what price should the watch be sold to earn 5% profit?",
+      "options": {
+        "A": "₹ 1140",
+        "B": "₹ 1197",
+        "C": "₹ 1254",
+        "D": "₹ 1260"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 108,
+      "subject": "Mathematics and Science",
+      "question": "One of the internal angle of a parallelogram is 30° less than the double of the smallest angle. Then its greatest internal angle will be",
+      "options": {
+        "A": "70°",
+        "B": "100°",
+        "C": "110°",
+        "D": "170°"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 109,
+      "subject": "Mathematics and Science",
+      "question": "Calculate the value of x if the arithmetic mean of the data: [Value: x+3, Freq: 3] and [Value: x-4, Freq: 11] is zero-",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "21",
+        "D": "4"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 110,
+      "subject": "Mathematics and Science",
+      "question": "If each side of a cube is trippled, then its volume is increases by",
+      "options": {
+        "A": "800%",
+        "B": "900%",
+        "C": "2600%",
+        "D": "2700%"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 111,
+      "subject": "Mathematics and Science",
+      "question": "A brick measures 20cm x 10 cm x 7.5 cm. How many bricks will be required for a wall 20 m x 2m x 0.75 m?",
+      "options": {
+        "A": "10,000",
+        "B": "15,000",
+        "C": "20,000",
+        "D": "25,000"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 112,
+      "subject": "Mathematics and Science",
+      "question": "Three circles touch each other externally. The distance between their centres is 5 cm, 6 cm and 7 cm. Find the radii of the circles",
+      "options": {
+        "A": "2 cm, 3 cm, 4 cm",
+        "B": "3 cm, 4 cm, 1 cm",
+        "C": "2.5 cm, 3 cm, 3.5 cm",
+        "D": "1 cm, 2 cm, 4 cm"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 113,
+      "subject": "Mathematics and Science",
+      "question": "LCM of 2/5, 3/10 and 4/15 is",
+      "options": {
+        "A": "2/5",
+        "B": "1/15",
+        "C": "9/5",
+        "D": "12/5"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 114,
+      "subject": "Mathematics and Science",
+      "question": "Maximum number of common tangents drawn to two circles when both the circles touch each other externally is",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 115,
+      "subject": "Mathematics and Science",
+      "question": "(From Pie Chart: Total tourist traffic = 20 Lakhs, USA = 40%, Japan = 20%) The difference between tourist numbers from USA and Japan is",
+      "options": {
+        "A": "2 Lakhs",
+        "B": "3 Lakhs",
+        "C": "4 Lakhs",
+        "D": "10 Lakhs"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 116,
+      "subject": "Mathematics and Science",
+      "question": "If the number of tourists from U.K. (initially 10%) doubles up while the total remains the same, then the new angle extended by the tourists from U.K. will be",
+      "options": {
+        "A": "20°",
+        "B": "36°",
+        "C": "72°",
+        "D": "120°"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 117,
+      "subject": "Mathematics and Science",
+      "question": "Choose the correct match for the teaching methods and principles: (P: Inductive -> Concrete to abstract, Q: Deductive -> Abstract to concrete, R: Analytic -> Unknown to known, S: Synthetic -> Known to unknown)",
+      "options": {
+        "A": "P-I, Q-II, R-IV, S-III",
+        "B": "P-IV, Q-I, R-II, S-III",
+        "C": "P-I, Q-IV, R-II, S-III",
+        "D": "P-IV, Q-I, R-III, S-II"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 118,
+      "subject": "Mathematics and Science",
+      "question": "Brain-storming strategy in mathematics teaching is based on —",
+      "options": {
+        "A": "Psychological principles",
+        "B": "Problem solving principles",
+        "C": "Creative thinking",
+        "D": "All of the above"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 119,
+      "subject": "Mathematics and Science",
+      "question": "The nature of mathematics is —",
+      "options": {
+        "A": "Analogical",
+        "B": "Logical",
+        "C": "Difficult",
+        "D": "Not for common"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 120,
+      "subject": "Mathematics and Science",
+      "question": "Three bells start ringing together at 8:35 am. If they ring after 12 s, 15 s and 18 s respectively each time, the next time they will toll together at",
+      "options": {
+        "A": "8:38 am",
+        "B": "8:40 am",
+        "C": "8:42 am",
+        "D": "11:30 am"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 121,
+      "subject": "Mathematics and Science",
+      "question": "Too much of acid in our stomach causes indigestion. Sometimes indigestion is painful. To relieve from this indigestion, which of the following will be helpful",
+      "options": {
+        "A": "Lemon juice",
+        "B": "Milk of magnesia",
+        "C": "Aqua regia",
+        "D": "Vinegar"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 122,
+      "subject": "Mathematics and Science",
+      "question": "Micro-organisms act upon the dead plants to produce",
+      "options": {
+        "A": "Mushrooms",
+        "B": "roughage",
+        "C": "humus",
+        "D": "decomposers"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 123,
+      "subject": "Mathematics and Science",
+      "question": "Which one of the following is not desired objective of learning of science at upper primary stage?",
+      "options": {
+        "A": "To acquire essential process skills",
+        "B": "To perform better in competitive examinations",
+        "C": "To acquire scientific literacy",
+        "D": "To develop rational thinking"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 124,
+      "subject": "Mathematics and Science",
+      "question": "In which method of science teaching, the student works as an explorer?",
+      "options": {
+        "A": "Heuristic method",
+        "B": "Demonstration method",
+        "C": "Project method",
+        "D": "Lecture method"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 125,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following are co-curricular activities in Science teaching — (i) Science club (ii) Science laboratory (iii) Science fair",
+      "options": {
+        "A": "Only (i) & (ii)",
+        "B": "Only (ii) & (iii)",
+        "C": "Only (i) & (iii)",
+        "D": "All (i), (ii) & (iii)"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 126,
+      "subject": "Mathematics and Science",
+      "question": "The first step of the scientific method is —",
+      "options": {
+        "A": "Formation of Hypothesis",
+        "B": "Observation of problem",
+        "C": "Experiment",
+        "D": "Conclusion"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 127,
+      "subject": "Mathematics and Science",
+      "question": "The schools which are lacking facilities of science laboratory, the available resource for such schools to facilitate experimentations is",
+      "options": {
+        "A": "Science Quiz",
+        "B": "Science Documentary",
+        "C": "Science Library",
+        "D": "Science Kits"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 128,
+      "subject": "Mathematics and Science",
+      "question": "In science, any repeatedly verifiable observation becomes a",
+      "options": {
+        "A": "fact",
+        "B": "concept",
+        "C": "theory",
+        "D": "prediction"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 129,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following is one of the Most common applications of chemical effects of electric current",
+      "options": {
+        "A": "electric heater",
+        "B": "electric iron",
+        "C": "electroplating",
+        "D": "electric motor"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 130,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following can not be charged easily by friction?",
+      "options": {
+        "A": "A plastic refill",
+        "B": "A woollen cloth",
+        "C": "An inflated balloon",
+        "D": "A copper rod"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 131,
+      "subject": "Mathematics and Science",
+      "question": "The reason for the sweet taste of fruits is",
+      "options": {
+        "A": "Maltose",
+        "B": "Ribose",
+        "C": "Lactose",
+        "D": "Fructose"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 132,
+      "subject": "Mathematics and Science",
+      "question": "Name the part of the eye which gives colour to the eyes —",
+      "options": {
+        "A": "Cornea",
+        "B": "Iris",
+        "C": "Retina",
+        "D": "Eye lens"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 133,
+      "subject": "Mathematics and Science",
+      "question": "The brightest planet in the night sky is —",
+      "options": {
+        "A": "Mars",
+        "B": "Mercury",
+        "C": "Jupiter",
+        "D": "Venus"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 134,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following is a ‘Contact force’",
+      "options": {
+        "A": "Muscular force",
+        "B": "Magnetic force",
+        "C": "Gravitational force",
+        "D": "Electrostatic force"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 135,
+      "subject": "Mathematics and Science",
+      "question": "The direct change from gas to solid without changing into liquid state is called",
+      "options": {
+        "A": "Condensation",
+        "B": "Deposition",
+        "C": "Sublimation",
+        "D": "Centrifugation"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 136,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following are also known as ‘Suicide bags' of a cell",
+      "options": {
+        "A": "Plastids",
+        "B": "Ribosomes",
+        "C": "Lysosomes",
+        "D": "Mitochondria"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 137,
+      "subject": "Mathematics and Science",
+      "question": "Which gland secretes harmones that maintain the correct salt balance in the blood",
+      "options": {
+        "A": "Adrenal",
+        "B": "Thyroid",
+        "C": "Thymus",
+        "D": "Pancreas"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 138,
+      "subject": "Mathematics and Science",
+      "question": "The gas we use in the kitchen is called liquified petroleum gas (LPG). In the cylinder it exist as a liquid. When it comes out from the cylinder it becomes a gas (Change-X), then it burns (Change-Y). The following statements pertain to these changes. Choose the correct one",
+      "options": {
+        "A": "Process-X is a chemical change.",
+        "B": "Process-Y is a chemical change.",
+        "C": "Both processes X and Y are chemical changes.",
+        "D": "None of these processes is a chemical change."
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 139,
+      "subject": "Mathematics and Science",
+      "question": "Coating of which plastic is used on the uniforms of firemen to make them flame resistant?",
+      "options": {
+        "A": "Polythene",
+        "B": "PVC",
+        "C": "Melamine",
+        "D": "Bakelite"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 140,
+      "subject": "Mathematics and Science",
+      "question": "Which zone of flame does a goldsmith use through metallic blow-pipe for melting gold and silver?",
+      "options": {
+        "A": "Innermost zone",
+        "B": "Middle zone",
+        "C": "Outermost zone",
+        "D": "All of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 141,
+      "subject": "Mathematics and Science",
+      "question": "For making Paneer, a few drops of lemon juice are added to milk as it boils. This gives a mixture of solid paneer particles and liquid. Paneer is separated from the mixture using a fine cloth or strainer. This process is called",
+      "options": {
+        "A": "Winnowing",
+        "B": "Sedimentation",
+        "C": "Decantation",
+        "D": "Filtration"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 142,
+      "subject": "Mathematics and Science",
+      "question": "Which Vitamin helps the most in healing the wound",
+      "options": {
+        "A": "Vitamin-A",
+        "B": "Vitamin-B",
+        "C": "Vitamin-C",
+        "D": "Vitamin-D"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 143,
+      "subject": "Mathematics and Science",
+      "question": "You are observing your image in a plane mirror. The distance between the mirror and your image is 4 metre. If you move 1 metre towards the mirror then the distance between you and your image will be",
+      "options": {
+        "A": "2 metre",
+        "B": "3 metre",
+        "C": "5 metre",
+        "D": "6 metre"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 144,
+      "subject": "Mathematics and Science",
+      "question": "The variation in velocity (v) with time (t) for an object moving in a straight line can be represented by v-t graph. Area under v-t graph represents a physical quantity which has the unit",
+      "options": {
+        "A": "metre",
+        "B": "metre²",
+        "C": "metre/second",
+        "D": "metre/second²"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 145,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following animals has gills to breathe in water",
+      "options": {
+        "A": "Octopus",
+        "B": "Dolphins",
+        "C": "Whales",
+        "D": "All of these"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 146,
+      "subject": "Mathematics and Science",
+      "question": "Changes in our surroundings that make us respond to them, are called",
+      "options": {
+        "A": "adaptation",
+        "B": "stimuli",
+        "C": "acclimatisation",
+        "D": "detection"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 147,
+      "subject": "Mathematics and Science",
+      "question": "The ability of metals to be drawn into thin wires is called ductility. The most ductile metal in following is —",
+      "options": {
+        "A": "Aluminium",
+        "B": "Copper",
+        "C": "Gold",
+        "D": "Silver"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 148,
+      "subject": "Mathematics and Science",
+      "question": "An electron enters a magnetic field at right angles to it (Magnetic field is directed to the right and electron is moving downward). The direction of force acting on the electron will be -",
+      "options": {
+        "A": "to the right",
+        "B": "to the left",
+        "C": "out of the page",
+        "D": "into the page"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 149,
+      "subject": "Mathematics and Science",
+      "question": "Bile juice helps in the digestion of which component of food?",
+      "options": {
+        "A": "Fats",
+        "B": "Proteins",
+        "C": "Carbohydrates",
+        "D": "Minerals"
+      },
+      "correctAnswer": null
+    },
+    {
+      "id": 150,
+      "subject": "Mathematics and Science",
+      "question": "Which of the following are also used for preserving food? (i) Sugar (ii) Vinegar (iii) Common Salt",
+      "options": {
+        "A": "Only (i) & (ii)",
+        "B": "Only (ii)",
+        "C": "Only (ii) & (iii)",
+        "D": "All (i), (ii), (iii)"
+      },
+      "correctAnswer": null
+    }
+  ]
+}
