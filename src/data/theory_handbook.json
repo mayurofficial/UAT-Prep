@@ -1,81 +1,137 @@
 {
-  "title": "UTET Master Theory Handbook (डिजिटल नोट्स एवं सूत्र)",
-  "subtitle": "High-Yield Revision Notes for Anjali - Mission Teacher 2026/2027",
+  "title": "UTET & LT Grade Master Revision Handbook (डिजिटल नोट्स एवं सूत्र संग्रह)",
+  "subtitle": "High-Yield Revision Notes for Anjali — Mission UTET & UKSSSC LT Grade Assistant Teacher",
   "modules": [
     {
-      "id": "cdp-theories",
-      "title": "1. बाल विकास के प्रमुख सिद्धांत (Child Psychology Theorists)",
+      "id": "lt-teaching-aptitude",
+      "title": "1. शिक्षण अभिरुचि, क्रियात्मक अनुसंधान एवं ICT (LT & UTET Pedagogy)",
       "color": "#1a73e8",
       "items": [
         {
-          "topic": "जीन पियाजे - संज्ञानात्मक विकास (Jean Piaget)",
-          "summaryEn": "Piaget proposed 4 stages of cognitive development: Sensorimotor (0-2y, Object Permanence), Pre-operational (2-7y, Egocentrism, Animism), Concrete Operational (7-11y, Conservation, Reversibility), Formal Operational (11+y, Abstract & Hypothetical Logic).",
-          "summaryHi": "पियाजे ने संज्ञानात्मक विकास की 4 अवस्थाएं बताईं: 1. संवेदी-गामक (0-2 वर्ष, वस्तु स्थायित्व), 2. पूर्व-संक्रियात्मक (2-7 वर्ष, आत्मकेंद्रित, जीववाद), 3. मूर्त संक्रियात्मक (7-11 वर्ष, संरक्षण, प्रतिवर्ती चिंतन), 4. अमूर्त संक्रियात्मक (11+ वर्ष, परिकल्पनात्मक तार्किक चिंतन)।",
-          "mnemonic": "SPCF (Some People Can Fly) -> Sensorimotor, Pre-op, Concrete, Formal",
-          "keyTerms": ["Assimilation (आत्मसातीकरण)", "Accommodation (समायोजन)", "Equilibration (संतुलन)"]
+          "topic": "क्रियात्मक अनुसंधान के 7 सोपान (Steps of Action Research)",
+          "summaryEn": "Action Research aims at immediate practical problem-solving in schools (Stephen M. Corey, 1953). Steps: 1. Problem Identification, 2. Defining & Delimiting Problem, 3. Analyzing Probable Causes, 4. Formulating Action Hypothesis, 5. Designing Action Plan & Data Collection, 6. Testing Hypothesis, 7. Conclusions & Findings.",
+          "summaryHi": "क्रियात्मक अनुसंधान (स्टीफन एम. कोरे, 1953) का उद्देश्य विद्यालय की तात्कालिक समस्याओं का वैज्ञानिक समाधान करना है। 7 सोपान: 1. समस्या की पहचान, 2. समस्या का परिसीमन, 3. कारणों का विश्लेषण, 4. क्रियात्मक उपकल्पना का निर्माण, 5. कार्ययोजना व डेटा संकलन, 6. उपकल्पना का परीक्षण, 7. निष्कर्ष।",
+          "mnemonic": "PAHDTC: Problem -> Analysis -> Hypothesis -> Data -> Testing -> Conclusion",
+          "keyTerms": ["Stephen M. Corey", "Action Hypothesis", "Classroom Diagnostic", "Formative Improvement"]
         },
         {
-          "topic": "लेव वायगोत्स्की - सामाजिक-सांस्कृतिक सिद्धांत (Lev Vygotsky)",
-          "summaryEn": "Emphasized that social interaction, culture, and language drive cognitive development. Key constructs: ZPD (Zone of Proximal Development), Scaffolding (temporary assistance by MKO), and Private Speech (self-guidance).",
-          "summaryHi": "संज्ञानात्मक विकास में समाज, संस्कृति और भाषा की प्राथमिक भूमिका। मुख्य संकल्पनाएं: ZPD (समीपस्थ विकास का क्षेत्र), Scaffolding (पाड़/अस्थायी सहारा) और Private Speech (आंतरिक/स्व-निर्देशित वार्ता)।",
-          "mnemonic": "Vygotsky = SCL (Social, Cultural, Language)",
-          "keyTerms": ["ZPD", "Scaffolding (पाड़)", "MKO (More Knowledgeable Other)"]
+          "topic": "भारतीय सूक्ष्म शिक्षण प्रतिमान (NCERT Microteaching 36 Min)",
+          "summaryEn": "Standard NCERT Indian model duration is 36 minutes across 6 phases: 1. Teaching (6m) -> 2. Feedback (6m) -> 3. Re-planning (12m) -> 4. Re-teaching (6m) -> 5. Re-feedback (6m). Scaled-down situation with 5-10 pupils focusing on a single specific teaching skill.",
+          "summaryHi": "NCERT भारतीय प्रतिमान में सूक्ष्म शिक्षण की कुल अवधि 36 मिनट होती है: शिक्षण (6 मिनट) -> प्रतिपुष्टि (6 मिनट) -> पुनः योजना (12 मिनट) -> पुनः शिक्षण (6 मिनट) -> पुनः प्रतिपुष्टि (6 मिनट)। छात्र संख्या 5-10 होती है।",
+          "mnemonic": "6 + 6 + 12 (Re-plan gets double time) + 6 + 6 = 36 Minutes",
+          "keyTerms": ["D.W. Allen (Stanford)", "NCERT 36 Min", "Skill Acquisition", "Simulated Teaching"]
         },
         {
-          "topic": "लॉरेंस कोहलबर्ग - नैतिक विकास (Lawrence Kohlberg)",
-          "summaryEn": "3 Levels & 6 Stages: Level 1 (Pre-conventional: Obedience/Punishment, Instrumental exchange), Level 2 (Conventional: Good boy/girl, Law & Order), Level 3 (Post-conventional: Social contract, Universal ethical principles).",
-          "summaryHi": "3 स्तर और 6 चरण: स्तर 1 (पूर्व-पारंपरिक: दंड एवं आज्ञापालन, स्वार्थ/अदला-बदली), स्तर 2 (पारंपरिक: अच्छा लड़का/अच्छी लड़की, सामाजिक व्यवस्था), स्तर 3 (उत्तर-पारंपरिक: सामाजिक अनुबंध, सार्वभौमिक नैतिक सिद्धांत)।",
-          "mnemonic": "Heinz Dilemma -> How moral reasoning evolves with age",
-          "keyTerms": ["Moral Dilemma (नैतिक दुविधा)", "Moral Reasoning (नैतिक तर्कणा)"]
+          "topic": "शिक्षण के तीन स्तर एवं प्रतिपादक (Levels of Teaching)",
+          "summaryEn": "1. Memory Level (स्मृति स्तर) by J.F. Herbart - Thoughtless, rote memorization. 2. Understanding Level (बोध स्तर) by H.C. Morrison - Insight, relationships & comprehension. 3. Reflective Level (चिंतन स्तर) by Hunt - Problem-centered, critical reasoning & evaluation.",
+          "summaryHi": "1. स्मृति स्तर (हर्बर्ट) - रटना, विचारहीन स्तर। 2. बोध स्तर (मॉरीसन) - संप्रत्यय समझना, संबंध देखना। 3. चिंतन/परावर्ती स्तर (हण्ट) - समस्या समाधान, आलोचनात्मक चिंतन (सर्वोच्च स्तर)।",
+          "mnemonic": "HMH: Herbart (Memory) -> Morrison (Understanding) -> Hunt (Reflective)",
+          "keyTerms": ["Herbartian 5 Steps", "Morrison Unit Plan", "Hunt Problem Solving"]
         },
         {
-          "topic": "समावेशी शिक्षा एवं अधिगम अक्षमताएं (Inclusive Education)",
-          "summaryEn": "Dyslexia (Reading disorder), Dysgraphia (Writing disorder), Dyscalculia (Math/number disorder), Dyspraxia (Motor coordination), Plus Curriculum (Compensatory skills like Braille for visually impaired).",
-          "summaryHi": "डिस्लेक्सिया (पठन विकार), डिस्ग्राफिया (लेखन विकार), डिस्कैल्कुलिया (गणितीय गणना विकार), डिस्प्रेक्सिया (गतिक कौशल विकार), प्लस पाठ्यक्रम (दृष्टिबाधितों हेतु ब्रेल व गतिशीलता कौशल)।",
-          "mnemonic": "Lex = Text/Reading | Graph = Writing | Calc = Math",
-          "keyTerms": ["RPwD Act 2016 (21 Disabilities)", "Inclusive Classroom (समावेशी कक्षा)"]
+          "topic": "एडगर डेल का अनुभव शंकु (Edgar Dale's Cone of Experience)",
+          "summaryEn": "Base (Most Concrete / Maximum Retention): Direct purposeful experiences -> Contrived -> Dramatic -> Demonstrations -> Field trips -> Exhibits -> Educational TV -> Motion pictures -> Visual symbols -> Top/Apex (Most Abstract): Verbal symbols / Reading.",
+          "summaryHi": "आधार पर 'प्रत्यक्ष सोद्देश्य अनुभव' (सर्वाधिक मूर्त एवं प्रभावशाली अधिगम) होता है। शीर्ष पर 'मौखिक/शाब्दिक प्रतीक' (सर्वाधिक अमूर्त अधिगम) होते हैं।",
+          "mnemonic": "Base = DOING (Concrete) | Middle = OBSERVING | Top = READING/LISTENING (Abstract)",
+          "keyTerms": ["Concrete to Abstract", "Direct Experience", "Audio-Visual Aids (TLM)"]
         }
       ]
     },
     {
-      "id": "hindi-grammar",
-      "title": "2. हिन्दी व्याकरण एवं शिक्षण विधियां (Hindi Mastery)",
+      "id": "uttarakhand-gk-capsule",
+      "title": "2. उत्तराखंड सामान्य ज्ञान एवं राज्य परिदृश्य (Uttarakhand GK Capsule)",
       "color": "#e37400",
       "items": [
         {
-          "topic": "स्वर एवं व्यंजन संधि की पहचान ट्रिक्स",
-          "summaryEn": "Dirgha (अ/आ + अ/आ = आ, ई, ऊ), Guna (अ/आ + इ/ई = ए, ओ, अर्), Vriddhi (अ/आ + ए/ऐ = ऐ, औ), Yan (इ/ई + असमान स्वर = य्, व्, र्), Ayadi (ए/ऐ/ओ/औ + स्वर = अय्, आय्, अव्, आव्).",
-          "summaryHi": "दीर्घ संधि (बड़ी मात्रा: आ, ई, ऊ), गुण संधि (एक मात्रा: ए, ओ, अर् जैसे रमेश, सूर्योदय), वृद्धि संधि (दो मात्राएं: ऐ, औ जैसे एकैक, महौषध), यण संधि (य, व, र के पहले आधा अक्षर जैसे इत्यादि, स्वागत), अयादि संधि (अक्षर में अय्, आय्, अव्, आव् जैसे नयन, पवन)।",
-          "mnemonic": "गुण = 1 चोटी (े, ो) | वृद्धि = 2 चोटी (ै, ौ) | यण = य, व से पहले आधा अक्षर",
-          "keyTerms": ["स्वर संधि (5 भेद)", "व्यंजन संधि", "विसर्ग संधि"]
+          "topic": "उत्तराखंड राज्य के प्रतीक एवं भौगोलिक तथ्य",
+          "summaryEn": "Formation: 9 Nov 2000 (27th State). Renamed: 1 Jan 2007. State Animal: Musk Deer (कस्तूरी मृग). State Bird: Monal (मोनाल). State Tree: Burans (बुरांश). State Flower: Brahma Kamal (ब्रह्मकमल - Saussurea obvallata). Highest Peak: Nanda Devi (7,816 m in Chamoli). Summer Capital: Gairsain.",
+          "summaryHi": "गठन: 9 नवम्बर 2000 (27वां राज्य)। नामकरण: 1 जनवरी 2007। राज्य पशु: कस्तूरी मृग; पक्षी: मोनाल; वृक्ष: बुरांश; पुष्प: ब्रह्मकमल; तितली: कॉमन पीकॉक। सर्वोच्च शिखर: नंदा देवी (7,816 मी, चमोली)। ग्रीष्मकालीन राजधानी: गैरसैंण (भराड़ीसैंण)।",
+          "mnemonic": "9 Nov 2000 | Burans (Tree) | Brahma Kamal (Flower) | Monal (Bird)",
+          "keyTerms": ["Saussurea obvallata", "Lophophorus impejanus", "Rhododendron arboreum", "Nanda Devi 7816m"]
         },
         {
-          "topic": "समास के 6 भेद और आसान पहचान",
-          "summaryEn": "Avyayibhav (First word prefix/adverb like यथा, प्रति), Tatpurush (Karak vibhakti hidden), Karmadharaya (Adjective-noun / Upameya-upaman like नीलकमल), Dvigu (First word number like चौराहा), Dvandva (Both words equal, hyphen like माता-पिता), Bahuvrihi (Third special meaning like दशानन).",
-          "summaryHi": "1. अव्ययीभाव (पहला पद प्रधान व अव्यय जैसे यथाशक्ति, प्रतिदिन), 2. तत्पुरुष (कारक चिह्नों का लोप जैसे राजपुत्र = राजा का पुत्र), 3. कर्मधारय (विशेषण-विशेष्य जैसे पीतांबर), 4. द्विगु (पहला पद संख्यावाचक जैसे त्रिलोक), 5. द्वंद्व (दोनों पद प्रधान, योजक चिह्न जैसे रात-दिन), 6. बहुव्रीहि (अन्य पद प्रधान जैसे लंबोदर = गणेशजी)।",
-          "mnemonic": "द्विगु = संख्या | द्वंद्व = दोनों बराबर (और/या) | बहुव्रीहि = तीसरा अर्थ (भगवान/विशिष्ट)",
-          "keyTerms": ["पूर्वपद", "उत्तरपद", "विग्रह"]
+          "topic": "पंच प्रयाग एवं प्रमुख नदी संगम",
+          "summaryEn": "All 5 Prayags meet Alaknanda River: 1. Vishnuprayag = Alaknanda + Dhauliganga. 2. Nandprayag = Alaknanda + Nandakini. 3. Karnaprayag = Alaknanda + Pindar. 4. Rudraprayag = Alaknanda + Mandakini (Kedarnath). 5. Devprayag = Alaknanda + Bhagirathi (forms Holy Ganga).",
+          "summaryHi": "सभी पांचों प्रयाग अलकनंदा से मिलते हैं: 1. विष्णुप्रयाग (धौलीगंगा), 2. नंदप्रयाग (नंदाकिनी), 3. कर्णप्रयाग (पिंडर), 4. रुद्रप्रयाग (मंदाकिनी), 5. देवप्रयाग (भागीरथी + अलकनंदा = गंगा)।",
+          "mnemonic": "V-N-K-R-D (Vishnu, Nanda, Karna, Rudra, Dev) -> Bhagirathi meets at Devprayag",
+          "keyTerms": ["Alaknanda Main Stem", "Bhagirathi at Devprayag", "Panch Kedar", "Panch Badri"]
+        },
+        {
+          "topic": "प्रमुख पर्यावरण आंदोलन एवं व्यक्तित्व",
+          "summaryEn": "Chipko Movement: 1974, Reni Village (Chamoli) under Gaura Devi (Chipko Woman), Sunderlal Bahuguna & Chandi Prasad Bhatt. Maiti Movement: 1996 by Kalyan Singh Rawat (planting trees during weddings). 1st Hindi Jnanpith: Sumitranandan Pant (1968 for Chidambara, born Kausani). 1st Agriculture Univ: GBPUAT Pantnagar (17 Nov 1960).",
+          "summaryHi": "चिपको आंदोलन: मार्च 1974 (रैणी गांव, चमोली) - गौरा देवी, सुंदरलाल बहुगुणा, चंडी प्रसाद भट्ट। मैती आंदोलन: 1996 - कल्याण सिंह रावत। प्रथम ज्ञानपीठ (हिन्दी): सुमित्रानंदन पंत (1968, चिदम्बरा हेतु, कौसानी)। प्रथम कृषि वि.वि.: पंतनगर (1960)।",
+          "mnemonic": "Gaura Devi (1974 Reni) | Pant (1968 Chidambara) | Pantnagar (1960)",
+          "keyTerms": ["Gaura Devi", "Sunderlal Bahuguna", "Maiti Andolan", "Pantnagar 1960"]
         }
       ]
     },
     {
-      "id": "math-science",
-      "title": "3. गणित एवं विज्ञान के प्रमुख सूत्र (Math & Science Formulas)",
-      "color": "#ea4335",
+      "id": "cdp-theories",
+      "title": "3. बाल विकास एवं मनोविज्ञान सिद्धांत (Core Child Psychology)",
+      "color": "#059669",
       "items": [
         {
-          "topic": "चाल, समय और दूरी (Speed, Time & Distance)",
-          "summaryEn": "Speed = Distance / Time. km/h to m/s -> Multiply by 5/18. m/s to km/h -> Multiply by 18/5. Trains in opposite directions -> Relative Speed = S1 + S2, Total Distance = L1 + L2.",
-          "summaryHi": "चाल = दूरी / समय। किमी/घंटा को मी/से में बदलना = 5/18 से गुणा। मी/से को किमी/घंटा में = 18/5 से गुणा। विपरीत दिशा में ट्रेनें -> सापेक्ष चाल = S1 + S2, पार करने का समय = (L1 + L2) / (S1 + S2)। समान दिशा में चालें घटती हैं (S1 - S2)।",
-          "mnemonic": "विपरीत दिशा (+) | समान दिशा (-)",
-          "keyTerms": ["Relative Speed (सापेक्ष चाल)", "Average Speed = 2xy/(x+y)"]
+          "topic": "जीन पियाजे - संज्ञानात्मक विकास (Jean Piaget)",
+          "summaryEn": "4 Stages: 1. Sensorimotor (0-2y: Object Permanence), 2. Pre-operational (2-7y: Egocentrism, Centration, Animism, Irreversibility), 3. Concrete Operational (7-11y: Conservation, Decentration, Reversibility, Classification), 4. Formal Operational (11+y: Abstract, Deductive Logic).",
+          "summaryHi": "4 अवस्थाएं: 1. संवेदी-गामक (0-2 वर्ष: वस्तु स्थायित्व), 2. पूर्व-संक्रियात्मक (2-7 वर्ष: आत्मकेंद्रित, जीववाद, अपलटावी), 3. मूर्त संक्रियात्मक (7-11 वर्ष: संरक्षण, पलटावी गुण, वर्गीकरण), 4. अमूर्त संक्रियात्मक (11+ वर्ष: अमूर्त तार्किक व निगमनात्मक चिंतन)।",
+          "mnemonic": "SPCF: Sensorimotor -> Pre-op -> Concrete -> Formal",
+          "keyTerms": ["Schema", "Assimilation (आत्मसातीकरण)", "Accommodation (समायोजन)", "Equilibration"]
         },
         {
-          "topic": "पोषण एवं हीनताजन्य रोग (Nutrition & Deficiency Diseases)",
-          "summaryEn": "Protein deficiency: Kwashiorkor (swollen belly). Protein + Calorie deficiency: Marasmus (extreme wasting). Vitamin A: Night blindness. Vitamin B1: Beriberi. Vitamin C: Scurvy. Vitamin D: Rickets. Iron: Anaemia. Iodine: Goitre.",
-          "summaryHi": "प्रोटीन की कमी: क्वाशियोरकर (पेट फूलना)। प्रोटीन + ऊर्जा कमी: मेरास्मस (अत्यधिक दुर्बलता)। विटामिन A: रतौंधी। विटामिन B1: बेरी-बेरी। विटामिन C: स्कर्वी (मसूड़ों से खून)। विटामिन D: रिकेट्स (कमजोर हड्डियां)। आयरन: एनीमिया (खून की कमी)। आयोडीन: घेंघा/गलगंड।",
-          "mnemonic": "K = Kwashiorkor (Kids belly) | M = Marasmus (Muscle wasting)",
-          "keyTerms": ["Ductility (wires)", "Malleability (sheets)", "Sonorous (ringing sound)"]
+          "topic": "लेव वायगोत्स्की - सामाजिक-सांस्कृतिक सिद्धांत (Lev Vygotsky)",
+          "summaryEn": "Cognitive development is mediated by social interaction, language, and culture. Core concepts: ZPD (Zone of Proximal Development: difference between actual & potential development), Scaffolding (temporary structured support by MKO), and Private Speech.",
+          "summaryHi": "संज्ञानात्मक विकास समाज, संस्कृति और भाषा की अंतःक्रिया पर आधारित है। मुख्य तत्व: ZPD (समीपस्थ विकास क्षेत्र), Scaffolding (पाड़/ढांचा/अस्थायी सहायता) और Private Speech (स्व-निर्देशित आंतरिक वार्ता)।",
+          "mnemonic": "Vygotsky = SCL (Social, Cultural, Language) + ZPD & Scaffolding",
+          "keyTerms": ["ZPD", "Scaffolding (पाड़)", "MKO (More Knowledgeable Other)", "Collaborative Learning"]
+        },
+        {
+          "topic": "लॉरेंस कोहलबर्ग - नैतिक विकास सिद्धांत (Lawrence Kohlberg)",
+          "summaryEn": "3 Levels & 6 Stages: Level 1 (Pre-conventional: Obedience & Punishment, Instrumental Purpose/Tit for Tat), Level 2 (Conventional: Good Boy/Nice Girl, Law & Order), Level 3 (Post-conventional: Social Contract, Universal Ethical Principles).",
+          "summaryHi": "3 स्तर व 6 अवस्थाएं: स्तर 1 (पूर्व-पारंपरिक: 1. दंड-आज्ञापालन, 2. साधनात्मक सापेक्षता/स्वार्थ), स्तर 2 (पारंपरिक: 3. अच्छा लड़का/अच्छी लड़की, 4. कानून-व्यवस्था), स्तर 3 (उत्तर-पारंपरिक: 5. सामाजिक अनुबंध, 6. सार्वभौमिक नैतिक सिद्धांत)।",
+          "mnemonic": "Heinz Dilemma -> Moral Reasoning progression across 6 stages",
+          "keyTerms": ["Moral Dilemma", "Moral Reasoning", "Carol Gilligan Criticism (Care vs Justice)"]
+        }
+      ]
+    },
+    {
+      "id": "physics-chemistry-formulas",
+      "title": "4. भौतिक एवं रसायन विज्ञान मास्टर सूत्र (Physics & Chemistry Formulas)",
+      "color": "#0284c7",
+      "items": [
+        {
+          "topic": "यांत्रिकी, गति एवं ऊर्जा सूत्र (Mechanics & Energy)",
+          "summaryEn": "Kinetic Energy K = 1/2 mv² = P² / (2m). Escape Velocity ve = √(2gR) = √2 vo (≈ 11.2 km/s). Carnot Efficiency η = 1 - T_sink/T_source. Wire stretched n times -> New Resistance R' = n² R. Series LCR Resonance: XL = XC, Z = R, cos φ = 1.",
+          "summaryHi": "गतिज ऊर्जा K = P² / 2m। पलायन वेग ve = √(2gR) = √2 vo (11.2 किमी/से)। कार्नो दक्षता η = 1 - T2/T1। तार को n गुना खींचने पर नया प्रतिरोध R' = n² R। अनुनाद पर Z = R तथा शक्ति गुणांक cos φ = 1।",
+          "mnemonic": "K ∝ P² | Stretched wire: R' = n² R | ve = √2 vo",
+          "keyTerms": ["Bernoulli: P + 1/2 ρv² + ρgh = const", "SHM: a = -ω²x", "Doppler: f' = f[v/(v-vs)]"]
+        },
+        {
+          "topic": "रासायनिक आबंधन एवं ऊष्मागतिकी (Chemical Bonding & Thermo)",
+          "summaryEn": "XeF4 = sp³d² (Square Planar). Electron Gain Enthalpy: Cl > F > Br > I. Spontaneity: ΔG = ΔH - TΔS < 0. First Order Half Life: t_1/2 = 0.693 / k. Lucas Reagent (Anhydrous ZnCl2 + Conc. HCl): 3° (instant turbidity) > 2° (5 min) > 1° (no turbidity at RT).",
+          "summaryHi": "XeF4 = sp³d² (वर्ग समतलीय ज्यामिति)। इलेक्ट्रॉन बंधुता: Cl > F > Br > I। स्वतः प्रक्रम हेतु ΔG < 0 (ऋणात्मक)। प्रथम कोटि अर्ध-आयु: t_1/2 = 0.693/k। ल्यूकास अभिकर्मक (ZnCl2 + HCl): 3° तुरंत > 2° 5 मिनट > 1° नहीं।",
+          "mnemonic": "Electron affinity: Cl is King | ΔG < 0 for Spontaneous | i = 1 + (n-1)α",
+          "keyTerms": ["Hückel (4n+2)π", "Lanthanide Contraction", "Hoffmann Degradation"]
+        }
+      ]
+    },
+    {
+      "id": "biology-ecology-capsule",
+      "title": "5. जीव विज्ञान एवं पारिस्थितिकी कैप्सूल (Biology & Ecology Capsule)",
+      "color": "#16a34a",
+      "items": [
+        {
+          "topic": "कोशिका, आनुवंशिकी एवं पादप कार्यिकी (Genetics & Physiology)",
+          "summaryEn": "Lysosome = Suicide bag. C4 Plants = Primary CO2 acceptor is PEP (3-carbon) via PEPcase forming OAA. Dihybrid F2 Phenotypic Ratio = 9:3:3:1. Insulin = secreted by Beta cells of pancreas (lowers blood sugar). Double Fertilization = Syngamy (2n zygote) + Triple Fusion (3n endosperm) in Angiosperms.",
+          "summaryHi": "लाइसोसोम = आत्मघाती थैली। C4 पौधे = प्राथमिक CO2 ग्राही PEP है जो OAA बनाता है। द्विसंकर F2 लक्षणप्ररूप = 9:3:3:1। इंसुलिन = अग्न्याशय की बीटा कोशिकाओं द्वारा स्रावित। द्वि-निषेचन = 2n युग्मनज + 3n भ्रूणपोष (केवल आवृतबीजी में)।",
+          "mnemonic": "Beta cells = Insulin | C4 = PEP | F2 Dihybrid = 9:3:3:1",
+          "keyTerms": ["Pachytene Crossing Over", "IgG Placenta Transfer", "SAN Pacemaker", "Helicase Unzipping"]
+        },
+        {
+          "topic": "पारिस्थितिकी, खाद्य श्रृंखला एवं जैव विविधता (Ecology & Conservation)",
+          "summaryEn": "Lindeman's 10% Law: Only 10% energy transfers to the next trophic level (Energy pyramid is always upright). Biomagnification: Progressive accumulation of non-biodegradable toxins (DDT/Hg) up the food chain. Uttarakhand Hotspot: Himalayan Biodiversity Hotspot. Askot & Kedarnath Sanctuaries: Musk Deer conservation.",
+          "summaryHi": "लिंडेमैन का 10% नियम: केवल 10% ऊर्जा अगले पोषण स्तर में जाती है (ऊर्जा का पिरामिड सदैव सीधा होता है)। जैव आवर्धन = खाद्य श्रृंखला में विषैले रसायनों (DDT) का बढ़ता संचय। उत्तराखंड = हिमालय जैव विविधता हॉटस्पॉट।",
+          "mnemonic": "10% Energy rule | Upright Energy Pyramid | Askot/Kedarnath = Musk Deer",
+          "keyTerms": ["Biomagnification", "Eutrophication", "Endemism", "Musk Deer (Moschus)"]
         }
       ]
     }

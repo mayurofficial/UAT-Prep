@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "UTET 2026/2027 Master Prep | Anjali's Learning Hub",
-  description: "Bilingual interactive preparation portal, concept mastery engine, and 150-question mock test simulator for Uttarakhand Teacher Eligibility Test (UTET).",
+  title: "Anjali Teacher Hub | UTET & UKSSSC LT Grade Prep Portal",
+  description: "Bilingual interactive preparation portal, concept mastery engine, and solved mock tests for Uttarakhand Teacher Eligibility Test (UTET) and UKSSSC Assistant Teacher (LT Grade) exams.",
 };
 
 export const viewport: Viewport = {

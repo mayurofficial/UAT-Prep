@@ -1,20 +1,20 @@
 .handbook {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 
 .hero {
-  padding: 24px;
+  padding: 22px 24px;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
 }
 
 .heroTitle {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   margin-bottom: 4px;
 }
@@ -22,6 +22,39 @@
 .heroSub {
   font-size: 13px;
   color: var(--text-secondary);
+}
+
+.categoryFilters {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+}
+
+.catPill {
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.catPill:hover {
+  background: var(--hover);
+  color: var(--text-primary);
+}
+
+.catPillActive {
+  background: var(--blue);
+  color: #fff !important;
+  border-color: var(--blue);
 }
 
 .search {
@@ -43,7 +76,7 @@
   flex: 1;
   border: none;
   background: transparent;
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--text);
   outline: none;
   font-family: inherit;

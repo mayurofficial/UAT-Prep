@@ -16,11 +16,57 @@
 
 .qNum {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--blue);
   background: var(--blue-light);
   padding: 4px 12px;
   border-radius: var(--radius-full);
+}
+
+.partBadge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #b05c00;
+  background: rgba(227, 116, 0, 0.12);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+[data-theme="dark"] .partBadge {
+  color: #ffaa40;
+}
+
+.sectionBadge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.diffBadge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.diffEasy {
+  background: rgba(22, 163, 74, 0.12);
+  color: var(--green);
+}
+
+.diffMed {
+  background: rgba(26, 115, 232, 0.12);
+  color: var(--blue);
+}
+
+.diffHard {
+  background: rgba(217, 48, 37, 0.12);
+  color: var(--red);
 }
 
 .bookmark {

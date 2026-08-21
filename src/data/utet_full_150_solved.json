@@ -1,8 +1,14 @@
 {
-  "exam": "UTET-II 2025",
-  "targetExam": "UTET 2025 / 2026 / 2027",
+  "exam": "UTET-II",
+  "targetExam": "UTET",
+  "examTitle": "UTET-II (Upper Primary Class 6-8)",
+  "examSubtitle": "Eligibility Test • 150 Questions • 150 Minutes • No Negative Marking",
   "candidate": "Anjali Teacher",
   "totalQuestions": 150,
+  "totalMarks": 150,
+  "durationMinutes": 150,
+  "hasNegativeMarking": false,
+  "negativeMarkingPenalty": 0,
   "languages": [
     "English",
     "Hindi"

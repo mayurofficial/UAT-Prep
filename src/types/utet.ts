@@ -1,3 +1,5 @@
+export type TargetExam = 'UTET' | 'LT';
+
 export interface QuestionOption {
   id: string; // 'A' | 'B' | 'C' | 'D'
   english: string;
@@ -19,6 +21,7 @@ export interface QuestionItem {
   sectionHindi: string;
   topic: string;
   difficulty: 'Easy' | 'Medium' | 'Hard';
+  part?: 'Part 1 (General)' | 'Part 2 (Subject)';
   question: {
     english: string;
     hindi: string;
@@ -39,19 +42,26 @@ export interface ExamSection {
   questionRange: string;
   total: number;
   color: string;
+  part?: string;
 }
 
 export interface ExamData {
   exam: string;
-  targetExam: string;
+  targetExam: TargetExam;
+  examTitle: string;
+  examSubtitle: string;
   candidate: string;
   totalQuestions: number;
+  totalMarks: number;
+  durationMinutes: number;
+  hasNegativeMarking: boolean;
+  negativeMarkingPenalty: number;
   languages: string[];
   sections: ExamSection[];
   questions: QuestionItem[];
 }
 
-export type AppMode = 'practice' | 'exam' | 'handbook' | 'result';
+export type AppMode = 'practice' | 'exam' | 'handbook' | 'guide' | 'result';
 export type LanguageMode = 'bilingual' | 'hindi' | 'english';
 
 export interface UserAnswerState {
@@ -63,14 +73,21 @@ export interface UserAnswerState {
 }
 
 export interface ExamResults {
+  targetExam: TargetExam;
   totalQuestions: number;
+  totalMarks: number;
+  hasNegativeMarking: boolean;
+  negativeMarkingPenalty: number;
   attempted: number;
   correct: number;
   incorrect: number;
   skipped: number;
-  score: number;
+  grossScore: number;
+  negativeDeduction: number;
+  netScore: number;
   percentage: number;
   timeTakenSec: number;
+  isQualifiedOrTopTier: boolean;
   sectionScores: {
     section: string;
     sectionHindi: string;
@@ -78,5 +95,7 @@ export interface ExamResults {
     correct: number;
     incorrect: number;
     skipped: number;
+    score: number;
   }[];
 }
+

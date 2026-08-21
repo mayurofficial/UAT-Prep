@@ -9,14 +9,18 @@ interface PrintWorksheetProps {
 }
 
 export const PrintWorksheet: React.FC<PrintWorksheetProps> = ({ questions }) => {
+  const isLt = questions.length === 100;
+  const examTitle = isLt
+    ? 'UKSSSC सहायक अध्यापक L.T. (Assistant Teacher) • सम्पूर्ण प्रश्नपत्र एवं व्याख्या तालिका'
+    : 'UTET-II Paper • सम्पूर्ण प्रश्नपत्र एवं व्याख्या सहित उत्तर तालिका';
+
   return (
     <div className={styles.printContainer}>
       <div className={styles.printHeader}>
-        <div className={styles.printTitle}>
-          UTET-II 2025/2026/2027 • सम्पूर्ण प्रश्नपत्र एवं व्याख्या सहित उत्तर तालिका
-        </div>
+        <div className={styles.printTitle}>{examTitle}</div>
         <div className={styles.printSub}>
-          Candidate: Anjali Teacher | Total Questions: 150 (Bilingual: Hindi & English)
+          Candidate: Anjali Teacher | Total Questions: {questions.length} (Bilingual: Hindi & English)
+          {isLt && ' | -0.25 Negative Marking Scheme'}
         </div>
       </div>
 
@@ -24,6 +28,7 @@ export const PrintWorksheet: React.FC<PrintWorksheetProps> = ({ questions }) => 
         <div key={q.id} className={styles.printQuestionItem}>
           <div className={styles.printQNum}>
             Q{q.questionNumber}. [{q.sectionHindi} / {q.section}]
+            {q.part && ` — ${q.part}`}
           </div>
 
           <div><strong>English:</strong> {q.question.english}</div>
@@ -42,7 +47,7 @@ export const PrintWorksheet: React.FC<PrintWorksheetProps> = ({ questions }) => 
             <div style={{ marginTop: '4px' }}>
               <strong>हल:</strong> {q.explanation.hindi || q.explanation.english}
             </div>
-            {q.conceptCard.mnemonicOrTrick && (
+            {q.conceptCard?.mnemonicOrTrick && (
               <div style={{ marginTop: '4px', fontStyle: 'italic' }}>
                 {q.conceptCard.mnemonicOrTrick}
               </div>

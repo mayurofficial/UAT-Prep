@@ -1,13 +1,16 @@
 'use client';
 
 import React from 'react';
-import { QuestionItem, AppMode, LanguageMode, UserAnswerState } from '@/types/utet';
+import { QuestionItem, AppMode, LanguageMode, UserAnswerState, TargetExam } from '@/types/utet';
 import styles from './QuestionCard.module.css';
 import { ConceptCardView } from './ConceptCardView';
-import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle } from 'lucide-react';
+import { Star, ChevronLeft, ChevronRight, Flag, RotateCcw, CheckCircle2, XCircle, Tag, AlertCircle } from 'lucide-react';
 
 interface QuestionCardProps {
   question: QuestionItem;
+  totalQuestions: number;
+  targetExam: TargetExam;
+  hasNegativeMarking: boolean;
   mode: AppMode;
   language: LanguageMode;
   userState: UserAnswerState;
@@ -23,23 +26,52 @@ interface QuestionCardProps {
 }
 
 export const QuestionCard: React.FC<QuestionCardProps> = ({
-  question, mode, language, userState,
-  onSelectOption, onToggleMarkReview, onToggleBookmark, onClearResponse,
-  onNext, onPrev, hasPrev, hasNext, fontSize,
+  question,
+  totalQuestions,
+  targetExam,
+  hasNegativeMarking,
+  mode,
+  language,
+  userState,
+  onSelectOption,
+  onToggleMarkReview,
+  onToggleBookmark,
+  onClearResponse,
+  onNext,
+  onPrev,
+  hasPrev,
+  hasNext,
+  fontSize,
 }) => {
   const isPractice = mode === 'practice';
   const hasAnswered = userState.selectedOption !== null;
+  const isCorrect = userState.selectedOption === question.correctAnswer;
 
   const sizeClass = fontSize === 'small' ? styles.fontSmall : fontSize === 'large' ? styles.fontLarge : '';
 
   return (
     <div className={styles.card}>
-      {/* Top row: question number + bookmark */}
+      {/* Top row: question number + part / topic + bookmark */}
       <div className={styles.topRow}>
-        <span className={styles.qNum}>Q {question.questionNumber} / 150</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+          <span className={styles.qNum}>
+            Q {question.questionNumber} / {totalQuestions}
+          </span>
+          {question.part && (
+            <span className={styles.partBadge}>{question.part}</span>
+          )}
+          <span className={styles.sectionBadge}>{question.section}</span>
+          {question.difficulty && (
+            <span className={`${styles.diffBadge} ${question.difficulty === 'Easy' ? styles.diffEasy : question.difficulty === 'Hard' ? styles.diffHard : styles.diffMed}`}>
+              {question.difficulty}
+            </span>
+          )}
+        </div>
+
         <button
           className={`${styles.bookmark} ${userState.isBookmarked ? styles.bookmarkActive : ''}`}
           onClick={onToggleBookmark}
+          aria-label={userState.isBookmarked ? 'Remove bookmark' : 'Bookmark question'}
         >
           <Star size={14} fill={userState.isBookmarked ? 'currentColor' : 'none'} />
           {userState.isBookmarked ? 'Saved' : 'Save'}
@@ -86,6 +118,22 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           );
         })}
       </div>
+
+      {/* Practice Mode Live Scoring Feedback for Negative Marking */}
+      {isPractice && hasAnswered && (
+        <div style={{ marginTop: 10 }}>
+          {isCorrect ? (
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--green)', fontSize: '13px', fontWeight: 700 }}>
+              <CheckCircle2 size={16} /> Correct! +1.00 Mark
+            </div>
+          ) : (
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6, color: '#d93025', fontSize: '13px', fontWeight: 700 }}>
+              <AlertCircle size={16} />
+              {hasNegativeMarking ? 'Incorrect! -0.25 Negative Penalty Applied' : 'Incorrect! (0 Mark in UTET)'}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Concept card in practice mode */}
       {isPractice && hasAnswered && (
