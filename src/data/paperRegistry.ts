@@ -1,6 +1,7 @@
 import { ExamData, TargetExam } from '@/types/utet';
 
 import utet2024Data from './papers/utet_2024_2025.json';
+import utet2019Data from './papers/utet_2019.json';
 import utet2023Data from './papers/utet_2023.json';
 import utet2022Data from './papers/utet_2022.json';
 import utet2021Data from './papers/utet_2021.json';
@@ -25,14 +26,25 @@ export interface PaperMeta {
 }
 
 export const PAPERS_REGISTRY: Record<string, ExamData> = {
-  // Official Verified PYQ Papers (Exact papers provided/extracted from exams)
+  // ==========================================
+  // 1. OFFICIAL PREVIOUS YEAR PAPERS (PYQ)
+  // (Authentic verified papers provided from real exams)
+  // ==========================================
   utet_2024_2025: {
     ...(utet2024Data as unknown as ExamData),
     category: 'OFFICIAL_PYQ',
     sourceNote: 'Official UBSE UTET-II Exam Paper (Set A - Oct 2024)',
   },
+  utet_2019: {
+    ...(utet2019Data as unknown as ExamData),
+    category: 'OFFICIAL_PYQ',
+    sourceNote: 'Official UBSE UTET-II 2019 Exam Paper (Set A - Nov 2019)',
+  },
 
-  // Generated Practice & Model Mock Tests
+  // ==========================================
+  // 2. MODEL MOCK TESTS & PRACTICE PAPERS
+  // (Full-length practice tests for mock exam simulation)
+  // ==========================================
   lt_2024_2025: {
     ...(lt2024Data as unknown as ExamData),
     category: 'MODEL_TEST',
@@ -68,7 +80,6 @@ export const PAPERS_REGISTRY: Record<string, ExamData> = {
 export const PAPERS_LIST: PaperMeta[] = [
   // ==========================================
   // 1. OFFICIAL PREVIOUS YEAR PAPERS (PYQ)
-  // (Reserved exclusively for authentic user-provided official exam papers)
   // ==========================================
   {
     id: 'utet_2024_2025',
@@ -83,10 +94,22 @@ export const PAPERS_LIST: PaperMeta[] = [
     negativePenalty: 0,
     sourceNote: 'Authentic UBSE Exam Paper from Oct 24, 2024',
   },
+  {
+    id: 'utet_2019',
+    targetExam: 'UTET',
+    category: 'OFFICIAL_PYQ',
+    year: '2019',
+    title: 'UTET-II 2019 (Official Exam Paper)',
+    badge: 'Official PYQ (Set A)',
+    totalQuestions: 150,
+    durationMinutes: 150,
+    hasNegativeMarking: false,
+    negativePenalty: 0,
+    sourceNote: 'Authentic UBSE Exam Paper from Nov 2019',
+  },
 
   // ==========================================
   // 2. MODEL MOCK TESTS & PRACTICE PAPERS
-  // (Full-length generated mock tests for practice)
   // ==========================================
   {
     id: 'lt_2024_2025',
