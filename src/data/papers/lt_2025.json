@@ -1495,23 +1495,23 @@
       "options": [
         {
           "id": "A",
-          "en": "50%",
-          "hi": "50%"
+          "english": "50%",
+          "hindi": "50%"
         },
         {
           "id": "B",
-          "en": "100%",
-          "hi": "100%"
+          "english": "100%",
+          "hindi": "100%"
         },
         {
           "id": "C",
-          "en": "125%",
-          "hi": "125%"
+          "english": "125%",
+          "hindi": "125%"
         },
         {
           "id": "D",
-          "en": "225%",
-          "hi": "225%"
+          "english": "225%",
+          "hindi": "225%"
         }
       ],
       "correctAnswer": "C",
@@ -1542,23 +1542,23 @@
       "options": [
         {
           "id": "A",
-          "en": "√2 : 1",
-          "hi": "√2 : 1"
+          "english": "√2 : 1",
+          "hindi": "√2 : 1"
         },
         {
           "id": "B",
-          "en": "1 : √2",
-          "hi": "1 : √2"
+          "english": "1 : √2",
+          "hindi": "1 : √2"
         },
         {
           "id": "C",
-          "en": "2 : 1",
-          "hi": "2 : 1"
+          "english": "2 : 1",
+          "hindi": "2 : 1"
         },
         {
           "id": "D",
-          "en": "1 : 2",
-          "hi": "1 : 2"
+          "english": "1 : 2",
+          "hindi": "1 : 2"
         }
       ],
       "correctAnswer": "A",
@@ -1589,23 +1589,23 @@
       "options": [
         {
           "id": "A",
-          "en": "20%",
-          "hi": "20%"
+          "english": "20%",
+          "hindi": "20%"
         },
         {
           "id": "B",
-          "en": "40%",
-          "hi": "40%"
+          "english": "40%",
+          "hindi": "40%"
         },
         {
           "id": "C",
-          "en": "60%",
-          "hi": "60%"
+          "english": "60%",
+          "hindi": "60%"
         },
         {
           "id": "D",
-          "en": "80%",
-          "hi": "80%"
+          "english": "80%",
+          "hindi": "80%"
         }
       ],
       "correctAnswer": "B",
@@ -1636,23 +1636,23 @@
       "options": [
         {
           "id": "A",
-          "en": "A rarer medium to a denser medium at an angle less than critical angle",
-          "hi": "विरल माध्यम से सघन माध्यम में क्रांतिक कोण से कम कोण पर"
+          "english": "A rarer medium to a denser medium at an angle less than critical angle",
+          "hindi": "विरल माध्यम से सघन माध्यम में क्रांतिक कोण से कम कोण पर"
         },
         {
           "id": "B",
-          "en": "A denser medium to a rarer medium at an angle greater than critical angle",
-          "hi": "सघन माध्यम से विरल माध्यम में क्रांतिक कोण से अधिक कोण पर"
+          "english": "A denser medium to a rarer medium at an angle greater than critical angle",
+          "hindi": "सघन माध्यम से विरल माध्यम में क्रांतिक कोण से अधिक कोण पर"
         },
         {
           "id": "C",
-          "en": "A rarer medium to a denser medium at an angle greater than critical angle",
-          "hi": "विरल माध्यम से सघन माध्यम में क्रांतिक कोण से अधिक कोण पर"
+          "english": "A rarer medium to a denser medium at an angle greater than critical angle",
+          "hindi": "विरल माध्यम से सघन माध्यम में क्रांतिक कोण से अधिक कोण पर"
         },
         {
           "id": "D",
-          "en": "Any medium to vacuum at normal incidence",
-          "hi": "अभिलम्बवत आपतन पर किसी भी माध्यम से निर्वात में"
+          "english": "Any medium to vacuum at normal incidence",
+          "hindi": "अभिलम्बवत आपतन पर किसी भी माध्यम से निर्वात में"
         }
       ],
       "correctAnswer": "B",
@@ -1683,23 +1683,23 @@
       "options": [
         {
           "id": "A",
-          "en": "2 R",
-          "hi": "2 R"
+          "english": "2 R",
+          "hindi": "2 R"
         },
         {
           "id": "B",
-          "en": "4 R",
-          "hi": "4 R"
+          "english": "4 R",
+          "hindi": "4 R"
         },
         {
           "id": "C",
-          "en": "R / 2",
-          "hi": "R / 2"
+          "english": "R / 2",
+          "hindi": "R / 2"
         },
         {
           "id": "D",
-          "en": "R / 4",
-          "hi": "R / 4"
+          "english": "R / 4",
+          "hindi": "R / 4"
         }
       ],
       "correctAnswer": "B",
@@ -1730,23 +1730,23 @@
       "options": [
         {
           "id": "A",
-          "en": "At extreme positions",
-          "hi": "चरम (अधिकतम विस्थापन) स्थितियों पर"
+          "english": "At extreme positions",
+          "hindi": "चरम (अधिकतम विस्थापन) स्थितियों पर"
         },
         {
           "id": "B",
-          "en": "At the mean equilibrium position",
-          "hi": "माध्य (साम्यावस्था) स्थिति पर"
+          "english": "At the mean equilibrium position",
+          "hindi": "माध्य (साम्यावस्था) स्थिति पर"
         },
         {
           "id": "C",
-          "en": "At half of the maximum amplitude",
-          "hi": "अधिकतम आयाम के आधे पर"
+          "english": "At half of the maximum amplitude",
+          "hindi": "अधिकतम आयाम के आधे पर"
         },
         {
           "id": "D",
-          "en": "Acceleration is constant and never zero",
-          "hi": "त्वरण सदैव नियत रहता है और कभी शून्य नहीं होता"
+          "english": "Acceleration is constant and never zero",
+          "hindi": "त्वरण सदैव नियत रहता है और कभी शून्य नहीं होता"
         }
       ],
       "correctAnswer": "B",
@@ -1777,23 +1777,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Increases by 4/3 times",
-          "hi": "4/3 गुना बढ़ जाएगी"
+          "english": "Increases by 4/3 times",
+          "hindi": "4/3 गुना बढ़ जाएगी"
         },
         {
           "id": "B",
-          "en": "Decreases to 3/4 of its original value",
-          "hi": "घटकर अपने मूल मान का 3/4 रह जाएगी"
+          "english": "Decreases to 3/4 of its original value",
+          "hindi": "घटकर अपने मूल मान का 3/4 रह जाएगी"
         },
         {
           "id": "C",
-          "en": "Remains completely unchanged",
-          "hi": "पूरी तरह अपरिवर्तित रहेगी"
+          "english": "Remains completely unchanged",
+          "hindi": "पूरी तरह अपरिवर्तित रहेगी"
         },
         {
           "id": "D",
-          "en": "Becomes zero (fringes disappear)",
-          "hi": "शून्य हो जाएगी"
+          "english": "Becomes zero (fringes disappear)",
+          "hindi": "शून्य हो जाएगी"
         }
       ],
       "correctAnswer": "B",
@@ -1824,23 +1824,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Trivalent impurity (e.g. Boron, Indium)",
-          "hi": "त्रिसंयोजी अशुद्धि (जैसे बोरॉन, इंडियम)"
+          "english": "Trivalent impurity (e.g. Boron, Indium)",
+          "hindi": "त्रिसंयोजी अशुद्धि (जैसे बोरॉन, इंडियम)"
         },
         {
           "id": "B",
-          "en": "Pentavalent impurity (e.g. Phosphorus, Arsenic)",
-          "hi": "पंचसंयोजी अशुद्धि (जैसे फॉस्फोरस, आर्सेनिक)"
+          "english": "Pentavalent impurity (e.g. Phosphorus, Arsenic)",
+          "hindi": "पंचसंयोजी अशुद्धि (जैसे फॉस्फोरस, आर्सेनिक)"
         },
         {
           "id": "C",
-          "en": "Tetravalent impurity (e.g. Silicon)",
-          "hi": "चतुःसंयोजी अशुद्धि (जैसे सिलिकॉन)"
+          "english": "Tetravalent impurity (e.g. Silicon)",
+          "hindi": "चतुःसंयोजी अशुद्धि (जैसे सिलिकॉन)"
         },
         {
           "id": "D",
-          "en": "Monovalent alkali metal",
-          "hi": "एकसंयोजी क्षार धातु"
+          "english": "Monovalent alkali metal",
+          "hindi": "एकसंयोजी क्षार धातु"
         }
       ],
       "correctAnswer": "B",
@@ -1871,23 +1871,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Intensity of incident radiation",
-          "hi": "आपतित विकिरण की तीव्रता पर"
+          "english": "Intensity of incident radiation",
+          "hindi": "आपतित विकिरण की तीव्रता पर"
         },
         {
           "id": "B",
-          "en": "Frequency of incident radiation and metal work function",
-          "hi": "आपतित प्रकाश की आवृत्ति एवं धातु के कार्यफलन पर"
+          "english": "Frequency of incident radiation and metal work function",
+          "hindi": "आपतित प्रकाश की आवृत्ति एवं धातु के कार्यफलन पर"
         },
         {
           "id": "C",
-          "en": "Distance between source and photosensitive plate",
-          "hi": "स्रोत एवं प्लेट के बीच की दूरी पर"
+          "english": "Distance between source and photosensitive plate",
+          "hindi": "स्रोत एवं प्लेट के बीच की दूरी पर"
         },
         {
           "id": "D",
-          "en": "Duration of illumination",
-          "hi": "प्रकाश के आपतन समय पर"
+          "english": "Duration of illumination",
+          "hindi": "प्रकाश के आपतन समय पर"
         }
       ],
       "correctAnswer": "B",
@@ -1918,23 +1918,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Ampere's Circuital Law",
-          "hi": "एम्पीयर का परिपथीय नियम"
+          "english": "Ampere's Circuital Law",
+          "hindi": "एम्पीयर का परिपथीय नियम"
         },
         {
           "id": "B",
-          "en": "Lenz's Law (based on conservation of energy)",
-          "hi": "लेन्ज का नियम (ऊर्जा संरक्षण पर आधारित)"
+          "english": "Lenz's Law (based on conservation of energy)",
+          "hindi": "लेन्ज का नियम (ऊर्जा संरक्षण पर आधारित)"
         },
         {
           "id": "C",
-          "en": "Biot-Savart Law",
-          "hi": "बायो-सेवर्ट का नियम"
+          "english": "Biot-Savart Law",
+          "hindi": "बायो-सेवर्ट का नियम"
         },
         {
           "id": "D",
-          "en": "Coulomb's Law",
-          "hi": "कूलॉम का नियम"
+          "english": "Coulomb's Law",
+          "hindi": "कूलॉम का नियम"
         }
       ],
       "correctAnswer": "B",
@@ -1965,23 +1965,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Mass",
-          "hi": "द्रव्यमान"
+          "english": "Mass",
+          "hindi": "द्रव्यमान"
         },
         {
           "id": "B",
-          "en": "Linear Momentum",
-          "hi": "रेखीय संवेग"
+          "english": "Linear Momentum",
+          "hindi": "रेखीय संवेग"
         },
         {
           "id": "C",
-          "en": "Energy",
-          "hi": "ऊर्जा"
+          "english": "Energy",
+          "hindi": "ऊर्जा"
         },
         {
           "id": "D",
-          "en": "Angular Momentum",
-          "hi": "कोणीय संवेग"
+          "english": "Angular Momentum",
+          "hindi": "कोणीय संवेग"
         }
       ],
       "correctAnswer": "C",
@@ -2012,23 +2012,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Speed of sound in air increases",
-          "hi": "वायु में ध्वनि की चाल बढ़ जाती है"
+          "english": "Speed of sound in air increases",
+          "hindi": "वायु में ध्वनि की चाल बढ़ जाती है"
         },
         {
           "id": "B",
-          "en": "Apparent wavelength decreases as wave fronts are compressed",
-          "hi": "तरंगाग्र संपीडित होने से आभासी तरंगदैर्घ्य घट जाती है"
+          "english": "Apparent wavelength decreases as wave fronts are compressed",
+          "hindi": "तरंगाग्र संपीडित होने से आभासी तरंगदैर्घ्य घट जाती है"
         },
         {
           "id": "C",
-          "en": "Amplitude of sound wave increases",
-          "hi": "ध्वनि तरंग का आयाम बढ़ जाता है"
+          "english": "Amplitude of sound wave increases",
+          "hindi": "ध्वनि तरंग का आयाम बढ़ जाता है"
         },
         {
           "id": "D",
-          "en": "Frequency emitted by siren physically increases",
-          "hi": "सायरन द्वारा वास्तविक उत्सर्जित आवृत्ति बढ़ जाती है"
+          "english": "Frequency emitted by siren physically increases",
+          "hindi": "सायरन द्वारा वास्तविक उत्सर्जित आवृत्ति बढ़ जाती है"
         }
       ],
       "correctAnswer": "B",
@@ -2059,23 +2059,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Zero",
-          "hi": "शून्य"
+          "english": "Zero",
+          "hindi": "शून्य"
         },
         {
           "id": "B",
-          "en": "kQ / R²",
-          "hi": "kQ / R²"
+          "english": "kQ / R²",
+          "hindi": "kQ / R²"
         },
         {
           "id": "C",
-          "en": "kQ / R",
-          "hi": "kQ / R"
+          "english": "kQ / R",
+          "hindi": "kQ / R"
         },
         {
           "id": "D",
-          "en": "Infinity",
-          "hi": "अनंत"
+          "english": "Infinity",
+          "hindi": "अनंत"
         }
       ],
       "correctAnswer": "A",
@@ -2106,23 +2106,23 @@
       "options": [
         {
           "id": "A",
-          "en": "1/4",
-          "hi": "1/4"
+          "english": "1/4",
+          "hindi": "1/4"
         },
         {
           "id": "B",
-          "en": "1/8",
-          "hi": "1/8"
+          "english": "1/8",
+          "hindi": "1/8"
         },
         {
           "id": "C",
-          "en": "1/16",
-          "hi": "1/16"
+          "english": "1/16",
+          "hindi": "1/16"
         },
         {
           "id": "D",
-          "en": "1/32",
-          "hi": "1/32"
+          "english": "1/32",
+          "hindi": "1/32"
         }
       ],
       "correctAnswer": "B",
@@ -2153,23 +2153,23 @@
       "options": [
         {
           "id": "A",
-          "en": "MR²",
-          "hi": "MR²"
+          "english": "MR²",
+          "hindi": "MR²"
         },
         {
           "id": "B",
-          "en": "1/2 MR²",
-          "hi": "1/2 MR²"
+          "english": "1/2 MR²",
+          "hindi": "1/2 MR²"
         },
         {
           "id": "C",
-          "en": "2/5 MR²",
-          "hi": "2/5 MR²"
+          "english": "2/5 MR²",
+          "hindi": "2/5 MR²"
         },
         {
           "id": "D",
-          "en": "2/3 MR²",
-          "hi": "2/3 MR²"
+          "english": "2/3 MR²",
+          "hindi": "2/3 MR²"
         }
       ],
       "correctAnswer": "B",
@@ -2200,23 +2200,23 @@
       "options": [
         {
           "id": "A",
-          "en": "0",
-          "hi": "0"
+          "english": "0",
+          "hindi": "0"
         },
         {
           "id": "B",
-          "en": "0.5",
-          "hi": "0.5"
+          "english": "0.5",
+          "hindi": "0.5"
         },
         {
           "id": "C",
-          "en": "1.0 (Unity)",
-          "hi": "1.0 (इकाई)"
+          "english": "1.0 (Unity)",
+          "hindi": "1.0 (इकाई)"
         },
         {
           "id": "D",
-          "en": "Infinity",
-          "hi": "अनंत"
+          "english": "Infinity",
+          "hindi": "अनंत"
         }
       ],
       "correctAnswer": "C",
@@ -2247,23 +2247,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Radio waves",
-          "hi": "रेडियो तरंगें"
+          "english": "Radio waves",
+          "hindi": "रेडियो तरंगें"
         },
         {
           "id": "B",
-          "en": "Microwaves",
-          "hi": "माइक्रोवेव"
+          "english": "Microwaves",
+          "hindi": "माइक्रोवेव"
         },
         {
           "id": "C",
-          "en": "X-rays",
-          "hi": "एक्स-किरणें"
+          "english": "X-rays",
+          "hindi": "एक्स-किरणें"
         },
         {
           "id": "D",
-          "en": "Gamma rays (γ-rays)",
-          "hi": "गामा किरणें (γ-rays)"
+          "english": "Gamma rays (γ-rays)",
+          "hindi": "गामा किरणें (γ-rays)"
         }
       ],
       "correctAnswer": "D",
@@ -2294,23 +2294,23 @@
       "options": [
         {
           "id": "A",
-          "en": "λ",
-          "hi": "λ"
+          "english": "λ",
+          "hindi": "λ"
         },
         {
           "id": "B",
-          "en": "λ / 2",
-          "hi": "λ / 2"
+          "english": "λ / 2",
+          "hindi": "λ / 2"
         },
         {
           "id": "C",
-          "en": "λ / 4",
-          "hi": "λ / 4"
+          "english": "λ / 4",
+          "hindi": "λ / 4"
         },
         {
           "id": "D",
-          "en": "2 λ",
-          "hi": "2 λ"
+          "english": "2 λ",
+          "hindi": "2 λ"
         }
       ],
       "correctAnswer": "B",
@@ -2341,23 +2341,23 @@
       "options": [
         {
           "id": "A",
-          "en": "0 °C",
-          "hi": "0 °C"
+          "english": "0 °C",
+          "hindi": "0 °C"
         },
         {
           "id": "B",
-          "en": "4 °C",
-          "hi": "4 °C"
+          "english": "4 °C",
+          "hindi": "4 °C"
         },
         {
           "id": "C",
-          "en": "-4 °C",
-          "hi": "-4 °C"
+          "english": "-4 °C",
+          "hindi": "-4 °C"
         },
         {
           "id": "D",
-          "en": "100 °C",
-          "hi": "100 °C"
+          "english": "100 °C",
+          "hindi": "100 °C"
         }
       ],
       "correctAnswer": "B",
@@ -2388,23 +2388,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Increase (f_water ≈ 4 f)",
-          "hi": "बढ़ जाएगी (लगभग 4 गुना)"
+          "english": "Increase (f_water ≈ 4 f)",
+          "hindi": "बढ़ जाएगी (लगभग 4 गुना)"
         },
         {
           "id": "B",
-          "en": "Decrease (f_water ≈ f / 4)",
-          "hi": "घट जाएगी (लगभग 1/4)"
+          "english": "Decrease (f_water ≈ f / 4)",
+          "hindi": "घट जाएगी (लगभग 1/4)"
         },
         {
           "id": "C",
-          "en": "Remain exactly f",
-          "hi": "बिल्कुल f ही रहेगी"
+          "english": "Remain exactly f",
+          "hindi": "बिल्कुल f ही रहेगी"
         },
         {
           "id": "D",
-          "en": "Become negative and act as concave lens",
-          "hi": "ऋणात्मक होकर अवतल लेंस की भांति कार्य करेगी"
+          "english": "Become negative and act as concave lens",
+          "hindi": "ऋणात्मक होकर अवतल लेंस की भांति कार्य करेगी"
         }
       ],
       "correctAnswer": "A",
@@ -2435,23 +2435,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Pole strength m, Magnetic moment M/2",
-          "hi": "ध्रुव सामर्थ्य m (समान) तथा चुंबकीय आघूर्ण M/2"
+          "english": "Pole strength m, Magnetic moment M/2",
+          "hindi": "ध्रुव सामर्थ्य m (समान) तथा चुंबकीय आघूर्ण M/2"
         },
         {
           "id": "B",
-          "en": "Pole strength m/2, Magnetic moment M/2",
-          "hi": "ध्रुव सामर्थ्य m/2 तथा चुंबकीय आघूर्ण M/2"
+          "english": "Pole strength m/2, Magnetic moment M/2",
+          "hindi": "ध्रुव सामर्थ्य m/2 तथा चुंबकीय आघूर्ण M/2"
         },
         {
           "id": "C",
-          "en": "Pole strength m/2, Magnetic moment M",
-          "hi": "ध्रुव सामर्थ्य m/2 तथा चुंबकीय आघूर्ण M"
+          "english": "Pole strength m/2, Magnetic moment M",
+          "hindi": "ध्रुव सामर्थ्य m/2 तथा चुंबकीय आघूर्ण M"
         },
         {
           "id": "D",
-          "en": "Both remain unchanged",
-          "hi": "दोनों अपरिवर्तित रहेंगे"
+          "english": "Both remain unchanged",
+          "hindi": "दोनों अपरिवर्तित रहेंगे"
         }
       ],
       "correctAnswer": "A",
@@ -2482,23 +2482,23 @@
       "options": [
         {
           "id": "A",
-          "en": "[M L² T⁻¹]",
-          "hi": "[M L² T⁻¹]"
+          "english": "[M L² T⁻¹]",
+          "hindi": "[M L² T⁻¹]"
         },
         {
           "id": "B",
-          "en": "[M L² T⁻²]",
-          "hi": "[M L² T⁻²]"
+          "english": "[M L² T⁻²]",
+          "hindi": "[M L² T⁻²]"
         },
         {
           "id": "C",
-          "en": "[M L T⁻¹]",
-          "hi": "[M L T⁻¹]"
+          "english": "[M L T⁻¹]",
+          "hindi": "[M L T⁻¹]"
         },
         {
           "id": "D",
-          "en": "[M L⁰ T⁻¹]",
-          "hi": "[M L⁰ T⁻¹]"
+          "english": "[M L⁰ T⁻¹]",
+          "hindi": "[M L⁰ T⁻¹]"
         }
       ],
       "correctAnswer": "A",
@@ -2529,23 +2529,23 @@
       "options": [
         {
           "id": "A",
-          "en": "9 × 10¹³ Joules",
-          "hi": "9 × 10¹³ जूल"
+          "english": "9 × 10¹³ Joules",
+          "hindi": "9 × 10¹³ जूल"
         },
         {
           "id": "B",
-          "en": "3 × 10⁸ Joules",
-          "hi": "3 × 10⁸ जूल"
+          "english": "3 × 10⁸ Joules",
+          "hindi": "3 × 10⁸ जूल"
         },
         {
           "id": "C",
-          "en": "9 × 10¹⁶ Joules",
-          "hi": "9 × 10¹⁶ जूल"
+          "english": "9 × 10¹⁶ Joules",
+          "hindi": "9 × 10¹⁶ जूल"
         },
         {
           "id": "D",
-          "en": "9 × 10¹⁰ Joules",
-          "hi": "9 × 10¹⁰ जूल"
+          "english": "9 × 10¹⁰ Joules",
+          "hindi": "9 × 10¹⁰ जूल"
         }
       ],
       "correctAnswer": "A",
@@ -2576,23 +2576,23 @@
       "options": [
         {
           "id": "A",
-          "en": "sp³d² hybridization, Square Planar geometry",
-          "hi": "sp³d² संकरण, वर्ग समतलीय (Square Planar) ज्यामिति"
+          "english": "sp³d² hybridization, Square Planar geometry",
+          "hindi": "sp³d² संकरण, वर्ग समतलीय (Square Planar) ज्यामिति"
         },
         {
           "id": "B",
-          "en": "sp³d hybridization, See-saw geometry",
-          "hi": "sp³d संकरण, सी-सॉ ज्यामिति"
+          "english": "sp³d hybridization, See-saw geometry",
+          "hindi": "sp³d संकरण, सी-सॉ ज्यामिति"
         },
         {
           "id": "C",
-          "en": "sp³ hybridization, Tetrahedral geometry",
-          "hi": "sp³ संकरण, चतुष्फलकीय ज्यामिति"
+          "english": "sp³ hybridization, Tetrahedral geometry",
+          "hindi": "sp³ संकरण, चतुष्फलकीय ज्यामिति"
         },
         {
           "id": "D",
-          "en": "sp³d² hybridization, Octahedral geometry",
-          "hi": "sp³d² संकरण, अष्टफलकीय ज्यामिति"
+          "english": "sp³d² hybridization, Octahedral geometry",
+          "hindi": "sp³d² संकरण, अष्टफलकीय ज्यामिति"
         }
       ],
       "correctAnswer": "A",
@@ -2623,23 +2623,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Fluorine (F)",
-          "hi": "फ्लोरीन (F)"
+          "english": "Fluorine (F)",
+          "hindi": "फ्लोरीन (F)"
         },
         {
           "id": "B",
-          "en": "Chlorine (Cl)",
-          "hi": "क्लोरीन (Cl)"
+          "english": "Chlorine (Cl)",
+          "hindi": "क्लोरीन (Cl)"
         },
         {
           "id": "C",
-          "en": "Bromine (Br)",
-          "hi": "ब्रोमीन (Br)"
+          "english": "Bromine (Br)",
+          "hindi": "ब्रोमीन (Br)"
         },
         {
           "id": "D",
-          "en": "Iodine (I)",
-          "hi": "आयोडीन (I)"
+          "english": "Iodine (I)",
+          "hindi": "आयोडीन (I)"
         }
       ],
       "correctAnswer": "B",
@@ -2670,23 +2670,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Negative (ΔG < 0)",
-          "hi": "ऋणात्मक (ΔG < 0)"
+          "english": "Negative (ΔG < 0)",
+          "hindi": "ऋणात्मक (ΔG < 0)"
         },
         {
           "id": "B",
-          "en": "Positive (ΔG > 0)",
-          "hi": "धनात्मक (ΔG > 0)"
+          "english": "Positive (ΔG > 0)",
+          "hindi": "धनात्मक (ΔG > 0)"
         },
         {
           "id": "C",
-          "en": "Zero (ΔG = 0)",
-          "hi": "शून्य (ΔG = 0)"
+          "english": "Zero (ΔG = 0)",
+          "hindi": "शून्य (ΔG = 0)"
         },
         {
           "id": "D",
-          "en": "Equal to enthalpy change ΔH",
-          "hi": "एन्थैल्पी परिवर्तन ΔH के बराबर"
+          "english": "Equal to enthalpy change ΔH",
+          "hindi": "एन्थैल्पी परिवर्तन ΔH के बराबर"
         }
       ],
       "correctAnswer": "A",
@@ -2717,23 +2717,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Pentaamminechloridocobalt(III) chloride, +3",
-          "hi": "पेन्टाएम्मीनक्लोरिडोकोबाल्ट(III) क्लोराइड, +3"
+          "english": "Pentaamminechloridocobalt(III) chloride, +3",
+          "hindi": "पेन्टाएम्मीनक्लोरिडोकोबाल्ट(III) क्लोराइड, +3"
         },
         {
           "id": "B",
-          "en": "Pentaamminechlorocobalt(II) chloride, +2",
-          "hi": "पेन्टाएम्मीनक्लोरोकोबाल्ट(II) क्लोराइड, +2"
+          "english": "Pentaamminechlorocobalt(II) chloride, +2",
+          "hindi": "पेन्टाएम्मीनक्लोरोकोबाल्ट(II) क्लोराइड, +2"
         },
         {
           "id": "C",
-          "en": "Chloropentaamminecobaltate(III) chloride, +3",
-          "hi": "क्लोरोपेन्टाएम्मीनकोबाल्टेट(III) क्लोराइड, +3"
+          "english": "Chloropentaamminecobaltate(III) chloride, +3",
+          "hindi": "क्लोरोपेन्टाएम्मीनकोबाल्टेट(III) क्लोराइड, +3"
         },
         {
           "id": "D",
-          "en": "Pentaamminecobalt(III) trichloride, +3",
-          "hi": "पेन्टाएम्मीनकोबाल्ट(III) ट्राइक्लोराइड, +3"
+          "english": "Pentaamminecobalt(III) trichloride, +3",
+          "hindi": "पेन्टाएम्मीनकोबाल्ट(III) ट्राइक्लोराइड, +3"
         }
       ],
       "correctAnswer": "A",
@@ -2764,23 +2764,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Anhydrous ZnCl2 + Concentrated HCl",
-          "hi": "निर्जल ZnCl2 + सांद्र HCl"
+          "english": "Anhydrous ZnCl2 + Concentrated HCl",
+          "hindi": "निर्जल ZnCl2 + सांद्र HCl"
         },
         {
           "id": "B",
-          "en": "Alkaline KMnO4 solution",
-          "hi": "क्षारीय KMnO4 विलयन"
+          "english": "Alkaline KMnO4 solution",
+          "hindi": "क्षारीय KMnO4 विलयन"
         },
         {
           "id": "C",
-          "en": "Ammoniacal Silver Nitrate (AgNO3 + NH4OH)",
-          "hi": "अमोनिकल सिल्वर नाइट्रेट"
+          "english": "Ammoniacal Silver Nitrate (AgNO3 + NH4OH)",
+          "hindi": "अमोनिकल सिल्वर नाइट्रेट"
         },
         {
           "id": "D",
-          "en": "Bromine water in CCl4",
-          "hi": "CCl4 में ब्रोमीन जल"
+          "english": "Bromine water in CCl4",
+          "hindi": "CCl4 में ब्रोमीन जल"
         }
       ],
       "correctAnswer": "A",
@@ -2811,23 +2811,23 @@
       "options": [
         {
           "id": "A",
-          "en": "1 F",
-          "hi": "1 F"
+          "english": "1 F",
+          "hindi": "1 F"
         },
         {
           "id": "B",
-          "en": "3 F",
-          "hi": "3 F"
+          "english": "3 F",
+          "hindi": "3 F"
         },
         {
           "id": "C",
-          "en": "5 F",
-          "hi": "5 F"
+          "english": "5 F",
+          "hindi": "5 F"
         },
         {
           "id": "D",
-          "en": "7 F",
-          "hi": "7 F"
+          "english": "7 F",
+          "hindi": "7 F"
         }
       ],
       "correctAnswer": "C",
@@ -2858,23 +2858,23 @@
       "options": [
         {
           "id": "A",
-          "en": "301 seconds",
-          "hi": "301 सेकंड"
+          "english": "301 seconds",
+          "hindi": "301 सेकंड"
         },
         {
           "id": "B",
-          "en": "693 seconds",
-          "hi": "693 सेकंड"
+          "english": "693 seconds",
+          "hindi": "693 सेकंड"
         },
         {
           "id": "C",
-          "en": "1000 seconds",
-          "hi": "1000 सेकंड"
+          "english": "1000 seconds",
+          "hindi": "1000 सेकंड"
         },
         {
           "id": "D",
-          "en": "2303 seconds",
-          "hi": "2303 सेकंड"
+          "english": "2303 seconds",
+          "hindi": "2303 सेकंड"
         }
       ],
       "correctAnswer": "A",
@@ -2905,23 +2905,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Cannizzaro Reaction",
-          "hi": "कैनिजारो अभिक्रिया"
+          "english": "Cannizzaro Reaction",
+          "hindi": "कैनिजारो अभिक्रिया"
         },
         {
           "id": "B",
-          "en": "Hoffmann Bromamide Degradation Reaction",
-          "hi": "हॉफमैन ब्रोमामाइड निम्नीकरण अभिक्रिया"
+          "english": "Hoffmann Bromamide Degradation Reaction",
+          "hindi": "हॉफमैन ब्रोमामाइड निम्नीकरण अभिक्रिया"
         },
         {
           "id": "C",
-          "en": "Reimer-Tiemann Reaction",
-          "hi": "राइमर-टीमैन अभिक्रिया"
+          "english": "Reimer-Tiemann Reaction",
+          "hindi": "राइमर-टीमैन अभिक्रिया"
         },
         {
           "id": "D",
-          "en": "Aldol Condensation",
-          "hi": "एल्डोल संघनन"
+          "english": "Aldol Condensation",
+          "hindi": "एल्डोल संघनन"
         }
       ],
       "correctAnswer": "B",
@@ -2952,23 +2952,23 @@
       "options": [
         {
           "id": "A",
-          "en": "1",
-          "hi": "1"
+          "english": "1",
+          "hindi": "1"
         },
         {
           "id": "B",
-          "en": "2",
-          "hi": "2"
+          "english": "2",
+          "hindi": "2"
         },
         {
           "id": "C",
-          "en": "3",
-          "hi": "3"
+          "english": "3",
+          "hindi": "3"
         },
         {
           "id": "D",
-          "en": "4",
-          "hi": "4"
+          "english": "4",
+          "hindi": "4"
         }
       ],
       "correctAnswer": "C",
@@ -2999,23 +2999,23 @@
       "options": [
         {
           "id": "A",
-          "en": "8.0",
-          "hi": "8.0"
+          "english": "8.0",
+          "hindi": "8.0"
         },
         {
           "id": "B",
-          "en": "6.96 (Slightly less than 7)",
-          "hi": "6.96 (7 से थोड़ा कम, अम्लीय)"
+          "english": "6.96 (Slightly less than 7)",
+          "hindi": "6.96 (7 से थोड़ा कम, अम्लीय)"
         },
         {
           "id": "C",
-          "en": "7.0 (Exactly neutral)",
-          "hi": "7.0"
+          "english": "7.0 (Exactly neutral)",
+          "hindi": "7.0"
         },
         {
           "id": "D",
-          "en": "1.0",
-          "hi": "1.0"
+          "english": "1.0",
+          "hindi": "1.0"
         }
       ],
       "correctAnswer": "B",
@@ -3046,23 +3046,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Hexamethylenediamine and Adipic acid",
-          "hi": "हेक्सामेथिलीनडाइऐमीन एवं एडिपिक अम्ल"
+          "english": "Hexamethylenediamine and Adipic acid",
+          "hindi": "हेक्सामेथिलीनडाइऐमीन एवं एडिपिक अम्ल"
         },
         {
           "id": "B",
-          "en": "Ethylene glycol and Terephthalic acid",
-          "hi": "एथिलीन ग्लाइकॉल एवं टेरेफ्थैलिक अम्ल"
+          "english": "Ethylene glycol and Terephthalic acid",
+          "hindi": "एथिलीन ग्लाइकॉल एवं टेरेफ्थैलिक अम्ल"
         },
         {
           "id": "C",
-          "en": "Caprolactam and Water",
-          "hi": "कैप्रोलैक्टम एवं जल"
+          "english": "Caprolactam and Water",
+          "hindi": "कैप्रोलैक्टम एवं जल"
         },
         {
           "id": "D",
-          "en": "Phenol and Formaldehyde",
-          "hi": "फीनॉल एवं फॉर्मेल्डिहाइड"
+          "english": "Phenol and Formaldehyde",
+          "hindi": "फीनॉल एवं फॉर्मेल्डिहाइड"
         }
       ],
       "correctAnswer": "A",
@@ -3093,23 +3093,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Zinc powder (Zn)",
-          "hi": "जिंक चूर्ण (Zn)"
+          "english": "Zinc powder (Zn)",
+          "hindi": "जिंक चूर्ण (Zn)"
         },
         {
           "id": "B",
-          "en": "Copper (Cu)",
-          "hi": "कॉपर (Cu)"
+          "english": "Copper (Cu)",
+          "hindi": "कॉपर (Cu)"
         },
         {
           "id": "C",
-          "en": "Iron (Fe)",
-          "hi": "आयरन (Fe)"
+          "english": "Iron (Fe)",
+          "hindi": "आयरन (Fe)"
         },
         {
           "id": "D",
-          "en": "Magnesium (Mg)",
-          "hi": "मैग्नीशियम (Mg)"
+          "english": "Magnesium (Mg)",
+          "hindi": "मैग्नीशियम (Mg)"
         }
       ],
       "correctAnswer": "A",
@@ -3140,23 +3140,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Tyndall Effect",
-          "hi": "टिंडल प्रभाव"
+          "english": "Tyndall Effect",
+          "hindi": "टिंडल प्रभाव"
         },
         {
           "id": "B",
-          "en": "Brownian Movement",
-          "hi": "ब्राउनी गति (Brownian Movement)"
+          "english": "Brownian Movement",
+          "hindi": "ब्राउनी गति (Brownian Movement)"
         },
         {
           "id": "C",
-          "en": "Electrophoresis",
-          "hi": "वैद्युतकण संचलन"
+          "english": "Electrophoresis",
+          "hindi": "वैद्युतकण संचलन"
         },
         {
           "id": "D",
-          "en": "Coagulation",
-          "hi": "स्कंदन"
+          "english": "Coagulation",
+          "hindi": "स्कंदन"
         }
       ],
       "correctAnswer": "B",
@@ -3187,23 +3187,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Square root of its molar mass (√M)",
-          "hi": "इसके मोलर द्रव्यमान के वर्गमूल (√M) के"
+          "english": "Square root of its molar mass (√M)",
+          "hindi": "इसके मोलर द्रव्यमान के वर्गमूल (√M) के"
         },
         {
           "id": "B",
-          "en": "Its molar mass directly (M)",
-          "hi": "इसके मोलर द्रव्यमान के सीधे"
+          "english": "Its molar mass directly (M)",
+          "hindi": "इसके मोलर द्रव्यमान के सीधे"
         },
         {
           "id": "C",
-          "en": "Square of its density (d²)",
-          "hi": "इसके घनत्व के वर्ग के"
+          "english": "Square of its density (d²)",
+          "hindi": "इसके घनत्व के वर्ग के"
         },
         {
           "id": "D",
-          "en": "Its volume",
-          "hi": "इसके आयतन के"
+          "english": "Its volume",
+          "hindi": "इसके आयतन के"
         }
       ],
       "correctAnswer": "A",
@@ -3234,23 +3234,23 @@
       "options": [
         {
           "id": "A",
-          "en": "74% and Coordination Number = 12",
-          "hi": "74% तथा उपसहसंयोजन संख्या = 12"
+          "english": "74% and Coordination Number = 12",
+          "hindi": "74% तथा उपसहसंयोजन संख्या = 12"
         },
         {
           "id": "B",
-          "en": "68% and Coordination Number = 8",
-          "hi": "68% तथा उपसहसंयोजन संख्या = 8"
+          "english": "68% and Coordination Number = 8",
+          "hindi": "68% तथा उपसहसंयोजन संख्या = 8"
         },
         {
           "id": "C",
-          "en": "52.4% and Coordination Number = 6",
-          "hi": "52.4% तथा उपसहसंयोजन संख्या = 6"
+          "english": "52.4% and Coordination Number = 6",
+          "hindi": "52.4% तथा उपसहसंयोजन संख्या = 6"
         },
         {
           "id": "D",
-          "en": "74% and Coordination Number = 8",
-          "hi": "74% तथा उपसहसंयोजन संख्या = 8"
+          "english": "74% and Coordination Number = 8",
+          "hindi": "74% तथा उपसहसंयोजन संख्या = 8"
         }
       ],
       "correctAnswer": "A",
@@ -3281,23 +3281,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Lanthanide Contraction",
-          "hi": "लैन्थेनाइड आकुंचन / संकुचन (Lanthanide Contraction)"
+          "english": "Lanthanide Contraction",
+          "hindi": "लैन्थेनाइड आकुंचन / संकुचन (Lanthanide Contraction)"
         },
         {
           "id": "B",
-          "en": "Shielding effect surge",
-          "hi": "परिरक्षण प्रभाव में वृद्धि"
+          "english": "Shielding effect surge",
+          "hindi": "परिरक्षण प्रभाव में वृद्धि"
         },
         {
           "id": "C",
-          "en": "Jahn-Teller Distortion",
-          "hi": "जॉन-टेलर विरूपण"
+          "english": "Jahn-Teller Distortion",
+          "hindi": "जॉन-टेलर विरूपण"
         },
         {
           "id": "D",
-          "en": "Zeeman effect",
-          "hi": "जीमान प्रभाव"
+          "english": "Zeeman effect",
+          "hindi": "जीमान प्रभाव"
         }
       ],
       "correctAnswer": "A",
@@ -3328,23 +3328,23 @@
       "options": [
         {
           "id": "A",
-          "en": "(4n + 2) π-electrons (where n = 0, 1, 2...)",
-          "hi": "(4n + 2) π-इलेक्ट्रॉन (जहाँ n = 0, 1, 2...)"
+          "english": "(4n + 2) π-electrons (where n = 0, 1, 2...)",
+          "hindi": "(4n + 2) π-इलेक्ट्रॉन (जहाँ n = 0, 1, 2...)"
         },
         {
           "id": "B",
-          "en": "4n π-electrons",
-          "hi": "4n π-इलेक्ट्रॉन"
+          "english": "4n π-electrons",
+          "hindi": "4n π-इलेक्ट्रॉन"
         },
         {
           "id": "C",
-          "en": "(2n + 2) π-electrons",
-          "hi": "(2n + 2) π-इलेक्ट्रॉन"
+          "english": "(2n + 2) π-electrons",
+          "hindi": "(2n + 2) π-इलेक्ट्रॉन"
         },
         {
           "id": "D",
-          "en": "6n π-electrons",
-          "hi": "6n π-इलेक्ट्रॉन"
+          "english": "6n π-electrons",
+          "hindi": "6n π-इलेक्ट्रॉन"
         }
       ],
       "correctAnswer": "A",
@@ -3375,23 +3375,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Chlorine free radical (Cl•)",
-          "hi": "क्लोरीन मुक्त मूलक (Cl•)"
+          "english": "Chlorine free radical (Cl•)",
+          "hindi": "क्लोरीन मुक्त मूलक (Cl•)"
         },
         {
           "id": "B",
-          "en": "Fluorine ion (F⁻)",
-          "hi": "फ्लोराइड आयन (F⁻)"
+          "english": "Fluorine ion (F⁻)",
+          "hindi": "फ्लोराइड आयन (F⁻)"
         },
         {
           "id": "C",
-          "en": "Carbon dioxide (CO2)",
-          "hi": "कार्बन डाइऑक्साइड"
+          "english": "Carbon dioxide (CO2)",
+          "hindi": "कार्बन डाइऑक्साइड"
         },
         {
           "id": "D",
-          "en": "Sulfate radical (SO4²⁻)",
-          "hi": "सल्फेट मूलक"
+          "english": "Sulfate radical (SO4²⁻)",
+          "hindi": "सल्फेट मूलक"
         }
       ],
       "correctAnswer": "A",
@@ -3422,23 +3422,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Adenine",
-          "hi": "एडेनिन"
+          "english": "Adenine",
+          "hindi": "एडेनिन"
         },
         {
           "id": "B",
-          "en": "Thymine",
-          "hi": "थाइमिन"
+          "english": "Thymine",
+          "hindi": "थाइमिन"
         },
         {
           "id": "C",
-          "en": "Uracil",
-          "hi": "युरेसिल (Uracil)"
+          "english": "Uracil",
+          "hindi": "युरेसिल (Uracil)"
         },
         {
           "id": "D",
-          "en": "Cytosine",
-          "hi": "साइटोसिन"
+          "english": "Cytosine",
+          "hindi": "साइटोसिन"
         }
       ],
       "correctAnswer": "C",
@@ -3469,23 +3469,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Aliphatic Aldehydes (e.g. Acetaldehyde, Glucose)",
-          "hi": "एलिफैटिक एल्डिहाइड (जैसे एसीटैल्डिहाइड, ग्लूकोज)"
+          "english": "Aliphatic Aldehydes (e.g. Acetaldehyde, Glucose)",
+          "hindi": "एलिफैटिक एल्डिहाइड (जैसे एसीटैल्डिहाइड, ग्लूकोज)"
         },
         {
           "id": "B",
-          "en": "Aromatic Ketones (e.g. Acetophenone)",
-          "hi": "एरोमैटिक कीटोन"
+          "english": "Aromatic Ketones (e.g. Acetophenone)",
+          "hindi": "एरोमैटिक कीटोन"
         },
         {
           "id": "C",
-          "en": "Esters",
-          "hi": "एस्टर"
+          "english": "Esters",
+          "hindi": "एस्टर"
         },
         {
           "id": "D",
-          "en": "Tertiary Amines",
-          "hi": "तृतीयक एमीन"
+          "english": "Tertiary Amines",
+          "hindi": "तृतीयक एमीन"
         }
       ],
       "correctAnswer": "A",
@@ -3516,23 +3516,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Z decreases by 2, A decreases by 4",
-          "hi": "Z में 2 की कमी, A में 4 की कमी"
+          "english": "Z decreases by 2, A decreases by 4",
+          "hindi": "Z में 2 की कमी, A में 4 की कमी"
         },
         {
           "id": "B",
-          "en": "Z increases by 1, A remains unchanged",
-          "hi": "Z में 1 की वृद्धि, A अपरिवर्तित"
+          "english": "Z increases by 1, A remains unchanged",
+          "hindi": "Z में 1 की वृद्धि, A अपरिवर्तित"
         },
         {
           "id": "C",
-          "en": "Z decreases by 1, A remains unchanged",
-          "hi": "Z में 1 की कमी, A अपरिवर्तित"
+          "english": "Z decreases by 1, A remains unchanged",
+          "hindi": "Z में 1 की कमी, A अपरिवर्तित"
         },
         {
           "id": "D",
-          "en": "Z decreases by 4, A decreases by 2",
-          "hi": "Z में 4 की कमी, A में 2 की कमी"
+          "english": "Z decreases by 4, A decreases by 2",
+          "hindi": "Z में 4 की कमी, A में 2 की कमी"
         }
       ],
       "correctAnswer": "A",
@@ -3563,23 +3563,23 @@
       "options": [
         {
           "id": "A",
-          "en": "x/m = k P^(1/n) (where n > 1)",
-          "hi": "x/m = k P^(1/n) (जहाँ n > 1)"
+          "english": "x/m = k P^(1/n) (where n > 1)",
+          "hindi": "x/m = k P^(1/n) (जहाँ n > 1)"
         },
         {
           "id": "B",
-          "en": "x/m = k P²",
-          "hi": "x/m = k P²"
+          "english": "x/m = k P²",
+          "hindi": "x/m = k P²"
         },
         {
           "id": "C",
-          "en": "x/m = k / P",
-          "hi": "x/m = k / P"
+          "english": "x/m = k / P",
+          "hindi": "x/m = k / P"
         },
         {
           "id": "D",
-          "en": "x/m = constant (independent of P)",
-          "hi": "x/m = नियतांक"
+          "english": "x/m = constant (independent of P)",
+          "hindi": "x/m = नियतांक"
         }
       ],
       "correctAnswer": "A",
@@ -3610,23 +3610,23 @@
       "options": [
         {
           "id": "A",
-          "en": "11.2 Volume",
-          "hi": "11.2 आयतन (11.2 V)"
+          "english": "11.2 Volume",
+          "hindi": "11.2 आयतन (11.2 V)"
         },
         {
           "id": "B",
-          "en": "22.4 Volume",
-          "hi": "22.4 आयतन (22.4 V)"
+          "english": "22.4 Volume",
+          "hindi": "22.4 आयतन (22.4 V)"
         },
         {
           "id": "C",
-          "en": "5.6 Volume",
-          "hi": "5.6 आयतन (5.6 V)"
+          "english": "5.6 Volume",
+          "hindi": "5.6 आयतन (5.6 V)"
         },
         {
           "id": "D",
-          "en": "10.0 Volume",
-          "hi": "10.0 आयतन (10.0 V)"
+          "english": "10.0 Volume",
+          "hindi": "10.0 आयतन (10.0 V)"
         }
       ],
       "correctAnswer": "A",
@@ -3657,23 +3657,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Ribosome",
-          "hi": "राइबोसोम"
+          "english": "Ribosome",
+          "hindi": "राइबोसोम"
         },
         {
           "id": "B",
-          "en": "Lysosome",
-          "hi": "लाइसोसोम (Lysosome)"
+          "english": "Lysosome",
+          "hindi": "लाइसोसोम (Lysosome)"
         },
         {
           "id": "C",
-          "en": "Golgi Apparatus",
-          "hi": "गॉल्जी उपकरण"
+          "english": "Golgi Apparatus",
+          "hindi": "गॉल्जी उपकरण"
         },
         {
           "id": "D",
-          "en": "Mitochondria",
-          "hi": "माइटोकॉन्ड्रिया"
+          "english": "Mitochondria",
+          "hindi": "माइटोकॉन्ड्रिया"
         }
       ],
       "correctAnswer": "B",
@@ -3704,23 +3704,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Ribulose-1,5-bisphosphate (RuBP)",
-          "hi": "रिबुलोस-1,5-बिसफॉस्फेट (RuBP)"
+          "english": "Ribulose-1,5-bisphosphate (RuBP)",
+          "hindi": "रिबुलोस-1,5-बिसफॉस्फेट (RuBP)"
         },
         {
           "id": "B",
-          "en": "Phosphoenolpyruvate (PEP)",
-          "hi": "फॉस्फोइनोलपायरुवेट (PEP)"
+          "english": "Phosphoenolpyruvate (PEP)",
+          "hindi": "फॉस्फोइनोलपायरुवेट (PEP)"
         },
         {
           "id": "C",
-          "en": "Oxaloacetic acid (OAA)",
-          "hi": "ऑक्सालोएसीटिक अम्ल (OAA)"
+          "english": "Oxaloacetic acid (OAA)",
+          "hindi": "ऑक्सालोएसीटिक अम्ल (OAA)"
         },
         {
           "id": "D",
-          "en": "Phosphoglyceric acid (PGA)",
-          "hi": "फॉस्फोग्लिसरिक अम्ल (PGA)"
+          "english": "Phosphoglyceric acid (PGA)",
+          "hindi": "फॉस्फोग्लिसरिक अम्ल (PGA)"
         }
       ],
       "correctAnswer": "B",
@@ -3751,23 +3751,23 @@
       "options": [
         {
           "id": "A",
-          "en": "3 : 1",
-          "hi": "3 : 1"
+          "english": "3 : 1",
+          "hindi": "3 : 1"
         },
         {
           "id": "B",
-          "en": "9 : 3 : 3 : 1",
-          "hi": "9 : 3 : 3 : 1"
+          "english": "9 : 3 : 3 : 1",
+          "hindi": "9 : 3 : 3 : 1"
         },
         {
           "id": "C",
-          "en": "1 : 2 : 1",
-          "hi": "1 : 2 : 1"
+          "english": "1 : 2 : 1",
+          "hindi": "1 : 2 : 1"
         },
         {
           "id": "D",
-          "en": "9 : 7",
-          "hi": "9 : 7"
+          "english": "9 : 7",
+          "hindi": "9 : 7"
         }
       ],
       "correctAnswer": "B",
@@ -3798,23 +3798,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Glucagon",
-          "hi": "ग्लूकागॉन"
+          "english": "Glucagon",
+          "hindi": "ग्लूकागॉन"
         },
         {
           "id": "B",
-          "en": "Insulin",
-          "hi": "इंसुलिन (Insulin)"
+          "english": "Insulin",
+          "hindi": "इंसुलिन (Insulin)"
         },
         {
           "id": "C",
-          "en": "Somatostatin",
-          "hi": "सोमेटोस्टेटिन"
+          "english": "Somatostatin",
+          "hindi": "सोमेटोस्टेटिन"
         },
         {
           "id": "D",
-          "en": "Thyroxine",
-          "hi": "थायरोक्सिन"
+          "english": "Thyroxine",
+          "hindi": "थायरोक्सिन"
         }
       ],
       "correctAnswer": "B",
@@ -3845,23 +3845,23 @@
       "options": [
         {
           "id": "A",
-          "en": "1%",
-          "hi": "1%"
+          "english": "1%",
+          "hindi": "1%"
         },
         {
           "id": "B",
-          "en": "10%",
-          "hi": "10%"
+          "english": "10%",
+          "hindi": "10%"
         },
         {
           "id": "C",
-          "en": "50%",
-          "hi": "50%"
+          "english": "50%",
+          "hindi": "50%"
         },
         {
           "id": "D",
-          "en": "90%",
-          "hi": "90%"
+          "english": "90%",
+          "hindi": "90%"
         }
       ],
       "correctAnswer": "B",
@@ -3892,23 +3892,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Xylem vessels",
-          "hi": "जाइलम वाहिकाएं"
+          "english": "Xylem vessels",
+          "hindi": "जाइलम वाहिकाएं"
         },
         {
           "id": "B",
-          "en": "Phloem sieve tubes and companion cells",
-          "hi": "फ्लोएम चालनी नलिकाएं एवं सहचर कोशिकाएं"
+          "english": "Phloem sieve tubes and companion cells",
+          "hindi": "फ्लोएम चालनी नलिकाएं एवं सहचर कोशिकाएं"
         },
         {
           "id": "C",
-          "en": "Collenchyma",
-          "hi": "स्थूलकोण ऊतक"
+          "english": "Collenchyma",
+          "hindi": "स्थूलकोण ऊतक"
         },
         {
           "id": "D",
-          "en": "Sclerenchyma fibres",
-          "hi": "दृढ़ोतक रेशे"
+          "english": "Sclerenchyma fibres",
+          "hindi": "दृढ़ोतक रेशे"
         }
       ],
       "correctAnswer": "B",
@@ -3939,23 +3939,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Arthropoda",
-          "hi": "आर्थ्रोपोडा"
+          "english": "Arthropoda",
+          "hindi": "आर्थ्रोपोडा"
         },
         {
           "id": "B",
-          "en": "Mollusca",
-          "hi": "मोलस्का"
+          "english": "Mollusca",
+          "hindi": "मोलस्का"
         },
         {
           "id": "C",
-          "en": "Echinodermata (e.g. Starfish)",
-          "hi": "इकाईनोडर्मेटा (जैसे तारा मछली / Starfish)"
+          "english": "Echinodermata (e.g. Starfish)",
+          "hindi": "इकाईनोडर्मेटा (जैसे तारा मछली / Starfish)"
         },
         {
           "id": "D",
-          "en": "Annelida",
-          "hi": "एनेलिडा"
+          "english": "Annelida",
+          "hindi": "एनेलिडा"
         }
       ],
       "correctAnswer": "C",
@@ -3986,23 +3986,23 @@
       "options": [
         {
           "id": "A",
-          "en": "DNA Ligase",
-          "hi": "DNA लाइगेज"
+          "english": "DNA Ligase",
+          "hindi": "DNA लाइगेज"
         },
         {
           "id": "B",
-          "en": "Restriction Endonuclease",
-          "hi": "प्रतिबंधन एंडोन्यूक्लिएज (Restriction Endonuclease)"
+          "english": "Restriction Endonuclease",
+          "hindi": "प्रतिबंधन एंडोन्यूक्लिएज (Restriction Endonuclease)"
         },
         {
           "id": "C",
-          "en": "DNA Polymerase",
-          "hi": "DNA पॉलिमरेज"
+          "english": "DNA Polymerase",
+          "hindi": "DNA पॉलिमरेज"
         },
         {
           "id": "D",
-          "en": "Reverse Transcriptase",
-          "hi": "रिवर्स ट्रांसक्रिप्टेज"
+          "english": "Reverse Transcriptase",
+          "hindi": "रिवर्स ट्रांसक्रिप्टेज"
         }
       ],
       "correctAnswer": "B",
@@ -4033,23 +4033,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Sino-Atrial Node (SAN)",
-          "hi": "शिरा-अलिंद पर्व / साइनो-ऑरिकुलर नोड (SAN)"
+          "english": "Sino-Atrial Node (SAN)",
+          "hindi": "शिरा-अलिंद पर्व / साइनो-ऑरिकुलर नोड (SAN)"
         },
         {
           "id": "B",
-          "en": "Atrio-Ventricular Node (AVN)",
-          "hi": "अलिंद-निलय पर्व (AVN)"
+          "english": "Atrio-Ventricular Node (AVN)",
+          "hindi": "अलिंद-निलय पर्व (AVN)"
         },
         {
           "id": "C",
-          "en": "Bundle of His",
-          "hi": "हिस का बंडल"
+          "english": "Bundle of His",
+          "hindi": "हिस का बंडल"
         },
         {
           "id": "D",
-          "en": "Purkinje Fibres",
-          "hi": "पुरकिंजे तंतु"
+          "english": "Purkinje Fibres",
+          "hindi": "पुरकिंजे तंतु"
         }
       ],
       "correctAnswer": "A",
@@ -4080,23 +4080,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Female Anopheles mosquito",
-          "hi": "मादा एनाफिलीज़ मच्छर"
+          "english": "Female Anopheles mosquito",
+          "hindi": "मादा एनाफिलीज़ मच्छर"
         },
         {
           "id": "B",
-          "en": "Aedes aegypti mosquito",
-          "hi": "एडीज एजिप्टी मच्छर (Aedes aegypti)"
+          "english": "Aedes aegypti mosquito",
+          "hindi": "एडीज एजिप्टी मच्छर (Aedes aegypti)"
         },
         {
           "id": "C",
-          "en": "Culex quinquefasciatus mosquito",
-          "hi": "क्यूलेक्स मच्छर"
+          "english": "Culex quinquefasciatus mosquito",
+          "hindi": "क्यूलेक्स मच्छर"
         },
         {
           "id": "D",
-          "en": "Tsetse fly",
-          "hi": "त्से-त्से मक्खी"
+          "english": "Tsetse fly",
+          "hindi": "त्से-त्से मक्खी"
         }
       ],
       "correctAnswer": "B",
@@ -4127,23 +4127,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Auxin (IAA)",
-          "hi": "ऑक्सिन (IAA)"
+          "english": "Auxin (IAA)",
+          "hindi": "ऑक्सिन (IAA)"
         },
         {
           "id": "B",
-          "en": "Gibberellin (GA3)",
-          "hi": "जिबरेलिन (GA3)"
+          "english": "Gibberellin (GA3)",
+          "hindi": "जिबरेलिन (GA3)"
         },
         {
           "id": "C",
-          "en": "Cytokinin",
-          "hi": "साइटोकाइनिन"
+          "english": "Cytokinin",
+          "hindi": "साइटोकाइनिन"
         },
         {
           "id": "D",
-          "en": "Ethylene (C2H4)",
-          "hi": "एथिलीन (Ethylene)"
+          "english": "Ethylene (C2H4)",
+          "hindi": "एथिलीन (Ethylene)"
         }
       ],
       "correctAnswer": "D",
@@ -4174,23 +4174,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Nephron",
-          "hi": "नेफ्रॉन / वृक्काणु (Nephron)"
+          "english": "Nephron",
+          "hindi": "नेफ्रॉन / वृक्काणु (Nephron)"
         },
         {
           "id": "B",
-          "en": "Neuron",
-          "hi": "न्यूरॉन (तंत्रिका कोशिका)"
+          "english": "Neuron",
+          "hindi": "न्यूरॉन (तंत्रिका कोशिका)"
         },
         {
           "id": "C",
-          "en": "Alveolus",
-          "hi": "कूपिका (Alveolus)"
+          "english": "Alveolus",
+          "hindi": "कूपिका (Alveolus)"
         },
         {
           "id": "D",
-          "en": "Hepatocyte",
-          "hi": "यकृत कोशिका"
+          "english": "Hepatocyte",
+          "hindi": "यकृत कोशिका"
         }
       ],
       "correctAnswer": "A",
@@ -4221,23 +4221,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Homologous Organs (Divergent Evolution)",
-          "hi": "समजात अंग (Homologous Organs - अपसारी विकास)"
+          "english": "Homologous Organs (Divergent Evolution)",
+          "hindi": "समजात अंग (Homologous Organs - अपसारी विकास)"
         },
         {
           "id": "B",
-          "en": "Analogous Organs (Convergent Evolution)",
-          "hi": "समवृत्ति अंग (Analogous Organs - अभिसारी विकास)"
+          "english": "Analogous Organs (Convergent Evolution)",
+          "hindi": "समवृत्ति अंग (Analogous Organs - अभिसारी विकास)"
         },
         {
           "id": "C",
-          "en": "Vestigial Organs",
-          "hi": "अवशेषी अंग"
+          "english": "Vestigial Organs",
+          "hindi": "अवशेषी अंग"
         },
         {
           "id": "D",
-          "en": "Atavistic traits",
-          "hi": "प्रत्यावर्तन"
+          "english": "Atavistic traits",
+          "hindi": "प्रत्यावर्तन"
         }
       ],
       "correctAnswer": "A",
@@ -4268,23 +4268,23 @@
       "options": [
         {
           "id": "A",
-          "en": "IgA",
-          "hi": "IgA"
+          "english": "IgA",
+          "hindi": "IgA"
         },
         {
           "id": "B",
-          "en": "IgG",
-          "hi": "IgG"
+          "english": "IgG",
+          "hindi": "IgG"
         },
         {
           "id": "C",
-          "en": "IgM",
-          "hi": "IgM"
+          "english": "IgM",
+          "hindi": "IgM"
         },
         {
           "id": "D",
-          "en": "IgE",
-          "hi": "IgE"
+          "english": "IgE",
+          "hindi": "IgE"
         }
       ],
       "correctAnswer": "B",
@@ -4315,23 +4315,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Leptotene",
-          "hi": "लेप्टोटीन"
+          "english": "Leptotene",
+          "hindi": "लेप्टोटीन"
         },
         {
           "id": "B",
-          "en": "Zygotene",
-          "hi": "जाइगोटीन"
+          "english": "Zygotene",
+          "hindi": "जाइगोटीन"
         },
         {
           "id": "C",
-          "en": "Pachytene",
-          "hi": "पैकाइटीन (Pachytene)"
+          "english": "Pachytene",
+          "hindi": "पैकाइटीन (Pachytene)"
         },
         {
           "id": "D",
-          "en": "Diplotene",
-          "hi": "डिप्लोटीन"
+          "english": "Diplotene",
+          "hindi": "डिप्लोटीन"
         }
       ],
       "correctAnswer": "C",
@@ -4362,23 +4362,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Western Ghats",
-          "hi": "पश्चिमी घाट"
+          "english": "Western Ghats",
+          "hindi": "पश्चिमी घाट"
         },
         {
           "id": "B",
-          "en": "Himalayas (Himalayan Hotspot)",
-          "hi": "हिमालय (Himalayan Hotspot)"
+          "english": "Himalayas (Himalayan Hotspot)",
+          "hindi": "हिमालय (Himalayan Hotspot)"
         },
         {
           "id": "C",
-          "en": "Indo-Burma",
-          "hi": "इंडो-बर्मा"
+          "english": "Indo-Burma",
+          "hindi": "इंडो-बर्मा"
         },
         {
           "id": "D",
-          "en": "Sundaland",
-          "hi": "सुंडालैंड"
+          "english": "Sundaland",
+          "hindi": "सुंडालैंड"
         }
       ],
       "correctAnswer": "B",
@@ -4409,23 +4409,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Emulsifies dietary fats into micelle droplets and provides an alkaline medium",
-          "hi": "वसा का पायसीकरण (Emulsification) करता है तथा क्षारीय माध्यम प्रदान करता है"
+          "english": "Emulsifies dietary fats into micelle droplets and provides an alkaline medium",
+          "hindi": "वसा का पायसीकरण (Emulsification) करता है तथा क्षारीय माध्यम प्रदान करता है"
         },
         {
           "id": "B",
-          "en": "Directly hydrolyzes proteins into amino acids",
-          "hi": "प्रोटीन को सीधे अमीनो अम्ल में तोड़ता है"
+          "english": "Directly hydrolyzes proteins into amino acids",
+          "hindi": "प्रोटीन को सीधे अमीनो अम्ल में तोड़ता है"
         },
         {
           "id": "C",
-          "en": "Converts starch into maltose",
-          "hi": "स्टार्च को माल्टोज में बदलता है"
+          "english": "Converts starch into maltose",
+          "hindi": "स्टार्च को माल्टोज में बदलता है"
         },
         {
           "id": "D",
-          "en": "Activates salivary amylase",
-          "hi": "लार एमाइलेज को सक्रिय करता है"
+          "english": "Activates salivary amylase",
+          "hindi": "लार एमाइलेज को सक्रिय करता है"
         }
       ],
       "correctAnswer": "A",
@@ -4456,23 +4456,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Bryophytes",
-          "hi": "ब्रायोफाइटा"
+          "english": "Bryophytes",
+          "hindi": "ब्रायोफाइटा"
         },
         {
           "id": "B",
-          "en": "Pteridophytes",
-          "hi": "टेरिडोफाइटा"
+          "english": "Pteridophytes",
+          "hindi": "टेरिडोफाइटा"
         },
         {
           "id": "C",
-          "en": "Gymnosperms",
-          "hi": "जिम्नोस्पर्म (अनावृतबीजी)"
+          "english": "Gymnosperms",
+          "hindi": "जिम्नोस्पर्म (अनावृतबीजी)"
         },
         {
           "id": "D",
-          "en": "Angiosperms (Flowering Plants)",
-          "hi": "एंजियोस्पर्म (आवृतबीजी / पुष्पी पादप)"
+          "english": "Angiosperms (Flowering Plants)",
+          "hindi": "एंजियोस्पर्म (आवृतबीजी / पुष्पी पादप)"
         }
       ],
       "correctAnswer": "D",
@@ -4503,23 +4503,23 @@
       "options": [
         {
           "id": "A",
-          "en": "DNA Helicase",
-          "hi": "DNA हेलिकेज (DNA Helicase)"
+          "english": "DNA Helicase",
+          "hindi": "DNA हेलिकेज (DNA Helicase)"
         },
         {
           "id": "B",
-          "en": "DNA Topoisomerase (Gyrase)",
-          "hi": "DNA टोपोआइसोमेरेज़"
+          "english": "DNA Topoisomerase (Gyrase)",
+          "hindi": "DNA टोपोआइसोमेरेज़"
         },
         {
           "id": "C",
-          "en": "DNA Ligase",
-          "hi": "DNA लाइगेज"
+          "english": "DNA Ligase",
+          "hindi": "DNA लाइगेज"
         },
         {
           "id": "D",
-          "en": "RNA Primase",
-          "hi": "RNA प्राइमेज"
+          "english": "RNA Primase",
+          "hindi": "RNA प्राइमेज"
         }
       ],
       "correctAnswer": "A",
@@ -4550,23 +4550,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Dissolved CO2 gas in plasma",
-          "hi": "प्लाज्मा में घुलित गैस के रूप में"
+          "english": "Dissolved CO2 gas in plasma",
+          "hindi": "प्लाज्मा में घुलित गैस के रूप में"
         },
         {
           "id": "B",
-          "en": "Bicarbonate ions (HCO3⁻) in plasma",
-          "hi": "प्लाज्मा में बाईकार्बोनेट आयनों (HCO3⁻) के रूप में"
+          "english": "Bicarbonate ions (HCO3⁻) in plasma",
+          "hindi": "प्लाज्मा में बाईकार्बोनेट आयनों (HCO3⁻) के रूप में"
         },
         {
           "id": "C",
-          "en": "Carbaminohemoglobin in RBCs",
-          "hi": "कार्बामिनोहीमोग्लोबिन के रूप में"
+          "english": "Carbaminohemoglobin in RBCs",
+          "hindi": "कार्बामिनोहीमोग्लोबिन के रूप में"
         },
         {
           "id": "D",
-          "en": "Carbonic acid crystals",
-          "hi": "कार्बोनिक अम्ल के रूप में"
+          "english": "Carbonic acid crystals",
+          "hindi": "कार्बोनिक अम्ल के रूप में"
         }
       ],
       "correctAnswer": "B",
@@ -4597,23 +4597,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Eutrophication",
-          "hi": "सुपोषण (Eutrophication)"
+          "english": "Eutrophication",
+          "hindi": "सुपोषण (Eutrophication)"
         },
         {
           "id": "B",
-          "en": "Biomagnification (Biological Magnification)",
-          "hi": "जैव आवर्धन (Biomagnification)"
+          "english": "Biomagnification (Biological Magnification)",
+          "hindi": "जैव आवर्धन (Biomagnification)"
         },
         {
           "id": "C",
-          "en": "Bioremediation",
-          "hi": "जैवोपचार"
+          "english": "Bioremediation",
+          "hindi": "जैवोपचार"
         },
         {
           "id": "D",
-          "en": "Bioaccumulation in primary producers only",
-          "hi": "केवल प्राथमिक उत्पादकों में संचय"
+          "english": "Bioaccumulation in primary producers only",
+          "hindi": "केवल प्राथमिक उत्पादकों में संचय"
         }
       ],
       "correctAnswer": "B",
@@ -4644,23 +4644,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Iron (Fe)",
-          "hi": "आयरन (Fe)"
+          "english": "Iron (Fe)",
+          "hindi": "आयरन (Fe)"
         },
         {
           "id": "B",
-          "en": "Magnesium (Mg)",
-          "hi": "मैग्नीशियम (Mg)"
+          "english": "Magnesium (Mg)",
+          "hindi": "मैग्नीशियम (Mg)"
         },
         {
           "id": "C",
-          "en": "Manganese (Mn)",
-          "hi": "मैंगनीज (Mn)"
+          "english": "Manganese (Mn)",
+          "hindi": "मैंगनीज (Mn)"
         },
         {
           "id": "D",
-          "en": "Zinc (Zn)",
-          "hi": "जिंक (Zn)"
+          "english": "Zinc (Zn)",
+          "hindi": "जिंक (Zn)"
         }
       ],
       "correctAnswer": "B",
@@ -4691,23 +4691,23 @@
       "options": [
         {
           "id": "A",
-          "en": "47, XXY (Total 47 chromosomes)",
-          "hi": "47, XXY (कुल 47 गुणसूत्र)"
+          "english": "47, XXY (Total 47 chromosomes)",
+          "hindi": "47, XXY (कुल 47 गुणसूत्र)"
         },
         {
           "id": "B",
-          "en": "45, X0 (Total 45 chromosomes)",
-          "hi": "45, X0 (कुल 45 गुणसूत्र)"
+          "english": "45, X0 (Total 45 chromosomes)",
+          "hindi": "45, X0 (कुल 45 गुणसूत्र)"
         },
         {
           "id": "C",
-          "en": "47, Trisomy 21",
-          "hi": "47, ट्राइसोमी 21 (डाउन सिंड्रोम)"
+          "english": "47, Trisomy 21",
+          "hindi": "47, ट्राइसोमी 21 (डाउन सिंड्रोम)"
         },
         {
           "id": "D",
-          "en": "47, XYY",
-          "hi": "47, XYY"
+          "english": "47, XYY",
+          "hindi": "47, XYY"
         }
       ],
       "correctAnswer": "A",
@@ -4738,23 +4738,23 @@
       "options": [
         {
           "id": "A",
-          "en": "Himalayan Musk Deer (कस्तूरी मृग)",
-          "hi": "हिमालयी कस्तूरी मृग (Musk Deer)"
+          "english": "Himalayan Musk Deer (कस्तूरी मृग)",
+          "hindi": "हिमालयी कस्तूरी मृग (Musk Deer)"
         },
         {
           "id": "B",
-          "en": "Royal Bengal Tiger",
-          "hi": "रॉयल बंगाल टाइगर"
+          "english": "Royal Bengal Tiger",
+          "hindi": "रॉयल बंगाल टाइगर"
         },
         {
           "id": "C",
-          "en": "One-horned Rhinoceros",
-          "hi": "एक सींग वाला गैंडा"
+          "english": "One-horned Rhinoceros",
+          "hindi": "एक सींग वाला गैंडा"
         },
         {
           "id": "D",
-          "en": "Gharial",
-          "hi": "घड़ियाल"
+          "english": "Gharial",
+          "hindi": "घड़ियाल"
         }
       ],
       "correctAnswer": "A",
